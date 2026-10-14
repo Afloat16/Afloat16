@@ -47,11 +47,13 @@ The source query's public results are linked below, grouped by upstream reposito
 | [rasbt/mlxtend](https://github.com/rasbt/mlxtend) | 1 | [#1207](https://github.com/rasbt/mlxtend/pull/1207) |
 | [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) | 1 | [#373](https://github.com/lucidrains/denoising-diffusion-pytorch/pull/373) |
 
-## Work awaiting review
+## Maintainer-approved robotics work
 
-- [Segment Anything #868](https://github.com/facebookresearch/segment-anything/pull/868): submitted code/test fix for integer overflow in wide-mask stability scores; open, not merged.
-- [PythonRobotics #1459](https://github.com/AtsushiSakai/PythonRobotics/pull/1459): code/test/documentation proposal for B-spline curvature and finite-scale paths; draft, not merged.
-- [Datasets #8771](https://github.com/huggingface/datasets/pull/8771): code/test proposal for NumPy dtype/copy behavior; draft, not merged.
+The repository owner approved the current PR revisions. Both are **awaiting merge** and are separate from the merged contributions above.
 
-Directory recommendations and issue-thread tool suggestions are recorded in [community outreach](https://github.com/Afloat16/research-to-fix/blob/main/docs/OUTREACH.md). They are separate from merged software contributions. No affiliation, upstream endorsement or maintainer role is inferred from a contribution.
+| Contribution | Change | Review milestone |
+|---|---|---|
+| [Robotics Toolbox #735](https://github.com/petercorke/robotics-toolbox-python/pull/735) | Use circular heading moments in particle filters. | [Owner approval](https://github.com/petercorke/robotics-toolbox-python/pull/735#pullrequestreview-5515511147) · awaiting merge |
+| [Robotics Toolbox #736](https://github.com/petercorke/robotics-toolbox-python/pull/736) | Normalize quintic trajectory time to preserve boundary constraints. | [Owner approval](https://github.com/petercorke/robotics-toolbox-python/pull/736#pullrequestreview-5515624165) · awaiting merge |
 
+Snapshot verification: both reviews are from `petercorke` with GitHub association `OWNER` and state `APPROVED`, on the current head commits. PRs are open and non-draft; `merged=false`. Approval is a review milestone, not a scheduled merge or a test-coverage claim.

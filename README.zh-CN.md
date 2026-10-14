@@ -1,19 +1,21 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Afloat16 — 机器人、模型接口与三维几何开源工具" width="100%">
+  <img src="assets/banner-light.svg" alt="Afloat16 — 机器人、大模型与三维重建" width="100%">
 </picture>
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-我开发实用工具，也为它们依赖的开源库贡献具体修复。主要使用Python与TypeScript，关注机器人数据、模型接口和计算机视觉。
+**我的研究主要围绕机器人、大模型和三维重建。**
+
+我使用Python与TypeScript开发可复现的工具，也为相关开源库贡献具体修复。
 
 ## 我维护的项目
 
 | 方向 | 项目与用途 |
 |---|---|
-| 几何与重建 | [ReconTrail](https://github.com/Afloat16/recontrail)：CPU摄影测量与离线报告；[COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit)：传统文本模型预检；[Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge)：明确相机位姿约定后转换。 |
-| 机器人排障 | [Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit)：ROS 2录包时间检查；[TF Route Audit](https://github.com/Afloat16/tf-route-audit)：导出TF/URDF拓扑和观测时间范围。 |
-| 模型接口 | [LLM Handshake](https://github.com/Afloat16/llm-handshake)：有界接口探测；[SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit)：保存的流式响应审计；[Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit)：真实工具尝试记录审计。 |
+| 三维重建 | [ReconTrail](https://github.com/Afloat16/recontrail)：CPU摄影测量与离线报告；[COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit)：传统文本模型预检；[Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge)：明确相机位姿约定后转换。 |
+| 机器人 | [Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit)：ROS 2录包时间检查；[TF Route Audit](https://github.com/Afloat16/tf-route-audit)：导出TF/URDF拓扑和观测时间范围。 |
+| 大模型 | [LLM Handshake](https://github.com/Afloat16/llm-handshake)：有界接口探测；[SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit)：保存的流式响应审计；[Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit)：真实工具尝试记录审计。 |
 | 工程工作流 | [Research to Fix](https://github.com/Afloat16/research-to-fix)：调研与本地验证；[Debate Direction](https://github.com/Afloat16/debate-direction)：需求论证；[StewardCheck](https://github.com/Afloat16/ai-dev-steward/tree/main/tools/stewardcheck)：任务验收；[Agent Action Notifier](https://github.com/Afloat16/agent-action-notifier)：等待输入时提醒。 |
 | MCP建议 | [Jev MCP](https://github.com/Afloat16/jev-mcp)：四个保守的只读建议工具，非官方TypeSafe Jev集成。 |
 
@@ -36,7 +38,11 @@
 
 Stars是上游仓库的日期快照；PR链接保留具体变更、审阅和验证限制。另见[贡献明细](docs/CONTRIBUTIONS.md)。
 
-## 尚在审阅的提案
+## 已获维护者审批的机器人贡献
 
-[Segment Anything #868](https://github.com/facebookresearch/segment-anything/pull/868)为open；[PythonRobotics #1459](https://github.com/AtsushiSakai/PythonRobotics/pull/1459)和[Datasets #8771](https://github.com/huggingface/datasets/pull/8771)为draft，均尚未合并。资源目录自荐和相关问题回复单独列在[推广记录](https://github.com/Afloat16/research-to-fix/blob/main/docs/OUTREACH.zh-CN.md)，不计作已合并代码贡献。
+以下两条贡献的当前版本已获仓库作者审批，均为**待合并**，与上方已合并成果分别展示。
 
+| 贡献 | 改动 | 审阅状态 |
+|---|---|---|
+| [Robotics Toolbox #735](https://github.com/petercorke/robotics-toolbox-python/pull/735) | 用圆统计计算粒子滤波航向均值与离散程度。 | [仓库作者已审批](https://github.com/petercorke/robotics-toolbox-python/pull/735#pullrequestreview-5515511147) · 待合并 |
+| [Robotics Toolbox #736](https://github.com/petercorke/robotics-toolbox-python/pull/736) | 归一化五次轨迹时间，保留边界约束。 | [仓库作者已审批](https://github.com/petercorke/robotics-toolbox-python/pull/736#pullrequestreview-5515624165) · 待合并 |
