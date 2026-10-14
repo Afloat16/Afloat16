@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-labelledby="title desc">
+<title id="title">Afloat16 — Engineering in the open</title>
+<desc id="desc">Tools for robotics, model interfaces, and 3D geometry. A geometric wireframe decorates the right side.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1422"/><stop offset="1" stop-color="#172c42"/></linearGradient><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#203047" stroke-width="0.65"/></pattern></defs>
+<rect width="1200" height="280" rx="20" fill="url(#bg)"/><rect x="780" width="420" height="280" rx="20" fill="url(#grid)" opacity="0.7"/>
+<path d="M0 278H1200" stroke="#59d7ce" stroke-width="4"/>
+<text x="52" y="54" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#59d7ce">ENGINEERING IN THE OPEN</text>
+<text x="49" y="131" font-family="Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.5" fill="#edf6ff">Afloat16</text>
+<text x="52" y="177" font-family="Arial, sans-serif" font-size="23" fill="#9fb9d1">Tools for robotics, model interfaces, and 3D geometry.</text>
+<text x="52" y="226" font-family="Arial, sans-serif" font-size="14" letter-spacing="1" fill="#9fb9d1">REPRODUCIBLE CHECKS  /  USEFUL DIAGNOSTICS  /  UPSTREAM FIXES</text>
+<g fill="none" stroke-linejoin="round" stroke-width="1.7"><path d="M919 44L1088 89L1116 211L949 251L847 162Z" stroke="#568ceb" opacity="0.85"/><path d="M919 44L949 251M1088 89L847 162M1116 211L919 44M847 162L1116 211M949 251L1088 89" stroke="#568ceb" opacity="0.45"/><path d="M919 44L995 150L1116 211M995 150L949 251M995 150L1088 89M995 150L847 162" stroke="#59d7ce"/></g>
+<g fill="#59d7ce"><circle cx="919" cy="44" r="4"/><circle cx="1088" cy="89" r="4"/><circle cx="1116" cy="211" r="4"/><circle cx="949" cy="251" r="4"/><circle cx="847" cy="162" r="4"/><circle cx="995" cy="150" r="7"/></g>
+</svg>
+
