@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Afloat16 — robotics, large language models, and 3D reconstruction" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=research-focus-20261014">
+  <img src="assets/banner-light.svg?v=research-focus-20261014" alt="Afloat16 — robotics, large language models, and 3D reconstruction" width="100%">
 </picture>
 
 <div align="center">

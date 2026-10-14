@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Afloat16 — 机器人、大模型与三维重建" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=research-focus-20261014">
+  <img src="assets/banner-light.svg?v=research-focus-20261014" alt="Afloat16 — 机器人、大模型与三维重建" width="100%">
 </picture>
 
 [English](README.md) · [简体中文](README.zh-CN.md)
