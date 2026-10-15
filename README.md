@@ -7,9 +7,9 @@
 
 **My research focuses on robotics, large language models, and 3D reconstruction.**
 
-I build reproducible tools and contribute focused fixes to the libraries behind them.
+I build reproducible research tools, explore native software protection, and contribute focused upstream fixes.
 
-Python · TypeScript · Reproducible experiments · Upstream engineering
+Python · TypeScript · C/C++ · Reproducible experiments · Upstream engineering
 
 [Explore my projects](https://github.com/Afloat16/research-to-fix/blob/main/docs/PROJECTS.md) · [Merged contributions](#selected-merged-contributions) · [简体中文](README.zh-CN.md)
 
@@ -17,12 +17,14 @@ Python · TypeScript · Reproducible experiments · Upstream engineering
 
 ## Projects I build
 
+**[Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)** — Open research on native software protection against AI reverse engineering. CMake/C++, PE/ELF release gates, and reproducible experiments. [Contributions welcome](https://github.com/Afloat16/anti-rea-forge/issues/1).
+
 | Robotics | Large language models | 3D reconstruction |
 |---|---|---|
 | **[Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit)**<br>Read-only ROS 2 SQLite/MCAP timestamp diagnostics. | **[LLM Handshake](https://github.com/Afloat16/llm-handshake)**<br>Bounded OpenAI-compatible endpoint probes and report comparisons. | **[ReconTrail](https://github.com/Afloat16/recontrail)**<br>CPU photogrammetry, sparse geometry and offline reports. |
 | **[TF Route Audit](https://github.com/Afloat16/tf-route-audit)**<br>Exported TF and native URDF topology/time-window checks. | **[SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit)** and **[Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit)**<br>Saved stream and tool-execution diagnostics. | **[Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge)** and **[COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit)**<br>Explicit pose conversion and text-model preflight. |
 
-Research and engineering workflow: [Research to Fix](https://github.com/Afloat16/research-to-fix) · [Debate Direction](https://github.com/Afloat16/debate-direction) · [StewardCheck](https://github.com/Afloat16/ai-dev-steward/tree/main/tools/stewardcheck) · [Agent Action Notifier](https://github.com/Afloat16/agent-action-notifier) · [Jev MCP](https://github.com/Afloat16/jev-mcp).
+Research and engineering workflow: [Research to Fix](https://github.com/Afloat16/research-to-fix) · [Debate Direction](https://github.com/Afloat16/debate-direction) · [StewardCheck](https://github.com/Afloat16/ai-dev-steward/tree/main/tools/stewardcheck) · [Agent Action Notifier](https://github.com/Afloat16/agent-action-notifier).
 
 **How I work:** isolate the symptom, understand the boundary, write a regression, and make the result inspectable. The [six domain utilities](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release) have **67 local tests and 36 passing OS/Python CI combinations** at the recorded release. These are experimental diagnostics and conversion tools; each repository documents its limits.
 
