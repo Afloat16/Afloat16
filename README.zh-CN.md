@@ -7,17 +7,17 @@
 
 **我的研究主要围绕机器人、大模型和三维重建。**
 
-我使用Python与TypeScript开发可复现的工具，也为相关开源库贡献具体修复。
+我使用 Python、TypeScript 与 C/C++ 开发可复现的工具，开展原生软件保护实验，也为相关开源库贡献具体修复。
 
 ## 我维护的项目
 
 | 方向 | 项目与用途 |
 |---|---|
+| Software protection | **[Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)** — Open research on native software protection against AI reverse engineering, with CMake/C++, PE/ELF release gates, and reproducible experiments. [Contributions welcome](https://github.com/Afloat16/anti-rea-forge/issues/1). |
 | 三维重建 | [ReconTrail](https://github.com/Afloat16/recontrail)：CPU摄影测量与离线报告；[COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit)：传统文本模型预检；[Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge)：明确相机位姿约定后转换。 |
 | 机器人 | [Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit)：ROS 2录包时间检查；[TF Route Audit](https://github.com/Afloat16/tf-route-audit)：导出TF/URDF拓扑和观测时间范围。 |
 | 大模型 | [LLM Handshake](https://github.com/Afloat16/llm-handshake)：有界接口探测；[SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit)：保存的流式响应审计；[Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit)：真实工具尝试记录审计。 |
 | 工程工作流 | [Research to Fix](https://github.com/Afloat16/research-to-fix)：调研与本地验证；[Debate Direction](https://github.com/Afloat16/debate-direction)：需求论证；[StewardCheck](https://github.com/Afloat16/ai-dev-steward/tree/main/tools/stewardcheck)：任务验收；[Agent Action Notifier](https://github.com/Afloat16/agent-action-notifier)：等待输入时提醒。 |
-| MCP建议 | [Jev MCP](https://github.com/Afloat16/jev-mcp)：四个保守的只读建议工具，非官方TypeSafe Jev集成。 |
 
 [完整项目导航](https://github.com/Afloat16/research-to-fix/blob/main/docs/PROJECTS.zh-CN.md)说明安装、适用场景和边界。六个领域工具在所记录版本中合计67项本地测试、36组跨平台CI通过，均为实验性诊断或转换工具，不代表全部协议认证或上游问题已解决。
 
