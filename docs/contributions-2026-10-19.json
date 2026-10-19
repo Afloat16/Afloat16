@@ -1,0 +1,6084 @@
+{
+  "schema_version": 1,
+  "account": "Afloat16",
+  "snapshot_date": "2026-10-19",
+  "generated_at_utc": "2026-10-19T13:52:44.701629+00:00",
+  "search_source": "https://api.github.com/search/issues?q=author%3AAfloat16+is%3Apr+is%3Amerged&per_page=100&page=1",
+  "search_result_count": 71,
+  "search_incomplete_results": false,
+  "excluded_account_owned_prs": 5,
+  "public_upstream_merged_prs": 66,
+  "upstream_repositories": 21,
+  "verified_top30_repositories": 14,
+  "position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained.",
+  "repositories": [
+    {
+      "repository": "serengil/deepface",
+      "stars": 23571,
+      "metadata_source": "https://api.github.com/repos/serengil/deepface",
+      "contributors_source": "https://api.github.com/repos/serengil/deepface/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:01.402774Z",
+      "contributor_position": 10,
+      "commit_contributions": 17,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 1,
+      "contributors_returned": 94,
+      "contributors_snapshot": [
+        {
+          "login": "serengil",
+          "type": "User",
+          "contributions": 1550
+        },
+        {
+          "login": "Vincent-Stragier",
+          "type": "User",
+          "contributions": 38
+        },
+        {
+          "login": "NatLee",
+          "type": "User",
+          "contributions": 37
+        },
+        {
+          "login": "h-alice",
+          "type": "User",
+          "contributions": 29
+        },
+        {
+          "login": "kremnik",
+          "type": "User",
+          "contributions": 25
+        },
+        {
+          "login": "AndreaLanfranchi",
+          "type": "User",
+          "contributions": 24
+        },
+        {
+          "login": "PyWoody",
+          "type": "User",
+          "contributions": 21
+        },
+        {
+          "login": "Raghucharan16",
+          "type": "User",
+          "contributions": 19
+        },
+        {
+          "login": "onuratakan",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "haddyadnan",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "galthran-wq",
+          "type": "User",
+          "contributions": 13
+        },
+        {
+          "login": "roberto-corno-nttdata",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "uriafranko",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "AnthraX1",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "ProgramadorArtificial",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "dakotah-jones",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "rezakarbasi",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "tyasnk",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "ddaanet",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Mehrab-Shahbazi",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "rodrigo2019",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "caption-pro-travis-ci",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "aku-ato",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "shirasael",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "ekkolon",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "blueprintparadise",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "RayVik",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "bhky",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "dudanogueira",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "RazaProdigy",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "RUTUPARNk",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "fseasy",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "seavphing",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ma7555",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "GobinathAL",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "dohyeonYoon",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "younver",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "techlocal-accounts",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "vjsyong",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "minhnguyenvan95",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "DriesVerachtert",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "BrunoMarinhoM",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Andrea-Oliveri",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "khalilsarwari",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "huulockt",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "fpaludi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "danieldanuega",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "cobycloud",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "biranchi2018",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "arsaIan",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "adnanHaddy",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Unpublished",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "timohl",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mowshon",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sachadee",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "reece-iriye",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "MPopovych",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mikemikimike",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mohammedix88",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mone855",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "olive380",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "renhaa",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "roydenwa",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sotirismos",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "starenka",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sugyan",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "timselier",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "virajsharma2000",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "alenpaulvarghese",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "anush008",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Arechii",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Awshr",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "BastianZim",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "catherinetcai",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "CatBraaain",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "pcbowers",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Dev0907",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "DonghwanKIM0101",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "eigemx",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Fadeleke57",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "gustavn19",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "nguyenhoan1988",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Jasonnor",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jabiinfante",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "KananMahammadli",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Libo-Xu",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "MattPChoy",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "liechtym",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mehran66",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "msramalho",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "nico-hahn",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ndido98",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "deepuvsdeepu",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 17,
+      "merged_prs": [
+        {
+          "number": 1655,
+          "title": "fix: clip detected face boxes before NumPy slicing",
+          "merged_at": "2026-10-04T10:07:02Z",
+          "url": "https://github.com/serengil/deepface/pull/1655"
+        },
+        {
+          "number": 1654,
+          "title": "fix: accept form image strings without JSON parsing",
+          "merged_at": "2026-10-02T20:03:34Z",
+          "url": "https://github.com/serengil/deepface/pull/1654"
+        },
+        {
+          "number": 1653,
+          "title": "fix: restore Buffalo_L input scale before InsightFace preprocessing",
+          "merged_at": "2026-10-02T20:27:45Z",
+          "url": "https://github.com/serengil/deepface/pull/1653"
+        },
+        {
+          "number": 1652,
+          "title": "fix: return empty CenterFace results when no heatmap score passes the threshold",
+          "merged_at": "2026-10-02T20:13:40Z",
+          "url": "https://github.com/serengil/deepface/pull/1652"
+        },
+        {
+          "number": 1651,
+          "title": "fix: analyze one-image NumPy batches through the batch path",
+          "merged_at": "2026-10-03T09:34:40Z",
+          "url": "https://github.com/serengil/deepface/pull/1651"
+        },
+        {
+          "number": 1649,
+          "title": "fix: fetch complete Milvus galleries with a query iterator",
+          "merged_at": "2026-10-02T20:10:45Z",
+          "url": "https://github.com/serengil/deepface/pull/1649"
+        },
+        {
+          "number": 1648,
+          "title": "fix: omit missing FAISS neighbours from ANN results",
+          "merged_at": "2026-10-02T19:59:26Z",
+          "url": "https://github.com/serengil/deepface/pull/1648"
+        },
+        {
+          "number": 1647,
+          "title": "fix: use the adjusted standard deviation in Facenet normalization",
+          "merged_at": "2026-10-02T19:54:41Z",
+          "url": "https://github.com/serengil/deepface/pull/1647"
+        },
+        {
+          "number": 1646,
+          "title": "fix: align confidence with the effective verification threshold",
+          "merged_at": "2026-10-02T19:57:53Z",
+          "url": "https://github.com/serengil/deepface/pull/1646"
+        },
+        {
+          "number": 1644,
+          "title": "test: skip Milvus distance cases when the optional SDK is absent",
+          "merged_at": "2026-10-01T10:18:53Z",
+          "url": "https://github.com/serengil/deepface/pull/1644"
+        },
+        {
+          "number": 1643,
+          "title": "docs: clarify scalar and batched custom distance callbacks",
+          "merged_at": "2026-10-01T14:48:23Z",
+          "url": "https://github.com/serengil/deepface/pull/1643"
+        },
+        {
+          "number": 1638,
+          "title": "fix: close owned registration clients when processing fails",
+          "merged_at": "2026-10-01T07:56:37Z",
+          "url": "https://github.com/serengil/deepface/pull/1638"
+        },
+        {
+          "number": 1636,
+          "title": "fix: preserve explicit zero thresholds in verify and find",
+          "merged_at": "2026-09-29T20:45:52Z",
+          "url": "https://github.com/serengil/deepface/pull/1636"
+        },
+        {
+          "number": 1634,
+          "title": "fix: convert Milvus scores to DeepFace distance units",
+          "merged_at": "2026-10-01T08:18:11Z",
+          "url": "https://github.com/serengil/deepface/pull/1634"
+        },
+        {
+          "number": 1633,
+          "title": "fix: preserve BGR colors in find query crops",
+          "merged_at": "2026-09-29T14:44:31Z",
+          "url": "https://github.com/serengil/deepface/pull/1633"
+        },
+        {
+          "number": 1631,
+          "title": "fix: use normalized Euclidean thresholds in datastore",
+          "merged_at": "2026-09-29T12:30:02Z",
+          "url": "https://github.com/serengil/deepface/pull/1631"
+        },
+        {
+          "number": 1630,
+          "title": "fix: clamp angular similarity before arccos",
+          "merged_at": "2026-09-29T10:23:42Z",
+          "url": "https://github.com/serengil/deepface/pull/1630"
+        }
+      ]
+    },
+    {
+      "repository": "lucidrains/denoising-diffusion-pytorch",
+      "stars": 10704,
+      "metadata_source": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch",
+      "contributors_source": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:12.761925Z",
+      "contributor_position": 9,
+      "commit_contributions": 1,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 18,
+      "contributors_returned": 26,
+      "contributors_snapshot": [
+        {
+          "login": "lucidrains",
+          "type": "User",
+          "contributions": 342
+        },
+        {
+          "login": "Adversarian",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "AlejandroSantorum",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "nilsleh",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "lukovnikov",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "BAUTAJD",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "kashif",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "wassname",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "AryaAftab",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "denproc",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Parskatt",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "klasocki",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "lhaippp",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "migolan",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Mr-Neutr0n",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "npielawski",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "pengzhangzhi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "qiyan98",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "RyannDaGreat",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "siddancha",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "TheDudeFromCI",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "amm1111",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "dev-jinwoohong",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "xjlswd",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "yzx9",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 373,
+          "title": "fix: route conditions consistently in 1D diffusion",
+          "merged_at": "2026-09-29T14:11:34Z",
+          "url": "https://github.com/lucidrains/denoising-diffusion-pytorch/pull/373"
+        }
+      ]
+    },
+    {
+      "repository": "Eigenwise/atomic-agents",
+      "stars": 6287,
+      "metadata_source": "https://api.github.com/repos/Eigenwise/atomic-agents",
+      "contributors_source": "https://api.github.com/repos/Eigenwise/atomic-agents/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:08.565922Z",
+      "contributor_position": 28,
+      "commit_contributions": 2,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 7,
+      "contributors_returned": 48,
+      "contributors_snapshot": [
+        {
+          "login": "Eigenwise",
+          "type": "User",
+          "contributions": 820
+        },
+        {
+          "login": "jon-fox",
+          "type": "User",
+          "contributions": 69
+        },
+        {
+          "login": "duf59",
+          "type": "User",
+          "contributions": 22
+        },
+        {
+          "login": "ivan-saorin",
+          "type": "User",
+          "contributions": 16
+        },
+        {
+          "login": "koichikawamura",
+          "type": "User",
+          "contributions": 16
+        },
+        {
+          "login": "JuampiHernandez",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "tf-koichi",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "ueveu",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "2dogz",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "liangzhechen655",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "mickyarun",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "roberttidball",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "w3bwizart",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "thesharpie",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "mbcrawfo",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "darshjoshi",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "weijintaocode",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "JustinAmstadt",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "reinoldus",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "YaoxinHuang",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Excelius-Wang",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "sztoplover-bit",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ningyixi",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "rusi",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jonchun",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jnMetaCode",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ethanknights",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "thejesh23",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "googio",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "prane-eth",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "pei711",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "marcortola",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "bglglzd",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "vystartasv",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "MVS-source",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Shy7777",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ndouglas",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "NISH1001",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jalateras",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "j4jefferson",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "iskaj",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "fahad-shoaib",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "original4422",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Coooder-Crypto",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "AsimPoptani",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "anush008",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Aling33",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 292,
+          "title": "Fix ChatHistory.load failure atomicity",
+          "merged_at": "2026-10-09T09:21:14Z",
+          "url": "https://github.com/Eigenwise/atomic-agents/pull/292"
+        }
+      ]
+    },
+    {
+      "repository": "petercorke/robotics-toolbox-python",
+      "stars": 3546,
+      "metadata_source": "https://api.github.com/repos/petercorke/robotics-toolbox-python",
+      "contributors_source": "https://api.github.com/repos/petercorke/robotics-toolbox-python/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:47.248528Z",
+      "contributor_position": 6,
+      "commit_contributions": 11,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 1,
+      "contributors_returned": 46,
+      "contributors_snapshot": [
+        {
+          "login": "jhavl",
+          "type": "User",
+          "contributions": 1555
+        },
+        {
+          "login": "petercorke",
+          "type": "User",
+          "contributions": 1307
+        },
+        {
+          "login": "micah-huth",
+          "type": "User",
+          "contributions": 155
+        },
+        {
+          "login": "hucik14",
+          "type": "User",
+          "contributions": 39
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 17
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "withshubh",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "Samuel-Drew",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "github-actions[bot]",
+          "type": "Bot",
+          "contributions": 7
+        },
+        {
+          "login": "Daniel-Petkov302",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "huxiaoyi-ovo",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "jskinn",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "tassos",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "rhys-newbury1",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "LonelyPaprika",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "karkikamal098",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "tahazarif10",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "mfkenson",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Doribelove",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Tobias-Fischer",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jkaniuka",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "YaoxinHuang",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "youdie006",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tandede",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "rhys-newbury",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "renaudponcelet",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "om-hu",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mrjanczak",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "TJMolnar",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "SulimanAbdulrazzaq",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "askuric",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "catplotlib",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "RoboX2020",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "paneendrakumar0",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kVinsom",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "lukeschmitt-tr",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kerry-he",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "JoachimDunkel",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jbkahrs",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "elton-choi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "hcarlsso",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "suddrey",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "suddrey-qut",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "fabaff",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "BunteStadt",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kxxt",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 11,
+      "merged_prs": [
+        {
+          "number": 801,
+          "title": "fix(urdf): initialise name maps before transmission validation",
+          "merged_at": "2026-10-15T23:37:48Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/801"
+        },
+        {
+          "number": 800,
+          "title": "fix(dynamics): apply prismatic offsets in Python RNE",
+          "merged_at": "2026-10-15T23:37:42Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/800"
+        },
+        {
+          "number": 799,
+          "title": "fix(poe): construct frames for x-aligned screw axes",
+          "merged_at": "2026-10-15T23:37:36Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/799"
+        },
+        {
+          "number": 798,
+          "title": "fix(planning): retain zero-coordinate path endpoints",
+          "merged_at": "2026-10-15T23:37:30Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/798"
+        },
+        {
+          "number": 797,
+          "title": "fix(dynamics): preserve operational gravity overrides and output shape",
+          "merged_at": "2026-10-15T23:37:23Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/797"
+        },
+        {
+          "number": 796,
+          "title": "fix(dynamics): transform operational Coriolis terms consistently",
+          "merged_at": "2026-10-15T23:37:17Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/796"
+        },
+        {
+          "number": 795,
+          "title": "fix(tools): report original Jacobian column indices",
+          "merged_at": "2026-10-15T23:37:11Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/795"
+        },
+        {
+          "number": 794,
+          "title": "fix(ik): apply QP updates at active joint indices",
+          "merged_at": "2026-10-15T23:37:05Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/794"
+        },
+        {
+          "number": 793,
+          "title": "fix(ik): preserve arbitrary half-turn pose error magnitude",
+          "merged_at": "2026-10-15T23:36:59Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/793"
+        },
+        {
+          "number": 792,
+          "title": "fix(ets2): preserve joint indices and flipped Jacobian signs",
+          "merged_at": "2026-10-15T23:36:52Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/792"
+        },
+        {
+          "number": 719,
+          "title": "fix(mobile): preserve angular turn-rate units for Unicycle",
+          "merged_at": "2026-10-14T09:15:47Z",
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/719"
+        }
+      ]
+    },
+    {
+      "repository": "leggedrobotics/rsl_rl",
+      "stars": 3074,
+      "metadata_source": "https://api.github.com/repos/leggedrobotics/rsl_rl",
+      "contributors_source": "https://api.github.com/repos/leggedrobotics/rsl_rl/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:57.502189Z",
+      "contributor_position": 6,
+      "commit_contributions": 2,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 6,
+      "contributors_returned": 39,
+      "contributors_snapshot": [
+        {
+          "login": "ClemensSchwarke",
+          "type": "User",
+          "contributions": 62
+        },
+        {
+          "login": "Mayankm96",
+          "type": "User",
+          "contributions": 42
+        },
+        {
+          "login": "kevinzakka",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "nikitardn",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "zeeshanalipanhwar",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "bikcrum",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jashshah999",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "pascal-roth",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "NeoZng",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "iakinola23",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Kukanani",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "DreaverZhao",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "epalmaEth",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "flferretti",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Mikasa0503",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "juliabeliaeva",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jnskkmhr",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kellyguo11",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "k1000dai",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "larsrpe",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "lzyang2000",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "louislelay",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "e3ntity",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "masahiro-kubota",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "PeterMitrano",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ShaoshuSu",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sheim",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Strtus",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tasdep",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tianzong-cheng",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "VineetTambe",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "CCanxue",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "alessandroassirelli98",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "renezurbruegg",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "fan-ziqi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "stu214634",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "watayu10",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ozhanozen",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 2,
+      "merged_prs": [
+        {
+          "number": 240,
+          "title": "Resume RND exploration schedules from PPO checkpoints",
+          "merged_at": "2026-10-08T14:51:48Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/240"
+        },
+        {
+          "number": 239,
+          "title": "Keep discounted reward history independent of caller storage",
+          "merged_at": "2026-10-08T14:44:23Z",
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/239"
+        }
+      ]
+    },
+    {
+      "repository": "pypose/pypose",
+      "stars": 1616,
+      "metadata_source": "https://api.github.com/repos/pypose/pypose",
+      "contributors_source": "https://api.github.com/repos/pypose/pypose/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:57.510625Z",
+      "contributor_position": 16,
+      "commit_contributions": 5,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 1,
+      "contributors_returned": 42,
+      "contributors_snapshot": [
+        {
+          "login": "wang-chen",
+          "type": "User",
+          "contributions": 744
+        },
+        {
+          "login": "zitongzhan",
+          "type": "User",
+          "contributions": 184
+        },
+        {
+          "login": "haleqiu",
+          "type": "User",
+          "contributions": 87
+        },
+        {
+          "login": "xukuanHIT",
+          "type": "User",
+          "contributions": 59
+        },
+        {
+          "login": "Xanthorapedia",
+          "type": "User",
+          "contributions": 39
+        },
+        {
+          "login": "aerogjy",
+          "type": "User",
+          "contributions": 32
+        },
+        {
+          "login": "HongLouyemeng",
+          "type": "User",
+          "contributions": 21
+        },
+        {
+          "login": "hakunanh",
+          "type": "User",
+          "contributions": 20
+        },
+        {
+          "login": "Lx017",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "FuTaimeng",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "rohan2017",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "smanist",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "Copilot",
+          "type": "Bot",
+          "contributions": 9
+        },
+        {
+          "login": "hxu296",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "MarkChenYutian",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "rokeeeto-li",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "aryanmangal769",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "jingnanshi",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "shanzhaowang99",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Jaraxxus-Me",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "apandey02",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "XyC0212",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "huyaoyu",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "AAkashyap1",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "antonsoo",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "bradygm",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "pranay-ar",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ZihangFang",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "qinhanhahaha",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "yash-goel",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "haarisr",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "YuqingLi-hub",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "luyr",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ShaoshuSu",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "saakshii12",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sh4d0wy",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "alphapibeta",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Parth4git",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Murphy41",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "balisujohn",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Chensiyu00",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 3,
+      "merged_prs": [
+        {
+          "number": 417,
+          "title": "Avoid overflow in Tolerant robust-kernel costs",
+          "merged_at": "2026-10-12T21:14:53Z",
+          "url": "https://github.com/pypose/pypose/pull/417"
+        },
+        {
+          "number": 416,
+          "title": "Keep Cauchy costs accurate for small residuals",
+          "merged_at": "2026-10-12T21:34:50Z",
+          "url": "https://github.com/pypose/pypose/pull/416"
+        },
+        {
+          "number": 415,
+          "title": "Fix camera-axis broadcasting in pixel2point",
+          "merged_at": "2026-10-16T02:10:47Z",
+          "url": "https://github.com/pypose/pypose/pull/415"
+        }
+      ]
+    },
+    {
+      "repository": "Toni-SM/skrl",
+      "stars": 1101,
+      "metadata_source": "https://api.github.com/repos/Toni-SM/skrl",
+      "contributors_source": "https://api.github.com/repos/Toni-SM/skrl/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:50.281985Z",
+      "contributor_position": 3,
+      "commit_contributions": 3,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 2,
+      "contributors_returned": 19,
+      "contributors_snapshot": [
+        {
+          "login": "Toni-SM",
+          "type": "User",
+          "contributions": 1495
+        },
+        {
+          "login": "juhannc",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "alessandroassirelli98",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "simonbogh",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "MorningFrog",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "lopatovsky",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "unsigned123",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "betacatsling",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "bekleyis95",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "AlexD15216",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Telios",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "PabloVD",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "elharirymatteo",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "KirillHit",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Xploeng",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jgillick",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jan1854",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "antonsoo",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 3,
+      "merged_prs": [
+        {
+          "number": 475,
+          "title": "Align Ornstein-Uhlenbeck mean reversion across JAX and Warp",
+          "merged_at": "2026-10-17T17:19:50Z",
+          "url": "https://github.com/Toni-SM/skrl/pull/475"
+        },
+        {
+          "number": 469,
+          "title": "Fix the Gaussian KL logarithmic term in PyTorch TRPO",
+          "merged_at": "2026-10-17T19:18:33Z",
+          "url": "https://github.com/Toni-SM/skrl/pull/469"
+        },
+        {
+          "number": 467,
+          "title": "Correct multivariate Gaussian standard deviation factors",
+          "merged_at": "2026-10-17T17:52:55Z",
+          "url": "https://github.com/Toni-SM/skrl/pull/467"
+        }
+      ]
+    },
+    {
+      "repository": "geoopt/geoopt",
+      "stars": 1100,
+      "metadata_source": "https://api.github.com/repos/geoopt/geoopt",
+      "contributors_source": "https://api.github.com/repos/geoopt/geoopt/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:47.229554Z",
+      "contributor_position": 3,
+      "commit_contributions": 4,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 1,
+      "contributors_returned": 13,
+      "contributors_snapshot": [
+        {
+          "login": "ferrine",
+          "type": "User",
+          "contributions": 191
+        },
+        {
+          "login": "SauravMaheshkar",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "alex-pv01",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "deepsourcebot",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "fedelopez77",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "RikVoorhaar",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tao-harald",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ssnl",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "justanothercoder",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "GitZH-Chen",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "gatoniel",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sdoygb",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 4,
+      "merged_prs": [
+        {
+          "number": 267,
+          "title": "Validate the subspace constraint for spherical tangent vectors",
+          "merged_at": "2026-10-18T11:41:41Z",
+          "url": "https://github.com/geoopt/geoopt/pull/267"
+        },
+        {
+          "number": 266,
+          "title": "Separate Birkhoff tangent projection from metric gradient conversion",
+          "merged_at": "2026-10-18T11:41:14Z",
+          "url": "https://github.com/geoopt/geoopt/pull/266"
+        },
+        {
+          "number": 262,
+          "title": "Stabilize Stein divergence log determinants at extreme covariance scales",
+          "merged_at": "2026-10-11T10:03:48Z",
+          "url": "https://github.com/geoopt/geoopt/pull/262"
+        },
+        {
+          "number": 257,
+          "title": "Honor Lorentz coordinate axes in maps and parallel transport",
+          "merged_at": "2026-10-18T11:41:56Z",
+          "url": "https://github.com/geoopt/geoopt/pull/257"
+        }
+      ]
+    },
+    {
+      "repository": "dfki-ric/pytransform3d",
+      "stars": 707,
+      "metadata_source": "https://api.github.com/repos/dfki-ric/pytransform3d",
+      "contributors_source": "https://api.github.com/repos/dfki-ric/pytransform3d/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:57.578663Z",
+      "contributor_position": 15,
+      "commit_contributions": 2,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 8,
+      "contributors_returned": 30,
+      "contributors_snapshot": [
+        {
+          "login": "AlexanderFabisch",
+          "type": "User",
+          "contributions": 2071
+        },
+        {
+          "login": "kopytjuk",
+          "type": "User",
+          "contributions": 61
+        },
+        {
+          "login": "JonasHablitzel",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "o-token",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "fagg",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "danielpmorton",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "savidini",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Doribelove",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "clungzta",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "tungalbert99",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "jashshah999",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "BobbyCephy",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "BartSte",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "teunhoevenaars",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "luckykk273",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "dddd-jh",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Jiayuan-Gu",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "erikmannerfelt",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ChristophPetzoldt",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Alpe6825",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "alek5k",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "HernandoR",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Mateus224",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mitchallain",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ShimonWang",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "binggao1230",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "lukehugh",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "JonasHablitzelAVLD",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "vincentme",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 2,
+      "merged_prs": [
+        {
+          "number": 389,
+          "title": "Preserve pure translations when mirroring screw-axis directions",
+          "merged_at": "2026-10-08T13:50:39Z",
+          "url": "https://github.com/dfki-ric/pytransform3d/pull/389"
+        },
+        {
+          "number": 383,
+          "title": "Stabilize SO(3) and SE(3) Jacobians near zero rotation",
+          "merged_at": "2026-10-02T08:48:37Z",
+          "url": "https://github.com/dfki-ric/pytransform3d/pull/383"
+        }
+      ]
+    },
+    {
+      "repository": "naver/roma",
+      "stars": 645,
+      "metadata_source": "https://api.github.com/repos/naver/roma",
+      "contributors_source": "https://api.github.com/repos/naver/roma/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:47.184372Z",
+      "contributor_position": 2,
+      "commit_contributions": 4,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 1,
+      "contributors_returned": 4,
+      "contributors_snapshot": [
+        {
+          "login": "rbregier",
+          "type": "User",
+          "contributions": 92
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "eigenvivek",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "nikonikolov",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 4,
+      "merged_prs": [
+        {
+          "number": 33,
+          "title": "Broadcast quaternion operands before the Hamilton cross product",
+          "merged_at": "2026-10-16T12:47:21Z",
+          "url": "https://github.com/naver/roma/pull/33"
+        },
+        {
+          "number": 32,
+          "title": "Allocate default affine translations in the output space",
+          "merged_at": "2026-10-16T12:32:10Z",
+          "url": "https://github.com/naver/roma/pull/32"
+        },
+        {
+          "number": 30,
+          "title": "Use the supplied generator for every rotation-sampling draw",
+          "merged_at": "2026-10-08T08:19:32Z",
+          "url": "https://github.com/naver/roma/pull/30"
+        },
+        {
+          "number": 29,
+          "title": "Preserve sinc domains and long-arc quaternion interpolation",
+          "merged_at": "2026-10-07T12:58:33Z",
+          "url": "https://github.com/naver/roma/pull/29"
+        }
+      ]
+    },
+    {
+      "repository": "lucidrains/rectified-flow-pytorch",
+      "stars": 488,
+      "metadata_source": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch",
+      "contributors_source": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:50.290290Z",
+      "contributor_position": 3,
+      "commit_contributions": 1,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 4,
+      "contributors_returned": 6,
+      "contributors_snapshot": [
+        {
+          "login": "lucidrains",
+          "type": "User",
+          "contributions": 237
+        },
+        {
+          "login": "pranoyr",
+          "type": "User",
+          "contributions": 20
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Anai-Guo",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "benearnthof",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tomas-salgado",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 50,
+          "title": "Keep NanoFlow inversion in normalized flow coordinates",
+          "merged_at": "2026-10-07T12:52:26Z",
+          "url": "https://github.com/lucidrains/rectified-flow-pytorch/pull/50"
+        }
+      ]
+    },
+    {
+      "repository": "neka-nat/kinpy",
+      "stars": 182,
+      "metadata_source": "https://api.github.com/repos/neka-nat/kinpy",
+      "contributors_source": "https://api.github.com/repos/neka-nat/kinpy/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:50.313130Z",
+      "contributor_position": 2,
+      "commit_contributions": 3,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 2,
+      "contributors_returned": 6,
+      "contributors_snapshot": [
+        {
+          "login": "neka-nat",
+          "type": "User",
+          "contributions": 110
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "colormotor",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "cmower",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "itechbear",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "wpyaoxueros",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 3,
+      "merged_prs": [
+        {
+          "number": 29,
+          "title": "Include selected link offsets in world-frame Jacobians",
+          "merged_at": "2026-10-17T09:45:48Z",
+          "url": "https://github.com/neka-nat/kinpy/pull/29"
+        },
+        {
+          "number": 28,
+          "title": "Match revolute-axis normalization in Jacobians to forward kinematics",
+          "merged_at": "2026-10-08T12:32:20Z",
+          "url": "https://github.com/neka-nat/kinpy/pull/28"
+        },
+        {
+          "number": 27,
+          "title": "Account for tool rotation in world-frame Jacobians",
+          "merged_at": "2026-10-08T12:30:33Z",
+          "url": "https://github.com/neka-nat/kinpy/pull/27"
+        }
+      ]
+    },
+    {
+      "repository": "danijar/elements",
+      "stars": 73,
+      "metadata_source": "https://api.github.com/repos/danijar/elements",
+      "contributors_source": "https://api.github.com/repos/danijar/elements/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:01.434973Z",
+      "contributor_position": 3,
+      "commit_contributions": 2,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 1,
+      "contributors_returned": 5,
+      "contributors_snapshot": [
+        {
+          "login": "danijar",
+          "type": "User",
+          "contributions": 100
+        },
+        {
+          "login": "wilson1yan",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jws-1",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "manuelhaussmann",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 2,
+      "merged_prs": [
+        {
+          "number": 19,
+          "title": "Preserve hidden filenames and parent-relative paths",
+          "merged_at": "2026-10-04T04:50:40Z",
+          "url": "https://github.com/danijar/elements/pull/19"
+        },
+        {
+          "number": 18,
+          "title": "Use the standard absolute-path operation for LocalPath",
+          "merged_at": "2026-10-04T05:03:04Z",
+          "url": "https://github.com/danijar/elements/pull/18"
+        }
+      ]
+    },
+    {
+      "repository": "stephane-caron/qpmpc",
+      "stars": 55,
+      "metadata_source": "https://api.github.com/repos/stephane-caron/qpmpc",
+      "contributors_source": "https://api.github.com/repos/stephane-caron/qpmpc/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:12.818551Z",
+      "contributor_position": 2,
+      "commit_contributions": 2,
+      "top30_verified": true,
+      "equal_commit_accounts_in_page": 2,
+      "contributors_returned": 3,
+      "contributors_snapshot": [
+        {
+          "login": "stephane-caron",
+          "type": "User",
+          "contributions": 253
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Tordjx",
+          "type": "User",
+          "contributions": 2
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 15,
+          "title": "Preserve null state constraints during receding-horizon QP updates",
+          "merged_at": "2026-10-08T13:59:06Z",
+          "url": "https://github.com/stephane-caron/qpmpc/pull/15"
+        }
+      ]
+    },
+    {
+      "repository": "morluto/rea",
+      "stars": 331627,
+      "metadata_source": "https://api.github.com/repos/morluto/rea",
+      "contributors_source": "https://api.github.com/repos/morluto/rea/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:47.298413Z",
+      "contributor_position": null,
+      "commit_contributions": null,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": null,
+      "contributors_returned": 100,
+      "contributors_snapshot": [
+        {
+          "login": "morluto",
+          "type": "User",
+          "contributions": 1951
+        },
+        {
+          "login": "N0zoM1z0",
+          "type": "User",
+          "contributions": 592
+        },
+        {
+          "login": "kaoru0822-kitauji",
+          "type": "User",
+          "contributions": 508
+        },
+        {
+          "login": "rudycelekli",
+          "type": "User",
+          "contributions": 91
+        },
+        {
+          "login": "github-actions[bot]",
+          "type": "Bot",
+          "contributions": 44
+        },
+        {
+          "login": "sx4im",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "DeryFerd",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "Y0UW1SH",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "ShuaixinHuang",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "XiaoBinGan",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "pablodiazjorge",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "1052326311",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "BaaRai",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "dakjdakd",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "xu91102",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "gensokyo-dev",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "shoyann",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "NIU-123370",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "mvanhorn",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "chqcjq",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "nikolay-dementiev",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "3QL",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "viniciusdsandrade",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "JayOfTheKeyboard",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Adolanium",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "yasshmittal",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "ac1982",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "keemsisi",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "thangldw",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "peter-research",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Totopo27",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "larinyo",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "huiq777",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "jayhemnani9910",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "IvenKooLab",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "HeadmasterEggy",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Yi-111-a",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Fazmin",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "zhangguiping-xydt",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "xeropresence",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "akushonkamen",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "1NormalGuy",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Sriram-PR",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "To3akaRin",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "flitzrrr",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "LuisTaffelli",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "maxazure",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "fisforfaheem",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "AurelioB",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Chaoqi31",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Xinglan233",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "danbom",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "jhuang-tw",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "gongfpp",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "evenafterallisaid",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "chAng-L19",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "TonyWu2333",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "shubhamahuja9999",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "rohitg00",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "sathariels",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "LcokHcak",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "jeonjw85",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "geekwolf",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Dragolone",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "0xRafie",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "BeqaKs",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Aurantium-47",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "RishTheFish21",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Rinkia",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ShitK",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Shenrui-Ma",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "SII-YDD",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "prasad2512",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Olorinm",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Iyanuoluwa007",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Nelglor",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "cold-atom",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "AS9929",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "555aaditya",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "akram1089",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "cyanseek",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "felipeatp",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jimpablo",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "qorvr",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "vilmerfrost",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "zaydiscold",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Zhong-fan",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "hi2242",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "JNTMTMTM",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Swatantra-66",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "z2Ace0107",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Aliciawque",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "rekcilyssup",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "amyanger",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "bugstan",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "bruno-candia",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "kalayciburak",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "CassieFox23",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "txiki739",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "claude",
+          "type": "User",
+          "contributions": 2
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 3919,
+          "title": "fix(setup): deduplicate selected clients before planning",
+          "merged_at": "2026-10-16T15:59:17Z",
+          "url": "https://github.com/morluto/rea/pull/3919"
+        }
+      ]
+    },
+    {
+      "repository": "deepset-ai/haystack",
+      "stars": 26773,
+      "metadata_source": "https://api.github.com/repos/deepset-ai/haystack",
+      "contributors_source": "https://api.github.com/repos/deepset-ai/haystack/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:08.690128Z",
+      "contributor_position": null,
+      "commit_contributions": null,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": null,
+      "contributors_returned": 100,
+      "contributors_snapshot": [
+        {
+          "login": "HaystackBot",
+          "type": "User",
+          "contributions": 785
+        },
+        {
+          "login": "anakin87",
+          "type": "User",
+          "contributions": 656
+        },
+        {
+          "login": "sjrl",
+          "type": "User",
+          "contributions": 462
+        },
+        {
+          "login": "julian-risch",
+          "type": "User",
+          "contributions": 369
+        },
+        {
+          "login": "ZanSara",
+          "type": "User",
+          "contributions": 366
+        },
+        {
+          "login": "silvanocerza",
+          "type": "User",
+          "contributions": 334
+        },
+        {
+          "login": "vblagoje",
+          "type": "User",
+          "contributions": 288
+        },
+        {
+          "login": "masci",
+          "type": "User",
+          "contributions": 275
+        },
+        {
+          "login": "tholor",
+          "type": "User",
+          "contributions": 259
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 258
+        },
+        {
+          "login": "bogdankostic",
+          "type": "User",
+          "contributions": 205
+        },
+        {
+          "login": "davidsbatista",
+          "type": "User",
+          "contributions": 193
+        },
+        {
+          "login": "tstadel",
+          "type": "User",
+          "contributions": 150
+        },
+        {
+          "login": "brandenchan",
+          "type": "User",
+          "contributions": 150
+        },
+        {
+          "login": "tanaysoni",
+          "type": "User",
+          "contributions": 149
+        },
+        {
+          "login": "dfokina",
+          "type": "User",
+          "contributions": 112
+        },
+        {
+          "login": "agnieszka-m",
+          "type": "User",
+          "contributions": 70
+        },
+        {
+          "login": "Timoeller",
+          "type": "User",
+          "contributions": 58
+        },
+        {
+          "login": "Amnah199",
+          "type": "User",
+          "contributions": 51
+        },
+        {
+          "login": "TuanaCelik",
+          "type": "User",
+          "contributions": 51
+        },
+        {
+          "login": "bilgeyucel",
+          "type": "User",
+          "contributions": 47
+        },
+        {
+          "login": "shadeMe",
+          "type": "User",
+          "contributions": 45
+        },
+        {
+          "login": "oryx1729",
+          "type": "User",
+          "contributions": 42
+        },
+        {
+          "login": "wochinge",
+          "type": "User",
+          "contributions": 35
+        },
+        {
+          "login": "MichelBartels",
+          "type": "User",
+          "contributions": 33
+        },
+        {
+          "login": "PiffPaffM",
+          "type": "User",
+          "contributions": 31
+        },
+        {
+          "login": "lalitpagaria",
+          "type": "User",
+          "contributions": 26
+        },
+        {
+          "login": "danielbichuetti",
+          "type": "User",
+          "contributions": 25
+        },
+        {
+          "login": "mathislucka",
+          "type": "User",
+          "contributions": 22
+        },
+        {
+          "login": "zoltan-fedor",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "mayankjobanputra",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "akkefa",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "kacperlukawski",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "mpangrazzi",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "awinml",
+          "type": "User",
+          "contributions": 16
+        },
+        {
+          "login": "Aarkin7",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "guillim",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "ShousenZHANG",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "ArzelaAscoIi",
+          "type": "User",
+          "contributions": 13
+        },
+        {
+          "login": "github-actions[bot]",
+          "type": "Bot",
+          "contributions": 13
+        },
+        {
+          "login": "cclauss",
+          "type": "User",
+          "contributions": 13
+        },
+        {
+          "login": "jamescalam",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "mdrazak2001",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "otiscuilei",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "rautaditya2606",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "srini047",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "faaany",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "camgrimsec",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "nickprock",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "ju-gu",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "skirdey",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "ritikraj2425",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "maxdswain",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "Harsh23Kashyap",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "lbux",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "pcbeingused333",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "antoniolanza1996",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "bglearning",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "TaMaN2031A",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Vedant-Agarwal",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "shahrukhx01",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "CarlosFerLo",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "aantti",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "hsm207",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "askainet",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "CoralGarden52",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "LastRemote",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "chuenchen309",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "abdokaseb",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "mkkuemmel",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "i-anubhav-anand",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "SyedShahmeerAli12",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "dmigo",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "benheckmann",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "medsriha",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "venuraja79",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "weiguangli-io",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "HamidOna",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "simpleqt",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "vidigoat",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "sahusiddharth",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "majiayu000",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "alperkaya",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Amanbig",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Aftabbs",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "atikulmunna",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Ayushhgit",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "bobvanluijt",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "dany-nonstop",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Goodnight77",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "nvzard",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "SjSnowball",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "alanhuangyoo",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "AI-Ahmed",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Srivatsa03",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "TimurRakhmatullin86",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "ugm2",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "YassineGabsi",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "yorickvanzweeden",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "vinkiYu",
+          "type": "User",
+          "contributions": 3
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 13076,
+          "title": "fix: keep pipeline snapshots reusable after resume",
+          "merged_at": "2026-10-16T07:06:17Z",
+          "url": "https://github.com/deepset-ai/haystack/pull/13076"
+        }
+      ]
+    },
+    {
+      "repository": "recommenders-team/recommenders",
+      "stars": 21957,
+      "metadata_source": "https://api.github.com/repos/recommenders-team/recommenders",
+      "contributors_source": "https://api.github.com/repos/recommenders-team/recommenders/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:12.886221Z",
+      "contributor_position": null,
+      "commit_contributions": null,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": null,
+      "contributors_returned": 100,
+      "contributors_snapshot": [
+        {
+          "login": "miguelgfierro",
+          "type": "User",
+          "contributions": 3974
+        },
+        {
+          "login": "yueguoguo",
+          "type": "User",
+          "contributions": 1079
+        },
+        {
+          "login": "anargyri",
+          "type": "User",
+          "contributions": 749
+        },
+        {
+          "login": "gramhagen",
+          "type": "User",
+          "contributions": 506
+        },
+        {
+          "login": "jreynolds01",
+          "type": "User",
+          "contributions": 312
+        },
+        {
+          "login": "pradnyeshjoshi",
+          "type": "User",
+          "contributions": 312
+        },
+        {
+          "login": "loomlike",
+          "type": "User",
+          "contributions": 301
+        },
+        {
+          "login": "SimonYansenZhao",
+          "type": "User",
+          "contributions": 172
+        },
+        {
+          "login": "simonzhaoms",
+          "type": "User",
+          "contributions": 126
+        },
+        {
+          "login": "nikhilrj",
+          "type": "User",
+          "contributions": 113
+        },
+        {
+          "login": "WessZumino",
+          "type": "User",
+          "contributions": 108
+        },
+        {
+          "login": "jingyanwangms",
+          "type": "User",
+          "contributions": 103
+        },
+        {
+          "login": "YanZhangADS",
+          "type": "User",
+          "contributions": 103
+        },
+        {
+          "login": "maxkazmsft",
+          "type": "User",
+          "contributions": 102
+        },
+        {
+          "login": "roalexan",
+          "type": "User",
+          "contributions": 81
+        },
+        {
+          "login": "Leavingseason",
+          "type": "User",
+          "contributions": 81
+        },
+        {
+          "login": "eisber",
+          "type": "User",
+          "contributions": 68
+        },
+        {
+          "login": "ds-wook",
+          "type": "User",
+          "contributions": 64
+        },
+        {
+          "login": "bethz",
+          "type": "User",
+          "contributions": 64
+        },
+        {
+          "login": "wutaomsft",
+          "type": "User",
+          "contributions": 61
+        },
+        {
+          "login": "almudenasanz",
+          "type": "User",
+          "contributions": 60
+        },
+        {
+          "login": "dciborow",
+          "type": "User",
+          "contributions": 56
+        },
+        {
+          "login": "yjw1029",
+          "type": "User",
+          "contributions": 50
+        },
+        {
+          "login": "motefly",
+          "type": "User",
+          "contributions": 38
+        },
+        {
+          "login": "angusrtaylor",
+          "type": "User",
+          "contributions": 35
+        },
+        {
+          "login": "niwilso",
+          "type": "User",
+          "contributions": 34
+        },
+        {
+          "login": "heatherbshapiro",
+          "type": "User",
+          "contributions": 32
+        },
+        {
+          "login": "jmarrietar",
+          "type": "User",
+          "contributions": 30
+        },
+        {
+          "login": "aeroabir",
+          "type": "User",
+          "contributions": 27
+        },
+        {
+          "login": "qtuantruong",
+          "type": "User",
+          "contributions": 22
+        },
+        {
+          "login": "EvgeniaChroni",
+          "type": "User",
+          "contributions": 20
+        },
+        {
+          "login": "seanytak",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "NicolasHug",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "daviddavo",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "pratikjawanpuria",
+          "type": "User",
+          "contributions": 16
+        },
+        {
+          "login": "danb27",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "weedqian",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "Knostromo",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "sprkgoyal",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "likebupt",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "sumana-2705",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "chenhuims",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "Qcactus",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "he-yufeng",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "tandav",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "gcampanella",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "danyang-liu",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Yinchaochen",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "viktorku",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "SatyadevNtv",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "AbhiramE",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "danielsc",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "microsoftopensource",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "datashinobi",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "siyerp",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "AdityaSoni19031997",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "zegerius",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "ywkim92",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "dwt0317",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "benben951",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "zzn2",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "yamirghofran",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "tqtg",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Mr-Neutr0n",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "imatiach-msft",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "gazon1",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "ChuyangKe",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Chris113113",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "hashtag",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "elogicaadith",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 2
+        },
+        {
+          "login": "cclinet",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "AaronHeee",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "yegorkryukov",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "soma2000-lang",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jainr",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "msftgits",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "maxbikes",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ilanreiter",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "kone807",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "cclauss",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "az0",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Tony-Feng",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "TrellixVulnTeam",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "anthony0727",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "lirycoac",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "xu-song",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "yijingchen",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Inhenn",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "GarlicWang",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "aar0npal",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mal-mamun",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "hoangtung386",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kmussalim",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "nsiddharth",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "seanv507",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "thaiminhpv",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ved93",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "zhaisw",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mrklees",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 2,
+      "merged_prs": [
+        {
+          "number": 2389,
+          "title": "fix: preserve custom columns throughout k-core filtering",
+          "merged_at": "2026-10-15T19:46:34Z",
+          "url": "https://github.com/recommenders-team/recommenders/pull/2389"
+        },
+        {
+          "number": 2388,
+          "title": "fix: reject nonpositive top_k values",
+          "merged_at": "2026-10-17T09:47:37Z",
+          "url": "https://github.com/recommenders-team/recommenders/pull/2388"
+        }
+      ]
+    },
+    {
+      "repository": "huggingface/sentence-transformers",
+      "stars": 19192,
+      "metadata_source": "https://api.github.com/repos/huggingface/sentence-transformers",
+      "contributors_source": "https://api.github.com/repos/huggingface/sentence-transformers/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:01.443894Z",
+      "contributor_position": 51,
+      "commit_contributions": 3,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": 16,
+      "contributors_returned": 100,
+      "contributors_snapshot": [
+        {
+          "login": "tomaarsen",
+          "type": "User",
+          "contributions": 1245
+        },
+        {
+          "login": "nreimers",
+          "type": "User",
+          "contributions": 1005
+        },
+        {
+          "login": "arthurbr11",
+          "type": "User",
+          "contributions": 335
+        },
+        {
+          "login": "omkar-334",
+          "type": "User",
+          "contributions": 27
+        },
+        {
+          "login": "vineethsaivs",
+          "type": "User",
+          "contributions": 24
+        },
+        {
+          "login": "milistu",
+          "type": "User",
+          "contributions": 19
+        },
+        {
+          "login": "PhilipMay",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "fpgmaas",
+          "type": "User",
+          "contributions": 16
+        },
+        {
+          "login": "cpcdoy",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 13
+        },
+        {
+          "login": "JINO-ROHIT",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "mottopanikeiku",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "osanseviero",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "sidhantls",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "eSVeeF",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "simpleqt",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "Samoed",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "Bembaby",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "kwang2049",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "kddubey",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "johneckberg",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "pesuchin",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "yjoonjang",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "stephantul",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "LK-maker-007",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Incheonkirin",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "michaelfeil",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "fros1y",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "ArthurCamara",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "hotchpotch",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "emapco",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Kropiunig",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "fkdosilovic",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "ayoubchikri",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "andrewkittredge",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "josemarcosrf",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "aphedges",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "zhichao-aws",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "daegonYu",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "bmaz",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "LindseyZ1205",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "RizgarOzan",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "OsamaS99",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "NimaBoscarino",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "MohammadHijjawi97",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Wauplin",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "kurtmckee",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "ArzelaAscoIi",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "ErenAta16",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "AHMETHAKANBEZIR1",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "ignasgr",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "fuutot",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "zoltan-fedor",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ZhengHongming888",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "VenishPaneliya",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "MrLoh",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "sugatoray",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "RafaelWO",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "paulinebm",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "omarespejel",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "navalnica",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ir2718",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "laulauraluo",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "mauricesvp",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "sadakmed",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "sahibpreetsingh12",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "swarajban",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "guotong1988",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "sky-2002",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "maxfriedrich",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "lambdaofgod",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "zachschillaci27",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "altescy",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "RavSinghChandan",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "CKeibel",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "alistvt",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Quetzalcohuatl",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "emrehangorgec",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "The-Inscrutable-X",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "HaokaiDing",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "asqiriba",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "hetulvp",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "HuangBugWei",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Omarfos",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "nmntz",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Ningchen-Wang",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Muennighoff",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "MaxFreedomPollard",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Marlon154",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Marcel256",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "lukesalamone",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "KisuYang",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "mokha",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "jadermcs",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "ji-huazhong",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "tRosenflanz",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Pringled",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "thomasht86",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "teddytennant",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 3,
+      "merged_prs": [
+        {
+          "number": 4127,
+          "title": "Fix encoder-mask reuse in uncached multi-vector losses",
+          "merged_at": "2026-10-14T14:54:15Z",
+          "url": "https://github.com/huggingface/sentence-transformers/pull/4127"
+        },
+        {
+          "number": 4116,
+          "title": "Preserve ranking-loss gradients with weighted log-sigmoid",
+          "merged_at": "2026-10-12T14:52:07Z",
+          "url": "https://github.com/huggingface/sentence-transformers/pull/4116"
+        },
+        {
+          "number": 4113,
+          "title": "Fix scalar quantization arithmetic for float16 embeddings",
+          "merged_at": "2026-10-08T12:19:01Z",
+          "url": "https://github.com/huggingface/sentence-transformers/pull/4113"
+        }
+      ]
+    },
+    {
+      "repository": "kornia/kornia",
+      "stars": 11435,
+      "metadata_source": "https://api.github.com/repos/kornia/kornia",
+      "contributors_source": "https://api.github.com/repos/kornia/kornia/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:49:57.694936Z",
+      "contributor_position": null,
+      "commit_contributions": null,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": null,
+      "contributors_returned": 100,
+      "contributors_snapshot": [
+        {
+          "login": "edgarriba",
+          "type": "User",
+          "contributions": 1328
+        },
+        {
+          "login": "ducha-aiki",
+          "type": "User",
+          "contributions": 591
+        },
+        {
+          "login": "johnnv1",
+          "type": "User",
+          "contributions": 201
+        },
+        {
+          "login": "shijianjian",
+          "type": "User",
+          "contributions": 165
+        },
+        {
+          "login": "pre-commit-ci[bot]",
+          "type": "Bot",
+          "contributions": 150
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 105
+        },
+        {
+          "login": "dvd42",
+          "type": "User",
+          "contributions": 91
+        },
+        {
+          "login": "Nicholas022400701",
+          "type": "User",
+          "contributions": 78
+        },
+        {
+          "login": "Jeevang1-epic",
+          "type": "User",
+          "contributions": 55
+        },
+        {
+          "login": "dchaudhari7177",
+          "type": "User",
+          "contributions": 52
+        },
+        {
+          "login": "sidd-27",
+          "type": "User",
+          "contributions": 51
+        },
+        {
+          "login": "NiteeshGowda72",
+          "type": "User",
+          "contributions": 42
+        },
+        {
+          "login": "kg290",
+          "type": "User",
+          "contributions": 36
+        },
+        {
+          "login": "cjpurackal",
+          "type": "User",
+          "contributions": 35
+        },
+        {
+          "login": "HassanAlsamahi",
+          "type": "User",
+          "contributions": 29
+        },
+        {
+          "login": "ananyamukh6",
+          "type": "User",
+          "contributions": 29
+        },
+        {
+          "login": "Pulkit-Khandelwal",
+          "type": "User",
+          "contributions": 29
+        },
+        {
+          "login": "aswanth-07",
+          "type": "User",
+          "contributions": 27
+        },
+        {
+          "login": "1sakshm",
+          "type": "User",
+          "contributions": 25
+        },
+        {
+          "login": "deepsource-autofix[bot]",
+          "type": "Bot",
+          "contributions": 25
+        },
+        {
+          "login": "Meggison",
+          "type": "User",
+          "contributions": 23
+        },
+        {
+          "login": "Futtano",
+          "type": "User",
+          "contributions": 20
+        },
+        {
+          "login": "MohammadHijjawi97",
+          "type": "User",
+          "contributions": 20
+        },
+        {
+          "login": "lferraz",
+          "type": "User",
+          "contributions": 20
+        },
+        {
+          "login": "mohansree14",
+          "type": "User",
+          "contributions": 19
+        },
+        {
+          "login": "niukanen1",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "RizgarOzan",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "ashnair1",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "AHMETHAKANBEZIR1",
+          "type": "User",
+          "contributions": 18
+        },
+        {
+          "login": "Borda",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "nitaifingerhut",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "Yi-111-a",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "miquelmarti",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "Alexlgvcode",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "VanniLeonardo",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "gau-nernst",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "Nikhi00718",
+          "type": "User",
+          "contributions": 13
+        },
+        {
+          "login": "px12811",
+          "type": "User",
+          "contributions": 13
+        },
+        {
+          "login": "RitiGrover",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "thegoodengineer",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "carlosb1",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "victorwon2001",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "kshitij12345",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "Talhax55z",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "thatbrguy",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "Vaishnavi220506",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "FGeri",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "arc-wonders",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "li-lizhe",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "Big-Marvel",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "tritsystem",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "jiangwei221",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "vgilabert94",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "cclauss",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "Arc000007",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "adimalkar",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "ChristophReich1996",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "ceroytres",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "jatentaki",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "Wizaron",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "pmeier",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "Con-Benksl",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "NaCr05",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "dkoguciuk",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "antonsoo",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "lappemic",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "renta0426",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "Hrithikcrick",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "justanhduc",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "Adarsh-Me",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "adamjstewart",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "NoiceHax",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "Varun-sai-500",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "soumita94",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "hoobnn",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "msparsh13",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "hal-314",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Prateekshit73",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Prakhar00001",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "oskarflordal",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "aminmiral",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "kv-248",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Himesh-rupchandani",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "ethanstoner",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "dexhunter",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "anibali",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "Aditya8102",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "arijbelmabrouk",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "awss1i",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "tdchaitanya",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Aditya17-bot",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Isalia20",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "JanSellner",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Marchematics",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "Parskatt",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "juliendenize",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "NimaBoscarino",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "chaneyw",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "DPug888",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "MrShevan",
+          "type": "User",
+          "contributions": 4
+        }
+      ],
+      "merged_pr_count": 2,
+      "merged_prs": [
+        {
+          "number": 5517,
+          "title": "fix(geometry): keep parallel line-plane intersection gradients finite",
+          "merged_at": "2026-10-06T18:55:55Z",
+          "url": "https://github.com/kornia/kornia/pull/5517"
+        },
+        {
+          "number": 5474,
+          "title": "fix(geometry): normalize the scale of small-root quartics",
+          "merged_at": "2026-10-06T07:41:54Z",
+          "url": "https://github.com/kornia/kornia/pull/5474"
+        }
+      ]
+    },
+    {
+      "repository": "rasbt/mlxtend",
+      "stars": 5187,
+      "metadata_source": "https://api.github.com/repos/rasbt/mlxtend",
+      "contributors_source": "https://api.github.com/repos/rasbt/mlxtend/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:08.562373Z",
+      "contributor_position": 95,
+      "commit_contributions": 1,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": 51,
+      "contributors_returned": 100,
+      "contributors_snapshot": [
+        {
+          "login": "rasbt",
+          "type": "User",
+          "contributions": 1214
+        },
+        {
+          "login": "NimaSarajpoor",
+          "type": "User",
+          "contributions": 113
+        },
+        {
+          "login": "labdmitriy",
+          "type": "User",
+          "contributions": 25
+        },
+        {
+          "login": "jrbourbeau",
+          "type": "User",
+          "contributions": 19
+        },
+        {
+          "login": "Maitreyee1",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 13
+        },
+        {
+          "login": "reiinakano",
+          "type": "User",
+          "contributions": 13
+        },
+        {
+          "login": "kota7",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "Ne-oL",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "JJLWHarrison",
+          "type": "User",
+          "contributions": 9
+        },
+        {
+          "login": "fatihsen20",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "jaksmid",
+          "type": "User",
+          "contributions": 8
+        },
+        {
+          "login": "zuari1993",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "d-kleine",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "ftnext",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "DanielMorales9",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "fjhheras",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "arteymix",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "jbbqqf",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "mariam851",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "qiagu",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "kmehrad",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "namanmistry",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "harenbergsd",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "FlorisHoogenboom",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "ColCarroll",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "trevismd",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "gheshm-jpg",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "hanzigs",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "ChromaticIsobar",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "dbarbier",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "selay01",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "davebulaval",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "chkoar",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "VenishPaneliya",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "tanmaychimurkar",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "sachinn854",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "pbloem",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "pfsq",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "albahnsen",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "fkdosilovic",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "Gabriel-Azevedo-Ferreira",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "it176131",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "janismdhanbad",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "pedrozanlorensi",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "zazass8",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "JanLauGe",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "N-Harsha-Vardhan-Dev",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "olivertomic",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "whalebot-helmsman",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "timgates42",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kasuteru",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "bryant1410",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "RALEx147",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ranykamel",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "cool-RR",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "PuneetGrov3r",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ai-niki",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "MohammadHijjawi97",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kazyka",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "opiethehokie",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "matsavage",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "MarceloNunesAlves",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "msabramo",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "manishaagangadevi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "LeeTeng2001",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "wahutch",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tetrar124",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sohrabtowfighi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "siddardhadesu",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "rchaves33",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "mrkaiser",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "manugarri",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kernc",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jlopezpena",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jckkvs",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "dynobo",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "danickblouin",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "code-review-doctor",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Saniamos",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "WLaney",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "tkellogg",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sque",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "AlejandroCoronadoN",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "carlsmedstad",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Bot-wxt1221",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "berns722",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Benjamin-Lee",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "bbardakk",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "arfon",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "avloss",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "An3bi",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "andrewm4894",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ajkl",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "adam2392",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "ackerleytng",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Ab2nour",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "karthikankam",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "nilichen",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 1207,
+          "title": "fix: separate extracted emoticons from the final word",
+          "merged_at": "2026-09-29T19:37:22Z",
+          "url": "https://github.com/rasbt/mlxtend/pull/1207"
+        }
+      ]
+    },
+    {
+      "repository": "geomstats/geomstats",
+      "stars": 1525,
+      "metadata_source": "https://api.github.com/repos/geomstats/geomstats",
+      "contributors_source": "https://api.github.com/repos/geomstats/geomstats/contributors?per_page=100&anon=false",
+      "contributors_retrieved_at_utc": "2026-10-19T13:50:08.881890Z",
+      "contributor_position": 82,
+      "commit_contributions": 1,
+      "top30_verified": false,
+      "equal_commit_accounts_in_page": 16,
+      "contributors_returned": 82,
+      "contributors_snapshot": [
+        {
+          "login": "ninamiolane",
+          "type": "User",
+          "contributions": 3351
+        },
+        {
+          "login": "luisfpereira",
+          "type": "User",
+          "contributions": 1692
+        },
+        {
+          "login": "SaitejaUtpala",
+          "type": "User",
+          "contributions": 1243
+        },
+        {
+          "login": "nguigs",
+          "type": "User",
+          "contributions": 1075
+        },
+        {
+          "login": "alebrigant",
+          "type": "User",
+          "contributions": 404
+        },
+        {
+          "login": "Hzaatiti",
+          "type": "User",
+          "contributions": 305
+        },
+        {
+          "login": "YannCabanes",
+          "type": "User",
+          "contributions": 284
+        },
+        {
+          "login": "johmathe",
+          "type": "User",
+          "contributions": 182
+        },
+        {
+          "login": "nkoep",
+          "type": "User",
+          "contributions": 166
+        },
+        {
+          "login": "elodiemaignant",
+          "type": "User",
+          "contributions": 139
+        },
+        {
+          "login": "ythanwerdas",
+          "type": "User",
+          "contributions": 120
+        },
+        {
+          "login": "xpennec",
+          "type": "User",
+          "contributions": 119
+        },
+        {
+          "login": "tgeral68",
+          "type": "User",
+          "contributions": 103
+        },
+        {
+          "login": "cshewmake2",
+          "type": "User",
+          "contributions": 102
+        },
+        {
+          "login": "tramy1258",
+          "type": "User",
+          "contributions": 101
+        },
+        {
+          "login": "opeltre",
+          "type": "User",
+          "contributions": 93
+        },
+        {
+          "login": "johnharveymath",
+          "type": "User",
+          "contributions": 93
+        },
+        {
+          "login": "pchauchat",
+          "type": "User",
+          "contributions": 92
+        },
+        {
+          "login": "julesofthefields",
+          "type": "User",
+          "contributions": 90
+        },
+        {
+          "login": "qbarthelemy",
+          "type": "User",
+          "contributions": 89
+        },
+        {
+          "login": "mortenapedersen",
+          "type": "User",
+          "contributions": 73
+        },
+        {
+          "login": "Maya95assal",
+          "type": "User",
+          "contributions": 66
+        },
+        {
+          "login": "Abdellaoui-Souhail",
+          "type": "User",
+          "contributions": 58
+        },
+        {
+          "login": "adele-myers",
+          "type": "User",
+          "contributions": 47
+        },
+        {
+          "login": "ambellan",
+          "type": "User",
+          "contributions": 45
+        },
+        {
+          "login": "Florent-Michel",
+          "type": "User",
+          "contributions": 43
+        },
+        {
+          "login": "shubhamtalbar96",
+          "type": "User",
+          "contributions": 42
+        },
+        {
+          "login": "stefanheyder",
+          "type": "User",
+          "contributions": 42
+        },
+        {
+          "login": "abertics",
+          "type": "User",
+          "contributions": 36
+        },
+        {
+          "login": "ymontmarin",
+          "type": "User",
+          "contributions": 32
+        },
+        {
+          "login": "MariusGuerard",
+          "type": "User",
+          "contributions": 22
+        },
+        {
+          "login": "jubrau",
+          "type": "User",
+          "contributions": 19
+        },
+        {
+          "login": "est271",
+          "type": "User",
+          "contributions": 17
+        },
+        {
+          "login": "antoinecollas",
+          "type": "User",
+          "contributions": 16
+        },
+        {
+          "login": "claire-donnat",
+          "type": "User",
+          "contributions": 15
+        },
+        {
+          "login": "oleg-kachan",
+          "type": "User",
+          "contributions": 14
+        },
+        {
+          "login": "captain-pool",
+          "type": "User",
+          "contributions": 12
+        },
+        {
+          "login": "clharris",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "maliktuerkoen",
+          "type": "User",
+          "contributions": 11
+        },
+        {
+          "login": "pitmonticone",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "dherrera1911",
+          "type": "User",
+          "contributions": 10
+        },
+        {
+          "login": "nanjekyejoannah",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "dralston78",
+          "type": "User",
+          "contributions": 7
+        },
+        {
+          "login": "Chicken-Biryani",
+          "type": "User",
+          "contributions": 6
+        },
+        {
+          "login": "SauravMaheshkar",
+          "type": "User",
+          "contributions": 5
+        },
+        {
+          "login": "ballerin",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "kristianeschenburg",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "sophiaas",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "hhajri",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "virchan",
+          "type": "User",
+          "contributions": 4
+        },
+        {
+          "login": "tristancabel",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "hzaatiti-NYU",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "sofiagonga",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "franciscoeacosta",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "FlorianPfaff",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "deepsourcebot",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "effigies",
+          "type": "User",
+          "contributions": 3
+        },
+        {
+          "login": "p16i",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "samehaisaa",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "mwilson221",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "deepsource-autofix[bot]",
+          "type": "Bot",
+          "contributions": 2
+        },
+        {
+          "login": "raashish1601",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "olivierbisson",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "mjstahlberg",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "HarrisonSantiago",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "arthurPignet",
+          "type": "User",
+          "contributions": 2
+        },
+        {
+          "login": "wrongu",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "sdoygb",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "loopylangur",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "emmanuel-hartman",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "dependabot[bot]",
+          "type": "Bot",
+          "contributions": 1
+        },
+        {
+          "login": "annacalissano",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "soma2000-lang",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "scott-huberty",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "olivierverdier",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "monsij",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "kiranvad",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "dunnkers",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "jsilter",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "computerscienceiscool",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "awwest03",
+          "type": "User",
+          "contributions": 1
+        },
+        {
+          "login": "Afloat16",
+          "type": "User",
+          "contributions": 1
+        }
+      ],
+      "merged_pr_count": 1,
+      "merged_prs": [
+        {
+          "number": 2131,
+          "title": "Propagate product metric parallel transport to factors",
+          "merged_at": "2026-10-07T18:28:43Z",
+          "url": "https://github.com/geomstats/geomstats/pull/2131"
+        }
+      ]
+    }
+  ]
+}
