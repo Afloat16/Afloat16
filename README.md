@@ -61,7 +61,7 @@ Verified **top-30 contributor-list positions come first**; projects within each 
 
 ## Projects I build
 
-**[Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)** — Open research on native software protection against AI reverse engineering. CMake/C++, PE/ELF release gates, and reproducible experiments. [Contributions welcome](https://github.com/Afloat16/anti-rea-forge/issues/1).
+**[Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)** — **MIT · v0.4 alpha.** An open lab for native software protection: C++ memory hygiene, PE/ELF release gates and request-bound server authorization, with reproducible experiments and published failure evidence. [Technical story](https://github.com/Afloat16/anti-rea-forge/blob/main/docs/community/PROJECT_STORY.md) · [Join the community](https://github.com/Afloat16/anti-rea-forge/issues/1).
 
 | Robotics | Large language models | 3D reconstruction |
 |---|---|---|
