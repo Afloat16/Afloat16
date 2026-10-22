@@ -12,7 +12,7 @@
 
 ## 获取与发布状态
 
-截至2026年10月22日，三款 Firefox 扩展已提交 Mozilla Add-ons（AMO）审核；提交不等于审核批准、公开上架或取得签名。正式商店安装链接将在确认后补充。当前也不宣称已在 Edge 加载项商店上架。
+截至2026年10月23日，三款扩展已提交 Firefox 和 Edge 商店审核；Chrome 商店正在上传并补齐资料。审核通过后的正式商店安装链接将在确认后补充。
 
 目前交付包版本为 **0.1.1**。每个包只包含对应产品的 Edge 与 Firefox 文件及说明：
 
@@ -20,7 +20,15 @@
 - [下载JSON树](downloads/shuffle-json-viewer-0.1.1-customer.zip) · `shuffle-json-viewer-0.1.1-customer.zip`
 - [下载文字检查](downloads/shuffle-text-checker-0.1.1-customer.zip) · `shuffle-text-checker-0.1.1-customer.zip`
 
-本页没有设置付款链接。购买 PRO 或咨询售后，请联系 [shufflemonkey@163.com](mailto:shufflemonkey@163.com)。包内没有内置付款或自动订单发码功能，请勿把免费安装包当作已完成购买的凭证。
+免费基础版及可选 PRO 授权已在链动小铺上架：
+
+| 产品 | 免费基础版 | 可选 PRO 授权 |
+| --- | --- | --- |
+| 城市时钟 | [免费获取](https://wzyp.cn/item/iqqvw2) | [一次性 ¥12](https://wzyp.cn/item/7zsa3g) |
+| JSON树 | [免费获取](https://wzyp.cn/item/lkabo8) | [一次性 ¥18](https://wzyp.cn/item/4nitnl) |
+| 文字检查 | [免费获取](https://wzyp.cn/item/suwgkz) | [一次性 ¥18](https://wzyp.cn/item/ai6mxp) |
+
+授权商品通过店铺交付对应产品的授权码，按商品说明使用。免费基础版不附 PRO 授权码。购买及售后联系 [shufflemonkey@163.com](mailto:shufflemonkey@163.com)。
 
 Edge 包可通过开发人员模式加载解压目录并保留安装；保留原解压目录，不要移动或删除。Firefox 包内文件目前**未签名，只能临时开发加载**，重启浏览器后临时安装会移除；它不是可永久安装的已签名 XPI。具体步骤见各产品安装说明。
 
@@ -32,7 +40,7 @@ Edge 包可通过开发人员模式加载解压目录并保留安装；保留原
 - JSON 树保留大数字和重复键；不会执行输入，也不会自动接管全部 JSON 网页。
 - 文字检查仅有少量固定规则，可能误报；不是 AI、完整拼写词典、通用语法或学术审校服务。
 
-当前版本已在隔离的 Edge 155 与 Firefox 158.0.1 环境测试基础功能及已有 PRO 动作。声明最低桌面浏览器版本为140，不代表已覆盖每个较旧版本、所有网站或全部异常场景；本批不提供 Android 或私密窗口兼容承诺。
+当前版本已在隔离的 Edge 155 与 Firefox 158.0.1 环境测试基础功能及已有 PRO 动作；Chrome 商店包另已通过 Chrome 155.0.8059.84 的基础、PRO、移除授权及导出检查。声明最低桌面浏览器版本为140，不代表已覆盖每个较旧版本、所有网站或全部异常场景；本批不提供 Android 或私密窗口兼容承诺。
 
 ## 授权迁移与联系
 
