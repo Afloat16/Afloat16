@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="948" height="192" viewBox="0 0 948 192" role="img" aria-labelledby="title desc"><title id="title">Afloat16 upstream contributions</title><desc id="desc">69 merged PRs across 22 upstream repositories, with 14 verified top-30 commit contributor-list positions. Snapshot: 23 October 2026.</desc><rect width="948" height="192" rx="16" fill="#0d1117"/>
+<g font-family="DejaVu Sans,Arial,sans-serif"><text x="22" y="26" font-size="10" letter-spacing="1.6" font-weight="700" fill="#a1b4c9">UPSTREAM CONTRIBUTIONS</text><text x="926" y="26" text-anchor="end" font-size="10" fill="#a1b4c9">VERIFIED · 23 OCT 2026</text>
+<rect x="18" y="40" width="286" height="134" rx="12" fill="#151d29" stroke="#2a3d53"/>
+<rect x="35" y="57" width="4" height="27" rx="2" fill="#087ea4"/>
+<text x="49" y="88" font-size="39" font-weight="700" fill="#edf5ff">69</text>
+<text x="36" y="117" font-size="11" font-weight="700" letter-spacing=".6" fill="#edf5ff">MERGED PULL REQUESTS</text>
+<text x="36" y="145" font-size="10.5" fill="#a1b4c9">Accepted upstream work</text>
+<rect x="322" y="40" width="286" height="134" rx="12" fill="#151d29" stroke="#2a3d53"/>
+<rect x="339" y="57" width="4" height="27" rx="2" fill="#6b5bd2"/>
+<text x="353" y="88" font-size="39" font-weight="700" fill="#edf5ff">22</text>
+<text x="340" y="117" font-size="11" font-weight="700" letter-spacing=".6" fill="#edf5ff">UPSTREAM REPOSITORIES</text>
+<text x="340" y="145" font-size="10.5" fill="#a1b4c9">Robotics · ML · geometry · tools</text>
+<rect x="626" y="40" width="286" height="134" rx="12" fill="#151d29" stroke="#2a3d53"/>
+<rect x="643" y="57" width="4" height="27" rx="2" fill="#178367"/>
+<text x="657" y="88" font-size="39" font-weight="700" fill="#edf5ff">14</text>
+<text x="644" y="117" font-size="11" font-weight="700" letter-spacing=".6" fill="#edf5ff">TOP-30 LIST POSITIONS</text>
+<text x="644" y="145" font-size="10.5" fill="#a1b4c9">Verified by commit contribution lists</text>
+</g></svg>
