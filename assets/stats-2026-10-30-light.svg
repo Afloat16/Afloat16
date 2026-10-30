@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title desc">
+  <title id="title">Open-source contribution snapshot — 30 October 2026</title>
+  <desc id="desc">82 merged upstream pull requests across 24 repositories. Five selected recent merged contributions, each to an upstream project with more than 10,000 stars.</desc>
+  <rect x="1" y="1" width="1198" height="154" rx="18" fill="#F7F9FC" stroke="#DFE7F0" stroke-width="2"/>
+  <path d="M300 31V125" stroke="#DFE7F0" stroke-width="1.5"/>
+  <path d="M600 31V125" stroke="#DFE7F0" stroke-width="1.5"/>
+  <path d="M900 31V125" stroke="#DFE7F0" stroke-width="1.5"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="150" y="76" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1" fill="#17283E">82</text>
+    <text x="150" y="111" text-anchor="middle" font-size="18" fill="#51657A">Merged upstream PRs</text>
+    <text x="450" y="76" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1" fill="#17283E">24</text>
+    <text x="450" y="111" text-anchor="middle" font-size="18" fill="#51657A">Upstream repositories</text>
+    <text x="750" y="76" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1" fill="#1978A5">5</text>
+    <text x="750" y="111" text-anchor="middle" font-size="18" fill="#51657A">Selected recent merges</text>
+    <text x="1050" y="76" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1" fill="#1978A5">&gt;10k</text>
+    <text x="1050" y="111" text-anchor="middle" font-size="18" fill="#51657A">Stars per selected project</text>
+  </g>
+</svg>

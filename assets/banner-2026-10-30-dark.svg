@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Afloat16 — research and engineering</title>
+  <desc id="desc">Robotics, large language models, and 3D reconstruction. Build with rigor. Contribute with evidence.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111923"/>
+      <stop offset="1" stop-color="#182637"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="278" rx="20"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="1198" height="278" rx="20" fill="url(#wash)" stroke="#29394B" stroke-width="2"/>
+  <g clip-path="url(#frame)">
+    <path d="M926 0V280" stroke="#29394B" stroke-width="1"/>
+    <path d="M941 48H1160 M941 232H1160" stroke="#29394B" stroke-width="1"/>
+    <path d="M968 35V247 M1148 35V247" stroke="#29394B" stroke-width="1" stroke-dasharray="3 7"/>
+    <path d="M938 232C998 218 1030 194 1045 148S1097 73 1198 51" fill="none" stroke="#6CC6EB" stroke-opacity="0.18" stroke-width="18"/>
+    <path d="M938 232C998 218 1030 194 1045 148S1097 73 1198 51" fill="none" stroke="#6CC6EB" stroke-opacity="0.5" stroke-width="1.5"/>
+    <path d="M985 111L1060 84" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1060 84L1130 116" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1130 116L1054 147" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1054 147L985 111" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M985 165L1060 138" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1060 138L1130 170" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1130 170L1054 201" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1054 201L985 165" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M985 111L985 165" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1060 84L1060 138" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1130 116L1130 170" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1054 147L1054 201" stroke="#466382" stroke-width="1.4" fill="none"/>
+    <path d="M1003.75 104.25L1073.00 139.25" stroke="#466382" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M1002.25 120.00L1077.50 92.00" stroke="#466382" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M1022.50 97.50L1092.00 131.50" stroke="#466382" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M1019.50 129.00L1095.00 100.00" stroke="#466382" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M1041.25 90.75L1111.00 123.75" stroke="#466382" stroke-opacity="0.5" stroke-width="1"/>
+    <path d="M1036.75 138.00L1112.50 108.00" stroke="#466382" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="985" cy="111" r="3.6" fill="#9EAFF4"/>
+    <circle cx="1060" cy="84" r="3.6" fill="#6CC6EB"/>
+    <circle cx="1130" cy="116" r="3.6" fill="#6CC6EB"/>
+    <circle cx="1054" cy="147" r="3.6" fill="#9EAFF4"/>
+    <circle cx="985" cy="165" r="3.6" fill="#6CC6EB"/>
+    <circle cx="1130" cy="170" r="3.6" fill="#6CC6EB"/>
+    <circle cx="1054" cy="201" r="3.6" fill="#9EAFF4"/>
+    <circle cx="1004" cy="106" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1022" cy="98" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1042" cy="91" r="2.5" fill="#9EAFF4"/>
+    <circle cx="1078" cy="92" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1094" cy="100" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1112" cy="108" r="2.5" fill="#9EAFF4"/>
+    <circle cx="1002" cy="121" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1020" cy="129" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1037" cy="139" r="2.5" fill="#9EAFF4"/>
+    <circle cx="1071" cy="140" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1091" cy="131" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1110" cy="124" r="2.5" fill="#9EAFF4"/>
+    <circle cx="1016" cy="175" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1085" cy="183" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1018" cy="147" r="2.5" fill="#9EAFF4"/>
+    <circle cx="1085" cy="157" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1061" cy="114" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1037" cy="120" r="2.5" fill="#9EAFF4"/>
+    <circle cx="1085" cy="124" r="2.5" fill="#6CC6EB"/>
+    <circle cx="1054" cy="147" r="8" fill="none" stroke="#6CC6EB" stroke-width="1" stroke-opacity="0.5"/>
+    <path d="M957 68h8m-4-4v8 M1151 211h8m-4-4v8" stroke="#466382" stroke-width="1.2"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <path d="M56 43H84" stroke="#6CC6EB" stroke-width="3" stroke-linecap="round"/>
+    <text x="96" y="48" font-size="14" font-weight="600" letter-spacing="2" fill="#A8BBD0">RESEARCH &amp; ENGINEERING</text>
+    <text x="56" y="121" font-size="64" font-weight="700" letter-spacing="-2" fill="#E9F1FA">Afloat16</text>
+    <text x="58" y="164" font-size="23" font-weight="500" fill="#A8BBD0">Robotics · Large language models · 3D reconstruction</text>
+    <text x="58" y="222" font-size="25" fill="#E9F1FA">Build with rigor. <tspan fill="#6CC6EB">Contribute with evidence.</tspan></text>
+  </g>
+</svg>
