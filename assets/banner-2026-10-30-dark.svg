@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
   <title id="title">Afloat16 — research and engineering</title>
-  <desc id="desc">Robotics, large language models, and 3D reconstruction. Build with rigor. Contribute with evidence.</desc>
+  <desc id="desc">Robotics, large language models, and 3D reconstruction.</desc>
   <defs>
     <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#111923"/>
       <stop offset="1" stop-color="#182637"/>
     </linearGradient>
-    <clipPath id="frame"><rect x="1" y="1" width="1198" height="278" rx="20"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="218" rx="20"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="1198" height="278" rx="20" fill="url(#wash)" stroke="#29394B" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="218" rx="20" fill="url(#wash)" stroke="#29394B" stroke-width="2"/>
   <g clip-path="url(#frame)">
+    <g transform="translate(0,-30)">
     <path d="M926 0V280" stroke="#29394B" stroke-width="1"/>
     <path d="M941 48H1160 M941 232H1160" stroke="#29394B" stroke-width="1"/>
     <path d="M968 35V247 M1148 35V247" stroke="#29394B" stroke-width="1" stroke-dasharray="3 7"/>
@@ -61,12 +62,12 @@
     <circle cx="1085" cy="124" r="2.5" fill="#6CC6EB"/>
     <circle cx="1054" cy="147" r="8" fill="none" stroke="#6CC6EB" stroke-width="1" stroke-opacity="0.5"/>
     <path d="M957 68h8m-4-4v8 M1151 211h8m-4-4v8" stroke="#466382" stroke-width="1.2"/>
+    </g>
   </g>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
     <path d="M56 43H84" stroke="#6CC6EB" stroke-width="3" stroke-linecap="round"/>
     <text x="96" y="48" font-size="14" font-weight="600" letter-spacing="2" fill="#A8BBD0">RESEARCH &amp; ENGINEERING</text>
     <text x="56" y="121" font-size="64" font-weight="700" letter-spacing="-2" fill="#E9F1FA">Afloat16</text>
     <text x="58" y="164" font-size="23" font-weight="500" fill="#A8BBD0">Robotics · Large language models · 3D reconstruction</text>
-    <text x="58" y="222" font-size="25" fill="#E9F1FA">Build with rigor. <tspan fill="#6CC6EB">Contribute with evidence.</tspan></text>
   </g>
 </svg>
