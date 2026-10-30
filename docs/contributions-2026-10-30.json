@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-10-30T06:07:27.120281+00:00",
+  "verified_at": "2026-10-30T08:40:21Z",
   "user": "Afloat16",
   "merged_pr_total": 82,
   "merged_repository_total": 24,
@@ -12,55 +12,83 @@
     "incomplete_results": false,
     "returned": 80,
     "pages": 1,
-    "note": "The is:merged search returned only 80 PRs. A second six-page all-status author PR search returned 502 unique PRs; 82 had pull_request.merged_at. All 82 were verified at their direct pulls endpoint with merged=true and author=Afloat16. Geoopt #258/#259 were missing from the is:merged index. Default-branch author commit lists and commit-to-PR associations independently checked for additional omissions.",
-    "all_status_url": "https://api.github.com/search/issues?q=author%3AAfloat16+is%3Apr+-user%3AAfloat16&sort=updated&order=desc&per_page=100&page=1",
-    "all_status_total": 502,
+    "note": "The is:merged search returned 80 PRs. Six all-status author PR pages ordered by creation time ascending returned 509 unique PRs; 82 had pull_request.merged_at. All 82 were reverified at their direct pulls endpoints with merged=true and author=Afloat16. Geoopt #258/#259 remain missing from the is:merged index. All 82 baseline records are retained; no newly merged author PR was found in this refresh. Current default-branch author commit lists were enumerated for all 25 accepted-contribution repositories.",
+    "all_status_url": "https://api.github.com/search/issues?q=author%3AAfloat16+is%3Apr+-user%3AAfloat16&sort=created&order=asc&per_page=100&page=1",
+    "all_status_total": 509,
     "all_status_pages": 6,
     "verified_merged_total": 82,
     "index_omissions": [
       "geoopt/geoopt#258",
       "geoopt/geoopt#259"
-    ]
+    ],
+    "all_status_returned_unique": 509
   },
   "repositories": [
     {
       "repository": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "stars": 408869,
-      "forks": 102397,
+      "stars": 409561,
+      "forks": 102547,
       "default_branch": "main",
       "merged_pr_count": 3,
-      "contributor_position": null,
-      "commit_count": null,
-      "ranking_status": "unavailable_current_refresh_rate_limited_no_prior_rank",
+      "contributor_position": 74,
+      "commit_count": 3,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/morluto/rea/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/morluto/rea",
       "default_branch_author_commit_count": 3,
       "author_commits_source_url": "https://api.github.com/repos/morluto/rea/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.767389+00:00",
-      "contributor_commit_count": null,
-      "rank_verified_at": null,
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
+      "rank_checked_at": "2026-10-30T08:39:35.118254+00:00",
+      "contributor_commit_count": 3,
+      "rank_verified_at": "2026-10-30T08:39:35.118254+00:00",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/morluto/rea/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/morluto/rea/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:35.118254+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:35 GMT",
+            "etag": "W/\"f28145a95381f2dc0ea1301177cd26740c109cb78f208929eccb051fe0f02771\"",
+            "last-modified": "Fri, 30 Oct 2026 08:39:04 GMT",
+            "link": "<https://api.github.com/repositories/1209966933/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/1209966933/contributors?per_page=100&anon=false&page=4>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "29",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE8B0:F2910:6AE457C7"
+          },
+          "response_count": 100,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 74,
+            "contributions": 3
+          }
+        }
+      ]
     },
     {
       "repository": "huggingface/lerobot",
       "url": "https://github.com/huggingface/lerobot",
-      "stars": 28581,
+      "stars": 28587,
       "forks": 5976,
       "default_branch": "main",
       "merged_pr_count": 1,
-      "contributor_position": null,
-      "commit_count": null,
-      "ranking_status": "not_in_first_100_current_no_exact_rank",
+      "contributor_position": 224,
+      "commit_count": 1,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/huggingface/lerobot/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/huggingface/lerobot",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/huggingface/lerobot/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.627394+00:00",
-      "contributor_commit_count": null,
-      "rank_verified_at": "2026-10-30T06:06:15.627394+00:00",
+      "rank_checked_at": "2026-10-30T08:40:22.659696+00:00",
+      "contributor_commit_count": 1,
+      "rank_verified_at": "2026-10-30T08:40:22.659696+00:00",
       "contributors_snapshot": [
         {
           "login": "imstevenpmwork",
@@ -564,25 +592,89 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=3",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/huggingface/lerobot/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:35.913543+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:36 GMT",
+            "etag": "W/\"46f6438ed072e68232566fa87c553c7fde8f7cf40a0c68f9cde27c5f0670a43d\"",
+            "last-modified": "Fri, 30 Oct 2026 07:53:00 GMT",
+            "link": "<https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=3>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "15",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE9E3:D27A3:6AE457C7"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=2",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:22.351043+00:00",
+          "page": 2,
+          "offset": 100,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:22 GMT",
+            "etag": "W/\"90333a264341c06ca2639b55d2909c58876f10f4df8263599bdb98a4675a902d\"",
+            "last-modified": "Fri, 30 Oct 2026 07:53:00 GMT",
+            "link": "<https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=1>; rel=\"prev\", <https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=3>; rel=\"next\", <https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=3>; rel=\"last\", <https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "22",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "67E1:10F5F4:DEBB7:F2D66:6AE457EF"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=3",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:22.659696+00:00",
+          "page": 3,
+          "offset": 200,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:22 GMT",
+            "etag": "W/\"b5db4a2b14fc097f54576d5b769f3c39777ba783d2e0d24654b9c805fc350002\"",
+            "last-modified": "Fri, 30 Oct 2026 07:53:00 GMT",
+            "link": "<https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=2>; rel=\"prev\", <https://api.github.com/repositories/748713144/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "8",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4676:117D94:CED02:E2E8A:6AE457F6"
+          },
+          "response_count": 98,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 24,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "deepset-ai/haystack",
       "url": "https://github.com/deepset-ai/haystack",
-      "stars": 26880,
-      "forks": 3366,
+      "stars": 26881,
+      "forks": 3367,
       "default_branch": "main",
       "merged_pr_count": 1,
-      "contributor_position": null,
-      "commit_count": null,
-      "ranking_status": "not_in_first_100_current_no_exact_rank",
+      "contributor_position": 365,
+      "commit_count": 1,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/deepset-ai/haystack/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/deepset-ai/haystack",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/deepset-ai/haystack/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.585590+00:00",
-      "contributor_commit_count": null,
-      "rank_verified_at": "2026-10-30T06:06:15.585590+00:00",
+      "rank_checked_at": "2026-10-30T08:40:24.326034+00:00",
+      "contributor_commit_count": 1,
+      "rank_verified_at": "2026-10-30T08:40:24.326034+00:00",
       "contributors_snapshot": [
         {
           "login": "HaystackBot",
@@ -1086,25 +1178,107 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=4",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/deepset-ai/haystack/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:35.628313+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:35 GMT",
+            "etag": "W/\"7eb5053cc9e98a188f3f5f5ae3069325ebeb0cc0571c668891ee8dd1c1252965\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:26 GMT",
+            "link": "<https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=5>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "28",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE8F2:F2952:6AE457C7"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=2",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:23.016299+00:00",
+          "page": 2,
+          "offset": 100,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:23 GMT",
+            "etag": "W/\"f69ca27a70969505539083aba243dbcea4fc45170619f9a572715e0cbc106008\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:26 GMT",
+            "link": "<https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=1>; rel=\"prev\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=3>; rel=\"next\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=5>; rel=\"last\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "21",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "67E1:10F5F4:DEC1D:F2DCD:6AE457F6"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=3",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:23.730251+00:00",
+          "page": 3,
+          "offset": 200,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:24 GMT",
+            "etag": "W/\"2b6a28d9372c3fa746a10b776172b3f4924bcff5ab5ad289b1003d02459fa0b3\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:26 GMT",
+            "link": "<https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=2>; rel=\"prev\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=4>; rel=\"next\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=5>; rel=\"last\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "20",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "67E1:10F5F4:DEC8A:F2E44:6AE457F7"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=4",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:24.326034+00:00",
+          "page": 4,
+          "offset": 300,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:24 GMT",
+            "etag": "W/\"49272b31d502bbf26f36cdaabdab7bd8629990001c90ed10898db96d0973176a\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:26 GMT",
+            "link": "<https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=3>; rel=\"prev\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=5>; rel=\"next\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=5>; rel=\"last\", <https://api.github.com/repositories/221654678/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "7",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4676:117D94:CEDE6:E2F7F:6AE457F6"
+          },
+          "response_count": 100,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 65,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "serengil/deepface",
       "url": "https://github.com/serengil/deepface",
-      "stars": 23614,
+      "stars": 23613,
       "forks": 3199,
       "default_branch": "master",
       "merged_pr_count": 18,
-      "contributor_position": 10,
-      "commit_count": 17,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "contributor_position": 9,
+      "commit_count": 18,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/serengil/deepface/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/serengil/deepface",
       "default_branch_author_commit_count": 18,
       "author_commits_source_url": "https://api.github.com/repos/serengil/deepface/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.514899+00:00",
-      "contributor_commit_count": 17,
-      "rank_verified_at": "2026-10-23T08:11:29.093393+00:00",
+      "rank_checked_at": "2026-10-30T08:39:32.483760+00:00",
+      "contributor_commit_count": 18,
+      "rank_verified_at": "2026-10-30T08:39:32.483760+00:00",
       "contributors_snapshot": [
         {
           "login": "serengil",
@@ -1577,14 +1751,40 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/serengil/deepface/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/serengil/deepface/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:32.483760+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:32 GMT",
+            "etag": "W/\"276bf942c365cd90b535a3cb9bb2f5d36e7d36927c87f2cee15fcee75f24c47c\"",
+            "last-modified": "Fri, 30 Oct 2026 06:40:48 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "35",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE72E:F2777:6AE457C3"
+          },
+          "response_count": 94,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 9,
+            "contributions": 18
+          }
+        }
+      ]
     },
     {
       "repository": "recommenders-team/recommenders",
       "url": "https://github.com/recommenders-team/recommenders",
-      "stars": 21972,
+      "stars": 21971,
       "forks": 3330,
       "default_branch": "main",
       "merged_pr_count": 2,
@@ -1595,9 +1795,9 @@
       "metadata_source_url": "https://api.github.com/repos/recommenders-team/recommenders",
       "default_branch_author_commit_count": 6,
       "author_commits_source_url": "https://api.github.com/repos/recommenders-team/recommenders/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:16.103512+00:00",
+      "rank_checked_at": "2026-10-30T08:39:36.475171+00:00",
       "contributor_commit_count": 6,
-      "rank_verified_at": "2026-10-30T06:06:16.103512+00:00",
+      "rank_verified_at": "2026-10-30T08:39:36.475171+00:00",
       "contributors_snapshot": [
         {
           "login": "miguelgfierro",
@@ -2101,25 +2301,53 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/recommenders-team/recommenders/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/recommenders-team/recommenders/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:36.475171+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:36 GMT",
+            "etag": "W/\"98d17d3570013ee6fdcb010683fbd7f66797e579a95f1f82eb67de18bf1c53e7\"",
+            "last-modified": "Fri, 30 Oct 2026 06:47:04 GMT",
+            "link": "<https://api.github.com/repositories/149430917/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/149430917/contributors?per_page=100&anon=false&page=2>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "26",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE962:F29E1:6AE457C8"
+          },
+          "response_count": 100,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 49,
+            "contributions": 6
+          }
+        }
+      ]
     },
     {
       "repository": "huggingface/sentence-transformers",
       "url": "https://github.com/huggingface/sentence-transformers",
       "stars": 19236,
-      "forks": 2997,
+      "forks": 2999,
       "default_branch": "main",
       "merged_pr_count": 3,
-      "contributor_position": 51,
+      "contributor_position": 54,
       "commit_count": 3,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/huggingface/sentence-transformers/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/huggingface/sentence-transformers",
       "default_branch_author_commit_count": 3,
       "author_commits_source_url": "https://api.github.com/repos/huggingface/sentence-transformers/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.663826+00:00",
+      "rank_checked_at": "2026-10-30T08:39:32.779024+00:00",
       "contributor_commit_count": 3,
-      "rank_verified_at": "2026-10-23T08:11:29.197299+00:00",
+      "rank_verified_at": "2026-10-30T08:39:32.779024+00:00",
       "contributors_snapshot": [
         {
           "login": "tomaarsen",
@@ -2622,9 +2850,36 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/huggingface/sentence-transformers/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/huggingface/sentence-transformers/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:32.779024+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:33 GMT",
+            "etag": "W/\"809ee07a481cf7f827f80b6ba3496f94bac72ac115258b71457e137aeb7e8dd3\"",
+            "last-modified": "Fri, 30 Oct 2026 03:10:03 GMT",
+            "link": "<https://api.github.com/repositories/198616978/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/198616978/contributors?per_page=100&anon=false&page=4>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "21",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE857:D25EC:6AE457C4"
+          },
+          "response_count": 100,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 54,
+            "contributions": 3
+          }
+        }
+      ]
     },
     {
       "repository": "kornia/kornia",
@@ -2633,16 +2888,16 @@
       "forks": 1434,
       "default_branch": "main",
       "merged_pr_count": 2,
-      "contributor_position": null,
-      "commit_count": null,
-      "ranking_status": "not_in_first_100_current_no_exact_rank",
+      "contributor_position": 196,
+      "commit_count": 2,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/kornia/kornia/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/kornia/kornia",
       "default_branch_author_commit_count": 2,
       "author_commits_source_url": "https://api.github.com/repos/kornia/kornia/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.705841+00:00",
-      "contributor_commit_count": null,
-      "rank_verified_at": "2026-10-30T06:06:15.705841+00:00",
+      "rank_checked_at": "2026-10-30T08:40:24.773551+00:00",
+      "contributor_commit_count": 2,
+      "rank_verified_at": "2026-10-30T08:40:24.773551+00:00",
       "contributors_snapshot": [
         {
           "login": "edgarriba",
@@ -3146,7 +3401,53 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=2",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/kornia/kornia/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:36.200425+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:36 GMT",
+            "etag": "W/\"08bdd59336a36bfa5c0e83c8c6e6309cf793a6bcfa12427ebcd04391a21af8fe\"",
+            "last-modified": "Fri, 30 Oct 2026 04:23:23 GMT",
+            "link": "<https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=5>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "27",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE938:F29AF:6AE457C7"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=2",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:24.773551+00:00",
+          "page": 2,
+          "offset": 100,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:27 GMT",
+            "etag": "W/\"4e320bf3eb9a03ae34f8c9f98482bf229a15c357f8afee88cfed1b7d47205bca\"",
+            "last-modified": "Fri, 30 Oct 2026 04:23:23 GMT",
+            "link": "<https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=1>; rel=\"prev\", <https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=3>; rel=\"next\", <https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=5>; rel=\"last\", <https://api.github.com/repositories/145693916/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "19",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "67E1:10F5F4:DEE53:F302E:6AE457F8"
+          },
+          "response_count": 100,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 96,
+            "contributions": 2
+          }
+        }
+      ]
     },
     {
       "repository": "lucidrains/denoising-diffusion-pytorch",
@@ -3157,14 +3458,14 @@
       "merged_pr_count": 1,
       "contributor_position": 9,
       "commit_count": 1,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.277531+00:00",
+      "rank_checked_at": "2026-10-30T08:39:33.140153+00:00",
       "contributor_commit_count": 1,
-      "rank_verified_at": "2026-10-23T08:11:33.005030+00:00",
+      "rank_verified_at": "2026-10-30T08:39:33.140153+00:00",
       "contributors_snapshot": [
         {
           "login": "lucidrains",
@@ -3297,30 +3598,119 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:33.140153+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:33 GMT",
+            "etag": "W/\"2a7ddb23925f315b8dd5216a4d4e23cab88751a4f39175593dd21d8863016b04\"",
+            "last-modified": "Thu, 29 Oct 2026 10:36:22 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "34",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE799:F27EA:6AE457C4"
+          },
+          "response_count": 26,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 9,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "tile-ai/tilelang",
       "url": "https://github.com/tile-ai/tilelang",
-      "stars": 8848,
+      "stars": 8852,
       "forks": 941,
       "default_branch": "main",
       "merged_pr_count": 1,
-      "contributor_position": null,
-      "commit_count": null,
-      "ranking_status": "unavailable_current_refresh_rate_limited_no_prior_rank",
+      "contributor_position": 210,
+      "commit_count": 1,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/tile-ai/tilelang/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/tile-ai/tilelang",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/tile-ai/tilelang/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:16.107914+00:00",
-      "contributor_commit_count": null,
-      "rank_verified_at": null,
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
+      "rank_checked_at": "2026-10-30T08:40:27.844575+00:00",
+      "contributor_commit_count": 1,
+      "rank_verified_at": "2026-10-30T08:40:27.844575+00:00",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=3",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/tile-ai/tilelang/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:35.369540+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:35 GMT",
+            "etag": "W/\"e861182f52c2877de6159d5946c3e28b966d48de8ac3dd50a741cc8d675c2dee\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:02 GMT",
+            "link": "<https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=3>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "16",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE98F:D2753:6AE457C6"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=2",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:27.548861+00:00",
+          "page": 2,
+          "offset": 100,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:27 GMT",
+            "etag": "W/\"2b84b259c67a85b26526c15685f35f7cdcff5049f3fee5756ee06dcb93bfb5d2\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:02 GMT",
+            "link": "<https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=1>; rel=\"prev\", <https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=3>; rel=\"next\", <https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=3>; rel=\"last\", <https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "6",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4676:117D94:CEFA2:E3166:6AE457F8"
+          },
+          "response_count": 100
+        },
+        {
+          "url": "https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=3",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:40:27.844575+00:00",
+          "page": 3,
+          "offset": 200,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:40:28 GMT",
+            "etag": "W/\"7d9bf7498bfc022bd332c05aadbe89a26bad9b5329fadaba1c506aa379c52dd6\"",
+            "last-modified": "Fri, 30 Oct 2026 08:05:02 GMT",
+            "link": "<https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=2>; rel=\"prev\", <https://api.github.com/repositories/867004514/contributors?per_page=100&anon=false&page=1>; rel=\"first\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "18",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "67E1:10F5F4:DEEDA:F30C1:6AE457FB"
+          },
+          "response_count": 46,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 10,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "Eigenwise/atomic-agents",
@@ -3331,14 +3721,14 @@
       "merged_pr_count": 1,
       "contributor_position": 28,
       "commit_count": 2,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/Eigenwise/atomic-agents/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/Eigenwise/atomic-agents",
       "default_branch_author_commit_count": 2,
       "author_commits_source_url": "https://api.github.com/repos/Eigenwise/atomic-agents/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.136110+00:00",
+      "rank_checked_at": "2026-10-30T08:39:33.337676+00:00",
       "contributor_commit_count": 2,
-      "rank_verified_at": "2026-10-23T08:11:32.961473+00:00",
+      "rank_verified_at": "2026-10-30T08:39:33.337676+00:00",
       "contributors_snapshot": [
         {
           "login": "Eigenwise",
@@ -3581,9 +3971,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/Eigenwise/atomic-agents/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/Eigenwise/atomic-agents/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:33.337676+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:33 GMT",
+            "etag": "W/\"95460ac368c0a8c18cf2fb0b5eb796dda53d2fcc51add7350c31cd10e4bdbe58\"",
+            "last-modified": "Fri, 30 Oct 2026 05:22:22 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "20",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE88F:D2631:6AE457C5"
+          },
+          "response_count": 53,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 28,
+            "contributions": 2
+          }
+        }
+      ]
     },
     {
       "repository": "rasbt/mlxtend",
@@ -3594,14 +4010,14 @@
       "merged_pr_count": 1,
       "contributor_position": 95,
       "commit_count": 1,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/rasbt/mlxtend/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/rasbt/mlxtend",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/rasbt/mlxtend/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:16.091693+00:00",
+      "rank_checked_at": "2026-10-30T08:39:33.507408+00:00",
       "contributor_commit_count": 1,
-      "rank_verified_at": "2026-10-23T08:11:33.033528+00:00",
+      "rank_verified_at": "2026-10-30T08:39:33.507408+00:00",
       "contributors_snapshot": [
         {
           "login": "rasbt",
@@ -4104,9 +4520,36 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/rasbt/mlxtend/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/rasbt/mlxtend/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:33.507408+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:33 GMT",
+            "etag": "W/\"8dad63c2ba73a66c0bf37df9550fb770cbd7c46ad5d7a7e8038d17ff78a2436b\"",
+            "last-modified": "Tue, 27 Oct 2026 09:59:43 GMT",
+            "link": "<https://api.github.com/repositories/22937749/contributors?per_page=100&anon=false&page=2>; rel=\"next\", <https://api.github.com/repositories/22937749/contributors?per_page=100&anon=false&page=2>; rel=\"last\"",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "33",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE7D9:F281A:6AE457C5"
+          },
+          "response_count": 100,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 95,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "petercorke/robotics-toolbox-python",
@@ -4117,14 +4560,14 @@
       "merged_pr_count": 11,
       "contributor_position": 6,
       "commit_count": 11,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python",
       "default_branch_author_commit_count": 11,
       "author_commits_source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.409708+00:00",
+      "rank_checked_at": "2026-10-30T08:39:33.787690+00:00",
       "contributor_commit_count": 11,
-      "rank_verified_at": "2026-10-23T08:11:21.984541+00:00",
+      "rank_verified_at": "2026-10-30T08:39:33.787690+00:00",
       "contributors_snapshot": [
         {
           "login": "jhavl",
@@ -4367,9 +4810,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:33.787690+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:33 GMT",
+            "etag": "W/\"2ea3f2f7ca471ce94f15a39fdc365fcd58e2e06cb9816491cac9c106056bc439\"",
+            "last-modified": "Thu, 29 Oct 2026 22:13:08 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "32",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE7F6:F2841:6AE457C5"
+          },
+          "response_count": 48,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 6,
+            "contributions": 11
+          }
+        }
+      ]
     },
     {
       "repository": "leggedrobotics/rsl_rl",
@@ -4385,9 +4854,9 @@
       "metadata_source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl",
       "default_branch_author_commit_count": 3,
       "author_commits_source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.268337+00:00",
+      "rank_checked_at": "2026-10-30T08:39:36.795179+00:00",
       "contributor_commit_count": 3,
-      "rank_verified_at": "2026-10-30T06:06:15.268337+00:00",
+      "rank_verified_at": "2026-10-30T08:39:36.795179+00:00",
       "contributors_snapshot": [
         {
           "login": "ClemensSchwarke",
@@ -4596,7 +5065,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/leggedrobotics/rsl_rl/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:36.795179+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:36 GMT",
+            "etag": "W/\"0f7a444f6ba85a02810c89ada84821311820118c600e95c5d87ed8027ea05c0a\"",
+            "last-modified": "Fri, 30 Oct 2026 03:45:18 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "14",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BEA4C:D2815:6AE457C8"
+          },
+          "response_count": 41,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 5,
+            "contributions": 3
+          }
+        }
+      ]
     },
     {
       "repository": "pypose/pypose",
@@ -4612,9 +5108,9 @@
       "metadata_source_url": "https://api.github.com/repos/pypose/pypose",
       "default_branch_author_commit_count": 6,
       "author_commits_source_url": "https://api.github.com/repos/pypose/pypose/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.451088+00:00",
+      "rank_checked_at": "2026-10-30T08:39:37.034893+00:00",
       "contributor_commit_count": 6,
-      "rank_verified_at": "2026-10-30T06:06:15.451088+00:00",
+      "rank_verified_at": "2026-10-30T08:39:37.034893+00:00",
       "contributors_snapshot": [
         {
           "login": "wang-chen",
@@ -4833,7 +5329,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/pypose/pypose/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/pypose/pypose/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:37.034893+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:37 GMT",
+            "etag": "W/\"e6fdfc15a84bc62e193fe882ef3cada3840695cfbcb6e8a4ee7adaa70b910ab7\"",
+            "last-modified": "Thu, 29 Oct 2026 11:52:04 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "25",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE9BD:F2A35:6AE457C8"
+          },
+          "response_count": 43,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 15,
+            "contributions": 6
+          }
+        }
+      ]
     },
     {
       "repository": "geomstats/geomstats",
@@ -4844,14 +5367,14 @@
       "merged_pr_count": 1,
       "contributor_position": 82,
       "commit_count": 1,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/geomstats/geomstats/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/geomstats/geomstats",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/geomstats/geomstats/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.590071+00:00",
+      "rank_checked_at": "2026-10-30T08:39:34.027073+00:00",
       "contributor_commit_count": 1,
-      "rank_verified_at": "2026-10-23T08:11:29.409608+00:00",
+      "rank_verified_at": "2026-10-30T08:39:34.027073+00:00",
       "contributors_snapshot": [
         {
           "login": "ninamiolane",
@@ -5264,9 +5787,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/geomstats/geomstats/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/geomstats/geomstats/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:34.027073+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:34 GMT",
+            "etag": "W/\"dc1c9e9aa3d802345009998a0249b1e8d4aa1d4c8e38ebef1f0c633f4b82cb87\"",
+            "last-modified": "Thu, 29 Oct 2026 15:09:43 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "19",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE8EC:D2698:6AE457C5"
+          },
+          "response_count": 82,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 82,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "Denys88/rl_games",
@@ -5275,19 +5824,42 @@
       "forks": 222,
       "default_branch": "master",
       "merged_pr_count": 1,
-      "contributor_position": null,
-      "commit_count": null,
-      "ranking_status": "unavailable_current_refresh_rate_limited_no_prior_rank",
+      "contributor_position": 24,
+      "commit_count": 1,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/Denys88/rl_games/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/Denys88/rl_games",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/Denys88/rl_games/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.549553+00:00",
-      "contributor_commit_count": null,
-      "rank_verified_at": null,
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
+      "rank_checked_at": "2026-10-30T08:38:13Z",
+      "contributor_commit_count": 1,
+      "rank_verified_at": "2026-10-30T08:38:13Z",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/Denys88/rl_games/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/Denys88/rl_games/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "response_date": "Fri, 30 Oct 2026 08:38:13 GMT",
+          "response_count": 24,
+          "page": 1,
+          "offset": 0,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 24,
+            "contributions": 1
+          },
+          "headers": {
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "36",
+            "x-ratelimit-reset": "1793352756"
+          },
+          "note": "Initial live urllib probe response; full returned count and exact matching position recorded from tool output."
+        }
+      ]
     },
     {
       "repository": "geoopt/geoopt",
@@ -5297,15 +5869,15 @@
       "default_branch": "master",
       "merged_pr_count": 10,
       "contributor_position": 3,
-      "commit_count": 4,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "commit_count": 10,
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/geoopt/geoopt/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/geoopt/geoopt",
       "default_branch_author_commit_count": 10,
       "author_commits_source_url": "https://api.github.com/repos/geoopt/geoopt/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.267825+00:00",
-      "contributor_commit_count": 4,
-      "rank_verified_at": "2026-10-23T08:11:22.049235+00:00",
+      "rank_checked_at": "2026-10-30T08:39:34.351530+00:00",
+      "contributor_commit_count": 10,
+      "rank_verified_at": "2026-10-30T08:39:34.351530+00:00",
       "contributors_snapshot": [
         {
           "login": "ferrine",
@@ -5383,9 +5955,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/geoopt/geoopt/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/geoopt/geoopt/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:34.351530+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:34 GMT",
+            "etag": "W/\"1d31e1e481593e9e92329b47bd4ffda5747b18a4339637c6f68ea196b8535b79\"",
+            "last-modified": "Thu, 29 Oct 2026 11:56:20 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "31",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE835:F2891:6AE457C6"
+          },
+          "response_count": 18,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 3,
+            "contributions": 10
+          }
+        }
+      ]
     },
     {
       "repository": "Toni-SM/skrl",
@@ -5396,14 +5994,14 @@
       "merged_pr_count": 3,
       "contributor_position": 3,
       "commit_count": 3,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/Toni-SM/skrl/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/Toni-SM/skrl",
       "default_branch_author_commit_count": 3,
       "author_commits_source_url": "https://api.github.com/repos/Toni-SM/skrl/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.139222+00:00",
+      "rank_checked_at": "2026-10-30T08:39:34.540678+00:00",
       "contributor_commit_count": 3,
-      "rank_verified_at": "2026-10-23T08:11:25.320877+00:00",
+      "rank_verified_at": "2026-10-30T08:39:34.540678+00:00",
       "contributors_snapshot": [
         {
           "login": "Toni-SM",
@@ -5506,9 +6104,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/Toni-SM/skrl/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/Toni-SM/skrl/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:34.540678+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:34 GMT",
+            "etag": "W/\"e1fdb837bf51cfa6fa6019087cc5e5d4214e74f9e3b3e19f7ace9fe5b06ac152\"",
+            "last-modified": "Mon, 26 Oct 2026 20:55:44 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "18",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE933:D26D9:6AE457C6"
+          },
+          "response_count": 20,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 3,
+            "contributions": 3
+          }
+        }
+      ]
     },
     {
       "repository": "nicklashansen/tdmpc2",
@@ -5524,9 +6148,9 @@
       "metadata_source_url": "https://api.github.com/repos/nicklashansen/tdmpc2",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/nicklashansen/tdmpc2/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.801295+00:00",
+      "rank_checked_at": "2026-10-30T08:39:37.296308+00:00",
       "contributor_commit_count": 1,
-      "rank_verified_at": "2026-10-30T06:06:15.801295+00:00",
+      "rank_verified_at": "2026-10-30T08:39:37.296308+00:00",
       "contributors_snapshot": [
         {
           "login": "nicklashansen",
@@ -5555,7 +6179,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/nicklashansen/tdmpc2/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/nicklashansen/tdmpc2/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:37.296308+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:37 GMT",
+            "etag": "W/\"f8deff8bb5b3579bf82216504a4ad100458eacaa1551594090506a5743571ccb\"",
+            "last-modified": "Thu, 29 Oct 2026 12:23:27 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "13",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BEA94:D2861:6AE457C9"
+          },
+          "response_count": 5,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 3,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "dfki-ric/pytransform3d",
@@ -5566,14 +6217,14 @@
       "merged_pr_count": 2,
       "contributor_position": 15,
       "commit_count": 2,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/dfki-ric/pytransform3d/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/dfki-ric/pytransform3d",
       "default_branch_author_commit_count": 2,
       "author_commits_source_url": "https://api.github.com/repos/dfki-ric/pytransform3d/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.143334+00:00",
+      "rank_checked_at": "2026-10-30T08:39:34.703294+00:00",
       "contributor_commit_count": 2,
-      "rank_verified_at": "2026-10-23T08:11:25.316854+00:00",
+      "rank_verified_at": "2026-10-30T08:39:34.703294+00:00",
       "contributors_snapshot": [
         {
           "login": "AlexanderFabisch",
@@ -5726,9 +6377,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/dfki-ric/pytransform3d/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/dfki-ric/pytransform3d/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:34.703294+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:34 GMT",
+            "etag": "W/\"d9365f679c2d40e08e6373ffe2f66d3dc84e2d5ed989509a69fecb7d3b4bd918\"",
+            "last-modified": "Fri, 16 Oct 2026 13:35:04 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "17",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BE942:D26F0:6AE457C6"
+          },
+          "response_count": 30,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 15,
+            "contributions": 2
+          }
+        }
+      ]
     },
     {
       "repository": "naver/roma",
@@ -5739,14 +6416,14 @@
       "merged_pr_count": 4,
       "contributor_position": 2,
       "commit_count": 4,
-      "ranking_status": "historical_snapshot_current_refresh_rate_limited",
+      "ranking_status": "verified_current",
       "contributors_url": "https://api.github.com/repos/naver/roma/contributors?per_page=100&anon=false",
       "metadata_source_url": "https://api.github.com/repos/naver/roma",
       "default_branch_author_commit_count": 4,
       "author_commits_source_url": "https://api.github.com/repos/naver/roma/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.342656+00:00",
+      "rank_checked_at": "2026-10-30T08:39:34.929348+00:00",
       "contributor_commit_count": 4,
-      "rank_verified_at": "2026-10-23T08:11:22.049668+00:00",
+      "rank_verified_at": "2026-10-30T08:39:34.929348+00:00",
       "contributors_snapshot": [
         {
           "login": "rbregier",
@@ -5779,9 +6456,35 @@
           "contributions": 1
         }
       ],
-      "ranking_refresh_error": "Public GitHub API rate limit exceeded; no credentials or alternate routing used. Reset reported as 2026-10-30T06:31:19Z.",
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/naver/roma/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/naver/roma/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:34.929348+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:35 GMT",
+            "etag": "W/\"7c176ab2256c0aae8bef2d2314ffb0def928ae0727430f11eec907561a92c786\"",
+            "last-modified": "Fri, 23 Oct 2026 18:30:05 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "30",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE89E:F28FA:6AE457C6"
+          },
+          "response_count": 6,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 2,
+            "contributions": 4
+          }
+        }
+      ]
     },
     {
       "repository": "lucidrains/rectified-flow-pytorch",
@@ -5797,9 +6500,9 @@
       "metadata_source_url": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch",
       "default_branch_author_commit_count": 1,
       "author_commits_source_url": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.339579+00:00",
+      "rank_checked_at": "2026-10-30T08:39:37.523306+00:00",
       "contributor_commit_count": 1,
-      "rank_verified_at": "2026-10-30T06:06:15.339579+00:00",
+      "rank_verified_at": "2026-10-30T08:39:37.523306+00:00",
       "contributors_snapshot": [
         {
           "login": "lucidrains",
@@ -5833,7 +6536,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:37.523306+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:37 GMT",
+            "etag": "W/\"81557fb761e4ca634f6bb2f563b0f12866d00687b069ebf3defa171dd3863e70\"",
+            "last-modified": "Wed, 28 Oct 2026 17:14:22 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "24",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DE9FA:F2A76:6AE457C9"
+          },
+          "response_count": 6,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 3,
+            "contributions": 1
+          }
+        }
+      ]
     },
     {
       "repository": "neka-nat/kinpy",
@@ -5849,9 +6579,9 @@
       "metadata_source_url": "https://api.github.com/repos/neka-nat/kinpy",
       "default_branch_author_commit_count": 3,
       "author_commits_source_url": "https://api.github.com/repos/neka-nat/kinpy/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.380417+00:00",
+      "rank_checked_at": "2026-10-30T08:39:37.712363+00:00",
       "contributor_commit_count": 3,
-      "rank_verified_at": "2026-10-30T06:06:15.380417+00:00",
+      "rank_verified_at": "2026-10-30T08:39:37.712363+00:00",
       "contributors_snapshot": [
         {
           "login": "neka-nat",
@@ -5885,7 +6615,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/neka-nat/kinpy/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/neka-nat/kinpy/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:37.712363+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:37 GMT",
+            "etag": "W/\"241a82d3a3258bb3b96f017eeec2810dfef945be830c245c63e01eb620364790\"",
+            "last-modified": "Tue, 20 Oct 2026 18:24:10 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "12",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BEACA:D289E:6AE457C9"
+          },
+          "response_count": 6,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 2,
+            "contributions": 3
+          }
+        }
+      ]
     },
     {
       "repository": "danijar/elements",
@@ -5901,9 +6658,9 @@
       "metadata_source_url": "https://api.github.com/repos/danijar/elements",
       "default_branch_author_commit_count": 2,
       "author_commits_source_url": "https://api.github.com/repos/danijar/elements/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.140124+00:00",
+      "rank_checked_at": "2026-10-30T08:39:37.943262+00:00",
       "contributor_commit_count": 2,
-      "rank_verified_at": "2026-10-30T06:06:15.140124+00:00",
+      "rank_verified_at": "2026-10-30T08:39:37.943262+00:00",
       "contributors_snapshot": [
         {
           "login": "danijar",
@@ -5932,7 +6689,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/danijar/elements/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/danijar/elements/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:37.943262+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:38 GMT",
+            "etag": "W/\"bcf7105c0186b339e54dd6180f57b17c3d5f81fd317b381ecd349333902b8f59\"",
+            "last-modified": "Sun, 04 Oct 2026 21:22:44 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "23",
+            "x-ratelimit-reset": "1793352756",
+            "x-github-request-id": "D731:84E11:DEA2F:F2AB2:6AE457C9"
+          },
+          "response_count": 5,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 3,
+            "contributions": 2
+          }
+        }
+      ]
     },
     {
       "repository": "stephane-caron/qpmpc",
@@ -5948,9 +6732,9 @@
       "metadata_source_url": "https://api.github.com/repos/stephane-caron/qpmpc",
       "default_branch_author_commit_count": 5,
       "author_commits_source_url": "https://api.github.com/repos/stephane-caron/qpmpc/commits?author=Afloat16&per_page=100&page=1",
-      "rank_checked_at": "2026-10-30T06:06:15.540809+00:00",
+      "rank_checked_at": "2026-10-30T08:39:38.134325+00:00",
       "contributor_commit_count": 5,
-      "rank_verified_at": "2026-10-30T06:06:15.540809+00:00",
+      "rank_verified_at": "2026-10-30T08:39:38.134325+00:00",
       "contributors_snapshot": [
         {
           "login": "stephane-caron",
@@ -5969,7 +6753,34 @@
         }
       ],
       "contributor_position_definition": "One-based position in GitHub REST contributors?per_page=100&anon=false; GitHub sorts by commit contributions. Equal counts follow API order; anonymous contributors excluded, bot accounts retained. Response may be cached by GitHub.",
-      "authored_commits_verified_on": "2026-10-30"
+      "authored_commits_verified_on": "2026-10-30",
+      "authored_commits_verified_at": "2026-10-30T08:40:21Z",
+      "metadata_verified_at": "2026-10-30T08:40:21Z",
+      "rank_source_url": "https://api.github.com/repos/stephane-caron/qpmpc/contributors?per_page=100&anon=false&page=1",
+      "rank_evidence": [
+        {
+          "url": "https://api.github.com/repos/stephane-caron/qpmpc/contributors?per_page=100&anon=false&page=1",
+          "status": 200,
+          "fetched_at": "2026-10-30T08:39:38.134325+00:00",
+          "page": 1,
+          "offset": 0,
+          "headers": {
+            "date": "Fri, 30 Oct 2026 08:39:38 GMT",
+            "etag": "W/\"3bb47c35b49e29f976cbf9fb49a0cc380067e89121c33f5f305ccff9fb6b0b61\"",
+            "last-modified": "Mon, 26 Oct 2026 09:38:06 GMT",
+            "x-ratelimit-limit": "60",
+            "x-ratelimit-remaining": "11",
+            "x-ratelimit-reset": "1793351263",
+            "x-github-request-id": "4D1F:2CB2F8:BEB04:D28DC:6AE457C9"
+          },
+          "response_count": 3,
+          "matching_entry": {
+            "login": "Afloat16",
+            "position_on_page": 2,
+            "contributions": 5
+          }
+        }
+      ]
     }
   ],
   "selected": [
@@ -5992,7 +6803,7 @@
       "summary_zh": "在 CDP 发现阶段先校验 UTF-8，避免因损坏字节被静默替换而改变目标标题和 URL。",
       "technical_value": "Protocol input integrity; complete-body validation, split multibyte input and recovery regressions.",
       "limitations": "Ordinary validation correction, not a new security capability or performance claim. Loopback tests do not establish real-browser qualification.",
-      "upstream_stars": 408869,
+      "upstream_stars": 409561,
       "merge_commit_author": "Afloat16"
     },
     {
@@ -6014,7 +6825,7 @@
       "summary_zh": "统一人脸裁剪、返回区域与活体检测 ROI 的右/下边界，修复末端像素丢失和零宽高报告。",
       "technical_value": "Cross-path geometry contract, singleton/full-frame cases and anti-spoof ROI regression coverage.",
       "limitations": "No recognition-accuracy or anti-spoofing-quality improvement claim; broad optional model/backend suite was not run.",
-      "upstream_stars": 23614,
+      "upstream_stars": 23613,
       "merge_commit_author": "Afloat16"
     },
     {
@@ -6036,7 +6847,7 @@
       "summary_zh": "将已有的成对 RoPE 修正应用到 VLA-JEPA 训练期世界预测器，恢复相邻坐标的频率配对。",
       "technical_value": "Rotary position geometry; norm, inner-product and relative-position invariants; single-frequency broadcasting.",
       "limitations": "Correction originated in echosprint's V-JEPA 2 PR #15; not an original algorithm. Training-only predictor, checkpoint outputs/losses change; no pretrained-quality or real-robot performance claim.",
-      "upstream_stars": 28581,
+      "upstream_stars": 28587,
       "merge_commit_author": "Afloat16"
     },
     {
@@ -6058,7 +6869,7 @@
       "summary_zh": "补全 ZIP 定位读取中的短读，提前遇到 EOF 时明确报告完整性错误，并保留读取预算。",
       "technical_value": "Low-level I/O correctness; offset loop, truncation handling and bounded archive extraction regressions.",
       "limitations": "No general throughput or full-platform qualification claim; tests inject short reads on real descriptors.",
-      "upstream_stars": 408869,
+      "upstream_stars": 409561,
       "merge_commit_author": "Afloat16"
     },
     {
@@ -6080,7 +6891,7 @@
       "summary_zh": "隔离恢复执行时的访问计数，避免重试和断点执行污染原始 PipelineSnapshot。",
       "technical_value": "Checkpoint state ownership, replay determinism, downstream-failure retry and prior-snapshot isolation.",
       "limitations": "Focused pipeline checks only; no claim of full repository/integration suite validation.",
-      "upstream_stars": 26880,
+      "upstream_stars": 26881,
       "merge_commit_author": "Afloat16"
     }
   ],
@@ -6089,7 +6900,7 @@
     {
       "repository": "tile-ai/tilelang",
       "number": 3357,
-      "reason": "8,848 stars is below the strict >10,000 threshold."
+      "reason": "8,852 stars is below the strict >10,000 threshold."
     },
     {
       "repository": "recommenders-team/recommenders",
@@ -6110,7 +6921,7 @@
       "original_pr_merged": false,
       "adopted_commit_sha": "332f19e4aba4bffe2dc736f45ea7f7bdc585903a",
       "adopted_commit_author": "Afloat16",
-      "note": "Cherry-picked into default branch; excluded from 80 merged author PRs."
+      "note": "Cherry-picked into default branch; excluded from 82 merged author PRs."
     },
     {
       "repository": "petercorke/robotics-toolbox-python",
@@ -7773,41 +8584,70 @@
   ],
   "ranking_status": {
     "requested_repositories": 25,
-    "current_responses_succeeded": 11,
-    "current_exact_positions": 8,
-    "current_not_in_first_100": 3,
-    "rate_limited_repositories": [
-      "morluto/rea",
-      "serengil/deepface",
-      "huggingface/sentence-transformers",
-      "lucidrains/denoising-diffusion-pytorch",
-      "tile-ai/tilelang",
-      "Eigenwise/atomic-agents",
-      "rasbt/mlxtend",
-      "petercorke/robotics-toolbox-python",
-      "geomstats/geomstats",
-      "Denys88/rl_games",
-      "geoopt/geoopt",
-      "Toni-SM/skrl",
-      "dfki-ric/pytransform3d",
-      "naver/roma"
-    ],
-    "historical_position_fallback_repositories": [
-      "serengil/deepface",
-      "huggingface/sentence-transformers",
-      "lucidrains/denoising-diffusion-pytorch",
-      "Eigenwise/atomic-agents",
-      "rasbt/mlxtend",
-      "petercorke/robotics-toolbox-python",
-      "geomstats/geomstats",
-      "geoopt/geoopt",
-      "Toni-SM/skrl",
-      "dfki-ric/pytransform3d",
-      "naver/roma"
-    ],
-    "historical_position_fallback_count": 11,
-    "note": "Dates are per row: current authored-commit counts and stars must not make historical contributor positions appear freshly verified."
+    "current_responses_succeeded": 25,
+    "current_exact_positions": 25,
+    "current_not_in_first_100": 4,
+    "rate_limited_repositories": [],
+    "historical_position_fallback_repositories": [],
+    "historical_position_fallback_count": 0,
+    "note": "All 25 exact positions and contributor-list counts were refreshed on 30 October 2026. Normal pagination was followed for entries beyond the first 100; page offsets are included. GitHub may cache contributor responses."
   },
-  "latest_verified_top30_merged_repositories": 14,
-  "current_verified_top30_merged_repositories": 6
+  "latest_verified_top30_merged_repositories": 15,
+  "current_verified_top30_merged_repositories": 15,
+  "refresh_audit": {
+    "refreshed_at": "2026-10-30T08:40:21Z",
+    "baseline_head": "218433db",
+    "previous_verified_at": "2026-10-30T06:07:27.120281+00:00",
+    "new_merged_prs": [],
+    "baseline_prs_retained": 82,
+    "directly_reverified_prs": 82,
+    "star_changes": [
+      {
+        "repository": "morluto/rea",
+        "before": 408869,
+        "after": 409561,
+        "delta": 692
+      },
+      {
+        "repository": "huggingface/lerobot",
+        "before": 28581,
+        "after": 28587,
+        "delta": 6
+      },
+      {
+        "repository": "deepset-ai/haystack",
+        "before": 26880,
+        "after": 26881,
+        "delta": 1
+      },
+      {
+        "repository": "serengil/deepface",
+        "before": 23614,
+        "after": 23613,
+        "delta": -1
+      },
+      {
+        "repository": "recommenders-team/recommenders",
+        "before": 21972,
+        "after": 21971,
+        "delta": -1
+      },
+      {
+        "repository": "tile-ai/tilelang",
+        "before": 8848,
+        "after": 8852,
+        "delta": 4
+      }
+    ],
+    "authored_commit_count_changes": [],
+    "selection_unchanged": true,
+    "rank_refresh_handled_separately": false,
+    "limitations": [
+      "GitHub is:merged search still omits Geoopt #258 and #259; all-status enumeration and direct PR metadata establish the 82 verified total.",
+      "The all-status updated-sort query changed total during pagination, so it was replaced by a six-page created-ascending enumeration with 509 unique rows and consistent total_count=509.",
+      "All 25 contributor positions and contributor-list commit counts were refreshed and integrated from the paginated ranking audit. Default-branch authored commits remain a separate independently refreshed metric."
+    ],
+    "rank_refresh_merged_at": "2026-10-30T08:40:28.115774+00:00"
+  },
+  "rank_refresh_completed_at": "2026-10-30T08:40:28.115774+00:00"
 }

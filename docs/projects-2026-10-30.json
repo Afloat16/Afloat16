@@ -7,7 +7,7 @@
     "public_nonfork_repositories": 16,
     "software_projects_excluding_profile": 15,
     "total_project_stars": 13,
-    "default_branch_commit_sum_excluding_profile": 134
+    "default_branch_commit_sum_excluding_profile": 136
   },
   "sort": "Stars descending, then default-branch commit count descending, then name. Same-star order does not imply a quality ranking.",
   "projects": [
@@ -271,6 +271,52 @@
         "en": "Bounded OpenAI-compatible endpoint probes and report comparisons.",
         "zh": "有界 OpenAI 兼容端点探测与报告对比。",
         "group": "LLM and agent tooling"
+      }
+    },
+    {
+      "name": "modeldock",
+      "full_name": "Afloat16/modeldock",
+      "url": "https://github.com/Afloat16/modeldock",
+      "description": "Open-source 3D/CAD preview for VS Code, Codex-compatible desktop hosts and DeepSeek Harness. Bounded 5+ GiB binary PLY/STL previews, multi-model alignment and reference evaluation.",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-30T06:43:01Z",
+      "pushed_at": "2026-10-30T06:42:57Z",
+      "created_at": "2026-10-29T09:59:16Z",
+      "topics": [],
+      "license": "NOASSERTION",
+      "source": "https://api.github.com/repos/Afloat16/modeldock",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/modeldock/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "date": "2026-10-30T06:42:57Z",
+        "author": "Afloat16",
+        "message": "docs: record three.js showcase submission awaiting moderation",
+        "url": "https://github.com/Afloat16/modeldock/commit/d15bb8b3c1c398ca4350ddb10dd5b3d817839423"
+      },
+      "latest_published_release": {
+        "tag": "v0.2.0",
+        "name": "ModelDock 0.2.0 — Large-file preview and model comparison",
+        "published_at": "2026-10-29T10:18:45Z",
+        "draft": false,
+        "prerelease": false,
+        "url": "https://github.com/Afloat16/modeldock/releases/tag/v0.2.0",
+        "body": "ModelDock lets you open reconstruction models and CAD files directly in an editor or supported desktop host. This release adds bounded large-file previews and a shared model-comparison workflow.\r\n\r\n## 新增功能\r\n\r\n- 四个入口默认允许最高 8 GiB 的源文件：VS Code、DeepSeek Harness、兼容的 OpenAI Desktop 文件入口、独立本地查看器。\r\n- 超过 5 GiB 的二进制 PLY/STL 使用有界分段读取：PLY 最多显示 30 万个采样点，STL 最多显示 10 万个采样三角面；保留原始数量、坐标原点及采样说明。\r\n- 多模型工作流：添加模型 → 选择参考/真值 → 按需对齐 → 比较。支持多 PLY 叠加、同步分屏、透明度、局部刚性 ICP、显式平移/旋转/缩放和重置。\r\n- 可导入 STL 网格作为参考真值，计算双向距离统计、RMSE、P95、采样最大值、Chamfer、精确率、召回率和 F-score；支持误差热图、逐个对参考评价，以及 JSON/CSV 导出。\r\n- 自动刷新保留视角、其他模型、参考选择及变换；中英文界面。\r\n\r\n## 安装包\r\n\r\n发布工作流会自动附加以下文件：\r\n\r\n| 文件 | 用途 |\r\n| --- | --- |\r\n| modeldock-0.2.0.vsix | VS Code：扩展菜单 → 从 VSIX 安装；也适用于在 VS Code 中使用 Codex 的工作流 |\r\n| dsh-plugin-modeldock-0.2.0.tgz | DeepSeek Harness 原生文件预览插件 |\r\n| modeldock-openai-0.2.0.zip | 支持文件入口及授权资源读取的 OpenAI Desktop 插件 |\r\n| modeldock-0.2.0-source.zip | 完整源码、预构建运行文件、安装包、许可及匹配的 CAD 依赖源码 |\r\n| SHA256SUMS.txt | 四个归档的 SHA-256 校验值 |\r\n\r\n使用说明：[中文 README](https://github.com/Afloat16/modeldock/blob/main/README.zh-CN.md) · [Harness 安装](https://github.com/Afloat16/modeldock/blob/main/adapters/deepseek-harness/README.md) · [OpenAI Desktop 安装](https://github.com/Afloat16/modeldock/blob/main/docs/openai-integration.md)。\r\n\r\n## 验证与边界\r\n\r\n- 105 项自动测试；共享浏览器 15 组、对比界面 9 组、OpenAI 旧资源路径 7 组、大文件范围路径 6 组，另有真实 stdio 验证。\r\n- 真实安装的 DeepSeek Harness 0.2.2-alpha.2 Web 通过 8 组检查，包括超过 5 GiB 的 PLY/STL；真实 VS Code 1.96.4 已在 GitHub CI 中通过四阶段原生验收，包括这两种大文件。\r\n- 大文件用例使用真实稀疏文件，验证大小、偏移、范围读取和渲染，不代表密集 5 GiB 数据的吞吐性能基准。\r\n- 5 GiB 能力是二进制 PLY/STL 的采样预览；大型 PLY 网格当前仅显示采样顶点，面拓扑会明确标为省略。其他格式保持 128 MiB 普通解析边界；不支持完整 5 GiB STEP/IGES/BREP 转换。\r\n- 比较指标描述加载/采样后的几何，最大值不是精确 Hausdorff 距离；单位必须确认，ICP 不自动修正比例，也不保证全局配准。\r\n- OpenAI 使用真实应用和 MCP 服务、模拟 Desktop 宿主进行验证；尚未完成专有 Desktop 软件的实际安装验收。CLI、Work Web 和移动端不声明原生 3D 文件入口能力。\r\n- 发布前依赖扫描为 0 项已知漏洞；这不等于独立安全审计。\r\n\r\n详见 [验证记录](https://github.com/Afloat16/modeldock/blob/main/docs/validation.md)。原始项目源码和原创样例采用 MIT；CAD 依赖保留自身 LGPL 许可，匹配源码随完整源码包提供。\r\n\r\n最终发布提交：`2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c`。[完整 CI 已通过](https://github.com/Afloat16/modeldock/actions/runs/40856160717)，包含浏览器流程、依赖审计和独立的 VS Code 原生任务。"
+      },
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/modeldock/blob/main/README.md",
+        "sha": "f9e675b7a2bd5ada90a103b28991ce3c1104b9b6"
+      },
+      "suggested_display": {
+        "en": "Local 3D/CAD preview with bounded 5+ GiB binary PLY/STL sampling, multi-model alignment and reference comparison.",
+        "zh": "本地 3D/CAD 预览，支持 5+ GiB 二进制 PLY/STL 有界采样、多模型对齐与参考评价。",
+        "version": "v0.2.0",
+        "group": "3D reconstruction",
+        "limits": "5+ GiB is bounded sampled preview of binary PLY/STL, not full rendering, huge CAD conversion, or a dense-file throughput benchmark. VS Code and DeepSeek Harness native acceptance reported; proprietary OpenAI Desktop native installation unverified."
       }
     },
     {
@@ -553,52 +599,6 @@
       }
     },
     {
-      "name": "modeldock",
-      "full_name": "Afloat16/modeldock",
-      "url": "https://github.com/Afloat16/modeldock",
-      "description": "Open-source 3D/CAD preview for VS Code, Codex-compatible desktop hosts and DeepSeek Harness. Bounded 5+ GiB binary PLY/STL previews, multi-model alignment and reference evaluation.",
-      "stars": 1,
-      "forks": 0,
-      "language": "TypeScript",
-      "default_branch": "main",
-      "archived": false,
-      "updated_at": "2026-10-30T05:51:54Z",
-      "pushed_at": "2026-10-29T10:18:45Z",
-      "created_at": "2026-10-29T09:59:16Z",
-      "topics": [],
-      "license": "NOASSERTION",
-      "source": "https://api.github.com/repos/Afloat16/modeldock",
-      "default_branch_commit_count": 4,
-      "commit_count_source": "https://api.github.com/repos/Afloat16/modeldock/commits?sha=main&per_page=100&page=1",
-      "default_branch_head": {
-        "sha": "2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c",
-        "date": "2026-10-29T10:15:44Z",
-        "author": "Afloat16",
-        "message": "Patch dependency advisories and record native large-file validation",
-        "url": "https://github.com/Afloat16/modeldock/commit/2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c"
-      },
-      "latest_published_release": {
-        "tag": "v0.2.0",
-        "name": "ModelDock 0.2.0 — Large-file preview and model comparison",
-        "published_at": "2026-10-29T10:18:45Z",
-        "draft": false,
-        "prerelease": false,
-        "url": "https://github.com/Afloat16/modeldock/releases/tag/v0.2.0",
-        "body": "ModelDock lets you open reconstruction models and CAD files directly in an editor or supported desktop host. This release adds bounded large-file previews and a shared model-comparison workflow.\r\n\r\n## 新增功能\r\n\r\n- 四个入口默认允许最高 8 GiB 的源文件：VS Code、DeepSeek Harness、兼容的 OpenAI Desktop 文件入口、独立本地查看器。\r\n- 超过 5 GiB 的二进制 PLY/STL 使用有界分段读取：PLY 最多显示 30 万个采样点，STL 最多显示 10 万个采样三角面；保留原始数量、坐标原点及采样说明。\r\n- 多模型工作流：添加模型 → 选择参考/真值 → 按需对齐 → 比较。支持多 PLY 叠加、同步分屏、透明度、局部刚性 ICP、显式平移/旋转/缩放和重置。\r\n- 可导入 STL 网格作为参考真值，计算双向距离统计、RMSE、P95、采样最大值、Chamfer、精确率、召回率和 F-score；支持误差热图、逐个对参考评价，以及 JSON/CSV 导出。\r\n- 自动刷新保留视角、其他模型、参考选择及变换；中英文界面。\r\n\r\n## 安装包\r\n\r\n发布工作流会自动附加以下文件：\r\n\r\n| 文件 | 用途 |\r\n| --- | --- |\r\n| modeldock-0.2.0.vsix | VS Code：扩展菜单 → 从 VSIX 安装；也适用于在 VS Code 中使用 Codex 的工作流 |\r\n| dsh-plugin-modeldock-0.2.0.tgz | DeepSeek Harness 原生文件预览插件 |\r\n| modeldock-openai-0.2.0.zip | 支持文件入口及授权资源读取的 OpenAI Desktop 插件 |\r\n| modeldock-0.2.0-source.zip | 完整源码、预构建运行文件、安装包、许可及匹配的 CAD 依赖源码 |\r\n| SHA256SUMS.txt | 四个归档的 SHA-256 校验值 |\r\n\r\n使用说明：[中文 README](https://github.com/Afloat16/modeldock/blob/main/README.zh-CN.md) · [Harness 安装](https://github.com/Afloat16/modeldock/blob/main/adapters/deepseek-harness/README.md) · [OpenAI Desktop 安装](https://github.com/Afloat16/modeldock/blob/main/docs/openai-integration.md)。\r\n\r\n## 验证与边界\r\n\r\n- 105 项自动测试；共享浏览器 15 组、对比界面 9 组、OpenAI 旧资源路径 7 组、大文件范围路径 6 组，另有真实 stdio 验证。\r\n- 真实安装的 DeepSeek Harness 0.2.2-alpha.2 Web 通过 8 组检查，包括超过 5 GiB 的 PLY/STL；真实 VS Code 1.96.4 已在 GitHub CI 中通过四阶段原生验收，包括这两种大文件。\r\n- 大文件用例使用真实稀疏文件，验证大小、偏移、范围读取和渲染，不代表密集 5 GiB 数据的吞吐性能基准。\r\n- 5 GiB 能力是二进制 PLY/STL 的采样预览；大型 PLY 网格当前仅显示采样顶点，面拓扑会明确标为省略。其他格式保持 128 MiB 普通解析边界；不支持完整 5 GiB STEP/IGES/BREP 转换。\r\n- 比较指标描述加载/采样后的几何，最大值不是精确 Hausdorff 距离；单位必须确认，ICP 不自动修正比例，也不保证全局配准。\r\n- OpenAI 使用真实应用和 MCP 服务、模拟 Desktop 宿主进行验证；尚未完成专有 Desktop 软件的实际安装验收。CLI、Work Web 和移动端不声明原生 3D 文件入口能力。\r\n- 发布前依赖扫描为 0 项已知漏洞；这不等于独立安全审计。\r\n\r\n详见 [验证记录](https://github.com/Afloat16/modeldock/blob/main/docs/validation.md)。原始项目源码和原创样例采用 MIT；CAD 依赖保留自身 LGPL 许可，匹配源码随完整源码包提供。\r\n\r\n最终发布提交：`2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c`。[完整 CI 已通过](https://github.com/Afloat16/modeldock/actions/runs/40856160717)，包含浏览器流程、依赖审计和独立的 VS Code 原生任务。"
-      },
-      "readme_evidence": {
-        "url": "https://github.com/Afloat16/modeldock/blob/main/README.md",
-        "sha": "f9e675b7a2bd5ada90a103b28991ce3c1104b9b6"
-      },
-      "suggested_display": {
-        "en": "Local 3D/CAD preview with bounded 5+ GiB binary PLY/STL sampling, multi-model alignment and reference comparison.",
-        "zh": "本地 3D/CAD 预览，支持 5+ GiB 二进制 PLY/STL 有界采样、多模型对齐与参考评价。",
-        "version": "v0.2.0",
-        "group": "3D reconstruction",
-        "limits": "5+ GiB is bounded sampled preview of binary PLY/STL, not full rendering, huge CAD conversion, or a dense-file throughput benchmark. VS Code and DeepSeek Harness native acceptance reported; proprietary OpenAI Desktop native installation unverified."
-      }
-    },
-    {
       "name": "Afloat16",
       "full_name": "Afloat16/Afloat16",
       "url": "https://github.com/Afloat16/Afloat16",
@@ -835,5 +835,6 @@
     "https://api.github.com/repos/Afloat16/agent-action-notifier",
     "https://api.github.com/repos/Afloat16/colmap-model-audit",
     "https://api.github.com/repos/Afloat16/pose-convention-bridge"
-  ]
+  ],
+  "metrics_refreshed_at": "2026-10-30T08:37:54+00:00"
 }
