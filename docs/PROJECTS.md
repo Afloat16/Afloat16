@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **30 October 2026**. Account: [Afloat16](https://github.com/Afloat16).
+Snapshot: **2 November 2026**. Account: [Afloat16](https://github.com/Afloat16).
 
 **15 public, non-fork software projects**, excluding the profile repository. All 15 are unarchived. Existing project groups and links remain on the profile; ModelDock and Jev MCP are now also featured.
 
@@ -24,7 +24,7 @@ Snapshot: **30 October 2026**. Account: [Afloat16](https://github.com/Afloat16).
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-10-30.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-02.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
 
 All 15 projects had **0 forks** at retrieval. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
@@ -105,4 +105,5 @@ Explicit camera-pose conversion across coordinate conventions.
 The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). It was re-read, not re-executed during this profile refresh.
 
 ModelDock's 5+ GiB capability is bounded sampling of binary PLY/STL, not full large-file rendering or arbitrary CAD conversion. Its original code and samples use MIT; CAD dependencies retain their own LGPL licensing. The profile does not label all projects with one common license.
+
 
