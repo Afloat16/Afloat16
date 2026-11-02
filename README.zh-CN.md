@@ -30,11 +30,11 @@ Python · TypeScript · C/C++ · 可复现实验 · 上游工程
 
 | 合并日期 | 上游项目 · ★ | 解决的问题 | PR / 合并 commit |
 |---|---|---|---|
-| 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,247 ★ | 以全部已知正例归一化实际召回排名，修正 RRF 的 AP/nDCG 评估。 | [#4114](https://github.com/huggingface/sentence-transformers/pull/4114)<br>[`6994c94`](https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d) |
 | 2026-11-02 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,131 ★ | 修复基准评估中的向量归一化，使平移方向角误差不受重建尺度影响。 | [#4932](https://github.com/colmap/colmap/pull/4932)<br>[`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
 | 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,247 ★ | 保留 LSTM 输出的原始填充长度，使 token 输出与其他特征维度对齐。 | [#4301](https://github.com/huggingface/sentence-transformers/pull/4301)<br>[`26a0f49`](https://github.com/huggingface/sentence-transformers/commit/26a0f49fad7927dcc565a6ee9880730c2c65c64c) |
 | 2026-11-01 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,635 ★ | 保持空批次、单图批次与多图批次的人脸表征结果结构一致。 | [#1675](https://github.com/serengil/deepface/pull/1675)<br>[`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
-| 2026-10-31 | **[Kornia](https://github.com/kornia/kornia)**<br>11,993 ★ | 修复平坦图像块引发的 NaN 梯度，保持方向平滑权重在混合批次中的梯度有限。 | [#6451](https://github.com/kornia/kornia/pull/6451)<br>[`41a4740`](https://github.com/kornia/kornia/commit/41a4740864f35d92a7d9b66617407598b8cb17df) |
+| 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,645 ★ | 将已有的成对 RoPE 修正应用到 VLA-JEPA 训练期世界预测器，恢复相邻坐标的频率配对。 | [#4835](https://github.com/huggingface/lerobot/pull/4835)<br>[`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693) |
+| 2026-10-22 | **[REA](https://github.com/morluto/rea)**<br>420,907 ★ | 补全 ZIP 定位读取中的短读，并将提前 EOF 明确报告为完整性错误。 | [#4414](https://github.com/morluto/rea/pull/4414)<br>[`82e4e03`](https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33) |
 
 ### 最近一次核实的贡献榜前 30
 

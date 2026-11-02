@@ -6964,28 +6964,6 @@
   ],
   "selected": [
     {
-      "repository": "huggingface/sentence-transformers",
-      "number": 4114,
-      "title": "Exclude unretrieved positives from observed RRF ranking metrics",
-      "url": "https://github.com/huggingface/sentence-transformers/pull/4114",
-      "author": "Afloat16",
-      "merged": true,
-      "merged_at": "2026-11-02T10:54:28Z",
-      "merge_commit_sha": "6994c94f39a3ff30f21075af1eca46d3ac5e8a8d",
-      "merge_commit_url": "https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d",
-      "base_branch": "main",
-      "commits_in_pr": 3,
-      "changed_files": 4,
-      "additions": 114,
-      "deletions": 47,
-      "summary_en": "Correct RRF AP/nDCG evaluation by normalizing observed rankings against all known positives.",
-      "summary_zh": "以全部已知正例归一化实际召回排名，修正 RRF 的 AP/nDCG 评估。",
-      "technical_value": "Removes invented ranks for unretrieved positives in dense, sparse and fused retrieval; preserves complete-positive normalization, score ties and zero/singleton cutoff behavior.",
-      "limitations": "Evaluation correctness, not an improvement to embedding quality or retrieval order. Validation results are attributed to the upstream PR; this refresh inspected code and merged state and did not rerun upstream tests.",
-      "upstream_stars": 19247,
-      "merge_commit_author": "Afloat16"
-    },
-    {
       "repository": "colmap/colmap",
       "number": 4932,
       "title": "Make benchmark translation-angle errors invariant to reconstruction scale",
@@ -7052,25 +7030,47 @@
       "merge_commit_author": "Afloat16"
     },
     {
-      "repository": "kornia/kornia",
-      "number": 6451,
-      "title": "fix(feature): avoid NaN orientation weight gradients on flat patches",
-      "url": "https://github.com/kornia/kornia/pull/6451",
+      "repository": "huggingface/lerobot",
+      "number": 4835,
+      "title": "fix(vla_jepa): pair rotary frequencies with adjacent coordinates",
+      "url": "https://github.com/huggingface/lerobot/pull/4835",
       "author": "Afloat16",
       "merged": true,
-      "merged_at": "2026-10-30T19:09:03Z",
-      "merge_commit_sha": "41a4740864f35d92a7d9b66617407598b8cb17df",
-      "merge_commit_url": "https://github.com/kornia/kornia/commit/41a4740864f35d92a7d9b66617407598b8cb17df",
+      "merged_at": "2026-10-22T14:00:39Z",
+      "merge_commit_sha": "f9e9d739ea7055b282ea1b165e8785412a674693",
+      "merge_commit_url": "https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693",
       "base_branch": "main",
       "commits_in_pr": 2,
-      "changed_files": 3,
-      "additions": 50,
-      "deletions": 1,
-      "summary_en": "Keep orientation-smoothing gradients finite for flat patches and mixed batches.",
-      "summary_zh": "修复平坦图像块引发的 NaN 梯度，保持方向平滑权重在混合批次中的梯度有限。",
-      "technical_value": "Guards the denominator before a masked refinement division so an unselected 0/0 branch cannot contaminate trainable smoothing-weight gradients; preserves forward angles and the zero-refinement fallback.",
-      "limitations": "Reported validation is CPU-scoped; CUDA, MPS and other PyTorch versions were not verified by the PR. This refresh verified the merged implementation and attribution without rerunning the tests.",
-      "upstream_stars": 11993,
+      "changed_files": 2,
+      "additions": 11,
+      "deletions": 2,
+      "summary_en": "Apply the established pairwise RoPE correction to VLA-JEPA's training-only world predictor.",
+      "summary_zh": "将已有的成对 RoPE 修正应用到 VLA-JEPA 训练期世界预测器，恢复相邻坐标的频率配对。",
+      "technical_value": "Rotary position geometry; norm, inner-product and relative-position invariants; single-frequency broadcasting.",
+      "limitations": "Correction originated in echosprint's V-JEPA 2 PR #15; not an original algorithm. The final merged diff contains the production helper and documentation, without new regression tests. This affects the training-only predictor: checkpoint outputs and losses change; no pretrained-quality or real-robot performance claim. This selection review did not rerun tests.",
+      "upstream_stars": 28645,
+      "merge_commit_author": "Afloat16"
+    },
+    {
+      "repository": "morluto/rea",
+      "number": 4414,
+      "title": "fix(artifacts): complete positional ZIP reads",
+      "url": "https://github.com/morluto/rea/pull/4414",
+      "author": "Afloat16",
+      "merged": true,
+      "merged_at": "2026-10-21T22:13:24Z",
+      "merge_commit_sha": "82e4e032dfe97b7912cebc2812e1e9fc41c1eb33",
+      "merge_commit_url": "https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33",
+      "base_branch": "main",
+      "commits_in_pr": 3,
+      "changed_files": 2,
+      "additions": 177,
+      "deletions": 3,
+      "summary_en": "Complete short positional ZIP reads and report premature EOF as an integrity failure.",
+      "summary_zh": "补全 ZIP 定位读取中的短读，并将提前 EOF 明确报告为完整性错误。",
+      "technical_value": "Low-level I/O correctness: accumulate partial reads with consistent buffer and file offsets, detect premature EOF, and preserve existing allocation and read-budget checks. Regressions exercise real ZIP parsing and extraction through actual file descriptors.",
+      "limitations": "Archive-reader correctness, with no throughput or expanded security-boundary claim. Short reads are injected on real descriptors. Full-suite, cross-platform and forced-short-read public CLI/MCP coverage are not established by the PR; this selection review did not rerun tests.",
+      "upstream_stars": 420907,
       "merge_commit_author": "Afloat16"
     }
   ],
@@ -9636,5 +9636,20 @@
     ],
     "rank_refresh_merged_at": "2026-11-02T12:14:03.205139+00:00"
   },
-  "rank_refresh_completed_at": "2026-11-02T12:14:03.205139+00:00"
+  "rank_refresh_completed_at": "2026-11-02T12:14:03.205139+00:00",
+  "selection_review": {
+    "reviewed_at": "2026-11-02T12:33:06Z",
+    "replacements": [
+      {
+        "from": "huggingface/sentence-transformers#4114",
+        "to": "morluto/rea#4414"
+      },
+      {
+        "from": "kornia/kornia#6451",
+        "to": "huggingface/lerobot#4835"
+      }
+    ],
+    "metrics_snapshot_verified_at": "2026-11-02T12:16:33Z",
+    "note": "The five-entry profile selection now features the requested REA and LeRobot contributions. The complete contribution inventory, ranks, stars and commit counts are unchanged."
+  }
 }

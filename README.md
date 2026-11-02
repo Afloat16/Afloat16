@@ -30,11 +30,11 @@ Python · TypeScript · C/C++ · Reproducible experiments · Upstream engineerin
 
 | Merged | Upstream project · ★ | Engineering contribution | PR / merged commit |
 |---|---|---|---|
-| 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,247 ★ | Correct RRF AP/nDCG evaluation by normalizing observed rankings against all known positives. | [#4114](https://github.com/huggingface/sentence-transformers/pull/4114)<br>[`6994c94`](https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d) |
 | 2026-11-02 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,131 ★ | Make benchmark translation-angle errors invariant to reconstruction scale. | [#4932](https://github.com/colmap/colmap/pull/4932)<br>[`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
 | 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,247 ★ | Preserve padded LSTM sequence lengths so token outputs stay aligned with companion features. | [#4301](https://github.com/huggingface/sentence-transformers/pull/4301)<br>[`26a0f49`](https://github.com/huggingface/sentence-transformers/commit/26a0f49fad7927dcc565a6ee9880730c2c65c64c) |
 | 2026-11-01 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,635 ★ | Preserve consistent result structure for empty, singleton and multi-image representation batches. | [#1675](https://github.com/serengil/deepface/pull/1675)<br>[`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
-| 2026-10-31 | **[Kornia](https://github.com/kornia/kornia)**<br>11,993 ★ | Keep orientation-smoothing gradients finite for flat patches and mixed batches. | [#6451](https://github.com/kornia/kornia/pull/6451)<br>[`41a4740`](https://github.com/kornia/kornia/commit/41a4740864f35d92a7d9b66617407598b8cb17df) |
+| 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,645 ★ | Apply the established pairwise RoPE correction to VLA-JEPA's training-only world predictor. | [#4835](https://github.com/huggingface/lerobot/pull/4835)<br>[`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693) |
+| 2026-10-22 | **[REA](https://github.com/morluto/rea)**<br>420,907 ★ | Complete short positional ZIP reads and report premature EOF as an integrity failure. | [#4414](https://github.com/morluto/rea/pull/4414)<br>[`82e4e03`](https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33) |
 
 ### Latest verified top-30 contributor positions
 

@@ -26,19 +26,11 @@ This refresh checks public metadata and the newly selected merged implementation
 
 | Merged | Upstream project · ★ | Engineering contribution | PR / merged commit |
 |---|---|---|---|
-| 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,247 ★ | Correct RRF AP/nDCG evaluation by normalizing observed rankings against all known positives. | [#4114](https://github.com/huggingface/sentence-transformers/pull/4114)<br>[`6994c94`](https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d) |
 | 2026-11-02 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,131 ★ | Make benchmark translation-angle errors invariant to reconstruction scale. | [#4932](https://github.com/colmap/colmap/pull/4932)<br>[`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
 | 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,247 ★ | Preserve padded LSTM sequence lengths so token outputs stay aligned with companion features. | [#4301](https://github.com/huggingface/sentence-transformers/pull/4301)<br>[`26a0f49`](https://github.com/huggingface/sentence-transformers/commit/26a0f49fad7927dcc565a6ee9880730c2c65c64c) |
 | 2026-11-01 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,635 ★ | Preserve consistent result structure for empty, singleton and multi-image representation batches. | [#1675](https://github.com/serengil/deepface/pull/1675)<br>[`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
-| 2026-10-31 | **[Kornia](https://github.com/kornia/kornia)**<br>11,993 ★ | Keep orientation-smoothing gradients finite for flat patches and mixed batches. | [#6451](https://github.com/kornia/kornia/pull/6451)<br>[`41a4740`](https://github.com/kornia/kornia/commit/41a4740864f35d92a7d9b66617407598b8cb17df) |
-
-### Sentence Transformers #4114
-
-Removes invented ranks for unretrieved positives in dense, sparse and fused retrieval; preserves complete-positive normalization, score ties and zero/singleton cutoff behavior.
-
-Scope: Evaluation correctness, not an improvement to embedding quality or retrieval order. Validation results are attributed to the upstream PR; this refresh inspected code and merged state and did not rerun upstream tests.
-
-Evidence: [merged PR](https://github.com/huggingface/sentence-transformers/pull/4114) · [upstream commit](https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d); merge commit author: `Afloat16`.
+| 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,645 ★ | Apply the established pairwise RoPE correction to VLA-JEPA's training-only world predictor. | [#4835](https://github.com/huggingface/lerobot/pull/4835)<br>[`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693) |
+| 2026-10-22 | **[REA](https://github.com/morluto/rea)**<br>420,907 ★ | Complete short positional ZIP reads and report premature EOF as an integrity failure. | [#4414](https://github.com/morluto/rea/pull/4414)<br>[`82e4e03`](https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33) |
 
 ### COLMAP #4932
 
@@ -64,13 +56,21 @@ Scope: Corrects the representation API's batch structure; the singleton-batch ou
 
 Evidence: [merged PR](https://github.com/serengil/deepface/pull/1675) · [upstream commit](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac); merge commit author: `Afloat16`.
 
-### Kornia #6451
+### LeRobot #4835
 
-Guards the denominator before a masked refinement division so an unselected 0/0 branch cannot contaminate trainable smoothing-weight gradients; preserves forward angles and the zero-refinement fallback.
+Rotary position geometry; norm, inner-product and relative-position invariants; single-frequency broadcasting.
 
-Scope: Reported validation is CPU-scoped; CUDA, MPS and other PyTorch versions were not verified by the PR. This refresh verified the merged implementation and attribution without rerunning the tests.
+Scope: Correction originated in echosprint's V-JEPA 2 PR #15; not an original algorithm. The final merged diff contains the production helper and documentation, without new regression tests. This affects the training-only predictor: checkpoint outputs and losses change; no pretrained-quality or real-robot performance claim. This selection review did not rerun tests.
 
-Evidence: [merged PR](https://github.com/kornia/kornia/pull/6451) · [upstream commit](https://github.com/kornia/kornia/commit/41a4740864f35d92a7d9b66617407598b8cb17df); merge commit author: `Afloat16`.
+Evidence: [merged PR](https://github.com/huggingface/lerobot/pull/4835) · [upstream commit](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693); merge commit author: `Afloat16`.
+
+### REA #4414
+
+Low-level I/O correctness: accumulate partial reads with consistent buffer and file offsets, detect premature EOF, and preserve existing allocation and read-budget checks. Regressions exercise real ZIP parsing and extraction through actual file descriptors.
+
+Scope: Archive-reader correctness, with no throughput or expanded security-boundary claim. Short reads are injected on real descriptors. Full-suite, cross-platform and forced-short-read public CLI/MCP coverage are not established by the PR; this selection review did not rerun tests.
+
+Evidence: [merged PR](https://github.com/morluto/rea/pull/4414) · [upstream commit](https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33); merge commit author: `Afloat16`.
 
 Recent candidates retained in the full record but not highlighted:
 
