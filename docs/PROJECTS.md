@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **3 November 2026**. Account: [Afloat16](https://github.com/Afloat16).
+Snapshot: **3 November 2026 · 17:04 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Metrics verified at **16:55:39 CST (UTC+8)**.
 
 **15 public, non-fork software projects**, excluding the profile repository. All 15 are unarchived. Existing project groups and links remain on the profile; ModelDock and Jev MCP are now also featured.
 
@@ -8,7 +8,7 @@ Snapshot: **3 November 2026**. Account: [Afloat16](https://github.com/Afloat16).
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [2](https://github.com/Afloat16/anti-rea-forge/stargazers) | [12](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [3](https://github.com/Afloat16/anti-rea-forge/stargazers) | [12](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
@@ -24,7 +24,7 @@ Snapshot: **3 November 2026**. Account: [Afloat16](https://github.com/Afloat16).
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-03.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-03-1704.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
 
 All 15 projects had **0 forks** at retrieval. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
