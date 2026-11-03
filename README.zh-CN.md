@@ -17,35 +17,36 @@ Python · TypeScript · C/C++ · 可复现实验 · 上游工程
 
 ## 开源贡献
 
-截至 **2026-11-03 21:43（UTC+8）**，已核验我向 **28 个上游仓库**提交且已合并的 **117 个 PR**，涉及机器人、机器学习、几何与开发工具。
+截至 **2026-11-03 22:08（UTC+8）**，已核验我向 **28 个上游仓库**提交且已合并的 **117 个 PR**，涉及机器人、机器学习、几何与开发工具。
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-2026-11-03-2143-dark.svg?v=2">
-  <img src="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-2026-11-03-2143-light.svg?v=2" alt="截至 2026-11-03 21:43（UTC+8）：117 个已核验的上游合并 PR，覆盖 28 个仓库。" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-2026-11-03-2208-dark.svg?v=2">
+  <img src="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-2026-11-03-2208-light.svg?v=2" alt="截至 2026-11-03 22:08（UTC+8）：117 个已核验的上游合并 PR，覆盖 28 个仓库。" width="100%">
 </picture>
 
 ### 近期精选已合并贡献
 
-精选 **5 条有实质代码改动的近期合并贡献**，按合并时间倒序排列。每条均核对上游星数、作者、合并状态与 commit；筛选聚焦数值正确性、评估指标、张量对齐与 API 行为。日期按 Asia/Shanghai 显示。
+**6 个项目，每个项目一行**，精选体现程序分析、构建状态管理、数值正确性与数据处理能力的互补贡献。每个 PR 均已核实由 Afloat16 提交且被上游合并；项目按其最近一条精选贡献的合并时间排序，日期使用 Asia/Shanghai。[技术细节与范围](docs/CONTRIBUTIONS.md#selected-merges-by-project)。
 
-| 合并日期 | 上游项目 · ★ | 解决的问题 | PR / 合并 commit |
+| 最近精选合并 | 上游项目 · ★ | 代表性技术贡献 | PR / 合并 commit |
 |---|---|---|---|
-| 2026-11-02 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,140 ★ | 修复基准评估中的向量归一化，使平移方向角误差不受重建尺度影响。 | [#4932](https://github.com/colmap/colmap/pull/4932)<br>[`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
-| 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,251 ★ | 保留 LSTM 输出的原始填充长度，使 token 输出与其他特征维度对齐。 | [#4301](https://github.com/huggingface/sentence-transformers/pull/4301)<br>[`26a0f49`](https://github.com/huggingface/sentence-transformers/commit/26a0f49fad7927dcc565a6ee9880730c2c65c64c) |
-| 2026-11-01 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,642 ★ | 保持空批次、单图批次与多图批次的人脸表征结果结构一致。 | [#1675](https://github.com/serengil/deepface/pull/1675)<br>[`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
-| 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,660 ★ | 将已有的成对 RoPE 修正应用到 VLA-JEPA 训练期世界预测器，恢复相邻坐标的频率配对。 | [#4835](https://github.com/huggingface/lerobot/pull/4835)<br>[`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693) |
-| 2026-10-22 | **[REA](https://github.com/morluto/rea)**<br>425,421 ★ | 补全 ZIP 定位读取中的短读，并将提前 EOF 明确报告为完整性错误。 | [#4414](https://github.com/morluto/rea/pull/4414)<br>[`82e4e03`](https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33) |
+| 2026-11-03 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>6,553 ★ | 持久化跨运行重建进度并终止无变化重试；比较 WebAssembly 标签签名；按语义绑定恢复压缩 esbuild 模块依赖。 | [#557](https://github.com/storytold/craft-anything/pull/557) · [`48759fb`](https://github.com/storytold/craft-anything/commit/48759fb5fccde45405c2db29d162ac55edbc6562)<br>[#441](https://github.com/storytold/craft-anything/pull/441) · [`fa4aae2`](https://github.com/storytold/craft-anything/commit/fa4aae2e79198ece843a876512172bfb10d902e3)<br>[#438](https://github.com/storytold/craft-anything/pull/438) · [`89bcd06`](https://github.com/storytold/craft-anything/commit/89bcd061905de0f43e1dab161535fa4439ceb622) |
+| 2026-11-02 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,140 ★ | 通过数值稳健的向量归一化，使基准评估中的平移方向角误差不受重建尺度影响。 | [#4932](https://github.com/colmap/colmap/pull/4932) · [`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
+| 2026-11-02 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,251 ★ | 保留排序损失梯度，稳定 FP16 标量量化，并保持 LSTM 填充输出与 token 特征对齐。 | [#4116](https://github.com/huggingface/sentence-transformers/pull/4116) · [`abd266f`](https://github.com/huggingface/sentence-transformers/commit/abd266f29c7135e7ab9ccd3a41dfa74456b40c20)<br>[#4113](https://github.com/huggingface/sentence-transformers/pull/4113) · [`847abf6`](https://github.com/huggingface/sentence-transformers/commit/847abf6e6f2187159d699c0001af2bb1f65e1f18)<br>[#4301](https://github.com/huggingface/sentence-transformers/pull/4301) · [`26a0f49`](https://github.com/huggingface/sentence-transformers/commit/26a0f49fad7927dcc565a6ee9880730c2c65c64c) |
+| 2026-11-01 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,642 ★ | 统一 Milvus 与 DeepFace 的距离语义，完整读取图库，并保持空、单图和多图批次的返回结构。 | [#1634](https://github.com/serengil/deepface/pull/1634) · [`bf5ed73`](https://github.com/serengil/deepface/commit/bf5ed7339a0d430cbd214e4923ee6a694f808dec)<br>[#1649](https://github.com/serengil/deepface/pull/1649) · [`5696e33`](https://github.com/serengil/deepface/commit/5696e3313ffdf6d51cd67f38a9da88ccd58ebb5e)<br>[#1675](https://github.com/serengil/deepface/pull/1675) · [`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
+| 2026-10-27 | **[REA](https://github.com/morluto/rea)**<br>425,500 ★ | 补全 ZIP 短读并检测提前 EOF；在解析 JSON 前拒绝 HTTP CDP 发现响应中的无效 UTF-8。 | [#4414](https://github.com/morluto/rea/pull/4414) · [`82e4e03`](https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33)<br>[#4524](https://github.com/morluto/rea/pull/4524) · [`095a51c`](https://github.com/morluto/rea/commit/095a51cf38d2a0dc58368f6c9482062d594f856b) |
+| 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,660 ★ | 将 V-JEPA 2 已有的成对 RoPE 修正应用于 VLA-JEPA 训练期世界预测器。 | [#4835](https://github.com/huggingface/lerobot/pull/4835) · [`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693) |
 
 ### 最近一次核实的贡献榜前 30
 
-**18 个上游项目有前 30 位的已核验证据**，均已于本轮重新核实。Craft Anything 在同一全时间贡献图表中由 #4 升至 **#2†**。每行标明排名核验日期，各组按当前 star 降序排列。
+**18 个上游项目有前 30 位的已核验证据**。Craft Anything 保持 **#2†**，全时间贡献图中的提交数增至 **26**。每行标明排名核验日期，各组按最近核实的 star 降序排列。
 
 | 项目 | 上游 ★ | 位置 · 核验日期¹ | 已合并 PR | 代表工作 |
 |---|---:|---:|---:|---|
 | **[DeepFace](https://github.com/serengil/deepface)** | 23,642 | [#7](https://api.github.com/repos/serengil/deepface/contributors?per_page=100&anon=false)<br><sub>2026-11-03</sub> | **[21](https://github.com/serengil/deepface/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 修正人脸裁剪边界、归一化与向量检索行为。 [#1655](https://github.com/serengil/deepface/pull/1655) · [#1658](https://github.com/serengil/deepface/pull/1658) |
 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)** | 19,251 | [#30](https://api.github.com/repos/huggingface/sentence-transformers/contributors?per_page=100&anon=false)<br><sub>2026-11-03</sub> | **[5](https://github.com/huggingface/sentence-transformers/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 修正排序梯度、编码器掩码与 float16 量化。 [#4127](https://github.com/huggingface/sentence-transformers/pull/4127) |
 | **[Denoising Diffusion](https://github.com/lucidrains/denoising-diffusion-pytorch)** | 10,724 | [#9](https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/contributors?per_page=100&anon=false)<br><sub>2026-11-03</sub> | **[1](https://github.com/lucidrains/denoising-diffusion-pytorch/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 保留一维扩散中的外部条件与自条件。 [#373](https://github.com/lucidrains/denoising-diffusion-pytorch/pull/373) |
-| **[Craft Anything](https://github.com/storytold/craft-anything)** | 6,431 | [#2†](https://github.com/storytold/craft-anything/graphs/contributors?all=1)<br><sub>2026-11-03</sub> | **[20](https://github.com/storytold/craft-anything/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | ARM32 值流寄存器修正与 WebAssembly 导出标签签名比较。 [#436](https://github.com/storytold/craft-anything/pull/436) · [#441](https://github.com/storytold/craft-anything/pull/441) |
+| **[Craft Anything](https://github.com/storytold/craft-anything)** | 6,553 | [#2†](https://github.com/storytold/craft-anything/graphs/contributors?all=1)<br><sub>2026-11-03</sub> | **[20](https://github.com/storytold/craft-anything/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 持久化跨运行重建进度并终止无变化重试；比较 WebAssembly 标签签名；按语义绑定恢复压缩 esbuild 模块依赖。 [#557](https://github.com/storytold/craft-anything/pull/557) · [#441](https://github.com/storytold/craft-anything/pull/441) · [#438](https://github.com/storytold/craft-anything/pull/438) |
 | **[PyTorch Metric Learning](https://github.com/KevinMusgrave/pytorch-metric-learning)** | 6,343 | [#9](https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/contributors?per_page=100&anon=false)<br><sub>2026-11-03</sub> | **[3](https://github.com/KevinMusgrave/pytorch-metric-learning/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | NT-Xent 损失与梯度数值稳定性，以及 HistogramLoss、PNP 的独立回归验证。 [#758](https://github.com/KevinMusgrave/pytorch-metric-learning/pull/758) · [#759](https://github.com/KevinMusgrave/pytorch-metric-learning/pull/759) |
 | **[Atomic Agents](https://github.com/Eigenwise/atomic-agents)** | 6,316 | [#28](https://api.github.com/repos/Eigenwise/atomic-agents/contributors?per_page=100&anon=false)<br><sub>2026-11-03</sub> | **[1](https://github.com/Eigenwise/atomic-agents/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 加载失败时保留已有对话历史。 [#292](https://github.com/Eigenwise/atomic-agents/pull/292) |
 | **[Robotics Toolbox](https://github.com/petercorke/robotics-toolbox-python)** | 3,560 | [#6](https://api.github.com/repos/petercorke/robotics-toolbox-python/contributors?per_page=100&anon=false)<br><sub>2026-11-03</sub> | **[11](https://github.com/petercorke/robotics-toolbox-python/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 修正运动学、动力学、逆运动学与 URDF 处理。 [#801](https://github.com/petercorke/robotics-toolbox-python/pull/801) |
@@ -65,7 +66,7 @@ Python · TypeScript · C/C++ · 可复现实验 · 上游工程
 
 | 项目 | 上游 ★ | 位置 · 核验日期¹ | 已合并 PR | 代表工作 |
 |---|---:|---:|---:|---|
-| **[REA](https://github.com/morluto/rea)** | 425,421 | [#77](https://api.github.com/repos/morluto/rea/contributors?per_page=100&anon=false&page=1)<br><sub>2026-11-03</sub> | **[3](https://github.com/morluto/rea/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 安装客户端去重、补全 ZIP 读取并校验 CDP 响应编码。 [#4414](https://github.com/morluto/rea/pull/4414) · [#4524](https://github.com/morluto/rea/pull/4524) |
+| **[REA](https://github.com/morluto/rea)** | 425,500 | [#77](https://api.github.com/repos/morluto/rea/contributors?per_page=100&anon=false&page=1)<br><sub>2026-11-03</sub> | **[3](https://github.com/morluto/rea/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 安装客户端去重、补全 ZIP 读取并校验 CDP 响应编码。 [#4414](https://github.com/morluto/rea/pull/4414) · [#4524](https://github.com/morluto/rea/pull/4524) |
 | **[LeRobot](https://github.com/huggingface/lerobot)** | 28,660 | [#228](https://api.github.com/repos/huggingface/lerobot/contributors?per_page=100&anon=false&page=3)<br><sub>2026-11-03</sub> | **[1](https://github.com/huggingface/lerobot/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 修正 VLA-JEPA 训练期预测器的成对 RoPE 频率。 [#4835](https://github.com/huggingface/lerobot/pull/4835) |
 | **[Haystack](https://github.com/deepset-ai/haystack)** | 26,920 | [#365](https://api.github.com/repos/deepset-ai/haystack/contributors?per_page=100&anon=false&page=4)<br><sub>2026-11-03</sub> | **[1](https://github.com/deepset-ai/haystack/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 隔离恢复执行计数，保持流水线快照可复用。 [#13076](https://github.com/deepset-ai/haystack/pull/13076) |
 | **[Recommenders](https://github.com/recommenders-team/recommenders)** | 21,975 | [#49](https://api.github.com/repos/recommenders-team/recommenders/contributors?per_page=100&anon=false&page=1)<br><sub>2026-11-03</sub> | **[2](https://github.com/recommenders-team/recommenders/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 保留自定义列名，拒绝无效的 top-k 参数。 [#2389](https://github.com/recommenders-team/recommenders/pull/2389) |
@@ -76,7 +77,7 @@ Python · TypeScript · C/C++ · 可复现实验 · 上游工程
 | **[Trimesh](https://github.com/mikedh/trimesh)** | 3,715 | — | **[1](https://github.com/mikedh/trimesh/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 修正非均匀权重的 Procrustes 旋转，保留等权重拟合；合并至 `release/angles`。 [#2618](https://github.com/mikedh/trimesh/pull/2618) |
 | **[Geomstats](https://github.com/geomstats/geomstats)** | 1,528 | [#84](https://api.github.com/repos/geomstats/geomstats/contributors?per_page=100&anon=false&page=1)<br><sub>2026-11-03</sub> | **[1](https://github.com/geomstats/geomstats/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 将乘积度量的平行移动逐因子传递。 [#2131](https://github.com/geomstats/geomstats/pull/2131) |
 
-¹ 除 † 标记外，位置来自 GitHub 按提交数排序的 REST 贡献者列表，包含 bot、排除匿名贡献者，同数沿用 API 返回顺序；27 项数值排名均已于 2026-11-03 重新核实。† Craft Anything 采用 GitHub **`main` 分支的全时间贡献图表（排除 merge commits）**，亦已于本轮核实。`—` 表示没有可展示的数值排名；完整读取的 Trimesh 贡献者列表中未出现 Afloat16。Star 与 PR 数于 2026-11-03 更新，PR 已逐条直接核实。[完整 PR、核验方法及数据](docs/CONTRIBUTIONS.md)。
+¹ 除 † 外，排名采用 GitHub 按 commit 排序的 REST 贡献者列表，包含机器人、排除匿名账户，同 commit 数保留 API 返回顺序；27 个数值排名沿用 11 月 3 日 21:43 快照。† Craft Anything 使用 **main 分支、排除 merge commit 的全时间贡献图**，21:57 重新核实为 **#2 / 26 commits**；独立 REST 结果为 **#3 / 20**。`—` 表示未获得数值排名。本次更新六个精选项目的 star 与 Craft 采纳记录，其他数据保留各自核验时间。[完整 PR、统计口径与数据](docs/CONTRIBUTIONS.md)。
 
 ### 由维护者整合进入默认分支的代码
 
@@ -84,7 +85,7 @@ Python · TypeScript · C/C++ · 可复现实验 · 上游工程
 
 Robotics Toolbox 通过 [#883](https://github.com/petercorke/robotics-toolbox-python/pull/883) 整合 [#735](https://github.com/petercorke/robotics-toolbox-python/pull/735) 的圆周粒子朝向工作，并通过 [#805](https://github.com/petercorke/robotics-toolbox-python/pull/805) 整合 [#736](https://github.com/petercorke/robotics-toolbox-python/pull/736) 的轨迹改动，保留共同作者身份。这些记录与我提交且已合并的 117 个 PR 分开统计。[详情](docs/CONTRIBUTIONS.md#other-accepted-work)。
 
-**[Craft Anything](https://github.com/storytold/craft-anything)** 还通过维护者的四个整合 PR（[#645](https://github.com/storytold/craft-anything/pull/645) · [#648](https://github.com/storytold/craft-anything/pull/648) · [#649](https://github.com/storytold/craft-anything/pull/649) · [#652](https://github.com/storytold/craft-anything/pull/652)）采纳了我 **24 个原始 PR** 的工作，对应的四个默认分支 commit 均保留共同作者署名。这些采纳记录与 **117 个本人提交且已合并的 PR** 分开统计。[证据](docs/CONTRIBUTIONS.md#other-accepted-work)。
+**[Craft Anything](https://github.com/storytold/craft-anything)** 还通过 **6 次维护者整合**采纳了 **32 个原始作者 PR** 中的工作：[#645](https://github.com/storytold/craft-anything/pull/645) · [#648](https://github.com/storytold/craft-anything/pull/648) · [#649](https://github.com/storytold/craft-anything/pull/649) · [#652](https://github.com/storytold/craft-anything/pull/652) · [#653](https://github.com/storytold/craft-anything/pull/653) · [#656](https://github.com/storytold/craft-anything/pull/656)。这 6 个默认分支 commit 均保留我的共同署名，采纳记录与 **117 个直接合并的作者 PR** 分开统计。[证据](docs/CONTRIBUTIONS.md#other-accepted-work)。
 
 ## 我的项目
 
