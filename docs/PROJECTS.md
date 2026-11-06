@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **5 November 2026 · 11:50 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Metrics verified at **11:05:07 CST (UTC+8)**.
+Snapshot: **6 November 2026 · 11:10 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Commit inventories and project metrics were verified at **10:29:54 CST (UTC+8)**. A final metadata check through **11:09:08 CST (UTC+8)** confirmed unchanged stars, forks, default branches and repository push times.
 
 **15 public, non-fork software projects**, excluding the profile repository. All 15 are unarchived. Existing project groups and links remain on the profile; ModelDock and Jev MCP are now also featured.
 
@@ -8,13 +8,13 @@ Snapshot: **5 November 2026 · 11:50 CST (UTC+8)**. Account: [Afloat16](https://
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [3](https://github.com/Afloat16/anti-rea-forge/stargazers) | [12](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [3](https://github.com/Afloat16/anti-rea-forge/stargazers) | [19](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
+| [Research to Fix](https://github.com/Afloat16/research-to-fix) | [1](https://github.com/Afloat16/research-to-fix/stargazers) | [7](https://github.com/Afloat16/research-to-fix/commits/main/) | Python |
 | [LLM Handshake](https://github.com/Afloat16/llm-handshake) | [1](https://github.com/Afloat16/llm-handshake/stargazers) | [6](https://github.com/Afloat16/llm-handshake/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [1](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
-| [Research to Fix](https://github.com/Afloat16/research-to-fix) | [1](https://github.com/Afloat16/research-to-fix/stargazers) | [6](https://github.com/Afloat16/research-to-fix/commits/main/) | Python |
 | [Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit) | [1](https://github.com/Afloat16/bag-timeline-audit/stargazers) | [5](https://github.com/Afloat16/bag-timeline-audit/commits/main/) | Python |
 | [ReconTrail](https://github.com/Afloat16/recontrail) | [1](https://github.com/Afloat16/recontrail/stargazers) | [5](https://github.com/Afloat16/recontrail/commits/main/) | Python |
 | [SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit) | [1](https://github.com/Afloat16/sse-toolcall-audit/stargazers) | [5](https://github.com/Afloat16/sse-toolcall-audit/commits/main/) | Python |
@@ -24,9 +24,9 @@ Snapshot: **5 November 2026 · 11:50 CST (UTC+8)**. Account: [Afloat16](https://
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-05-1150.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-06-1110.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
 
-All 15 projects had **0 forks** at retrieval. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 15 software projects total **14 stars, 0 forks and 145 reachable default-branch commits**. The profile repository had **23 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
@@ -34,7 +34,7 @@ All 15 projects had **0 forks** at retrieval. Fork counts are recorded in the so
 
 Native release hardening with CMake integration, PE/ELF release gates, guarded C++ sensitive memory and request-bound authorization.
 
-Version stated in README: **0.4.0 Alpha**; no published GitHub release.
+Version stated in README: **0.6.0 Alpha**; no published GitHub release.
 
 ### [Jev MCP](https://github.com/Afloat16/jev-mcp)
 
