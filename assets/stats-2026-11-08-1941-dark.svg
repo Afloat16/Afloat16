@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title desc">
+  <title id="title">Open-source contribution snapshot — 8 November 2026 · 19:41 CST (UTC+8)</title>
+  <desc id="desc">161 merged upstream pull requests across 32 repositories.</desc>
+  <rect x="1" y="1" width="1198" height="154" rx="18" fill="#111923" stroke="#29394B" stroke-width="2"/>
+  <path d="M600 31V125" stroke="#29394B" stroke-width="1.5"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="300" y="76" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1" fill="#E9F1FA">161</text>
+    <text x="300" y="111" text-anchor="middle" font-size="18" fill="#A8BBD0">Merged upstream PRs</text>
+    <text x="900" y="76" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1" fill="#E9F1FA">32</text>
+    <text x="900" y="111" text-anchor="middle" font-size="18" fill="#A8BBD0">Upstream repositories</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **7 November 2026 · 22:37 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Commit inventories and project metrics were verified at **22:12:29 CST (UTC+8)**. Repository stars, forks, default branches and push times were confirmed again at **22:35:52 CST (UTC+8)**.
+Snapshot: **8 November 2026 · 19:41 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Commit inventories and project metrics were verified at **19:27:54 CST (UTC+8)**. Repository stars, forks, default branches and push times were confirmed again at **19:40:29 CST (UTC+8)**.
 
 **15 public, non-fork software projects**, excluding the profile repository. All 15 are unarchived. Existing project groups and links remain on the profile; ModelDock and Jev MCP are now also featured.
 
@@ -24,9 +24,9 @@ Snapshot: **7 November 2026 · 22:37 CST (UTC+8)**. Account: [Afloat16](https://
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-07-2237.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-08-1941.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
 
-The 15 software projects total **15 stars, 0 forks and 145 reachable default-branch commits**. The profile repository had **24 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 15 software projects total **15 stars, 0 forks and 145 reachable default-branch commits**. The profile repository had **25 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
