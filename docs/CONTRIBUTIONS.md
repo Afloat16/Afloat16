@@ -19,11 +19,12 @@ Since the 11:49 snapshot, **43 more PRs merged**, including 30 in [storytold/cra
 
 ## Selected merges by project
 
-The established six projects contribute 14 selected author PRs, with one to three per project. The review compares recent merges within each project's own history and weighs engineering impact, distinct behavior and regression evidence. Selected PR dates are shown below. Selections reviewed on **9 November 2026 · 20:39 CST (UTC+8)**.
+Seven established projects contribute 17 selected author PRs, with one to three per project. The review compares recent merges within each project's history and weighs engineering impact, distinct behavior and regression evidence. Claude-Mem was added on **9 November 2026 · 20:45 CST (UTC+8)**.
 
 | Latest selected merge | Upstream project · ★ | Representative engineering | PR / merged commit |
 |---|---|---|---|
 | 2026-11-09 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>23,755 ★ | Decode concatenated Zstandard frames under one output limit, identify EVM dispatchers that actually reject payments, and keep filesystem recovery inside declared image bounds. | [#1340](https://github.com/storytold/craft-anything/pull/1340) · [`25a8f17`](https://github.com/storytold/craft-anything/commit/25a8f179f8b6b7730bc138fa8633180323c5d11c)<br>[#1323](https://github.com/storytold/craft-anything/pull/1323) · [`3f7b9a3`](https://github.com/storytold/craft-anything/commit/3f7b9a36158f7f732254051c0cc2df7832aec8d3)<br>[#1246](https://github.com/storytold/craft-anything/pull/1246) · [`b9a3525`](https://github.com/storytold/craft-anything/commit/b9a352542b640a78eaf3b63abf0409e8b399079c) |
+| 2026-11-09 | **[Claude-Mem](https://github.com/thedotmack/claude-mem)**<br>115,178 ★ | Protect the selected restore point during backup rotation, preserve distinct files whose hash prefixes collide, and keep retried PostgreSQL writes idempotent. | [#5532](https://github.com/thedotmack/claude-mem/pull/5532) · [`5ce4b19`](https://github.com/thedotmack/claude-mem/commit/5ce4b19e00f40e7023b75a9dee8e49467f998852)<br>[#5536](https://github.com/thedotmack/claude-mem/pull/5536) · [`e15d466`](https://github.com/thedotmack/claude-mem/commit/e15d46675bde9059d591baea2a95400b94034d57)<br>[#5538](https://github.com/thedotmack/claude-mem/pull/5538) · [`5047f2b`](https://github.com/thedotmack/claude-mem/commit/5047f2b0f213eb42a738b4a2721cd310a92d0e67) |
 | 2026-11-09 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,183 ★ | Restore Python 3 image collection with bounded retries and response cleanup, and make translation-angle evaluation invariant to reconstruction scale. | [#4977](https://github.com/colmap/colmap/pull/4977) · [`9f0736e`](https://github.com/colmap/colmap/commit/9f0736e90c2d7e10315ef4e4c62688d8f32fa8d4)<br>[#4932](https://github.com/colmap/colmap/pull/4932) · [`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
 | 2026-11-08 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,662 ★ | Preserve explicit false API options, close HTTP image responses through success and failure, and keep empty, singleton and multi-image batches structurally consistent. | [#1684](https://github.com/serengil/deepface/pull/1684) · [`a8cee7b`](https://github.com/serengil/deepface/commit/a8cee7b3949d6d9fbba53c82eeca6956e233d623)<br>[#1679](https://github.com/serengil/deepface/pull/1679) · [`eb29c2e`](https://github.com/serengil/deepface/commit/eb29c2e63b31348894487d1b649bee3188636179)<br>[#1675](https://github.com/serengil/deepface/pull/1675) · [`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
 | 2026-11-06 | **[REA](https://github.com/morluto/rea)**<br>445,495 ★ | Preserve UTF-8 at diagnostic cutoffs, resume complete NDJSON messages after interrupted iteration, and honor cancellation when bounded reads finish. | [#8907](https://github.com/morluto/rea/pull/8907) · [`3eff806`](https://github.com/morluto/rea/commit/3eff8065e757c6e3bab96d164abfceafd340e6d1)<br>[#8909](https://github.com/morluto/rea/pull/8909) · [`a3621e5`](https://github.com/morluto/rea/commit/a3621e5e1f73755d927dd97861ab4216cabf4787)<br>[#8908](https://github.com/morluto/rea/pull/8908) · [`b153ba8`](https://github.com/morluto/rea/commit/b153ba8ddd5bf13cbc6ba74009eca290686adbca) |
@@ -55,6 +56,32 @@ Limits cramfs directory reads, JFFS2 nodes, ROMFS images and SquashFS structures
 Synthetic images exercise adjacent bytes, truncated nodes, empty directories, symlink budgets, partially retained extents and malformed PAX length boundaries.
 
 The merged change covers five reader paths with synthetic recovery fixtures.
+
+### Claude-Mem
+
+**[#5532](https://github.com/thedotmack/claude-mem/pull/5532) — Keep a backup selected for a pending restore until the restore marker clears** · merged 2026-11-09 19:09 · [`5ce4b19`](https://github.com/thedotmack/claude-mem/commit/5ce4b19e00f40e7023b75a9dee8e49467f998852)
+
+Retention excludes a staged restore point from deletion. Listing and retention also require a regular snapshot file, and cleanup targets only managed partial snapshots.
+
+Temporary-directory fixtures stage an older restore point, run retention before and after the marker is cleared, test cleanup boundaries and check a directory with a snapshot-like name cannot evict the last real backup.
+
+Covers snapshot selection and filesystem retention, without testing a full server restore.
+
+**[#5536](https://github.com/thedotmack/claude-mem/pull/5536) — Preserve distinct deliverable revisions when their abbreviated hashes collide** · merged 2026-11-09 18:24 · [`e15d466`](https://github.com/thedotmack/claude-mem/commit/e15d46675bde9059d591baea2a95400b94034d57)
+
+Reserves filenames atomically and checks full digests before reusing an existing stored file.
+
+A pair of equal-length files sharing eight SHA-256 hex digits must both retain their bytes. A second fixture checks the fallback when hard linking is unavailable.
+
+The tests cover the local deliverable store.
+
+**[#5538](https://github.com/thedotmack/claude-mem/pull/5538) — Retain generation progress and skip repeated embedding work on idempotent PostgreSQL writes** · merged 2026-11-09 18:23 · [`5047f2b`](https://github.com/thedotmack/claude-mem/commit/5047f2b0f213eb42a738b4a2721cd310a92d0e67)
+
+Preserves generation status when a repeated session upsert omits it and claims the generation key before embedding newly submitted memories.
+
+The route test spies on the embedder and asserts one call for two writes with the same key. The storage test confirms a repeated session creation preserves completed status and an explicitly requested transition still works.
+
+The reviewed tests exercise the PostgreSQL storage path.
 
 ### COLMAP
 

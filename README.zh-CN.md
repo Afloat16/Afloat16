@@ -28,11 +28,12 @@ Python · TypeScript · C/C++ · 可复现实验 · 上游工程
 
 ### 近期精选已合并贡献
 
-**6 个项目，每个项目一行。** 从各项目近期已合并的贡献中，按实际工程价值和回归测试精选 1–3 个代表 PR。项目按最近一项精选贡献的合并时间排序，日期使用北京时间。[技术细节与范围](docs/CONTRIBUTIONS.md#selected-merges-by-project)。
+**7 个项目，每个项目一行。** 从各项目近期已合并的贡献中，按实际工程价值和回归测试精选 1–3 个代表 PR。项目按最近一项精选贡献的合并时间排序，日期使用北京时间。[技术细节与范围](docs/CONTRIBUTIONS.md#selected-merges-by-project)。
 
 | 最近精选合并 | 上游项目 · ★ | 代表性工程贡献 | PR / 合并提交 |
 |---|---|---|---|
 | 2026-11-09 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>23,755 ★ | 在统一输出上限内解码连续的 Zstandard 帧，识别确实拒绝转账的 EVM 分发逻辑，并按文件系统声明的边界恢复数据。 | [#1340](https://github.com/storytold/craft-anything/pull/1340) · [`25a8f17`](https://github.com/storytold/craft-anything/commit/25a8f179f8b6b7730bc138fa8633180323c5d11c)<br>[#1323](https://github.com/storytold/craft-anything/pull/1323) · [`3f7b9a3`](https://github.com/storytold/craft-anything/commit/3f7b9a36158f7f732254051c0cc2df7832aec8d3)<br>[#1246](https://github.com/storytold/craft-anything/pull/1246) · [`b9a3525`](https://github.com/storytold/craft-anything/commit/b9a352542b640a78eaf3b63abf0409e8b399079c) |
+| 2026-11-09 | **[Claude-Mem](https://github.com/thedotmack/claude-mem)**<br>115,178 ★ | 备份轮换时保留已选的恢复点，区分短哈希碰撞的文件版本，并保证重试的 PostgreSQL 写入幂等。 | [#5532](https://github.com/thedotmack/claude-mem/pull/5532) · [`5ce4b19`](https://github.com/thedotmack/claude-mem/commit/5ce4b19e00f40e7023b75a9dee8e49467f998852)<br>[#5536](https://github.com/thedotmack/claude-mem/pull/5536) · [`e15d466`](https://github.com/thedotmack/claude-mem/commit/e15d46675bde9059d591baea2a95400b94034d57)<br>[#5538](https://github.com/thedotmack/claude-mem/pull/5538) · [`5047f2b`](https://github.com/thedotmack/claude-mem/commit/5047f2b0f213eb42a738b4a2721cd310a92d0e67) |
 | 2026-11-09 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,183 ★ | 修复 Python 3 图像采集、有限重试与响应资源释放，并让平移夹角评估不受重建尺度影响。 | [#4977](https://github.com/colmap/colmap/pull/4977) · [`9f0736e`](https://github.com/colmap/colmap/commit/9f0736e90c2d7e10315ef4e4c62688d8f32fa8d4)<br>[#4932](https://github.com/colmap/colmap/pull/4932) · [`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
 | 2026-11-08 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,662 ★ | 正确传递 API 中显式为 false 的选项，在成功与失败路径释放 HTTP 图像响应，并保持空批次、单图批次和多图批次的返回结构一致。 | [#1684](https://github.com/serengil/deepface/pull/1684) · [`a8cee7b`](https://github.com/serengil/deepface/commit/a8cee7b3949d6d9fbba53c82eeca6956e233d623)<br>[#1679](https://github.com/serengil/deepface/pull/1679) · [`eb29c2e`](https://github.com/serengil/deepface/commit/eb29c2e63b31348894487d1b649bee3188636179)<br>[#1675](https://github.com/serengil/deepface/pull/1675) · [`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
 | 2026-11-06 | **[REA](https://github.com/morluto/rea)**<br>445,495 ★ | 保留截断诊断输出中的完整 UTF-8 字符，在迭代中断后继续处理完整 NDJSON 消息，并在有界读取完成时响应取消。 | [#8907](https://github.com/morluto/rea/pull/8907) · [`3eff806`](https://github.com/morluto/rea/commit/3eff8065e757c6e3bab96d164abfceafd340e6d1)<br>[#8909](https://github.com/morluto/rea/pull/8909) · [`a3621e5`](https://github.com/morluto/rea/commit/a3621e5e1f73755d927dd97861ab4216cabf4787)<br>[#8908](https://github.com/morluto/rea/pull/8908) · [`b153ba8`](https://github.com/morluto/rea/commit/b153ba8ddd5bf13cbc6ba74009eca290686adbca) |
@@ -90,33 +91,166 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 
 ## 我的项目
 
-**[Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)** · **MIT · 0.8.0**<br>
-原生应用只嵌入公开的 SHA-256 校验值，256 位解锁令牌由签发方单独交付。仓库提供可复现的 Ghidra 提取与重放实验。[项目故事](https://github.com/Afloat16/anti-rea-forge/blob/main/docs/community/PROJECT_STORY.md) · [参与讨论](https://github.com/Afloat16/anti-rea-forge/issues/1)。
+为具体工程问题做的小工具。每个项目都附有使用说明，欢迎打开看看、试用，并为对你有用的项目点亮 Star。
 
-**[ModelDock](https://github.com/Afloat16/modeldock)** · **[v0.2.0](https://github.com/Afloat16/modeldock/releases/tag/v0.2.0)**<br>
-本地 3D/CAD 预览，支持超过 5 GiB 的二进制 PLY/STL 有界采样、多模型对齐与参考评价。[验证记录](https://github.com/Afloat16/modeldock/blob/main/docs/validation.md)。
+<table>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/anti-rea-forge">Anti-REA Forge</a></strong><br><sub>原生软件保护 · v0.9.0</sub></p>
+<p>构建时分离 ELF 私有符号，用绑定请求的一次性凭证保护服务端操作。可查看 Ghidra 与 IDA 的配对实验。</p>
+<ul>
+<li>ELF 私有调试文件</li>
+<li>服务端一次性凭证</li>
+</ul>
+<p><a href="https://github.com/Afloat16/anti-rea-forge">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/modeldock">ModelDock</a></strong><br><sub>三维与 CAD · v0.2.0</sub></p>
+<p>本地预览、对齐和比较网格与点云。支持超过 5 GiB 的二进制 PLY/STL 采样预览，并导出比较报告。</p>
+<ul>
+<li>多模型比较</li>
+<li>5+ GiB 采样预览</li>
+</ul>
+<p><a href="https://github.com/Afloat16/modeldock">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/jev-mcp">Jev MCP</a></strong><br><sub>MCP 工具 · v0.5.0</sub></p>
+<p>通过四个 MCP 工具，将 TypeSafe Jev 建议接入有限选项、路由和风险判断，并提供多款编码客户端安装器。</p>
+<ul>
+<li>四个 stdio 工具</li>
+<li>显式有限选项</li>
+</ul>
+<p><a href="https://github.com/Afloat16/jev-mcp">查看项目 · Star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/bag-timeline-audit">Bag Timeline Audit</a></strong><br><sub>机器人</sub></p>
+<p>检查 ROS 2 SQLite 或 MCAP 记录中的时间间隔、倒退和重复，并在确认共同时钟后比较不同话题。</p>
+<ul>
+<li>SQLite 与 MCAP</li>
+<li>整数纳秒时间戳</li>
+</ul>
+<p><a href="https://github.com/Afloat16/bag-timeline-audit">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/llm-handshake">LLM Handshake</a></strong><br><sub>大模型接口 · 0.1.0</sub></p>
+<p>逐项检查 OpenAI 兼容接口的流式输出、工具调用和结构化输出。先预览请求，再比较网关或模型升级前后的报告。</p>
+<ul>
+<li>七项专项检查</li>
+<li>请求预览</li>
+</ul>
+<p><a href="https://github.com/Afloat16/llm-handshake">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/recontrail">ReconTrail</a></strong><br><sub>摄影测量</sub></p>
+<p>检查照片质量，在 CPU 上重建稀疏三维几何，并分享可离线打开的交互报告。</p>
+<ul>
+<li>采集质量诊断</li>
+<li>CPU 稀疏重建</li>
+</ul>
+<p><a href="https://github.com/Afloat16/recontrail">查看项目 · Star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/tf-route-audit">TF Route Audit</a></strong><br><sub>机器人</sub></p>
+<p>检查导出的 TF 记录与原生 URDF 中的环路、断连和边冲突，并根据观测时间范围查询路径。</p>
+<ul>
+<li>原生 URDF 输入</li>
+<li>拓扑诊断</li>
+</ul>
+<p><a href="https://github.com/Afloat16/tf-route-audit">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/sse-toolcall-audit">SSE Toolcall Audit</a></strong><br><sub>大模型接口</sub></p>
+<p>从保存的 SSE 流中重组并行工具调用，检查结束标记、JSON 参数及与已保存最终响应的一致性。</p>
+<ul>
+<li>两类 API 格式</li>
+<li>并行调用重组</li>
+</ul>
+<p><a href="https://github.com/Afloat16/sse-toolcall-audit">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/pose-convention-bridge">Pose Convention Bridge</a></strong><br><sub>三维几何</sub></p>
+<p>转换 OpenCV/OpenGL 坐标轴与世界到相机、相机到世界位姿，校验刚体变换并导出 Nerfstudio 格式。</p>
+<ul>
+<li>COLMAP 与 TUM 输入</li>
+<li>刚体变换校验</li>
+</ul>
+<p><a href="https://github.com/Afloat16/pose-convention-bridge">查看项目 · Star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/colmap-model-audit">COLMAP Model Audit</a></strong><br><sub>三维几何</sub></p>
+<p>检查 COLMAP 文本模型的相机字段、互相引用的轨迹及视图连接图的连通性，还可核对图像路径与模型重叠。</p>
+<ul>
+<li>只读模型检查</li>
+<li>双向轨迹校验</li>
+</ul>
+<p><a href="https://github.com/Afloat16/colmap-model-audit">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/tooltrace-audit">Tooltrace Audit</a></strong><br><sub>智能体工作流</sub></p>
+<p>分析保存的执行轨迹，定位重叠重试、重复尝试与未匹配结果。可为自己的工具调用接入可选记录器。</p>
+<ul>
+<li>执行与对话轨迹</li>
+<li>重试重叠检查</li>
+</ul>
+<p><a href="https://github.com/Afloat16/tooltrace-audit">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/research-to-fix">Research to Fix</a></strong><br><sub>研究工作流</sub></p>
+<p>研究相似故障，将适用方案映射到本地代码并验证修复。连同来源和前后对照证据保存案例。</p>
+<ul>
+<li>来源可追溯诊断</li>
+<li>本地适用性核对</li>
+</ul>
+<p><a href="https://github.com/Afloat16/research-to-fix">查看项目 · Star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/debate-direction">Debate Direction</a></strong><br><sub>智能体工作流</sub></p>
+<p>让两个智能体提出、质疑并迭代方案，将异议、未决分歧和下一步验证保留在可审阅报告中。</p>
+<ul>
+<li>持续提案与质疑</li>
+<li>问题台账</li>
+</ul>
+<p><a href="https://github.com/Afloat16/debate-direction">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/ai-dev-steward">StewardCheck</a></strong><br><sub>编码工作流 · 0.2.0 Alpha</sub></p>
+<p>固定任务起点，按约定范围检查改动，并让测试记录对应其实际检查的文件状态。</p>
+<ul>
+<li>任务范围检查</li>
+<li>工作区指纹</li>
+</ul>
+<p><a href="https://github.com/Afloat16/ai-dev-steward">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/agent-action-notifier">Agent Action Notifier</a></strong><br><sub>智能体工作流 · v0.2.0</sub></p>
+<p>将明确的工作流事件转为排队发送的邮件或桌面通知，追踪待处理请求、重试，并在发送中断后恢复。</p>
+<ul>
+<li>SQLite 发件队列</li>
+<li>邮件与桌面渠道</li>
+</ul>
+<p><a href="https://github.com/Afloat16/agent-action-notifier">查看项目 · Star →</a></p>
+</td>
+</tr>
+</table>
 
-### 机器人 · 大模型 · 三维重建
-
-| 机器人 | 大模型 | 三维重建 |
-|---|---|---|
-| **[Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit)**<br>只读 ROS 2 SQLite/MCAP 时间戳诊断。 | **[LLM Handshake](https://github.com/Afloat16/llm-handshake)**<br>有界 OpenAI 兼容端点探测与报告对比。 | **[ReconTrail](https://github.com/Afloat16/recontrail)**<br>CPU 摄影测量、稀疏重建与离线报告。 |
-| **[TF Route Audit](https://github.com/Afloat16/tf-route-audit)**<br>导出 TF 的拓扑/时间窗口检查与原生 URDF 拓扑检查。 | **[SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit)** 和 **[Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit)**<br>对已保存的流式响应与工具执行轨迹进行诊断。 | **[Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge)** 和 **[COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit)**<br>显式位姿约定转换与文本模型预检查。 |
-
-**[Jev MCP](https://github.com/Afloat16/jev-mcp)** · [v0.5.0](https://github.com/Afloat16/jev-mcp/releases/tag/v0.5.0)：提供有界概率建议、路由与风险信号的 TypeScript MCP 服务，配有多客户端安装器。
-
-研究与工程工作流：[Research to Fix](https://github.com/Afloat16/research-to-fix) · [Debate Direction](https://github.com/Afloat16/debate-direction) · [StewardCheck](https://github.com/Afloat16/ai-dev-steward/tree/main/tools/stewardcheck) · [Agent Action Notifier](https://github.com/Afloat16/agent-action-notifier)。
-
-**我的工作方式：**隔离症状、明确边界、补充回归测试，并让结果可检查。[六个领域工具](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release)在记录的发布版本中有 **67 项本地测试、36 组通过的 OS/Python CI 组合**。这些是实验性诊断与转换工具，各仓库均说明适用范围。
+我通常会先隔离症状、明确边界、补充回归测试，并让结果可检查。[六个领域工具](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release)在记录的发布版本中有 **67 项本地测试、36 组通过的 OS/Python CI 组合**。这些是实验性诊断与转换工具，各仓库均说明适用范围。
 
 <details>
 <summary><b>全部 15 个项目：Stars 与默认分支 commits</b></summary>
 
-截至 **2026-11-09 20:24（UTC+8）**，按 stars 降序，同星按仓库 commit 数降序排列。这里的 commits 是各仓库默认分支可达的历史提交数（含 merge commits），不是个人作者提交数。完整来源与版本见[项目记录](docs/PROJECTS.md)。
+截至 **2026-11-09 20:47（UTC+8）**，按 stars 降序，同星按仓库 commit 数降序排列。这里的 commits 是各仓库默认分支可达的历史提交数（含 merge commits），不是个人作者提交数。完整来源与版本见[项目记录](docs/PROJECTS.md)。
 
 | 项目 | ★ | 默认分支 commits | 主要语言 |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [6](https://github.com/Afloat16/anti-rea-forge/stargazers) | [28](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [6](https://github.com/Afloat16/anti-rea-forge/stargazers) | [29](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |

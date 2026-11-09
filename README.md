@@ -28,11 +28,12 @@ Homepage contribution lists show projects with **at least 1,000 stars**. The tot
 
 ### Recent selected merges
 
-**Six projects, one row each.** Each row highlights one to three substantial recent merges from that project's contribution history, selected for their engineering impact and regression evidence. Projects follow their latest selected merge, with dates in Asia/Shanghai. [Technical details and scope](docs/CONTRIBUTIONS.md#selected-merges-by-project).
+**Seven projects, one row each.** Each row highlights one to three substantial recent merges from that project's contribution history, selected for their engineering impact and regression evidence. Projects follow their latest selected merge, with dates in Asia/Shanghai. [Technical details and scope](docs/CONTRIBUTIONS.md#selected-merges-by-project).
 
 | Latest selected merge | Upstream project · ★ | Representative engineering | PR / merged commit |
 |---|---|---|---|
 | 2026-11-09 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>23,755 ★ | Decode concatenated Zstandard frames under one output limit, identify EVM dispatchers that actually reject payments, and keep filesystem recovery inside declared image bounds. | [#1340](https://github.com/storytold/craft-anything/pull/1340) · [`25a8f17`](https://github.com/storytold/craft-anything/commit/25a8f179f8b6b7730bc138fa8633180323c5d11c)<br>[#1323](https://github.com/storytold/craft-anything/pull/1323) · [`3f7b9a3`](https://github.com/storytold/craft-anything/commit/3f7b9a36158f7f732254051c0cc2df7832aec8d3)<br>[#1246](https://github.com/storytold/craft-anything/pull/1246) · [`b9a3525`](https://github.com/storytold/craft-anything/commit/b9a352542b640a78eaf3b63abf0409e8b399079c) |
+| 2026-11-09 | **[Claude-Mem](https://github.com/thedotmack/claude-mem)**<br>115,178 ★ | Protect the selected restore point during backup rotation, preserve distinct files whose hash prefixes collide, and keep retried PostgreSQL writes idempotent. | [#5532](https://github.com/thedotmack/claude-mem/pull/5532) · [`5ce4b19`](https://github.com/thedotmack/claude-mem/commit/5ce4b19e00f40e7023b75a9dee8e49467f998852)<br>[#5536](https://github.com/thedotmack/claude-mem/pull/5536) · [`e15d466`](https://github.com/thedotmack/claude-mem/commit/e15d46675bde9059d591baea2a95400b94034d57)<br>[#5538](https://github.com/thedotmack/claude-mem/pull/5538) · [`5047f2b`](https://github.com/thedotmack/claude-mem/commit/5047f2b0f213eb42a738b4a2721cd310a92d0e67) |
 | 2026-11-09 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,183 ★ | Restore Python 3 image collection with bounded retries and response cleanup, and make translation-angle evaluation invariant to reconstruction scale. | [#4977](https://github.com/colmap/colmap/pull/4977) · [`9f0736e`](https://github.com/colmap/colmap/commit/9f0736e90c2d7e10315ef4e4c62688d8f32fa8d4)<br>[#4932](https://github.com/colmap/colmap/pull/4932) · [`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
 | 2026-11-08 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,662 ★ | Preserve explicit false API options, close HTTP image responses through success and failure, and keep empty, singleton and multi-image batches structurally consistent. | [#1684](https://github.com/serengil/deepface/pull/1684) · [`a8cee7b`](https://github.com/serengil/deepface/commit/a8cee7b3949d6d9fbba53c82eeca6956e233d623)<br>[#1679](https://github.com/serengil/deepface/pull/1679) · [`eb29c2e`](https://github.com/serengil/deepface/commit/eb29c2e63b31348894487d1b649bee3188636179)<br>[#1675](https://github.com/serengil/deepface/pull/1675) · [`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
 | 2026-11-06 | **[REA](https://github.com/morluto/rea)**<br>445,495 ★ | Preserve UTF-8 at diagnostic cutoffs, resume complete NDJSON messages after interrupted iteration, and honor cancellation when bounded reads finish. | [#8907](https://github.com/morluto/rea/pull/8907) · [`3eff806`](https://github.com/morluto/rea/commit/3eff8065e757c6e3bab96d164abfceafd340e6d1)<br>[#8909](https://github.com/morluto/rea/pull/8909) · [`a3621e5`](https://github.com/morluto/rea/commit/a3621e5e1f73755d927dd97861ab4216cabf4787)<br>[#8908](https://github.com/morluto/rea/pull/8908) · [`b153ba8`](https://github.com/morluto/rea/commit/b153ba8ddd5bf13cbc6ba74009eca290686adbca) |
@@ -90,33 +91,166 @@ Robotics Toolbox also incorporated the circular particle-heading work from [#735
 
 ## Projects I build
 
-**[Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)** · **MIT · 0.8.0**<br>
-Native application builds embed a public SHA-256 verifier. The issuer delivers the 256-bit unlock token separately. The repository includes a reproducible Ghidra extraction-and-replay experiment. [Project story](https://github.com/Afloat16/anti-rea-forge/blob/main/docs/community/PROJECT_STORY.md) · [Join the community](https://github.com/Afloat16/anti-rea-forge/issues/1).
+Small tools for concrete engineering problems. Explore a project, try its examples, and star it if it fits your work.
 
-**[ModelDock](https://github.com/Afloat16/modeldock)** · **[v0.2.0](https://github.com/Afloat16/modeldock/releases/tag/v0.2.0)**<br>
-Local 3D/CAD preview with bounded 5+ GiB binary PLY/STL sampling, multi-model alignment and reference comparison. [Validation record](https://github.com/Afloat16/modeldock/blob/main/docs/validation.md).
+<table>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/anti-rea-forge">Anti-REA Forge</a></strong><br><sub>Native protection · v0.9.0</sub></p>
+<p>Separate private ELF symbols at build time and protect service operations with request-bound, one-use capabilities. Inspect paired Ghidra and IDA fixtures.</p>
+<ul>
+<li>Private ELF debug files</li>
+<li>One-use service grants</li>
+</ul>
+<p><a href="https://github.com/Afloat16/anti-rea-forge">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/modeldock">ModelDock</a></strong><br><sub>3D &amp; CAD · v0.2.0</sub></p>
+<p>Preview, align and compare meshes or point clouds locally. Explore sampled binary PLY/STL previews above 5 GiB and export comparison reports.</p>
+<ul>
+<li>Multi-model comparison</li>
+<li>5+ GiB sampled previews</li>
+</ul>
+<p><a href="https://github.com/Afloat16/modeldock">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/jev-mcp">Jev MCP</a></strong><br><sub>MCP tools · v0.5.0</sub></p>
+<p>Bring TypeSafe Jev advice to bounded choices, routing and risk checks through four MCP tools, with installers for multiple coding clients.</p>
+<ul>
+<li>Four stdio tools</li>
+<li>Explicit bounded choices</li>
+</ul>
+<p><a href="https://github.com/Afloat16/jev-mcp">Explore &amp; star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/bag-timeline-audit">Bag Timeline Audit</a></strong><br><sub>Robotics</sub></p>
+<p>Find timestamp gaps, reversals and duplicates in ROS 2 SQLite or MCAP recordings, then compare topics using an explicitly shared clock.</p>
+<ul>
+<li>SQLite + MCAP</li>
+<li>Integer nanoseconds</li>
+</ul>
+<p><a href="https://github.com/Afloat16/bag-timeline-audit">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/llm-handshake">LLM Handshake</a></strong><br><sub>LLM interfaces · 0.1.0</sub></p>
+<p>Probe OpenAI-compatible endpoints for streaming, tool calls and structured output. Preview exact requests and compare reports after a gateway or model upgrade.</p>
+<ul>
+<li>Seven focused probes</li>
+<li>Request preview</li>
+</ul>
+<p><a href="https://github.com/Afloat16/llm-handshake">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/recontrail">ReconTrail</a></strong><br><sub>Photogrammetry</sub></p>
+<p>Check photo quality, reconstruct sparse 3D geometry on a CPU, and share a self-contained interactive report that opens offline.</p>
+<ul>
+<li>Capture diagnostics</li>
+<li>CPU sparse reconstruction</li>
+</ul>
+<p><a href="https://github.com/Afloat16/recontrail">Explore &amp; star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/tf-route-audit">TF Route Audit</a></strong><br><sub>Robotics</sub></p>
+<p>Check exported TF records and native URDF for cycles, disconnected frames and conflicting edges. Query routes against observed time windows.</p>
+<ul>
+<li>Native URDF input</li>
+<li>Topology diagnostics</li>
+</ul>
+<p><a href="https://github.com/Afloat16/tf-route-audit">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/sse-toolcall-audit">SSE Toolcall Audit</a></strong><br><sub>LLM interfaces</sub></p>
+<p>Reassemble parallel tool calls from saved SSE captures and check completion markers, JSON arguments and consistency with a saved final response.</p>
+<ul>
+<li>Chat Completions + Responses</li>
+<li>Parallel-call assembly</li>
+</ul>
+<p><a href="https://github.com/Afloat16/sse-toolcall-audit">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/pose-convention-bridge">Pose Convention Bridge</a></strong><br><sub>3D geometry</sub></p>
+<p>Convert camera poses between OpenCV and OpenGL axes or world-to-camera and camera-to-world forms, with validated transforms and Nerfstudio export.</p>
+<ul>
+<li>COLMAP + TUM inputs</li>
+<li>Rigid-transform checks</li>
+</ul>
+<p><a href="https://github.com/Afloat16/pose-convention-bridge">Explore &amp; star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/colmap-model-audit">COLMAP Model Audit</a></strong><br><sub>3D geometry</sub></p>
+<p>Audit COLMAP text models for camera-field errors, broken reciprocal tracks and disconnected view graphs, with optional image-path and model-overlap checks.</p>
+<ul>
+<li>Read-only model checks</li>
+<li>Reciprocal track validation</li>
+</ul>
+<p><a href="https://github.com/Afloat16/colmap-model-audit">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/tooltrace-audit">Tooltrace Audit</a></strong><br><sub>Agent workflows</sub></p>
+<p>Review saved execution traces for overlapping retries, duplicate attempts and unmatched results. Add the optional recorder around your own tool calls.</p>
+<ul>
+<li>Execution + conversation traces</li>
+<li>Retry overlap checks</li>
+</ul>
+<p><a href="https://github.com/Afloat16/tooltrace-audit">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/research-to-fix">Research to Fix</a></strong><br><sub>Research workflow</sub></p>
+<p>Research similar failures, map relevant solutions to your code and verify the repair. Save cases with source links and before-and-after evidence.</p>
+<ul>
+<li>Source-backed diagnosis</li>
+<li>Local applicability checks</li>
+</ul>
+<p><a href="https://github.com/Afloat16/research-to-fix">Explore &amp; star →</a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/debate-direction">Debate Direction</a></strong><br><sub>Agent workflows</sub></p>
+<p>Let two agents propose, challenge and revise a plan. Keep the objections, remaining disagreements and next validation steps in a reviewable report.</p>
+<ul>
+<li>Persistent proposer + critic</li>
+<li>Issue ledger</li>
+</ul>
+<p><a href="https://github.com/Afloat16/debate-direction">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/ai-dev-steward">StewardCheck</a></strong><br><sub>Coding workflow · 0.2.0 Alpha</sub></p>
+<p>Pin a task baseline, inspect edits against the agreed scope and keep test receipts tied to the files they actually checked.</p>
+<ul>
+<li>Task-scoped Git checks</li>
+<li>Workspace fingerprints</li>
+</ul>
+<p><a href="https://github.com/Afloat16/ai-dev-steward">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/agent-action-notifier">Agent Action Notifier</a></strong><br><sub>Agent workflows · v0.2.0</sub></p>
+<p>Turn explicit workflow events into queued email or desktop alerts, with pending-request tracking, retries and recovery after interrupted delivery.</p>
+<ul>
+<li>SQLite outbox</li>
+<li>Email + desktop channels</li>
+</ul>
+<p><a href="https://github.com/Afloat16/agent-action-notifier">Explore &amp; star →</a></p>
+</td>
+</tr>
+</table>
 
-### Robotics · LLMs · 3D reconstruction
-
-| Robotics | Large language models | 3D reconstruction |
-|---|---|---|
-| **[Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit)**<br>Read-only ROS 2 SQLite/MCAP timestamp diagnostics. | **[LLM Handshake](https://github.com/Afloat16/llm-handshake)**<br>Bounded OpenAI-compatible endpoint probes and report comparisons. | **[ReconTrail](https://github.com/Afloat16/recontrail)**<br>CPU photogrammetry, sparse geometry and offline reports. |
-| **[TF Route Audit](https://github.com/Afloat16/tf-route-audit)**<br>Exported TF and native URDF topology/time-window checks. | **[SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit)** and **[Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit)**<br>Saved stream and tool-execution diagnostics. | **[Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge)** and **[COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit)**<br>Explicit pose conversion and text-model preflight. |
-
-**[Jev MCP](https://github.com/Afloat16/jev-mcp)** · [v0.5.0](https://github.com/Afloat16/jev-mcp/releases/tag/v0.5.0): a TypeScript MCP server for bounded probabilistic advice, routing and risk signals, with cross-client installers.
-
-Research and engineering workflow: [Research to Fix](https://github.com/Afloat16/research-to-fix) · [Debate Direction](https://github.com/Afloat16/debate-direction) · [StewardCheck](https://github.com/Afloat16/ai-dev-steward/tree/main/tools/stewardcheck) · [Agent Action Notifier](https://github.com/Afloat16/agent-action-notifier).
-
-**How I work:** isolate the symptom, understand the boundary, write a regression, and make the result inspectable. The [six domain utilities](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release) have **67 local tests and 36 passing OS/Python CI combinations** at the recorded release. These are experimental diagnostics and conversion tools; each repository documents its limits.
+I isolate the symptom, understand the boundary, write a regression, and make the result inspectable. The [six domain utilities](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release) have **67 local tests and 36 passing OS/Python CI combinations** at the recorded release. These are experimental diagnostics and conversion tools; each repository documents its limits.
 
 <details>
 <summary><b>All 15 projects: stars and default-branch commits</b></summary>
 
-Snapshot: **9 November 2026 · 20:24 CST (UTC+8)**. Sorted by stars, then repository commit count. Commits count reachable default-branch history, including merge commits; they are not personal authored-commit counts. [Sources and versions](docs/PROJECTS.md).
+Snapshot: **9 November 2026 · 20:47 CST (UTC+8)**. Sorted by stars, then repository commit count. Commits count reachable default-branch history, including merge commits; they are not personal authored-commit counts. [Sources and versions](docs/PROJECTS.md).
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [6](https://github.com/Afloat16/anti-rea-forge/stargazers) | [28](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [6](https://github.com/Afloat16/anti-rea-forge/stargazers) | [29](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
