@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **9 November 2026 · 11:40 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). The complete default-branch histories, published releases, stars, forks and repository metadata were verified at **11:40 CST (UTC+8)**.
+Snapshot: **9 November 2026 · 20:24 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). The complete default-branch histories, published releases, stars, forks and repository metadata were verified at **20:24 CST (UTC+8)**.
 
 **15 public, non-fork software projects**, excluding the profile repository. All 15 are unarchived. Existing project groups and links remain on the profile; ModelDock and Jev MCP are now also featured.
 
@@ -8,7 +8,7 @@ Snapshot: **9 November 2026 · 11:40 CST (UTC+8)**. Account: [Afloat16](https://
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [5](https://github.com/Afloat16/anti-rea-forge/stargazers) | [19](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [6](https://github.com/Afloat16/anti-rea-forge/stargazers) | [28](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
@@ -24,17 +24,17 @@ Snapshot: **9 November 2026 · 11:40 CST (UTC+8)**. Account: [Afloat16](https://
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-09-1140.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Each history returned fewer than 100 entries from its 100-item REST page; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-09-2024.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
 
-The 15 software projects total **16 stars, 0 forks and 145 reachable default-branch commits**. The profile repository had **27 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 15 software projects total **17 stars, 0 forks and 154 reachable default-branch commits**. The profile repository had **28 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
 ### [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge)
 
-Native release hardening with CMake integration, PE/ELF release gates, guarded C++ sensitive memory and request-bound authorization.
+Native application builds embed a public SHA-256 verifier. The issuer delivers the 256-bit unlock token separately. The repository includes a reproducible Ghidra extraction-and-replay experiment.
 
-Version stated in README: **0.6.0 Alpha**; no published GitHub release.
+Version stated in README: **0.8.0**; no published GitHub release.
 
 ### [Jev MCP](https://github.com/Afloat16/jev-mcp)
 

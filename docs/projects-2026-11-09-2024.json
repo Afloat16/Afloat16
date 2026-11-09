@@ -1,0 +1,2529 @@
+{
+  "verified_date": "2026-11-09",
+  "scope": "All public non-fork repositories owned by Afloat16; the Afloat16 profile repository is inventoried but excluded from project totals.",
+  "retrieval": "Official GitHub public repository search, repository metadata, complete default-branch commit-history and published-release responses. Histories are not author-filtered. All 16 histories fit into one 100-entry page. Unique SHAs, complete parent linkage and head-reachable counts were checked; counts include merge commits and are not personal authored-commit totals.",
+  "private_repositories_included": false,
+  "summary": {
+    "public_nonfork_repositories": 16,
+    "software_projects_excluding_profile": 15,
+    "total_project_stars": 17,
+    "total_project_forks": 0,
+    "default_branch_commit_sum_excluding_profile": 154
+  },
+  "sort": "Stars descending, then default-branch commit count descending, then name. Same-star order does not imply a quality ranking.",
+  "projects": [
+    {
+      "name": "anti-rea-forge",
+      "full_name": "Afloat16/anti-rea-forge",
+      "url": "https://github.com/Afloat16/anti-rea-forge",
+      "description": "🛡️ Open research on native software protection against AI reverse engineering tools such as REA. CMake/C++ components, PE/ELF release gates, and reproducible experiments. Contributions welcome.",
+      "stars": 6,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-11-09T10:29:20Z",
+      "pushed_at": "2026-11-09T12:19:27Z",
+      "created_at": "2026-10-15T13:11:28Z",
+      "topics": [
+        "anti-reverse-engineering",
+        "cmake",
+        "cpp",
+        "ghidra",
+        "open-source",
+        "rea",
+        "reverse-engineering",
+        "security-research",
+        "software-protection",
+        "windows"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/anti-rea-forge",
+      "default_branch_commit_count": 28,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "5abf2b5d0c77e6dcbbb97339aa60b870d3171d99",
+        "date": "2026-11-09T10:29:13Z",
+        "author": "Afloat16",
+        "message": "Merge v0.8.0 native token protection and verified Ghidra controls (#5)",
+        "url": "https://github.com/Afloat16/anti-rea-forge/commit/5abf2b5d0c77e6dcbbb97339aa60b870d3171d99"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/anti-rea-forge/blob/5abf2b5d0c77e6dcbbb97339aa60b870d3171d99/README.md",
+        "sha": "0519b0bb14265a9dcfc74471ecd6241bbf1c19ae"
+      },
+      "suggested_display": {
+        "en": "Native application builds embed a public SHA-256 verifier. The issuer delivers the 256-bit unlock token separately. The repository includes a reproducible Ghidra extraction-and-replay experiment.",
+        "zh": "原生应用只嵌入公开的 SHA-256 校验值，256 位解锁令牌由签发方单独交付。仓库提供可复现的 Ghidra 提取与重放实验。",
+        "version": "0.8.0 (documented in README)",
+        "group": "Native software protection"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:57Z",
+      "metadata_verified_at": "2026-11-09T12:23:56Z",
+      "release_verified_at": "2026-11-09T12:23:57Z",
+      "readme_verified_at": "2026-11-09T12:24:26Z"
+    },
+    {
+      "name": "jev-mcp",
+      "full_name": "Afloat16/jev-mcp",
+      "url": "https://github.com/Afloat16/jev-mcp",
+      "description": "TypeSafe AI Jev MCP server for bounded probabilistic decisions: four read-only stdio tools for choices, routing, risk signals, and yes/no gates. Conservative second opinions with installers for Codex, Claude Code, Cursor, Kimi, Gemini CLI, and other MCP clients.",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-15T12:52:08Z",
+      "pushed_at": "2026-11-02T14:24:05Z",
+      "created_at": "2026-09-28T09:41:45Z",
+      "topics": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "decision-model",
+        "gemini-cli",
+        "jev",
+        "jev-ai",
+        "kimi",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "nodejs",
+        "probabilistic-decision",
+        "risk-assessment",
+        "stdio",
+        "typesafe-ai",
+        "typescript",
+        "workflow-routing",
+        "zcode"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/jev-mcp",
+      "default_branch_commit_count": 49,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/jev-mcp/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "date": "2026-10-14T09:32:58Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/jev-mcp/commit/59a7278771f13d9bf12d98c50365c1c6daf27ba2"
+      },
+      "latest_published_release": {
+        "tag": "v0.5.0",
+        "name": "v0.5.0",
+        "published_at": "2026-09-28T13:34:53Z",
+        "draft": false,
+        "prerelease": false,
+        "url": "https://github.com/Afloat16/jev-mcp/releases/tag/v0.5.0",
+        "body": "\n- Added cross-platform bootstrap installers that create/update a durable local\n  runtime at `~/.jev-mcp/runtime` instead of relying on npm Git-package\n  execution at every MCP startup.\n- Stable bootstrap installs now default to the `v0.5.0` tag; advanced users can\n  set `JEV_MCP_GIT_REF=main` to follow the development channel.\n- Added one-command setup for Codex, Claude Code, Kimi Code, ZCode, Cursor,\n  Gemini CLI, Windsurf-compatible config, generic `.agents`, and\n  project-scoped VS Code MCP configuration.\n- Added a user-level `~/.jev-mcp/.env` credential store so GUI clients do not\n  need API keys embedded in MCP configuration.\n- Added safe JSON config merging with local backups and absolute local\n  Node/runtime launch paths.\n- Added installer unit tests, Linux/Windows bootstrap smoke checks, CLI smoke\n  checks, and dedicated client/install documentation.\n\n- Redesigned the English and Chinese project homepages around quick onboarding,\n  tool boundaries, privacy, and a clear host-model/Jev authority model.\n- Added quick-start, FAQ, troubleshooting, examples, support, governance,\n  roadmap, and CODEOWNERS documentation.\n- Added Markdown/repository consistency checks and strengthened secret/privacy\n  scanning to catch common credential patterns and accidental local home paths.\n- Upgraded first-party GitHub Actions used by CI/release workflows to current\n  major versions.\n- Added a CI-generated npm lockfile and switched CI, release, setup, and\n  publishing flows to reproducible `npm ci` installs.\n- Added safer issue routing and a structured usage-question template to reduce\n  accidental disclosure of secrets or sensitive project data.\n\n"
+      },
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/jev-mcp/blob/main/README.md",
+        "sha": "17c2b3d7d31d56371a80853a0b03c097027d0a13"
+      },
+      "suggested_display": {
+        "en": "A TypeScript MCP server for bounded probabilistic advice, routing and risk signals, with cross-client installers.",
+        "zh": "提供有界概率建议、路由与风险信号的 TypeScript MCP 服务，配有多客户端安装器。",
+        "version": "v0.5.0",
+        "group": "LLM and agent tooling"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:57Z",
+      "metadata_verified_at": "2026-11-09T12:23:56Z",
+      "release_verified_at": "2026-11-09T12:23:57Z"
+    },
+    {
+      "name": "ai-dev-steward",
+      "full_name": "Afloat16/ai-dev-steward",
+      "url": "https://github.com/Afloat16/ai-dev-steward",
+      "description": "Task-scoped Git change checks with StewardCheck, plus an Agent Skill for artifact audits and reproducible algorithm reviews. Local Python tools, pinned baselines, explicit check execution, and traceable evidence.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:32:55Z",
+      "pushed_at": "2026-10-16T02:32:32Z",
+      "created_at": "2026-09-28T12:25:40Z",
+      "topics": [
+        "agent-skills",
+        "algorithm-optimization",
+        "artifact-management",
+        "claude-code",
+        "cli",
+        "code-review",
+        "codex",
+        "developer-tools",
+        "experiment-tracking",
+        "git",
+        "kimi",
+        "python",
+        "quality-assurance",
+        "reproducible-research",
+        "stewardcheck",
+        "task-management"
+      ],
+      "source": "https://api.github.com/repos/Afloat16/ai-dev-steward",
+      "default_branch_commit_count": 11,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+        "date": "2026-10-14T09:32:50Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/ai-dev-steward/commit/f360968f7154c4b1e47ce622b11b114ba955f681"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Task-scoped Git change checks with StewardCheck and reproducible artifact/algorithm review.",
+        "zh": "StewardCheck 任务范围内 Git 改动检查，以及可复现的产物与算法审查。",
+        "group": "Research and engineering workflow"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:58Z",
+      "metadata_verified_at": "2026-11-09T12:23:58Z",
+      "release_verified_at": "2026-11-09T12:23:59Z",
+      "license": null
+    },
+    {
+      "name": "debate-direction",
+      "full_name": "Afloat16/debate-direction",
+      "url": "https://github.com/Afloat16/debate-direction",
+      "description": "Two agents debate ambiguous requirements into reviewable directions. Native skill + Python CLI, with issue tracking, model consistency, and honest uncertainty.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:32:52Z",
+      "pushed_at": "2026-10-14T09:32:47Z",
+      "created_at": "2026-10-08T03:24:38Z",
+      "topics": [
+        "adversarial-review",
+        "agent-skills",
+        "agentic-workflows",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "decision-support",
+        "deepseek",
+        "design-review",
+        "developer-tools",
+        "kimi",
+        "llm",
+        "llm-debate",
+        "multi-agent",
+        "multi-agent-debate",
+        "python",
+        "requirements-analysis",
+        "requirements-clarification",
+        "requirements-engineering"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/debate-direction",
+      "default_branch_commit_count": 8,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/debate-direction/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+        "date": "2026-10-14T09:32:46Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/debate-direction/commit/fe438afe62ae3723422dff51ac81b22187323d88"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Two-agent requirement debate with a Python CLI, issue tracking and explicit uncertainty.",
+        "zh": "双代理需求辩论，配有 Python CLI、问题追踪和明确的不确定性记录。",
+        "group": "Research and engineering workflow"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:57Z",
+      "metadata_verified_at": "2026-11-09T12:23:56Z",
+      "release_verified_at": "2026-11-09T12:23:57Z"
+    },
+    {
+      "name": "research-to-fix",
+      "full_name": "Afloat16/research-to-fix",
+      "url": "https://github.com/Afloat16/research-to-fix",
+      "description": "Evidence-driven debugging Agent Skill: research prior fixes and viable approaches across GitHub, Hugging Face, communities and original papers, map evidence to local code, repair and validate.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-11-05T09:59:11Z",
+      "pushed_at": "2026-11-05T09:59:06Z",
+      "created_at": "2026-10-14T02:15:10Z",
+      "topics": [
+        "agent-skills",
+        "bug-fixing",
+        "codex",
+        "codex-skills",
+        "debugging",
+        "developer-tools",
+        "evidence-based",
+        "github-issues",
+        "hugging-face",
+        "literature-review",
+        "local-code",
+        "problem-solving",
+        "python",
+        "reproducibility",
+        "research",
+        "research-workflow"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/research-to-fix",
+      "default_branch_commit_count": 7,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/research-to-fix/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "date": "2026-11-05T09:59:06Z",
+        "author": "Afloat16",
+        "message": "Reuse local repair cases and preserve per-test evidence (#2)",
+        "url": "https://github.com/Afloat16/research-to-fix/commit/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/research-to-fix/blob/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c/README.md",
+        "sha": "5ded246b0edf160497f3ae164b3922b8028f3895"
+      },
+      "suggested_display": {
+        "en": "Evidence-driven debugging workflow that maps prior solutions to local code and validates repairs.",
+        "zh": "将既有方案映射到本地代码并验证修复的证据驱动调试流程。",
+        "group": "Research and engineering workflow"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:58Z",
+      "metadata_verified_at": "2026-11-09T12:23:58Z",
+      "release_verified_at": "2026-11-09T12:23:59Z",
+      "readme_verified_at": "2026-11-06T02:30:31.244Z"
+    },
+    {
+      "name": "llm-handshake",
+      "full_name": "Afloat16/llm-handshake",
+      "url": "https://github.com/Afloat16/llm-handshake",
+      "description": "Dependency-free Python CLI for OpenAI-compatible endpoint diagnostics: chat, SSE streaming, usage, tool calls, structured output, and report regression checks.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:10Z",
+      "pushed_at": "2026-11-01T01:26:23Z",
+      "created_at": "2026-09-30T08:13:14Z",
+      "topics": [
+        "api-testing",
+        "cli",
+        "developer-tools",
+        "diagnostics",
+        "json-schema",
+        "llm",
+        "openai-compatible",
+        "python",
+        "regression-testing",
+        "sse",
+        "streaming",
+        "tool-calling"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/llm-handshake",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/llm-handshake/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "date": "2026-10-14T09:33:03Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/llm-handshake/commit/386c0d4e9f99309ab562d23589cd8725326eecfc"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Bounded OpenAI-compatible endpoint probes and report comparisons.",
+        "zh": "有界 OpenAI 兼容端点探测与报告对比。",
+        "group": "LLM and agent tooling"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:57Z",
+      "metadata_verified_at": "2026-11-09T12:23:56Z",
+      "release_verified_at": "2026-11-09T12:23:57Z"
+    },
+    {
+      "name": "modeldock",
+      "full_name": "Afloat16/modeldock",
+      "url": "https://github.com/Afloat16/modeldock",
+      "description": "Open-source 3D/CAD preview for VS Code, Codex-compatible desktop hosts and DeepSeek Harness. Bounded 5+ GiB binary PLY/STL previews, multi-model alignment and reference evaluation.",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-30T06:43:01Z",
+      "pushed_at": "2026-10-30T06:42:57Z",
+      "created_at": "2026-10-29T09:59:16Z",
+      "topics": [],
+      "license": "NOASSERTION",
+      "source": "https://api.github.com/repos/Afloat16/modeldock",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/modeldock/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "date": "2026-10-30T06:42:57Z",
+        "author": "Afloat16",
+        "message": "docs: record three.js showcase submission awaiting moderation",
+        "url": "https://github.com/Afloat16/modeldock/commit/d15bb8b3c1c398ca4350ddb10dd5b3d817839423"
+      },
+      "latest_published_release": {
+        "tag": "v0.2.0",
+        "name": "ModelDock 0.2.0 — Large-file preview and model comparison",
+        "published_at": "2026-10-29T10:18:45Z",
+        "draft": false,
+        "prerelease": false,
+        "url": "https://github.com/Afloat16/modeldock/releases/tag/v0.2.0",
+        "body": "ModelDock lets you open reconstruction models and CAD files directly in an editor or supported desktop host. This release adds bounded large-file previews and a shared model-comparison workflow.\r\n\r\n## 新增功能\r\n\r\n- 四个入口默认允许最高 8 GiB 的源文件：VS Code、DeepSeek Harness、兼容的 OpenAI Desktop 文件入口、独立本地查看器。\r\n- 超过 5 GiB 的二进制 PLY/STL 使用有界分段读取：PLY 最多显示 30 万个采样点，STL 最多显示 10 万个采样三角面；保留原始数量、坐标原点及采样说明。\r\n- 多模型工作流：添加模型 → 选择参考/真值 → 按需对齐 → 比较。支持多 PLY 叠加、同步分屏、透明度、局部刚性 ICP、显式平移/旋转/缩放和重置。\r\n- 可导入 STL 网格作为参考真值，计算双向距离统计、RMSE、P95、采样最大值、Chamfer、精确率、召回率和 F-score；支持误差热图、逐个对参考评价，以及 JSON/CSV 导出。\r\n- 自动刷新保留视角、其他模型、参考选择及变换；中英文界面。\r\n\r\n## 安装包\r\n\r\n发布工作流会自动附加以下文件：\r\n\r\n| 文件 | 用途 |\r\n| --- | --- |\r\n| modeldock-0.2.0.vsix | VS Code：扩展菜单 → 从 VSIX 安装；也适用于在 VS Code 中使用 Codex 的工作流 |\r\n| dsh-plugin-modeldock-0.2.0.tgz | DeepSeek Harness 原生文件预览插件 |\r\n| modeldock-openai-0.2.0.zip | 支持文件入口及授权资源读取的 OpenAI Desktop 插件 |\r\n| modeldock-0.2.0-source.zip | 完整源码、预构建运行文件、安装包、许可及匹配的 CAD 依赖源码 |\r\n| SHA256SUMS.txt | 四个归档的 SHA-256 校验值 |\r\n\r\n使用说明：[中文 README](https://github.com/Afloat16/modeldock/blob/main/README.zh-CN.md) · [Harness 安装](https://github.com/Afloat16/modeldock/blob/main/adapters/deepseek-harness/README.md) · [OpenAI Desktop 安装](https://github.com/Afloat16/modeldock/blob/main/docs/openai-integration.md)。\r\n\r\n## 验证与边界\r\n\r\n- 105 项自动测试；共享浏览器 15 组、对比界面 9 组、OpenAI 旧资源路径 7 组、大文件范围路径 6 组，另有真实 stdio 验证。\r\n- 真实安装的 DeepSeek Harness 0.2.2-alpha.2 Web 通过 8 组检查，包括超过 5 GiB 的 PLY/STL；真实 VS Code 1.96.4 已在 GitHub CI 中通过四阶段原生验收，包括这两种大文件。\r\n- 大文件用例使用真实稀疏文件，验证大小、偏移、范围读取和渲染，不代表密集 5 GiB 数据的吞吐性能基准。\r\n- 5 GiB 能力是二进制 PLY/STL 的采样预览；大型 PLY 网格当前仅显示采样顶点，面拓扑会明确标为省略。其他格式保持 128 MiB 普通解析边界；不支持完整 5 GiB STEP/IGES/BREP 转换。\r\n- 比较指标描述加载/采样后的几何，最大值不是精确 Hausdorff 距离；单位必须确认，ICP 不自动修正比例，也不保证全局配准。\r\n- OpenAI 使用真实应用和 MCP 服务、模拟 Desktop 宿主进行验证；尚未完成专有 Desktop 软件的实际安装验收。CLI、Work Web 和移动端不声明原生 3D 文件入口能力。\r\n- 发布前依赖扫描为 0 项已知漏洞；这不等于独立安全审计。\r\n\r\n详见 [验证记录](https://github.com/Afloat16/modeldock/blob/main/docs/validation.md)。原始项目源码和原创样例采用 MIT；CAD 依赖保留自身 LGPL 许可，匹配源码随完整源码包提供。\r\n\r\n最终发布提交：`2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c`。[完整 CI 已通过](https://github.com/Afloat16/modeldock/actions/runs/40856160717)，包含浏览器流程、依赖审计和独立的 VS Code 原生任务。"
+      },
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/modeldock/blob/main/README.md",
+        "sha": "f9e675b7a2bd5ada90a103b28991ce3c1104b9b6"
+      },
+      "suggested_display": {
+        "en": "Local 3D/CAD preview with bounded 5+ GiB binary PLY/STL sampling, multi-model alignment and reference comparison.",
+        "zh": "本地 3D/CAD 预览，支持 5+ GiB 二进制 PLY/STL 有界采样、多模型对齐与参考评价。",
+        "version": "v0.2.0",
+        "group": "3D reconstruction",
+        "limits": "5+ GiB is bounded sampled preview of binary PLY/STL, not full rendering, huge CAD conversion, or a dense-file throughput benchmark. VS Code and DeepSeek Harness native acceptance reported; proprietary OpenAI Desktop native installation unverified."
+      },
+      "metrics_verified_at": "2026-11-09T12:23:58Z",
+      "metadata_verified_at": "2026-11-09T12:23:58Z",
+      "release_verified_at": "2026-11-09T12:23:59Z"
+    },
+    {
+      "name": "bag-timeline-audit",
+      "full_name": "Afloat16/bag-timeline-audit",
+      "url": "https://github.com/Afloat16/bag-timeline-audit",
+      "description": "Read-only ROS 2 SQLite and MCAP timestamp diagnostics: gaps, regressions, duplicates and cross-topic alignment.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-22T09:24:55Z",
+      "pushed_at": "2026-10-14T09:33:11Z",
+      "created_at": "2026-10-14T08:07:54Z",
+      "topics": [
+        "cli",
+        "diagnostics",
+        "mcap",
+        "python",
+        "robotics",
+        "ros2",
+        "rosbag2",
+        "timestamps"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/bag-timeline-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "date": "2026-10-14T09:33:10Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/bag-timeline-audit/commit/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Read-only ROS 2 SQLite/MCAP timestamp diagnostics.",
+        "zh": "只读 ROS 2 SQLite/MCAP 时间戳诊断。",
+        "group": "Robotics"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:58Z",
+      "metadata_verified_at": "2026-11-09T12:23:58Z",
+      "release_verified_at": "2026-11-09T12:23:59Z"
+    },
+    {
+      "name": "recontrail",
+      "full_name": "Afloat16/recontrail",
+      "url": "https://github.com/Afloat16/recontrail",
+      "description": "Local-first 3D reconstruction on your CPU. Inspect photo quality, recover sparse geometry and camera poses, reconstruct calibrated stereo, and share offline interactive reports. No cloud, GPU, or model downloads required.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-21T17:20:31Z",
+      "pushed_at": "2026-10-14T09:32:55Z",
+      "created_at": "2026-10-08T05:54:58Z",
+      "topics": [
+        "3d-reconstruction",
+        "3d-visualization",
+        "camera-calibration",
+        "colmap",
+        "computer-vision",
+        "cpu",
+        "image-quality",
+        "local-first",
+        "mesh-generation",
+        "multi-view-geometry",
+        "offline",
+        "opencv",
+        "photogrammetry",
+        "point-cloud",
+        "python",
+        "reproducible-research",
+        "sfm",
+        "stereo-vision",
+        "structure-from-motion",
+        "video-processing"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/recontrail",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/recontrail/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "date": "2026-10-14T09:32:54Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/recontrail/commit/ed5215f0162bb488421664c43fd9c73a39e02ec3"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/recontrail/blob/main/README.md",
+        "sha": "e6bebdec435def0f16bf3d14ce3d82b88ad29a89"
+      },
+      "suggested_display": {
+        "en": "CPU photogrammetry, photo-quality checks, sparse reconstruction, calibrated stereo and offline reports.",
+        "zh": "CPU 摄影测量、照片质量检查、稀疏重建、标定双目与离线报告。",
+        "version": "0.1.0 recorded in README validation",
+        "group": "3D reconstruction"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:57Z",
+      "metadata_verified_at": "2026-11-09T12:23:56Z",
+      "release_verified_at": "2026-11-09T12:23:57Z"
+    },
+    {
+      "name": "sse-toolcall-audit",
+      "full_name": "Afloat16/sse-toolcall-audit",
+      "url": "https://github.com/Afloat16/sse-toolcall-audit",
+      "description": "Offline SSE capture auditor for Chat Completions and Responses tool-call assembly, completion and semantic comparison.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-27T06:18:29Z",
+      "pushed_at": "2026-10-14T09:33:17Z",
+      "created_at": "2026-10-14T08:10:45Z",
+      "topics": [
+        "cli",
+        "diagnostics",
+        "llm",
+        "openai-compatible",
+        "python",
+        "sse",
+        "streaming",
+        "tool-calling",
+        "vllm"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/sse-toolcall-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "date": "2026-10-14T09:33:16Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Offline SSE tool-call assembly, completion and semantic comparisons.",
+        "zh": "离线 SSE 工具调用组装、结束状态与语义对比。",
+        "group": "LLM and agent tooling"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:59Z",
+      "metadata_verified_at": "2026-11-09T12:23:58Z",
+      "release_verified_at": "2026-11-09T12:23:59Z"
+    },
+    {
+      "name": "tf-route-audit",
+      "full_name": "Afloat16/tf-route-audit",
+      "url": "https://github.com/Afloat16/tf-route-audit",
+      "description": "Offline TF topology and time-window diagnostics from exported ROS TransformStamped records.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-22T09:25:12Z",
+      "pushed_at": "2026-10-14T09:33:14Z",
+      "created_at": "2026-10-14T08:10:04Z",
+      "topics": [
+        "cli",
+        "diagnostics",
+        "python",
+        "robotics",
+        "ros2",
+        "tf2",
+        "transforms"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/tf-route-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "date": "2026-10-14T09:33:13Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/tf-route-audit/commit/44a0f2ceb0ca796f7feee2ec571d38ca2553e070"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Offline TF topology and time-window checks, including native URDF.",
+        "zh": "离线 TF 拓扑与时间窗口检查，支持原生 URDF。",
+        "group": "Robotics"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:57Z",
+      "metadata_verified_at": "2026-11-09T12:23:56Z",
+      "release_verified_at": "2026-11-09T12:23:57Z"
+    },
+    {
+      "name": "tooltrace-audit",
+      "full_name": "Afloat16/tooltrace-audit",
+      "url": "https://github.com/Afloat16/tooltrace-audit",
+      "description": "Offline tool execution and conversation trace diagnostics for duplicate attempts, overlapping retries and unmatched results.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-27T06:18:25Z",
+      "pushed_at": "2026-10-14T09:33:21Z",
+      "created_at": "2026-10-14T08:13:13Z",
+      "topics": [
+        "agents",
+        "cli",
+        "diagnostics",
+        "langgraph",
+        "llm",
+        "observability",
+        "python",
+        "tool-calling"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/tooltrace-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "date": "2026-10-14T09:33:20Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/tooltrace-audit/commit/7f13faa7a75fe80afd42bbc4f87b43673ebf21de"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Offline execution-trace checks for repeated attempts, overlapping retries and unmatched results.",
+        "zh": "离线执行轨迹检查：重复尝试、重叠重试与结果配对。",
+        "group": "LLM and agent tooling"
+      },
+      "metrics_verified_at": "2026-11-09T12:23:58Z",
+      "metadata_verified_at": "2026-11-09T12:23:58Z",
+      "release_verified_at": "2026-11-09T12:23:59Z"
+    },
+    {
+      "name": "Afloat16",
+      "full_name": "Afloat16/Afloat16",
+      "url": "https://github.com/Afloat16/Afloat16",
+      "description": "Research and open-source engineering in robotics, large language models, and 3D reconstruction. Projects and verified upstream contributions.",
+      "stars": 0,
+      "forks": 0,
+      "language": null,
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-11-09T03:50:33Z",
+      "pushed_at": "2026-11-09T03:50:29Z",
+      "created_at": "2026-10-14T09:24:56Z",
+      "topics": [
+        "3d-reconstruction",
+        "computer-vision",
+        "large-language-models",
+        "llm",
+        "mcp",
+        "open-source",
+        "portfolio",
+        "python",
+        "research",
+        "robotics",
+        "typescript"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/Afloat16",
+      "default_branch_commit_count": 28,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/Afloat16/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac",
+        "date": "2026-11-09T03:50:24Z",
+        "author": "Afloat16",
+        "message": "Refresh profile metrics and contributor rankings for 9 November 2026",
+        "url": "https://github.com/Afloat16/Afloat16/commit/b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/Afloat16/blob/b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac/README.md",
+        "sha": "1f4677f0721b96410bc0c4c96078831a67695bd0"
+      },
+      "suggested_display": null,
+      "metrics_verified_at": "2026-11-09T12:24:00Z",
+      "metadata_verified_at": "2026-11-09T12:24:00Z",
+      "release_verified_at": "2026-11-09T12:24:01Z"
+    },
+    {
+      "name": "agent-action-notifier",
+      "full_name": "Afloat16/agent-action-notifier",
+      "url": "https://github.com/Afloat16/agent-action-notifier",
+      "description": "Durable email and local desktop notifications for agent workflows that need human input, with SQLite request tracking, retries, and unverified reply review.",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:12Z",
+      "pushed_at": "2026-10-14T09:33:07Z",
+      "created_at": "2026-10-04T04:27:17Z",
+      "topics": [
+        "agent-workflows",
+        "claude-code",
+        "cli",
+        "codex",
+        "desktop-notifications",
+        "email-notifications",
+        "human-in-the-loop",
+        "notifications",
+        "python",
+        "smtp",
+        "sqlite",
+        "webhooks"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/agent-action-notifier",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "date": "2026-10-14T09:33:06Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/agent-action-notifier/commit/d5d5db0ba818169356bae9627c4eaea040e6b2bb"
+      },
+      "latest_published_release": {
+        "tag": "v0.2.0",
+        "name": "v0.2.0 - Email-first workflow instructions",
+        "published_at": "2026-10-05T00:36:37Z",
+        "draft": false,
+        "prerelease": false,
+        "url": "https://github.com/Afloat16/agent-action-notifier/releases/tag/v0.2.0",
+        "body": "## Email-first human input\n\nSend the complete reviewed steps and an ordinary official login/action link in the email. There is no blanket requirement to return to GPT for every interaction.\n\n- Optional canonical `action`: bounded numbered steps, ordinary reply prompt, and completion hint\n- Explicit email-only action opt-in: `AAN_INCLUDE_ACTION=1` or `--include-action` in the producer\n- Configured `AAN_SMTP_REPLY_TO`, exact transmitted Message-ID, request reference and current revision\n- `aan replies ingest --file message.eml` and `aan replies list` for a durable unverified-input review inbox\n- Current-request checks, replay/conflict protection, bounded MIME parsing, and obsolete-note handling\n- Additive SQLite v1 → v2 migration, preserving existing event identities, pending requests, and queued deliveries\n- Explicit database paths work without a home-directory profile\n\n[English setup](https://github.com/Afloat16/agent-action-notifier/blob/v0.2.0/docs/email-first.md) · [中文设置指南](https://github.com/Afloat16/agent-action-notifier/blob/v0.2.0/docs/email-first.zh-CN.md)\n\n## Important limits\n\nReply import is local and explicit. This release does not poll a mailbox, authenticate an email author, create an agent-answer channel, or configure SMTP/provider access. Imported replies always remain `pending_unverified` with `can_authorize: false`; they cannot approve, execute, resolve, or resume actions. A separately authorized host must establish owner intent and apply its original confirmation policy. Required platform confirmation forms still use their required surface. Passwords and sign-in credentials stay on the official service.\n\nDefaults remain generic. Review action content before opting in: heuristic redaction cannot guarantee removal of private information. SMTP acceptance does not prove inbox delivery or human attention. No live SMTP/inbox/desktop end-to-end delivery was established.\n\n## Upgrading\n\nBack up your existing SQLite state using a consistent SQLite backup while producers/workers are stopped; do not copy only a live WAL-backed `.db` file. First use of 0.2.0 upgrades the database to schema v2. Version 0.1.0 cannot open that upgraded schema; downgrade requires your retained v1 backup. Nothing installs a background service or creates credentials.\n\n## Downloads\n\nPython 3.10+ is required. The `.pyz` runs without third-party runtime dependencies or package installation. The wheel and source archive are alternatives. Verify downloads against `SHA256SUMS.txt`.\n\n## 中文摘要\n\n新版本可以将经审阅的完整操作步骤和官方登录/操作入口直接写进邮件，并提供普通问题的回复提示，不再要求每次都回到 GPT。需要在生产方明确启用邮件正文，并自行配置 SMTP 和回复邮箱。\n\n本地 `.eml` 导入只生成“未经验证的待处理输入”，不会自动收邮件、确认身份、授权、执行或恢复任务。平台要求的确认表单仍须在指定界面完成；密码与登录凭据留在官方服务。升级会保留旧事件、请求和发送队列并迁移数据库，回退旧版本须使用提前保存的一致性备份。\n\n## Verification\n\n158 unique stdlib tests pass locally. The exact final commit `80a5cd2f881c5e7a62e03cfcf9dac2bb5780266b` passed all nine Linux/macOS/Windows × Python 3.10/3.12/3.14 CI jobs, including compilation and zipapp smoke. SMTP tests are mocked; webhook tests exercise real loopback HTTP. The zipapp, wheel, and source archive were checked byte-for-byte against committed Python source. [CI evidence](https://github.com/Afloat16/agent-action-notifier/actions/runs/37247755439).\n"
+      },
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Durable local/email notifications with SQLite tracking, retries and unverified reply review.",
+        "zh": "基于 SQLite 追踪、重试与未验证回复审阅的本地/邮件通知。",
+        "version": "v0.2.0",
+        "group": "Research and engineering workflow"
+      },
+      "metrics_verified_at": "2026-11-09T12:24:00Z",
+      "metadata_verified_at": "2026-11-09T12:23:59Z",
+      "release_verified_at": "2026-11-09T12:24:00Z"
+    },
+    {
+      "name": "colmap-model-audit",
+      "full_name": "Afloat16/colmap-model-audit",
+      "url": "https://github.com/Afloat16/colmap-model-audit",
+      "description": "Read-only COLMAP text-model checks for camera fields, reciprocal tracks, disconnected view graphs and merge overlap.",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:29Z",
+      "pushed_at": "2026-10-14T09:33:25Z",
+      "created_at": "2026-10-14T08:16:06Z",
+      "topics": [
+        "3d-reconstruction",
+        "cli",
+        "colmap",
+        "computer-vision",
+        "diagnostics",
+        "photogrammetry",
+        "python",
+        "structure-from-motion"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/colmap-model-audit",
+      "default_branch_commit_count": 4,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+        "date": "2026-10-14T09:33:24Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/colmap-model-audit/commit/40f0316fed6fb181079a79c63ea29834685de0b3"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Read-only COLMAP text-model checks for tracks, cameras and view-graph consistency.",
+        "zh": "只读 COLMAP 文本模型检查：轨迹、相机与视图图一致性。",
+        "group": "3D reconstruction"
+      },
+      "metrics_verified_at": "2026-11-09T12:24:00Z",
+      "metadata_verified_at": "2026-11-09T12:23:59Z",
+      "release_verified_at": "2026-11-09T12:24:00Z"
+    },
+    {
+      "name": "pose-convention-bridge",
+      "full_name": "Afloat16/pose-convention-bridge",
+      "url": "https://github.com/Afloat16/pose-convention-bridge",
+      "description": "Explicit rigid camera-pose conversion between OpenCV/OpenGL and world-to-camera/camera-to-world conventions.",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:34Z",
+      "pushed_at": "2026-10-14T09:33:29Z",
+      "created_at": "2026-10-14T08:18:03Z",
+      "topics": [
+        "3d-reconstruction",
+        "camera-pose",
+        "cli",
+        "colmap",
+        "computer-vision",
+        "coordinate-systems",
+        "nerfstudio",
+        "python"
+      ],
+      "license": "MIT",
+      "source": "https://api.github.com/repos/Afloat16/pose-convention-bridge",
+      "default_branch_commit_count": 4,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "date": "2026-10-14T09:33:28Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/pose-convention-bridge/commit/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca"
+      },
+      "latest_published_release": null,
+      "readme_evidence": null,
+      "suggested_display": {
+        "en": "Explicit camera-pose conversion across coordinate conventions.",
+        "zh": "显式相机位姿与坐标约定转换。",
+        "group": "3D reconstruction"
+      },
+      "metrics_verified_at": "2026-11-09T12:24:00Z",
+      "metadata_verified_at": "2026-11-09T12:23:59Z",
+      "release_verified_at": "2026-11-09T12:24:00Z"
+    }
+  ],
+  "recommendation": {
+    "feature": [
+      "modeldock",
+      "anti-rea-forge",
+      "recontrail"
+    ],
+    "new_project_to_add": "ModelDock was created 2026-10-29 and released v0.2.0 the same day. It belongs in the 3D reconstruction section and may deserve a compact featured row.",
+    "existing_content_to_preserve": [
+      "anti-rea-forge",
+      "recontrail",
+      "bag-timeline-audit",
+      "llm-handshake",
+      "tf-route-audit",
+      "sse-toolcall-audit",
+      "tooltrace-audit",
+      "pose-convention-bridge",
+      "colmap-model-audit",
+      "research-to-fix",
+      "debate-direction",
+      "ai-dev-steward",
+      "agent-action-notifier"
+    ],
+    "additional_public_project": "jev-mcp is a 49-commit TypeScript project with a published v0.5.0 release; include it in the complete project table or LLM/agent tools group.",
+    "display": "Keep existing domain groups; show modest real stars and default-branch commits alongside each project. Explain snapshot date and denominator. A complete project statistics table can be placed in docs/PROJECTS.md to avoid drowning the profile in tables.",
+    "quality_signal": "Emphasize concrete capabilities and linked validation over small differences between 0, 1 and 2 stars.",
+    "retained_test_claim": {
+      "text": "The six experimental domain tools have 67 local tests and 36 OS/Python CI combinations at the documented release.",
+      "source": "https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release",
+      "verified_by": "Read docs/DEMAND_REVIEW.md current content, not a fresh execution of test suites."
+    }
+  },
+  "limitations": [
+    "Repository star and fork counts are snapshots and may change.",
+    "Commit counts count reachable default-branch history entries, not personal contributions, effort, or quality.",
+    "ModelDock repository license metadata is NOASSERTION; README says original code/examples MIT and CAD third-party dependencies retain LGPL. Do not use a blanket all-MIT claim.",
+    "Anti-REA Forge v0.6.0 is marked Alpha in its README and has no published GitHub release; do not label it a stable release.",
+    "No project tests were rerun during this read-only inventory."
+  ],
+  "sources": [
+    "https://github.com/search?q=user%3AAfloat16+is%3Apublic+fork%3Afalse&type=repositories",
+    "https://api.github.com/repos/Afloat16/anti-rea-forge",
+    "https://api.github.com/repos/Afloat16/jev-mcp",
+    "https://api.github.com/repos/Afloat16/ai-dev-steward",
+    "https://api.github.com/repos/Afloat16/debate-direction",
+    "https://api.github.com/repos/Afloat16/llm-handshake",
+    "https://api.github.com/repos/Afloat16/bag-timeline-audit",
+    "https://api.github.com/repos/Afloat16/recontrail",
+    "https://api.github.com/repos/Afloat16/research-to-fix",
+    "https://api.github.com/repos/Afloat16/sse-toolcall-audit",
+    "https://api.github.com/repos/Afloat16/tf-route-audit",
+    "https://api.github.com/repos/Afloat16/tooltrace-audit",
+    "https://api.github.com/repos/Afloat16/modeldock",
+    "https://api.github.com/repos/Afloat16/Afloat16",
+    "https://api.github.com/repos/Afloat16/agent-action-notifier",
+    "https://api.github.com/repos/Afloat16/colmap-model-audit",
+    "https://api.github.com/repos/Afloat16/pose-convention-bridge"
+  ],
+  "metrics_refreshed_at": "2026-11-09T12:24:01Z",
+  "snapshot_generated_at": "2026-11-09T12:24:01Z",
+  "refresh_audit": {
+    "baseline_source": "docs/projects-2026-11-09-1140.json",
+    "baseline_head": "b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac",
+    "software_metric_changes": [
+      {
+        "repository": "Afloat16/anti-rea-forge",
+        "previous_stars": 5,
+        "stars": 6,
+        "previous_commit_count": 19,
+        "commit_count": 28
+      },
+      {
+        "repository": "Afloat16/Afloat16",
+        "previous_stars": 0,
+        "stars": 0,
+        "previous_commit_count": 27,
+        "commit_count": 28
+      }
+    ],
+    "observed_at": "2026-11-09T12:24:01Z",
+    "default_branch_histories": [
+      {
+        "repository": "Afloat16/anti-rea-forge",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:57Z",
+        "source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "5abf2b5d0c77e6dcbbb97339aa60b870d3171d99",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/5abf2b5d0c77e6dcbbb97339aa60b870d3171d99",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T10:29:13Z",
+            "commit_committer_date": "2026-11-09T10:29:13Z",
+            "subject": "Merge v0.8.0 native token protection and verified Ghidra controls (#5)"
+          },
+          {
+            "sha": "715f24fb6f740c01f6a3991342690743a9abd4c8",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/715f24fb6f740c01f6a3991342690743a9abd4c8",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T10:25:31Z",
+            "commit_committer_date": "2026-11-09T10:25:31Z",
+            "subject": "docs: lead with measured Ghidra token replay results for v0.8.0"
+          },
+          {
+            "sha": "2229a72834400074a84c55bf5579ad6d91626e64",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/2229a72834400074a84c55bf5579ad6d91626e64",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T10:20:37Z",
+            "commit_committer_date": "2026-11-09T10:20:37Z",
+            "subject": "feat: keep reusable native unlock tokens out of client build inputs"
+          },
+          {
+            "sha": "0fdf51a0a83d67a338a36aecfb7f22663c767fdf",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/0fdf51a0a83d67a338a36aecfb7f22663c767fdf",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T09:56:27Z",
+            "commit_committer_date": "2026-11-09T09:56:27Z",
+            "subject": "docs: focus both READMEs on the current v0.7.0 release"
+          },
+          {
+            "sha": "e83fad7abc0567713e0e5fcc26394e6e2b730fa2",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/e83fad7abc0567713e0e5fcc26394e6e2b730fa2",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T09:47:52Z",
+            "commit_committer_date": "2026-11-09T09:47:52Z",
+            "subject": "docs: show v0.7.0 in both README titles and evidence tables"
+          },
+          {
+            "sha": "0f5688b26572a8cfb37188ebbbd037bb306c1898",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/0f5688b26572a8cfb37188ebbbd037bb306c1898",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T09:44:54Z",
+            "commit_committer_date": "2026-11-09T09:44:54Z",
+            "subject": "Merge v0.7.0 private source-map releases and recovery controls (#4)"
+          },
+          {
+            "sha": "61fa661ed3775e95c2befc7722f0d6b486df39e6",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/61fa661ed3775e95c2befc7722f0d6b486df39e6",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T06:21:03Z",
+            "commit_committer_date": "2026-11-09T06:21:03Z",
+            "subject": "fix: reject maps repackaged as JavaScript and record paired tool evidence"
+          },
+          {
+            "sha": "1ee3fa82e9f6f80f63af4a3a5ced956e003b1706",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/1ee3fa82e9f6f80f63af4a3a5ced956e003b1706",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T06:15:56Z",
+            "commit_committer_date": "2026-11-09T06:15:56Z",
+            "subject": "feat: split private source maps and verify source recovery with real tools"
+          },
+          {
+            "sha": "094a7f0a9631f7f3196ae98d824fc85670d40eaf",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/094a7f0a9631f7f3196ae98d824fc85670d40eaf",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T06:06:46Z",
+            "commit_committer_date": "2026-11-09T06:06:46Z",
+            "subject": "docs: move historical native experiment details out of the READMEs"
+          },
+          {
+            "sha": "e4c076336544445983b058c087087d6597613540",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/e4c076336544445983b058c087087d6597613540",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T08:43:19Z",
+            "commit_committer_date": "2026-11-05T08:43:19Z",
+            "subject": "Merge build setup and scoped analysis authorization (#3)"
+          },
+          {
+            "sha": "1d9478b32c7966e98c5d930be5e550b8ff896300",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/1d9478b32c7966e98c5d930be5e550b8ff896300",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T08:41:30Z",
+            "commit_committer_date": "2026-11-05T08:41:30Z",
+            "subject": "Merge portable release checks and JavaScript integration (#2)"
+          },
+          {
+            "sha": "ecb7da92085732c49a4e73018324cd5ee55664b9",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/ecb7da92085732c49a4e73018324cd5ee55664b9",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T08:19:21Z",
+            "commit_committer_date": "2026-11-05T08:19:21Z",
+            "subject": "docs: record verified v0.6 boundaries and cross-platform evidence"
+          },
+          {
+            "sha": "dcb021b0817c20dfbb10465af9b5de0fee2a5576",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/dcb021b0817c20dfbb10465af9b5de0fee2a5576",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T08:13:38Z",
+            "commit_committer_date": "2026-11-05T08:13:38Z",
+            "subject": "test: compare canonical release paths across platforms"
+          },
+          {
+            "sha": "e84ad31a05f34181fcf80cc4cc38259215223120",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/e84ad31a05f34181fcf80cc4cc38259215223120",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T08:10:59Z",
+            "commit_committer_date": "2026-11-05T08:10:59Z",
+            "subject": "feat: build-only release setup and scoped analysis authorization"
+          },
+          {
+            "sha": "32c7fefd6ae492d86de391875512c6d4870866dd",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/32c7fefd6ae492d86de391875512c6d4870866dd",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-04T13:47:26Z",
+            "commit_committer_date": "2026-11-04T13:47:26Z",
+            "subject": "test: preserve unsafe ZIP filename bytes on Windows"
+          },
+          {
+            "sha": "3cdd3e2e35507d681d629afc72e1c538dbfa59ad",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/3cdd3e2e35507d681d629afc72e1c538dbfa59ad",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-04T13:42:28Z",
+            "commit_committer_date": "2026-11-04T13:42:28Z",
+            "subject": "feat: add portable release scanning and JavaScript integration"
+          },
+          {
+            "sha": "91c07c52250bc8bfa18796cb351f105e8edb5865",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/91c07c52250bc8bfa18796cb351f105e8edb5865",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T08:38:30Z",
+            "commit_committer_date": "2026-10-20T08:38:30Z",
+            "subject": "docs: highlight practical benefits and expand community outreach"
+          },
+          {
+            "sha": "504a0f3eadf54642d750d520f02db7fc34142083",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/504a0f3eadf54642d750d520f02db7fc34142083",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T08:04:42Z",
+            "commit_committer_date": "2026-10-20T08:04:42Z",
+            "subject": "docs: publish community guide, project story and honest outreach record"
+          },
+          {
+            "sha": "d3195d4a7cf6fce0861e2149b0cb2949b2dc90d1",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/d3195d4a7cf6fce0861e2149b0cb2949b2dc90d1",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T03:43:29Z",
+            "commit_committer_date": "2026-10-20T03:43:29Z",
+            "subject": "test: close SQLite fixtures before Windows temporary-file cleanup"
+          },
+          {
+            "sha": "fb3bce27c6715ca70f51aa8ddc64801e106f386b",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/fb3bce27c6715ca70f51aa8ddc64801e106f386b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T03:39:09Z",
+            "commit_committer_date": "2026-10-20T03:39:09Z",
+            "subject": "feat: harden runtime boundaries with secure buffers and one-use server capabilities"
+          },
+          {
+            "sha": "f1366236efa435f342b7f32300e755e8791a0010",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/f1366236efa435f342b7f32300e755e8791a0010",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T02:54:57Z",
+            "commit_committer_date": "2026-10-20T02:54:57Z",
+            "subject": "Normalize temporary fixture paths before release-scan hooks"
+          },
+          {
+            "sha": "eb99e066e0f254d7c159c8d3cd4ea7d9fef12196",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/eb99e066e0f254d7c159c8d3cd4ea7d9fef12196",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T02:50:48Z",
+            "commit_committer_date": "2026-10-20T02:50:48Z",
+            "subject": "Add v0.3 cryptographic boundaries and whole-release exposure gates"
+          },
+          {
+            "sha": "5eb1fbb47908e043afecbe2e19f219922c0f46ad",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/5eb1fbb47908e043afecbe2e19f219922c0f46ad",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T14:01:20Z",
+            "commit_committer_date": "2026-10-15T14:01:20Z",
+            "subject": "docs: introduce Anti-REA Forge in English and preserve Chinese README"
+          },
+          {
+            "sha": "6cbf9e9573cc53f2b1eeabe47f9b8900b1868f2c",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/6cbf9e9573cc53f2b1eeabe47f9b8900b1868f2c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:32:43Z",
+            "commit_committer_date": "2026-10-15T13:32:43Z",
+            "subject": "Classify PE debug entries and suppress MSVC COFF group records"
+          },
+          {
+            "sha": "7487687b1f89f524afa5bf9e17c1ab6c899a52bb",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/7487687b1f89f524afa5bf9e17c1ab6c899a52bb",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:24:59Z",
+            "commit_committer_date": "2026-10-15T13:24:59Z",
+            "subject": "Expose Windows PE header diagnostics and link public collaboration"
+          },
+          {
+            "sha": "4e46655afe7596684dfb812b160a0d48ea189fc6",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/4e46655afe7596684dfb812b160a0d48ea189fc6",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:21:30Z",
+            "commit_committer_date": "2026-10-15T13:21:30Z",
+            "subject": "Fix Windows release gate false positives after scanning"
+          },
+          {
+            "sha": "11e3738ae9b56e27a6924ef782d234e88be8d93e",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/11e3738ae9b56e27a6924ef782d234e88be8d93e",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:13:56Z",
+            "commit_committer_date": "2026-10-15T13:13:56Z",
+            "subject": "Launch Anti-REA Forge: open protection research and community collaboration"
+          },
+          {
+            "sha": "871104ed25d9ff5106cb0570da4bf94af1afd7bc",
+            "url": "https://github.com/Afloat16/anti-rea-forge/commit/871104ed25d9ff5106cb0570da4bf94af1afd7bc",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:11:29Z",
+            "commit_committer_date": "2026-10-15T13:11:29Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/recontrail",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:57Z",
+        "source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+            "url": "https://github.com/Afloat16/recontrail/commit/ed5215f0162bb488421664c43fd9c73a39e02ec3",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:32:54Z",
+            "commit_committer_date": "2026-10-14T09:32:54Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "71a85b7e30602c06570dbe876b6e998d6ed64b27",
+            "url": "https://github.com/Afloat16/recontrail/commit/71a85b7e30602c06570dbe876b6e998d6ed64b27",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T07:26:35Z",
+            "commit_committer_date": "2026-10-14T07:26:35Z",
+            "subject": "Fix UTF-8 report tests and rejected upload connection handling"
+          },
+          {
+            "sha": "0e9d61f5f3facc39a113aab718b2019c9935ec93",
+            "url": "https://github.com/Afloat16/recontrail/commit/0e9d61f5f3facc39a113aab718b2019c9935ec93",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:19Z",
+            "commit_committer_date": "2026-10-14T02:50:19Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "3186bceb1c8a539dfe0a183f8ab99d4ea66792f5",
+            "url": "https://github.com/Afloat16/recontrail/commit/3186bceb1c8a539dfe0a183f8ab99d4ea66792f5",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T06:33:48Z",
+            "commit_committer_date": "2026-10-08T06:33:48Z",
+            "subject": "Publish ReconTrail 0.1.0 with English-first documentation and reconstruction workbench"
+          },
+          {
+            "sha": "dfb6b7fdc4b5b682a981de0c21da34b73392e0bc",
+            "url": "https://github.com/Afloat16/recontrail/commit/dfb6b7fdc4b5b682a981de0c21da34b73392e0bc",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T06:01:38Z",
+            "commit_committer_date": "2026-10-08T06:01:38Z",
+            "subject": "Initialize ReconTrail with the MIT license"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/jev-mcp",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:57Z",
+        "source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:32:58Z",
+            "commit_committer_date": "2026-10-14T09:32:58Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "d68bc5dadb0dabf5cb32a71ea1a3660a58642606",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/d68bc5dadb0dabf5cb32a71ea1a3660a58642606",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:22Z",
+            "commit_committer_date": "2026-10-14T02:50:22Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "0d3cdf4a0bb2a8c6ce15cf29ffa95c2b31c9082b",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/0d3cdf4a0bb2a8c6ce15cf29ffa95c2b31c9082b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-13T15:51:29Z",
+            "commit_committer_date": "2026-10-13T15:51:29Z",
+            "subject": "Merge pull request #6 from Afloat16/dependabot/npm_and_yarn/typescript-tooling-8bad69e59b"
+          },
+          {
+            "sha": "ffba4b9adfebde21646e1657de3c4ba8b6ea495d",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/ffba4b9adfebde21646e1657de3c4ba8b6ea495d",
+            "author_login": "dependabot[bot]",
+            "commit_author_date": "2026-10-13T15:46:41Z",
+            "commit_committer_date": "2026-10-13T15:46:41Z",
+            "subject": "chore(deps-dev): bump the typescript-tooling group across 1 directory with 2 updates"
+          },
+          {
+            "sha": "9f940da2802774754d205f59ad0eee7662995023",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/9f940da2802774754d205f59ad0eee7662995023",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-13T15:43:52Z",
+            "commit_committer_date": "2026-10-13T15:43:52Z",
+            "subject": "Merge pull request #9 from Afloat16/dependabot/npm_and_yarn/mcp-runtime-1b36a82dd7"
+          },
+          {
+            "sha": "42e845ef104bd6054894228aaeed93e74137cfd1",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/42e845ef104bd6054894228aaeed93e74137cfd1",
+            "author_login": "dependabot[bot]",
+            "commit_author_date": "2026-10-05T14:16:00Z",
+            "commit_committer_date": "2026-10-05T14:16:00Z",
+            "subject": "chore(deps): bump @modelcontextprotocol/server"
+          },
+          {
+            "sha": "4362f2f69252af4749cc7a4e922e931388e2c51c",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/4362f2f69252af4749cc7a4e922e931388e2c51c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T13:33:50Z",
+            "commit_committer_date": "2026-09-28T13:33:50Z",
+            "subject": "release: v0.5.0 multi-client one-click installation"
+          },
+          {
+            "sha": "198c5361bc6a27b782f1d29cb73d3b6f4168038f",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/198c5361bc6a27b782f1d29cb73d3b6f4168038f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T12:57:08Z",
+            "commit_committer_date": "2026-09-28T12:57:08Z",
+            "subject": "feat: add one-click installers for major AI coding clients"
+          },
+          {
+            "sha": "76a96a4e84b98d1908d376811480631c8feabc67",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/76a96a4e84b98d1908d376811480631c8feabc67",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T10:17:21Z",
+            "commit_committer_date": "2026-09-28T10:17:21Z",
+            "subject": "chore: polish jev-mcp for long-term open-source maintenance"
+          },
+          {
+            "sha": "3fd0ee3e3d1b613a7df645ca4bb70c8a4656fb8b",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/3fd0ee3e3d1b613a7df645ca4bb70c8a4656fb8b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:51:24Z",
+            "commit_committer_date": "2026-09-28T09:51:24Z",
+            "subject": "chore: add repository metadata"
+          },
+          {
+            "sha": "820cf3df79b510fe8d05d2c1c44c9aa6ef35aa1f",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/820cf3df79b510fe8d05d2c1c44c9aa6ef35aa1f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:51:04Z",
+            "commit_committer_date": "2026-09-28T09:51:04Z",
+            "subject": "chore: add changelog and publishing helpers"
+          },
+          {
+            "sha": "45a18b8f4839c3ae6c565c702b929b475830c396",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/45a18b8f4839c3ae6c565c702b929b475830c396",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:51:01Z",
+            "commit_committer_date": "2026-09-28T09:51:01Z",
+            "subject": "chore: add changelog and publishing helpers"
+          },
+          {
+            "sha": "a9a0c4eee8f3d3bea0135f531872806fbf21408b",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/a9a0c4eee8f3d3bea0135f531872806fbf21408b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:50:59Z",
+            "commit_committer_date": "2026-09-28T09:50:59Z",
+            "subject": "chore: add changelog and publishing helpers"
+          },
+          {
+            "sha": "7064b56fe90d1e38b8331db1cb8cefc5501bc083",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/7064b56fe90d1e38b8331db1cb8cefc5501bc083",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:50:15Z",
+            "commit_committer_date": "2026-09-28T09:50:15Z",
+            "subject": "docs: add architecture security and migration guides"
+          },
+          {
+            "sha": "dbf5b6798134494362dcbee1e892dbb159785bdc",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/dbf5b6798134494362dcbee1e892dbb159785bdc",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:50:12Z",
+            "commit_committer_date": "2026-09-28T09:50:12Z",
+            "subject": "docs: add architecture security and migration guides"
+          },
+          {
+            "sha": "174359a52b9528c2bb170d3597ef67778860530a",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/174359a52b9528c2bb170d3597ef67778860530a",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:50:10Z",
+            "commit_committer_date": "2026-09-28T09:50:10Z",
+            "subject": "docs: add architecture security and migration guides"
+          },
+          {
+            "sha": "c15a1df1e7f4dab9f0747fd6aeda67680050ff50",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/c15a1df1e7f4dab9f0747fd6aeda67680050ff50",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:50:08Z",
+            "commit_committer_date": "2026-09-28T09:50:08Z",
+            "subject": "docs: add architecture security and migration guides"
+          },
+          {
+            "sha": "3c6c8d2bc7b0321bf19f8266c1d5ba8ffe9221c9",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/3c6c8d2bc7b0321bf19f8266c1d5ba8ffe9221c9",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:50:05Z",
+            "commit_committer_date": "2026-09-28T09:50:05Z",
+            "subject": "docs: add architecture security and migration guides"
+          },
+          {
+            "sha": "152c356dbddbe2f6ea3a5f7568c6b35e6d135332",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/152c356dbddbe2f6ea3a5f7568c6b35e6d135332",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:49:40Z",
+            "commit_committer_date": "2026-09-28T09:49:40Z",
+            "subject": "docs: add Chinese README and agent policies"
+          },
+          {
+            "sha": "5fdd4e86e836c93e1dfc433729f4b5436c60d3aa",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/5fdd4e86e836c93e1dfc433729f4b5436c60d3aa",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:49:38Z",
+            "commit_committer_date": "2026-09-28T09:49:38Z",
+            "subject": "docs: add Chinese README and agent policies"
+          },
+          {
+            "sha": "1b2a287a0b271042ec70aa57c7a50118b7a7f007",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/1b2a287a0b271042ec70aa57c7a50118b7a7f007",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:49:36Z",
+            "commit_committer_date": "2026-09-28T09:49:36Z",
+            "subject": "docs: add Chinese README and agent policies"
+          },
+          {
+            "sha": "29b98074ce35ec13007122833f2d1ad30553a5d7",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/29b98074ce35ec13007122833f2d1ad30553a5d7",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:58Z",
+            "commit_committer_date": "2026-09-28T09:48:58Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "9b6ccb5afe580926083ad822dcd870b15b304477",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/9b6ccb5afe580926083ad822dcd870b15b304477",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:56Z",
+            "commit_committer_date": "2026-09-28T09:48:56Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "b4a3d09ce34b450d85a7c8e20659f9f366151962",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/b4a3d09ce34b450d85a7c8e20659f9f366151962",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:53Z",
+            "commit_committer_date": "2026-09-28T09:48:53Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "9a0c7d97282c9fdcb473251104fd6a5c169cdf9e",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/9a0c7d97282c9fdcb473251104fd6a5c169cdf9e",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:52Z",
+            "commit_committer_date": "2026-09-28T09:48:52Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "e82ff46bd01f02143f4a96c78bd1d77636f50356",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/e82ff46bd01f02143f4a96c78bd1d77636f50356",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:50Z",
+            "commit_committer_date": "2026-09-28T09:48:50Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "dab997d5f3c0ea0d1cbfbfff48b839846dbe29e5",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/dab997d5f3c0ea0d1cbfbfff48b839846dbe29e5",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:48Z",
+            "commit_committer_date": "2026-09-28T09:48:48Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "1fc90bdd9ec4e53f719d9de3ee80874b35eb0083",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/1fc90bdd9ec4e53f719d9de3ee80874b35eb0083",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:46Z",
+            "commit_committer_date": "2026-09-28T09:48:46Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "54fced7f2d40e72f4be8f3af90aafb2f14014abe",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/54fced7f2d40e72f4be8f3af90aafb2f14014abe",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:44Z",
+            "commit_committer_date": "2026-09-28T09:48:44Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "f32da621e3598fed1e6e42218969580d40922a50",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/f32da621e3598fed1e6e42218969580d40922a50",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:42Z",
+            "commit_committer_date": "2026-09-28T09:48:42Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "e47bbd22aefcbcc4d0e14f8a52ab1ddda5328953",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/e47bbd22aefcbcc4d0e14f8a52ab1ddda5328953",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:39Z",
+            "commit_committer_date": "2026-09-28T09:48:39Z",
+            "subject": "chore: add GitHub automation and community files"
+          },
+          {
+            "sha": "585cb775bcbef820f9de3748eaf7e6b8786e532b",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/585cb775bcbef820f9de3748eaf7e6b8786e532b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:06Z",
+            "commit_committer_date": "2026-09-28T09:48:06Z",
+            "subject": "chore: add setup and verification scripts"
+          },
+          {
+            "sha": "44ddc679efe10fc045d7b6a437472373f15ac7e8",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/44ddc679efe10fc045d7b6a437472373f15ac7e8",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:04Z",
+            "commit_committer_date": "2026-09-28T09:48:04Z",
+            "subject": "chore: add setup and verification scripts"
+          },
+          {
+            "sha": "b9c542e8fa0659d158c7928fd761c68db03237fa",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/b9c542e8fa0659d158c7928fd761c68db03237fa",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:48:01Z",
+            "commit_committer_date": "2026-09-28T09:48:01Z",
+            "subject": "chore: add setup and verification scripts"
+          },
+          {
+            "sha": "41534a52b9d6d0edfe219884428113f767cee5cc",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/41534a52b9d6d0edfe219884428113f767cee5cc",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:47:59Z",
+            "commit_committer_date": "2026-09-28T09:47:59Z",
+            "subject": "chore: add setup and verification scripts"
+          },
+          {
+            "sha": "a0f5b7a0fc63ec5b20fdcdb5114611bfe74aaf8f",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/a0f5b7a0fc63ec5b20fdcdb5114611bfe74aaf8f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:47:58Z",
+            "commit_committer_date": "2026-09-28T09:47:58Z",
+            "subject": "chore: add setup and verification scripts"
+          },
+          {
+            "sha": "d24744a2b31c305736093e24e3f372bfc72205ed",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/d24744a2b31c305736093e24e3f372bfc72205ed",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:47:55Z",
+            "commit_committer_date": "2026-09-28T09:47:55Z",
+            "subject": "chore: add setup and verification scripts"
+          },
+          {
+            "sha": "e7c8a9c36fbb0a1be175666c36786e1a4f15c44d",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/e7c8a9c36fbb0a1be175666c36786e1a4f15c44d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:47:18Z",
+            "commit_committer_date": "2026-09-28T09:47:18Z",
+            "subject": "feat: add MCP server implementation"
+          },
+          {
+            "sha": "aaa066f21e09a39ced1e1a7e197a56662e029006",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/aaa066f21e09a39ced1e1a7e197a56662e029006",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:46:34Z",
+            "commit_committer_date": "2026-09-28T09:46:34Z",
+            "subject": "feat: add core Jev advisory logic and tests"
+          },
+          {
+            "sha": "30113f925cda8db355ccffd8100843848d486f2f",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/30113f925cda8db355ccffd8100843848d486f2f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:46:32Z",
+            "commit_committer_date": "2026-09-28T09:46:32Z",
+            "subject": "feat: add core Jev advisory logic and tests"
+          },
+          {
+            "sha": "a88342ba75c48bb7389f4240d77561fc542020b7",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/a88342ba75c48bb7389f4240d77561fc542020b7",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:56Z",
+            "commit_committer_date": "2026-09-28T09:45:56Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "d8b8345cc8de86ceadc19ef069c34fefba8b0478",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/d8b8345cc8de86ceadc19ef069c34fefba8b0478",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:54Z",
+            "commit_committer_date": "2026-09-28T09:45:54Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "d99039ee0a5c79fef8cd46001014220412e7f8cc",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/d99039ee0a5c79fef8cd46001014220412e7f8cc",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:52Z",
+            "commit_committer_date": "2026-09-28T09:45:52Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "499da9b1c6f07b224135cf381a80ab318e296edf",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/499da9b1c6f07b224135cf381a80ab318e296edf",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:50Z",
+            "commit_committer_date": "2026-09-28T09:45:50Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "aa941304a8adbe21c4083e9544ac871f86f00b3a",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/aa941304a8adbe21c4083e9544ac871f86f00b3a",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:48Z",
+            "commit_committer_date": "2026-09-28T09:45:48Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "c9e8d4d0d0ab8b3c09cd161d47c56a08b05b9eee",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/c9e8d4d0d0ab8b3c09cd161d47c56a08b05b9eee",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:45Z",
+            "commit_committer_date": "2026-09-28T09:45:45Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "60ddef21b31220dbfd5083485bd63a903f7d838e",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/60ddef21b31220dbfd5083485bd63a903f7d838e",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:43Z",
+            "commit_committer_date": "2026-09-28T09:45:43Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "5a2b612703c142a44b7dc180e8f915fca5204ee7",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/5a2b612703c142a44b7dc180e8f915fca5204ee7",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:45:42Z",
+            "commit_committer_date": "2026-09-28T09:45:42Z",
+            "subject": "chore: add project metadata and configuration"
+          },
+          {
+            "sha": "979cee10d39935add7a5c524223ce35131d1653b",
+            "url": "https://github.com/Afloat16/jev-mcp/commit/979cee10d39935add7a5c524223ce35131d1653b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T09:44:32Z",
+            "commit_committer_date": "2026-09-28T09:44:32Z",
+            "subject": "chore: initialize jev-mcp repository"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/debate-direction",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:57Z",
+        "source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+            "url": "https://github.com/Afloat16/debate-direction/commit/fe438afe62ae3723422dff51ac81b22187323d88",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:32:46Z",
+            "commit_committer_date": "2026-10-14T09:32:46Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "9ca07cdb7620d0af3ada356d9e5442650041845a",
+            "url": "https://github.com/Afloat16/debate-direction/commit/9ca07cdb7620d0af3ada356d9e5442650041845a",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:24Z",
+            "commit_committer_date": "2026-10-14T02:50:24Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "60230c9b572b2bfa401802a909c21731176ef922",
+            "url": "https://github.com/Afloat16/debate-direction/commit/60230c9b572b2bfa401802a909c21731176ef922",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T04:55:40Z",
+            "commit_committer_date": "2026-10-08T04:55:40Z",
+            "subject": "Fix Windows profile discovery and lossless JSON output"
+          },
+          {
+            "sha": "b23c1f9583f61b1c4a15cda26c3f9a85ac7efddd",
+            "url": "https://github.com/Afloat16/debate-direction/commit/b23c1f9583f61b1c4a15cda26c3f9a85ac7efddd",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T04:47:10Z",
+            "commit_committer_date": "2026-10-08T04:47:10Z",
+            "subject": "Release v0.2: one-command installation and portable provider support"
+          },
+          {
+            "sha": "34c74950e2d7ce32f353990c6717948660dd5139",
+            "url": "https://github.com/Afloat16/debate-direction/commit/34c74950e2d7ce32f353990c6717948660dd5139",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T03:51:26Z",
+            "commit_committer_date": "2026-10-08T03:51:26Z",
+            "subject": "Make English the default and provide a Chinese README"
+          },
+          {
+            "sha": "e891abc0a5bf98ff4a7b452c01ac3074dab54435",
+            "url": "https://github.com/Afloat16/debate-direction/commit/e891abc0a5bf98ff4a7b452c01ac3074dab54435",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T03:35:53Z",
+            "commit_committer_date": "2026-10-08T03:35:53Z",
+            "subject": "Clarify native validation evidence and shared context"
+          },
+          {
+            "sha": "d8cc82312e8bb91dbcebe23a101bd2fec652f7d9",
+            "url": "https://github.com/Afloat16/debate-direction/commit/d8cc82312e8bb91dbcebe23a101bd2fec652f7d9",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T03:34:53Z",
+            "commit_committer_date": "2026-10-08T03:34:53Z",
+            "subject": "Release v0.1.0: two-agent direction debate skill and Python CLI"
+          },
+          {
+            "sha": "f911623597bc1760c1e25cfb0c8c7bd6b85dcc84",
+            "url": "https://github.com/Afloat16/debate-direction/commit/f911623597bc1760c1e25cfb0c8c7bd6b85dcc84",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-08T03:24:39Z",
+            "commit_committer_date": "2026-10-08T03:24:39Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/llm-handshake",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:57Z",
+        "source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+            "url": "https://github.com/Afloat16/llm-handshake/commit/386c0d4e9f99309ab562d23589cd8725326eecfc",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:03Z",
+            "commit_committer_date": "2026-10-14T09:33:03Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "9cac34a3a2ef9a19e760707efb182777d2f11e66",
+            "url": "https://github.com/Afloat16/llm-handshake/commit/9cac34a3a2ef9a19e760707efb182777d2f11e66",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:27Z",
+            "commit_committer_date": "2026-10-14T02:50:27Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "8a3065e91fb2c57f033b7418e22d6f03307f414c",
+            "url": "https://github.com/Afloat16/llm-handshake/commit/8a3065e91fb2c57f033b7418e22d6f03307f414c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:46:35Z",
+            "commit_committer_date": "2026-09-30T08:46:35Z",
+            "subject": "Normalize environment-key casing in Windows regression test"
+          },
+          {
+            "sha": "f9f6b0e6a251c572fd58305269f71c95d30322d5",
+            "url": "https://github.com/Afloat16/llm-handshake/commit/f9f6b0e6a251c572fd58305269f71c95d30322d5",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:44:20Z",
+            "commit_committer_date": "2026-09-30T08:44:20Z",
+            "subject": "Fix cross-platform URL validation and loopback test portability"
+          },
+          {
+            "sha": "b075d25b7061db5e130cd6b2acfa6943c1a0d474",
+            "url": "https://github.com/Afloat16/llm-handshake/commit/b075d25b7061db5e130cd6b2acfa6943c1a0d474",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:36:20Z",
+            "commit_committer_date": "2026-09-30T08:36:20Z",
+            "subject": "Release v0.1.0: LLM endpoint diagnostics, tests, and bilingual documentation"
+          },
+          {
+            "sha": "3e2b366ade4f29dd5326ffbc972dfeea1a1aa593",
+            "url": "https://github.com/Afloat16/llm-handshake/commit/3e2b366ade4f29dd5326ffbc972dfeea1a1aa593",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:15:10Z",
+            "commit_committer_date": "2026-09-30T08:15:10Z",
+            "subject": "Initialize MIT license"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/tf-route-audit",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:57Z",
+        "source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+            "url": "https://github.com/Afloat16/tf-route-audit/commit/44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:13Z",
+            "commit_committer_date": "2026-10-14T09:33:13Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "dc9bc2be16d4d79e7bf7ebe33dd3ed0049c057d1",
+            "url": "https://github.com/Afloat16/tf-route-audit/commit/dc9bc2be16d4d79e7bf7ebe33dd3ed0049c057d1",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:54:35Z",
+            "commit_committer_date": "2026-10-14T08:54:35Z",
+            "subject": "Bound declared TF frame counts and clarify CLI documentation"
+          },
+          {
+            "sha": "d9ac2fe9bcd401f0ca84c24e0d956ddc256a4a5d",
+            "url": "https://github.com/Afloat16/tf-route-audit/commit/d9ac2fe9bcd401f0ca84c24e0d956ddc256a4a5d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:19:32Z",
+            "commit_committer_date": "2026-10-14T08:19:32Z",
+            "subject": "Preserve Unicode JSON across console encodings"
+          },
+          {
+            "sha": "859eda58facb90b87fda9b6ca1c43e7074a3611d",
+            "url": "https://github.com/Afloat16/tf-route-audit/commit/859eda58facb90b87fda9b6ca1c43e7074a3611d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:15:31Z",
+            "commit_committer_date": "2026-10-14T08:15:31Z",
+            "subject": "Publish tf-route-audit with tested offline diagnostics and demand evidence"
+          },
+          {
+            "sha": "7cea213c63c23d64e37de00486360d05d8b19ad8",
+            "url": "https://github.com/Afloat16/tf-route-audit/commit/7cea213c63c23d64e37de00486360d05d8b19ad8",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:10:06Z",
+            "commit_committer_date": "2026-10-14T08:10:06Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/tooltrace-audit",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:58Z",
+        "source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+            "url": "https://github.com/Afloat16/tooltrace-audit/commit/7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:20Z",
+            "commit_committer_date": "2026-10-14T09:33:20Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "0b83b73715d13413d642d1ce8a85086ee8f845f7",
+            "url": "https://github.com/Afloat16/tooltrace-audit/commit/0b83b73715d13413d642d1ce8a85086ee8f845f7",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:54:42Z",
+            "commit_committer_date": "2026-10-14T08:54:42Z",
+            "subject": "Clarify tool-specific CLI exit codes"
+          },
+          {
+            "sha": "91aa7cf2c6d6c1d0c9509df674bfb5a4debdc6dd",
+            "url": "https://github.com/Afloat16/tooltrace-audit/commit/91aa7cf2c6d6c1d0c9509df674bfb5a4debdc6dd",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:19:38Z",
+            "commit_committer_date": "2026-10-14T08:19:38Z",
+            "subject": "Preserve Unicode JSON across console encodings"
+          },
+          {
+            "sha": "cbc79c782ca25310b5eca703d0c719154ef87e4f",
+            "url": "https://github.com/Afloat16/tooltrace-audit/commit/cbc79c782ca25310b5eca703d0c719154ef87e4f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:15:37Z",
+            "commit_committer_date": "2026-10-14T08:15:37Z",
+            "subject": "Publish tooltrace-audit with tested offline diagnostics and demand evidence"
+          },
+          {
+            "sha": "8702f3ae0d373cbf18792e42a2b209853149bd88",
+            "url": "https://github.com/Afloat16/tooltrace-audit/commit/8702f3ae0d373cbf18792e42a2b209853149bd88",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:13:15Z",
+            "commit_committer_date": "2026-10-14T08:13:15Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/bag-timeline-audit",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:58Z",
+        "source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+            "url": "https://github.com/Afloat16/bag-timeline-audit/commit/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:10Z",
+            "commit_committer_date": "2026-10-14T09:33:10Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "4d0fe9dfea496b8d64b219cc472a41d637367eb0",
+            "url": "https://github.com/Afloat16/bag-timeline-audit/commit/4d0fe9dfea496b8d64b219cc472a41d637367eb0",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:54:32Z",
+            "commit_committer_date": "2026-10-14T08:54:32Z",
+            "subject": "Clarify tool-specific CLI exit codes"
+          },
+          {
+            "sha": "c88de93f14cc067b67deb0fde65913f5b6d2b2ac",
+            "url": "https://github.com/Afloat16/bag-timeline-audit/commit/c88de93f14cc067b67deb0fde65913f5b6d2b2ac",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:19:30Z",
+            "commit_committer_date": "2026-10-14T08:19:30Z",
+            "subject": "Preserve Unicode JSON across console encodings"
+          },
+          {
+            "sha": "321af0ea6566aa3ba898b308e50b0135124b55b3",
+            "url": "https://github.com/Afloat16/bag-timeline-audit/commit/321af0ea6566aa3ba898b308e50b0135124b55b3",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:15:27Z",
+            "commit_committer_date": "2026-10-14T08:15:27Z",
+            "subject": "Publish bag-timeline-audit with tested offline diagnostics and demand evidence"
+          },
+          {
+            "sha": "a7e1a8cf4be6f97c49bd58d7e16f4ff95675d930",
+            "url": "https://github.com/Afloat16/bag-timeline-audit/commit/a7e1a8cf4be6f97c49bd58d7e16f4ff95675d930",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:07:56Z",
+            "commit_committer_date": "2026-10-14T08:07:56Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/sse-toolcall-audit",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:59Z",
+        "source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+            "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:16Z",
+            "commit_committer_date": "2026-10-14T09:33:16Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "aa59b9a9cb5cbed55a436532b7eac5c56b42a52f",
+            "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/aa59b9a9cb5cbed55a436532b7eac5c56b42a52f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:54:39Z",
+            "commit_committer_date": "2026-10-14T08:54:39Z",
+            "subject": "Clarify tool-specific CLI exit codes"
+          },
+          {
+            "sha": "9e08c3aadfa1c1a0596ad8bdab7df9ea3ea1167c",
+            "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/9e08c3aadfa1c1a0596ad8bdab7df9ea3ea1167c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:19:35Z",
+            "commit_committer_date": "2026-10-14T08:19:35Z",
+            "subject": "Preserve Unicode JSON across console encodings"
+          },
+          {
+            "sha": "ce5795b1613b8454d8f1464d5e83bbb0a2434f9d",
+            "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/ce5795b1613b8454d8f1464d5e83bbb0a2434f9d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:15:34Z",
+            "commit_committer_date": "2026-10-14T08:15:34Z",
+            "subject": "Publish sse-toolcall-audit with tested offline diagnostics and demand evidence"
+          },
+          {
+            "sha": "337cc4ff4c6b0ca739da1e6e8e10b5ea6e56503d",
+            "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/337cc4ff4c6b0ca739da1e6e8e10b5ea6e56503d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:10:46Z",
+            "commit_committer_date": "2026-10-14T08:10:46Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/modeldock",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:58Z",
+        "source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+            "url": "https://github.com/Afloat16/modeldock/commit/d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-30T06:42:57Z",
+            "commit_committer_date": "2026-10-30T06:42:57Z",
+            "subject": "docs: record three.js showcase submission awaiting moderation"
+          },
+          {
+            "sha": "056d4beee00b15a5f6551aa4760a59c67fde6e40",
+            "url": "https://github.com/Afloat16/modeldock/commit/056d4beee00b15a5f6551aa4760a59c67fde6e40",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-30T06:07:48Z",
+            "commit_committer_date": "2026-10-30T06:07:48Z",
+            "subject": "docs: add real viewer screenshots and invite community testing"
+          },
+          {
+            "sha": "2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c",
+            "url": "https://github.com/Afloat16/modeldock/commit/2f93e45f0b47ee7f842abd9f86ddcc4e79983c4c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-29T10:15:44Z",
+            "commit_committer_date": "2026-10-29T10:15:44Z",
+            "subject": "Patch dependency advisories and record native large-file validation"
+          },
+          {
+            "sha": "7a8e8802ed030e5be63a8429156d643b61c896c3",
+            "url": "https://github.com/Afloat16/modeldock/commit/7a8e8802ed030e5be63a8429156d643b61c896c3",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-29T10:12:09Z",
+            "commit_committer_date": "2026-10-29T10:12:09Z",
+            "subject": "Run native VS Code independently and assert sampled preview labels precisely"
+          },
+          {
+            "sha": "702d5cc8b1daf56d9c123a46f0ddb340b527900d",
+            "url": "https://github.com/Afloat16/modeldock/commit/702d5cc8b1daf56d9c123a46f0ddb340b527900d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-29T10:08:59Z",
+            "commit_committer_date": "2026-10-29T10:08:59Z",
+            "subject": "Release ModelDock 0.2.0: bounded large-file previews and model comparison"
+          },
+          {
+            "sha": "182b8629a776dcc78617cd9f2a1339ca7c230944",
+            "url": "https://github.com/Afloat16/modeldock/commit/182b8629a776dcc78617cd9f2a1339ca7c230944",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-29T09:59:18Z",
+            "commit_committer_date": "2026-10-29T09:59:18Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/ai-dev-steward",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:58Z",
+        "source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/f360968f7154c4b1e47ce622b11b114ba955f681",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:32:50Z",
+            "commit_committer_date": "2026-10-14T09:32:50Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "996fc729a125ae18f34598f225be974fe732b7cb",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/996fc729a125ae18f34598f225be974fe732b7cb",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:29Z",
+            "commit_committer_date": "2026-10-14T02:50:29Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "b47072cbd3d2a2352c55981d83ea85db5e619cfb",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/b47072cbd3d2a2352c55981d83ea85db5e619cfb",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:57:12Z",
+            "commit_committer_date": "2026-09-30T08:57:12Z",
+            "subject": "Merge StewardCheck 0.2.0 and integrated repository maintenance"
+          },
+          {
+            "sha": "7829ea0c092551272adec5a550f7b125476677f2",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/7829ea0c092551272adec5a550f7b125476677f2",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:54:23Z",
+            "commit_committer_date": "2026-09-30T08:54:23Z",
+            "subject": "fix: compare file metadata within consistent stat APIs"
+          },
+          {
+            "sha": "b0c7bbafb13f404a19ef304bcb61cf5db6f65536",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/b0c7bbafb13f404a19ef304bcb61cf5db6f65536",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:44:02Z",
+            "commit_committer_date": "2026-09-30T08:44:02Z",
+            "subject": "feat: restore StewardCheck and integrate repository workflows"
+          },
+          {
+            "sha": "a080818e1658821a2d6dd13921749fe83daa31e4",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/a080818e1658821a2d6dd13921749fe83daa31e4",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T08:14:41Z",
+            "commit_committer_date": "2026-09-30T08:14:41Z",
+            "subject": "Remove StewardCheck from this repository for standalone distribution"
+          },
+          {
+            "sha": "831cefbd43b9b17df55d0458fda96dfe75053604",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/831cefbd43b9b17df55d0458fda96dfe75053604",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T07:29:14Z",
+            "commit_committer_date": "2026-09-30T07:29:14Z",
+            "subject": "Merge StewardCheck 0.1.0 task-scoped review tool"
+          },
+          {
+            "sha": "573d58d56d9b9d31bdb44d3608a4ab81f3b2690c",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/573d58d56d9b9d31bdb44d3608a4ab81f3b2690c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-30T07:26:42Z",
+            "commit_committer_date": "2026-09-30T07:26:42Z",
+            "subject": "feat: add StewardCheck task-scoped change receipts"
+          },
+          {
+            "sha": "f33443dae075670ff84b2ef72318801b13dd630f",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/f33443dae075670ff84b2ef72318801b13dd630f",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T13:50:56Z",
+            "commit_committer_date": "2026-09-28T13:50:56Z",
+            "subject": "docs: make English README primary and preserve Chinese guide"
+          },
+          {
+            "sha": "86d799230f7e13c73febf95ecf644ab0535ef834",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/86d799230f7e13c73febf95ecf644ab0535ef834",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T12:50:31Z",
+            "commit_committer_date": "2026-09-28T12:50:31Z",
+            "subject": "feat: publish ai-dev-steward v1.1.0"
+          },
+          {
+            "sha": "87ab6ee37b232fb87397616bb5fe514b1aa9f438",
+            "url": "https://github.com/Afloat16/ai-dev-steward/commit/87ab6ee37b232fb87397616bb5fe514b1aa9f438",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-09-28T12:28:47Z",
+            "commit_committer_date": "2026-09-28T12:28:47Z",
+            "subject": "docs: initialize AI Dev Steward skill repository"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/research-to-fix",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:23:58Z",
+        "source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T09:59:06Z",
+            "commit_committer_date": "2026-11-05T09:59:06Z",
+            "subject": "Reuse local repair cases and preserve per-test evidence (#2)"
+          },
+          {
+            "sha": "fa73f80c53b91fc2dbbc26d5410a119c3d8952b1",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/fa73f80c53b91fc2dbbc26d5410a119c3d8952b1",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-04T16:36:02Z",
+            "commit_committer_date": "2026-11-04T16:36:02Z",
+            "subject": "Strengthen research query controls and final repair validation (#1)"
+          },
+          {
+            "sha": "dfbd2aa9788020df3712fafe4812a427ad71288e",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/dfbd2aa9788020df3712fafe4812a427ad71288e",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:32:42Z",
+            "commit_committer_date": "2026-10-14T09:32:42Z",
+            "subject": "Make project documentation English-first with Chinese editions"
+          },
+          {
+            "sha": "385ef7cbe00ab32301b1dbe6bead8356f66435c4",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/385ef7cbe00ab32301b1dbe6bead8356f66435c4",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:06:45Z",
+            "commit_committer_date": "2026-10-14T09:06:45Z",
+            "subject": "Document six demand-driven tools, validation and verified outreach"
+          },
+          {
+            "sha": "f62b36da1fec01a308e73b58e0f014c302687c78",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/f62b36da1fec01a308e73b58e0f014c302687c78",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:34Z",
+            "commit_committer_date": "2026-10-14T02:50:34Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "fc61665246a0b250ea324a974c9840dcdb3f922b",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/fc61665246a0b250ea324a974c9840dcdb3f922b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:16:36Z",
+            "commit_committer_date": "2026-10-14T02:16:36Z",
+            "subject": "Add research-to-fix workflow, evidence tools, and verified examples"
+          },
+          {
+            "sha": "2791e5f4416541d974efc0ba95ae365567be9327",
+            "url": "https://github.com/Afloat16/research-to-fix/commit/2791e5f4416541d974efc0ba95ae365567be9327",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:16:15Z",
+            "commit_committer_date": "2026-10-14T02:16:15Z",
+            "subject": "Initialize research-to-fix documentation"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/pose-convention-bridge",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:24:00Z",
+        "source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+            "url": "https://github.com/Afloat16/pose-convention-bridge/commit/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:28Z",
+            "commit_committer_date": "2026-10-14T09:33:28Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "fe89aab0d1637561b25ce635ba221960e8873c34",
+            "url": "https://github.com/Afloat16/pose-convention-bridge/commit/fe89aab0d1637561b25ce635ba221960e8873c34",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:54:48Z",
+            "commit_committer_date": "2026-10-14T08:54:48Z",
+            "subject": "Clarify tool-specific CLI exit codes"
+          },
+          {
+            "sha": "3f957898afda13ca794c814f6eb40b019d24065b",
+            "url": "https://github.com/Afloat16/pose-convention-bridge/commit/3f957898afda13ca794c814f6eb40b019d24065b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:19:44Z",
+            "commit_committer_date": "2026-10-14T08:19:44Z",
+            "subject": "Publish pose-convention-bridge with tested geometry and demand evidence"
+          },
+          {
+            "sha": "5e6d9adb39cb4d228a73560fbffff2d1c05cd9e1",
+            "url": "https://github.com/Afloat16/pose-convention-bridge/commit/5e6d9adb39cb4d228a73560fbffff2d1c05cd9e1",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:18:05Z",
+            "commit_committer_date": "2026-10-14T08:18:05Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/agent-action-notifier",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:24:00Z",
+        "source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+            "url": "https://github.com/Afloat16/agent-action-notifier/commit/d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:06Z",
+            "commit_committer_date": "2026-10-14T09:33:06Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "20e2dcee98f3498658abe7861db7f36a7e0b0246",
+            "url": "https://github.com/Afloat16/agent-action-notifier/commit/20e2dcee98f3498658abe7861db7f36a7e0b0246",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T02:50:32Z",
+            "commit_committer_date": "2026-10-14T02:50:32Z",
+            "subject": "Improve README onboarding, usage guidance, and project discovery"
+          },
+          {
+            "sha": "80a5cd2f881c5e7a62e03cfcf9dac2bb5780266b",
+            "url": "https://github.com/Afloat16/agent-action-notifier/commit/80a5cd2f881c5e7a62e03cfcf9dac2bb5780266b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-05T00:29:55Z",
+            "commit_committer_date": "2026-10-05T00:29:55Z",
+            "subject": "Keep explicit database paths independent of Windows profile state"
+          },
+          {
+            "sha": "97a5b8c73af3cfb9a730c58d3f7ad7311bc8084d",
+            "url": "https://github.com/Afloat16/agent-action-notifier/commit/97a5b8c73af3cfb9a730c58d3f7ad7311bc8084d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-05T00:24:40Z",
+            "commit_committer_date": "2026-10-05T00:24:40Z",
+            "subject": "Add email-first action steps and unverified reply review"
+          },
+          {
+            "sha": "8cb5969f9a20a90f4db84f19d6dd3a992630baa6",
+            "url": "https://github.com/Afloat16/agent-action-notifier/commit/8cb5969f9a20a90f4db84f19d6dd3a992630baa6",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-04T04:34:06Z",
+            "commit_committer_date": "2026-10-04T04:34:06Z",
+            "subject": "Make lease-renewal regression deterministic across CI runners"
+          },
+          {
+            "sha": "737276b071046f978285049daa28f055fd0caf13",
+            "url": "https://github.com/Afloat16/agent-action-notifier/commit/737276b071046f978285049daa28f055fd0caf13",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-04T04:27:07Z",
+            "commit_committer_date": "2026-10-04T04:27:07Z",
+            "subject": "Build durable notification-only human-action alerts"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/colmap-model-audit",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:24:00Z",
+        "source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+            "url": "https://github.com/Afloat16/colmap-model-audit/commit/40f0316fed6fb181079a79c63ea29834685de0b3",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:33:24Z",
+            "commit_committer_date": "2026-10-14T09:33:24Z",
+            "subject": "Prioritize English and localize project navigation"
+          },
+          {
+            "sha": "614adefeef13a8c1244105e9c5ca5d2047ae5414",
+            "url": "https://github.com/Afloat16/colmap-model-audit/commit/614adefeef13a8c1244105e9c5ca5d2047ae5414",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:54:45Z",
+            "commit_committer_date": "2026-10-14T08:54:45Z",
+            "subject": "Clarify tool-specific CLI exit codes"
+          },
+          {
+            "sha": "1fa3ce4db106d0bd886abfaab241e44e34f62bc4",
+            "url": "https://github.com/Afloat16/colmap-model-audit/commit/1fa3ce4db106d0bd886abfaab241e44e34f62bc4",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:19:41Z",
+            "commit_committer_date": "2026-10-14T08:19:41Z",
+            "subject": "Publish colmap-model-audit with tested geometry and demand evidence"
+          },
+          {
+            "sha": "7b0e82554be5c40dc67fd075fd2ad7fa00799523",
+            "url": "https://github.com/Afloat16/colmap-model-audit/commit/7b0e82554be5c40dc67fd075fd2ad7fa00799523",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T08:16:07Z",
+            "commit_committer_date": "2026-10-14T08:16:07Z",
+            "subject": "Initial commit"
+          }
+        ]
+      },
+      {
+        "repository": "Afloat16/Afloat16",
+        "default_branch": "main",
+        "verified_at": "2026-11-09T12:24:00Z",
+        "source_url": "https://api.github.com/repos/Afloat16/Afloat16/commits?sha=main&per_page=100",
+        "commits": [
+          {
+            "sha": "b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac",
+            "url": "https://github.com/Afloat16/Afloat16/commit/b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T03:50:24Z",
+            "commit_committer_date": "2026-11-09T03:50:24Z",
+            "subject": "Refresh profile metrics and contributor rankings for 9 November 2026"
+          },
+          {
+            "sha": "27aacca60a0058514979ea0a1e851d20dfc1ddf6",
+            "url": "https://github.com/Afloat16/Afloat16/commit/27aacca60a0058514979ea0a1e851d20dfc1ddf6",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-09T01:59:09Z",
+            "commit_committer_date": "2026-11-09T01:59:09Z",
+            "subject": "Update profile with COLMAP's top-30 rank and five upstream merges"
+          },
+          {
+            "sha": "0d847b856ac68ca92a5d37670036e0a9886e9c12",
+            "url": "https://github.com/Afloat16/Afloat16/commit/0d847b856ac68ca92a5d37670036e0a9886e9c12",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-08T11:42:35Z",
+            "commit_committer_date": "2026-11-08T11:42:35Z",
+            "subject": "Refresh profile with seven upstream merges and verified contributor ranks"
+          },
+          {
+            "sha": "db3d1f8ae04071ad966ca600cab5a901d87e6504",
+            "url": "https://github.com/Afloat16/Afloat16/commit/db3d1f8ae04071ad966ca600cab5a901d87e6504",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-07T14:38:31Z",
+            "commit_committer_date": "2026-11-07T14:38:31Z",
+            "subject": "Refresh contribution ranks, merged work and project stars for 7 November"
+          },
+          {
+            "sha": "f7c374ed1d3b1e8e22ec9bf0892c14710d0e5b20",
+            "url": "https://github.com/Afloat16/Afloat16/commit/f7c374ed1d3b1e8e22ec9bf0892c14710d0e5b20",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-06T03:13:11Z",
+            "commit_committer_date": "2026-11-06T03:13:11Z",
+            "subject": "Refresh profile metrics and show upstream projects with at least 1,000 stars"
+          },
+          {
+            "sha": "facf18f64f8e9183664e99e649359019b551f452",
+            "url": "https://github.com/Afloat16/Afloat16/commit/facf18f64f8e9183664e99e649359019b551f452",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-05T03:52:50Z",
+            "commit_committer_date": "2026-11-05T03:52:50Z",
+            "subject": "Refresh profile metrics and merged contributions for 2026-11-05"
+          },
+          {
+            "sha": "26281f9abb3e4f48ea562764003abbd3085589f7",
+            "url": "https://github.com/Afloat16/Afloat16/commit/26281f9abb3e4f48ea562764003abbd3085589f7",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-04T13:01:43Z",
+            "commit_committer_date": "2026-11-04T13:01:43Z",
+            "subject": "Refresh stars, merged contributions and current graph rankings"
+          },
+          {
+            "sha": "56728f632d515d9e59a7d63b5db3e1252bde065d",
+            "url": "https://github.com/Afloat16/Afloat16/commit/56728f632d515d9e59a7d63b5db3e1252bde065d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-04T02:34:38Z",
+            "commit_committer_date": "2026-11-04T02:34:38Z",
+            "subject": "Refresh profile contribution and project snapshot for 2026-11-04"
+          },
+          {
+            "sha": "36a53b9c9e73ad1e9ec9f339c2c137411d9dee2e",
+            "url": "https://github.com/Afloat16/Afloat16/commit/36a53b9c9e73ad1e9ec9f339c2c137411d9dee2e",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-03T14:12:06Z",
+            "commit_committer_date": "2026-11-03T14:12:06Z",
+            "subject": "Group selected contributions by project and add Craft Anything"
+          },
+          {
+            "sha": "bf52ca31a9c5f03bab90662c9ea0c6174a1d989a",
+            "url": "https://github.com/Afloat16/Afloat16/commit/bf52ca31a9c5f03bab90662c9ea0c6174a1d989a",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-03T13:48:50Z",
+            "commit_committer_date": "2026-11-03T13:48:50Z",
+            "subject": "Refresh profile with 117 merged PRs and Craft Anything position #2"
+          },
+          {
+            "sha": "b33454917bfea229f80c63a29d74bec1f6bb4982",
+            "url": "https://github.com/Afloat16/Afloat16/commit/b33454917bfea229f80c63a29d74bec1f6bb4982",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-03T09:11:03Z",
+            "commit_committer_date": "2026-11-03T09:11:03Z",
+            "subject": "Refresh profile with 116 merged PRs and current contributor ranks"
+          },
+          {
+            "sha": "fa7f8d9b8317006129f3654a9893b0fee47fba8b",
+            "url": "https://github.com/Afloat16/Afloat16/commit/fa7f8d9b8317006129f3654a9893b0fee47fba8b",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-03T04:42:15Z",
+            "commit_committer_date": "2026-11-03T04:42:15Z",
+            "subject": "Refresh merged contributions and add Craft Anything top-30 position"
+          },
+          {
+            "sha": "6a6cf21f769d818c9691f412a008750319a7d275",
+            "url": "https://github.com/Afloat16/Afloat16/commit/6a6cf21f769d818c9691f412a008750319a7d275",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-02T12:34:33Z",
+            "commit_committer_date": "2026-11-02T12:34:33Z",
+            "subject": "docs(profile): feature selected REA and LeRobot merged contributions"
+          },
+          {
+            "sha": "72b3e98a520d4f14b5c60e9c2172e1ce508d0382",
+            "url": "https://github.com/Afloat16/Afloat16/commit/72b3e98a520d4f14b5c60e9c2172e1ce508d0382",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-11-02T12:22:40Z",
+            "commit_committer_date": "2026-11-02T12:22:40Z",
+            "subject": "docs(profile): refresh November metrics and recent merged contributions"
+          },
+          {
+            "sha": "ccf9e574d3b0b6b375b7d7d775d25cd9bfa1946a",
+            "url": "https://github.com/Afloat16/Afloat16/commit/ccf9e574d3b0b6b375b7d7d775d25cd9bfa1946a",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-30T09:02:20Z",
+            "commit_committer_date": "2026-10-30T09:02:20Z",
+            "subject": "docs(profile): refresh project and upstream contribution metrics"
+          },
+          {
+            "sha": "218433dbfae23ed1a9c0c57e3d86e377807eb19e",
+            "url": "https://github.com/Afloat16/Afloat16/commit/218433dbfae23ed1a9c0c57e3d86e377807eb19e",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-30T08:32:04Z",
+            "commit_committer_date": "2026-10-30T08:32:04Z",
+            "subject": "docs(profile): simplify contribution layout and expand upstream work"
+          },
+          {
+            "sha": "eb92f0455740121f7d26e79182bea5ca5bf192c8",
+            "url": "https://github.com/Afloat16/Afloat16/commit/eb92f0455740121f7d26e79182bea5ca5bf192c8",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-30T06:14:38Z",
+            "commit_committer_date": "2026-10-30T06:14:38Z",
+            "subject": "docs(profile): refresh verified contributions and polish bilingual profile"
+          },
+          {
+            "sha": "73b22ccfc012e636b4a62301fa81af1595730ee8",
+            "url": "https://github.com/Afloat16/Afloat16/commit/73b22ccfc012e636b4a62301fa81af1595730ee8",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-23T08:15:12Z",
+            "commit_committer_date": "2026-10-23T08:15:12Z",
+            "subject": "docs(profile): refresh merged contributions and accepted upstream work"
+          },
+          {
+            "sha": "6d5e2e42261ee4a48edda7f84ce8a002c8438b04",
+            "url": "https://github.com/Afloat16/Afloat16/commit/6d5e2e42261ee4a48edda7f84ce8a002c8438b04",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T08:31:42Z",
+            "commit_committer_date": "2026-10-20T08:31:42Z",
+            "subject": "docs: focus Anti-REA Forge showcase on practical benefits and contribution paths"
+          },
+          {
+            "sha": "9470de332a4ab520e54807c030ba4b91b8809e81",
+            "url": "https://github.com/Afloat16/Afloat16/commit/9470de332a4ab520e54807c030ba4b91b8809e81",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-20T08:05:17Z",
+            "commit_committer_date": "2026-10-20T08:05:17Z",
+            "subject": "docs: feature Anti-REA Forge v0.4 and its community research story"
+          },
+          {
+            "sha": "3145566d2eee1b2412f5ca4a8fbe9ab4a3b0e38d",
+            "url": "https://github.com/Afloat16/Afloat16/commit/3145566d2eee1b2412f5ca4a8fbe9ab4a3b0e38d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-19T13:54:27Z",
+            "commit_committer_date": "2026-10-19T13:54:27Z",
+            "subject": "Refresh upstream contributions: top-30 placements, merged counts and expanded showcase"
+          },
+          {
+            "sha": "93286afdc4caa5b57660a4524c2bba7b64afb904",
+            "url": "https://github.com/Afloat16/Afloat16/commit/93286afdc4caa5b57660a4524c2bba7b64afb904",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:57:14Z",
+            "commit_committer_date": "2026-10-15T13:57:14Z",
+            "subject": "Show Anti-REA Forge with an English project introduction"
+          },
+          {
+            "sha": "c14924c1f3d6b3e1078b31b9a6a86e80d660d4ac",
+            "url": "https://github.com/Afloat16/Afloat16/commit/c14924c1f3d6b3e1078b31b9a6a86e80d660d4ac",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-15T13:57:13Z",
+            "commit_committer_date": "2026-10-15T13:57:13Z",
+            "subject": "Feature Anti-REA Forge and invite software protection contributors"
+          },
+          {
+            "sha": "bb82c873e717e78c999a2f6d40e00f6c6eeec087",
+            "url": "https://github.com/Afloat16/Afloat16/commit/bb82c873e717e78c999a2f6d40e00f6c6eeec087",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T10:04:35Z",
+            "commit_committer_date": "2026-10-14T10:04:35Z",
+            "subject": "Pin research banner assets to the verified artwork revision"
+          },
+          {
+            "sha": "bf6e680af1443141ab6598a27134d1475e906a0d",
+            "url": "https://github.com/Afloat16/Afloat16/commit/bf6e680af1443141ab6598a27134d1475e906a0d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T10:02:50Z",
+            "commit_committer_date": "2026-10-14T10:02:50Z",
+            "subject": "Refresh cached profile banners for the research focus"
+          },
+          {
+            "sha": "91901fa33a12a0c3c5ee6942db0630441ae0ffa1",
+            "url": "https://github.com/Afloat16/Afloat16/commit/91901fa33a12a0c3c5ee6942db0630441ae0ffa1",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T10:00:39Z",
+            "commit_committer_date": "2026-10-14T10:00:39Z",
+            "subject": "Center the profile on robotics, LLMs and 3D reconstruction"
+          },
+          {
+            "sha": "97d878942c18a1598440b76c778e55a6b32e000d",
+            "url": "https://github.com/Afloat16/Afloat16/commit/97d878942c18a1598440b76c778e55a6b32e000d",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:34:02Z",
+            "commit_committer_date": "2026-10-14T09:34:02Z",
+            "subject": "Build a bilingual portfolio with verified upstream contributions"
+          },
+          {
+            "sha": "cd80ae702b56ada828a9f28aa3f23cbd3d6e9292",
+            "url": "https://github.com/Afloat16/Afloat16/commit/cd80ae702b56ada828a9f28aa3f23cbd3d6e9292",
+            "author_login": "Afloat16",
+            "commit_author_date": "2026-10-14T09:24:58Z",
+            "commit_committer_date": "2026-10-14T09:24:58Z",
+            "subject": "Initial commit"
+          }
+        ]
+      }
+    ],
+    "release_source_urls": [
+      "https://api.github.com/repos/Afloat16/anti-rea-forge/releases",
+      "https://api.github.com/repos/Afloat16/recontrail/releases",
+      "https://api.github.com/repos/Afloat16/jev-mcp/releases",
+      "https://api.github.com/repos/Afloat16/debate-direction/releases",
+      "https://api.github.com/repos/Afloat16/llm-handshake/releases",
+      "https://api.github.com/repos/Afloat16/tf-route-audit/releases",
+      "https://api.github.com/repos/Afloat16/tooltrace-audit/releases",
+      "https://api.github.com/repos/Afloat16/bag-timeline-audit/releases",
+      "https://api.github.com/repos/Afloat16/sse-toolcall-audit/releases",
+      "https://api.github.com/repos/Afloat16/modeldock/releases",
+      "https://api.github.com/repos/Afloat16/ai-dev-steward/releases",
+      "https://api.github.com/repos/Afloat16/research-to-fix/releases",
+      "https://api.github.com/repos/Afloat16/pose-convention-bridge/releases",
+      "https://api.github.com/repos/Afloat16/agent-action-notifier/releases",
+      "https://api.github.com/repos/Afloat16/colmap-model-audit/releases",
+      "https://api.github.com/repos/Afloat16/Afloat16/releases"
+    ],
+    "current_readme_evidence": {
+      "sha": "0519b0bb14265a9dcfc74471ecd6241bbf1c19ae",
+      "url": "https://github.com/Afloat16/anti-rea-forge/blob/5abf2b5d0c77e6dcbbb97339aa60b870d3171d99/README.md",
+      "head": "5abf2b5d0c77e6dcbbb97339aa60b870d3171d99",
+      "first_line": "# Anti-REA Forge v0.8.0",
+      "verified_at": "2026-11-09 12:24:26 UTC"
+    }
+  },
+  "snapshot_id": "2026-11-09-2024"
+}
