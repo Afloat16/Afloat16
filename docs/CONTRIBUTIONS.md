@@ -19,16 +19,16 @@ Since the 11:49 snapshot, **43 more PRs merged**, including 30 in [storytold/cra
 
 ## Selected merges by project
 
-6 projects, one row each, covering 13 representative merged PRs in the preceding seven days. Each selection describes the behavior changed in the merged code and the available regression evidence. Projects are ordered by their latest selected merge.
+The established six projects contribute 14 selected author PRs, with one to three per project. The review compares recent merges within each project's own history and weighs engineering impact, distinct behavior and regression evidence. Selected PR dates are shown below. Selections reviewed on **9 November 2026 · 20:39 CST (UTC+8)**.
 
 | Latest selected merge | Upstream project · ★ | Representative engineering | PR / merged commit |
 |---|---|---|---|
 | 2026-11-09 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>23,755 ★ | Decode concatenated Zstandard frames under one output limit, identify EVM dispatchers that actually reject payments, and keep filesystem recovery inside declared image bounds. | [#1340](https://github.com/storytold/craft-anything/pull/1340) · [`25a8f17`](https://github.com/storytold/craft-anything/commit/25a8f179f8b6b7730bc138fa8633180323c5d11c)<br>[#1323](https://github.com/storytold/craft-anything/pull/1323) · [`3f7b9a3`](https://github.com/storytold/craft-anything/commit/3f7b9a36158f7f732254051c0cc2df7832aec8d3)<br>[#1246](https://github.com/storytold/craft-anything/pull/1246) · [`b9a3525`](https://github.com/storytold/craft-anything/commit/b9a352542b640a78eaf3b63abf0409e8b399079c) |
-| 2026-11-09 | **[Claude-Mem](https://github.com/thedotmack/claude-mem)**<br>115,178 ★ | Protect the selected restore point during backup rotation, preserve distinct files whose hash prefixes collide, and keep retried PostgreSQL writes idempotent. | [#5532](https://github.com/thedotmack/claude-mem/pull/5532) · [`5ce4b19`](https://github.com/thedotmack/claude-mem/commit/5ce4b19e00f40e7023b75a9dee8e49467f998852)<br>[#5536](https://github.com/thedotmack/claude-mem/pull/5536) · [`e15d466`](https://github.com/thedotmack/claude-mem/commit/e15d46675bde9059d591baea2a95400b94034d57)<br>[#5538](https://github.com/thedotmack/claude-mem/pull/5538) · [`5047f2b`](https://github.com/thedotmack/claude-mem/commit/5047f2b0f213eb42a738b4a2721cd310a92d0e67) |
-| 2026-11-08 | **[skrl](https://github.com/Toni-SM/skrl)**<br>1,105 ★ | Average noncontiguous PyTorch gradients across workers and propagate JAX worker failures to the launcher. | [#489](https://github.com/Toni-SM/skrl/pull/489) · [`0c4d777`](https://github.com/Toni-SM/skrl/commit/0c4d7771f88b21070457afd03e558bbee17c4ec5)<br>[#496](https://github.com/Toni-SM/skrl/pull/496) · [`34a926b`](https://github.com/Toni-SM/skrl/commit/34a926be7486ada0a06df274a5aaca6930136e54) |
-| 2026-11-07 | **[openMVG](https://github.com/openMVG/openMVG)**<br>6,593 ★ | Use depth along each observed ray to keep valid rear-hemisphere 3D points in spherical-camera triangulation. | [#2445](https://github.com/openMVG/openMVG/pull/2445) · [`5f84739`](https://github.com/openMVG/openMVG/commit/5f84739844e8bc6aba243128498ff44910f60b66) |
-| 2026-11-07 | **[Kornia](https://github.com/kornia/kornia)**<br>12,361 ★ | Register augmentation pipelines as PyTorch child modules so state survives checkpoint round trips, and accumulate half-precision metric updates in FP32. | [#6449](https://github.com/kornia/kornia/pull/6449) · [`b985896`](https://github.com/kornia/kornia/commit/b985896b72bf82eb98ae4bef573487bc922ebbc3)<br>[#6580](https://github.com/kornia/kornia/pull/6580) · [`1c52e60`](https://github.com/kornia/kornia/commit/1c52e60146fbd1ff53dc4611600a06b53919d4e8) |
-| 2026-11-05 | **[Geoopt](https://github.com/geoopt/geoopt)**<br>1,104 ★ | Correct canonical Stiefel projection and the Wolfe line-search derivative, and compute Euclidean norms and distances over higher-dimensional manifold tensors. | [#280](https://github.com/geoopt/geoopt/pull/280) · [`c9f86dd`](https://github.com/geoopt/geoopt/commit/c9f86dd03d0a51d329f3a51f004f5380843680c6)<br>[#278](https://github.com/geoopt/geoopt/pull/278) · [`d2121d5`](https://github.com/geoopt/geoopt/commit/d2121d557d4d212894349475c2d46c0cd7834ae4) |
+| 2026-11-09 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,183 ★ | Restore Python 3 image collection with bounded retries and response cleanup, and make translation-angle evaluation invariant to reconstruction scale. | [#4977](https://github.com/colmap/colmap/pull/4977) · [`9f0736e`](https://github.com/colmap/colmap/commit/9f0736e90c2d7e10315ef4e4c62688d8f32fa8d4)<br>[#4932](https://github.com/colmap/colmap/pull/4932) · [`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd) |
+| 2026-11-08 | **[DeepFace](https://github.com/serengil/deepface)**<br>23,662 ★ | Preserve explicit false API options, close HTTP image responses through success and failure, and keep empty, singleton and multi-image batches structurally consistent. | [#1684](https://github.com/serengil/deepface/pull/1684) · [`a8cee7b`](https://github.com/serengil/deepface/commit/a8cee7b3949d6d9fbba53c82eeca6956e233d623)<br>[#1679](https://github.com/serengil/deepface/pull/1679) · [`eb29c2e`](https://github.com/serengil/deepface/commit/eb29c2e63b31348894487d1b649bee3188636179)<br>[#1675](https://github.com/serengil/deepface/pull/1675) · [`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac) |
+| 2026-11-06 | **[REA](https://github.com/morluto/rea)**<br>445,495 ★ | Preserve UTF-8 at diagnostic cutoffs, resume complete NDJSON messages after interrupted iteration, and honor cancellation when bounded reads finish. | [#8907](https://github.com/morluto/rea/pull/8907) · [`3eff806`](https://github.com/morluto/rea/commit/3eff8065e757c6e3bab96d164abfceafd340e6d1)<br>[#8909](https://github.com/morluto/rea/pull/8909) · [`a3621e5`](https://github.com/morluto/rea/commit/a3621e5e1f73755d927dd97861ab4216cabf4787)<br>[#8908](https://github.com/morluto/rea/pull/8908) · [`b153ba8`](https://github.com/morluto/rea/commit/b153ba8ddd5bf13cbc6ba74009eca290686adbca) |
+| 2026-11-05 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,269 ★ | Exclude padded tokens before CNN convolution and compute RRF retrieval metrics without inserting unretrieved positives into observed rankings. | [#4323](https://github.com/huggingface/sentence-transformers/pull/4323) · [`7da542f`](https://github.com/huggingface/sentence-transformers/commit/7da542fb4ac0da773ab608e8b214e19aea7066f5)<br>[#4114](https://github.com/huggingface/sentence-transformers/pull/4114) · [`6994c94`](https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d) |
+| 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,772 ★ | Apply V-JEPA 2's pairwise RoPE correction to VLA-JEPA's training-only world predictor. | [#4835](https://github.com/huggingface/lerobot/pull/4835) · [`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693) |
 
 ### Craft Anything
 
@@ -56,95 +56,103 @@ Synthetic images exercise adjacent bytes, truncated nodes, empty directories, sy
 
 The merged change covers five reader paths with synthetic recovery fixtures.
 
-### Claude-Mem
+### COLMAP
 
-**[#5532](https://github.com/thedotmack/claude-mem/pull/5532) — Keep a backup selected for a pending restore until the restore marker clears** · merged 2026-11-09 19:09 · [`5ce4b19`](https://github.com/thedotmack/claude-mem/commit/5ce4b19e00f40e7023b75a9dee8e49467f998852)
+**[#4977](https://github.com/colmap/colmap/pull/4977) — Restore Python 3 Flickr collection with bounded retry handling and response cleanup** · merged 2026-11-09 02:33 · [`9f0736e`](https://github.com/colmap/colmap/commit/9f0736e90c2d7e10315ef4e4c62688d8f32fa8d4)
 
-Retention excludes a staged restore point from deletion. Listing and retention also require a regular snapshot file, and cleanup targets only managed partial snapshots.
+Uses Python 3 URL requests and decodes HTML before parsing image links. Responses are closed and retry attempts terminate after repeated timeouts.
 
-Temporary-directory fixtures stage an older restore point, run retention before and after the marker is cleared, test cleanup boundaries and check a directory with a snapshot-like name cannot evict the last real backup.
+Tests use fake HTTP responses to verify a downloaded photo and response closure, a successful retry and exhaustion after repeated timeouts.
 
-Covers snapshot selection and filesystem retention, without testing a full server restore.
+The change affects the image collection utility.
 
-**[#5536](https://github.com/thedotmack/claude-mem/pull/5536) — Preserve distinct deliverable revisions when their abbreviated hashes collide** · merged 2026-11-09 18:24 · [`e15d466`](https://github.com/thedotmack/claude-mem/commit/e15d46675bde9059d591baea2a95400b94034d57)
+**[#4932](https://github.com/colmap/colmap/pull/4932) — Make translation-angle errors invariant to reconstruction scale** · merged 2026-11-02 16:40 · [`27ffad4`](https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd)
 
-Reserves filenames atomically and checks full digests before reusing an existing stored file.
+Normalizes finite nonzero vectors using their largest absolute component before their L2 norm, avoiding the small-norm floor and large-magnitude overflow.
 
-A pair of equal-length files sharing eight SHA-256 hex digits must both retain their bytes. A second fixture checks the fallback when hard linking is unavailable.
+Regressions scale vectors from 1e-200 to 1e200 and check angular invariants, zero vectors, input preservation and reconstruction-level similarity transforms.
 
-The tests cover the local deliverable store.
+The change affects benchmark translation-angle evaluation.
 
-**[#5538](https://github.com/thedotmack/claude-mem/pull/5538) — Retain generation progress and skip repeated embedding work on idempotent PostgreSQL writes** · merged 2026-11-09 18:23 · [`5047f2b`](https://github.com/thedotmack/claude-mem/commit/5047f2b0f213eb42a738b4a2721cd310a92d0e67)
+### DeepFace
 
-Preserves generation status when a repeated session upsert omits it and claims the generation key before embedding newly submitted memories.
+**[#1684](https://github.com/serengil/deepface/pull/1684) — Preserve false-valued boolean options in HTTP form requests** · merged 2026-11-08 02:51 · [`a8cee7b`](https://github.com/serengil/deepface/commit/a8cee7b3949d6d9fbba53c82eeca6956e233d623)
 
-The route test spies on the embedder and asserts one call for two writes with the same key. The storage test confirms a repeated session creation preserves completed status and an explicitly requested transition still works.
+Parses accepted true/false forms once and passes typed options to representation, verification and other API calls instead of treating every nonempty string as true.
 
-The reviewed tests exercise the PostgreSQL storage path.
+Parameterized API fixtures check every boolean option against supported form and JSON values and reject invalid options.
 
-### skrl
+The fix applies to HTTP option parsing and forwarding.
 
-**[#489](https://github.com/Toni-SM/skrl/pull/489) — Reduce noncontiguous PyTorch gradients across distributed workers** · merged 2026-11-08 19:58 · [`0c4d777`](https://github.com/Toni-SM/skrl/commit/0c4d7771f88b21070457afd03e558bbee17c4ec5)
+**[#1679](https://github.com/serengil/deepface/pull/1679) — Close streamed HTTP image responses on success and every error path** · merged 2026-11-05 02:22 · [`eb29c2e`](https://github.com/serengil/deepface/commit/eb29c2e63b31348894487d1b649bee3188636179)
 
-Flattens gradient tensors with reshape before all-reduce so strided gradients from channels-last convolutions can be synchronized.
+Closes the HTTP response after decoding or after request-status, read or decode failures.
 
-Two CPU/Gloo processes compare every parameter gradient against the average of distinct local backwards and check the channels-last gradient layout.
+Fake responses exercise successful decoding, HTTP failure, streaming read failure and decoding failure, checking closure each time.
 
-Regression coverage uses CPU/Gloo workers.
+The fix applies to HTTP image loading.
 
-**[#496](https://github.com/Toni-SM/skrl/pull/496) — Return failing JAX worker exit codes to the parent launcher and validate launch topology** · merged 2026-11-08 18:55 · [`34a926b`](https://github.com/Toni-SM/skrl/commit/34a926be7486ada0a06df274a5aaca6930136e54)
+**[#1675](https://github.com/serengil/deepface/pull/1675) — Preserve the outer result dimension for image batch inputs** · merged 2026-11-01 01:25 · [`8e565c0`](https://github.com/serengil/deepface/commit/8e565c050b821b8585e3c9527e419b0be5495fac)
 
-Propagates command and multiprocessing worker exit or signal status, validates argument ranges and brackets IPv6 coordinator addresses.
+Determines batch semantics from list or 4D-array input, retains a batch wrapper for a singleton batch and returns an empty batch before constructing a model.
 
-Subprocess tests cover a successful worker, explicit failure, a killed command, a killed worker and IPv6 coordinator configuration.
+Fixtures cover zero, one and two images through lists and 4D arrays, compare batch embeddings and facial areas against individual calls, and verify scalar-image output stays flat.
 
-The tests exercise process behavior without a distributed accelerator cluster.
+The change affects representation return shape rather than recognition accuracy.
 
-### openMVG
+### REA
 
-**[#2445](https://github.com/openMVG/openMVG/pull/2445) — Check triangulation cheirality along each observed ray for spherical cameras** · merged 2026-11-07 09:15 · [`5f84739`](https://github.com/openMVG/openMVG/commit/5f84739844e8bc6aba243128498ff44910f60b66)
+**[#8907](https://github.com/morluto/rea/pull/8907) — Keep complete UTF-8 code points in bounded diagnostic excerpts** · merged 2026-11-06 10:13 · [`3eff806`](https://github.com/morluto/rea/commit/3eff8065e757c6e3bab96d164abfceafd340e6d1)
 
-Uses the dot product of each camera-frame 3D point with its corresponding bearing in two-view DLT, allowing observations behind the camera’s z plane.
+Trims only incomplete code-point fragments at retained head and tail boundaries while leaving known malformed bytes visible as diagnostic evidence.
 
-Synthetic tests cover front and rear hemispheres, opposing cameras, rescaled bearings, false antipodal matches, pixel noise and 3D/reprojection tolerances.
+Regressions cover every two-chunk split, bytewise appends, malformed prefixes and bounded subprocess stdout and stderr.
 
-The change is specific to the two-view DLT validity check.
+The fix applies to byte-bounded diagnostic excerpts.
 
-### Kornia
+**[#8909](https://github.com/morluto/rea/pull/8909) — Resume already-buffered NDJSON frames after iteration stops** · merged 2026-11-06 10:12 · [`a3621e5`](https://github.com/morluto/rea/commit/a3621e5e1f73755d927dd97861ab4216cabf4787)
 
-**[#6449](https://github.com/kornia/kornia/pull/6449) — Register dispatcher augmentations as PyTorch child modules and load legacy checkpoints** · merged 2026-11-03 23:11 · [`b985896`](https://github.com/kornia/kornia/commit/b985896b72bf82eb98ae4bef573487bc922ebbc3)
+Drains complete pending lines even when a later push is empty or contains only a partial following frame.
 
-Uses ModuleList and a version-aware load hook so mode, dtype, device and parameter traversal reach the children without masking missing state in current checkpoints.
+A generator is closed after its first yielded line and the remaining complete lines must drain on an empty push. Hopper stream fixtures check partial pushes after an invalid response.
 
-Tests cover eval mode, parameter registration, strict legacy loading, current missing keys, lazy state and non-tensor extra state.
+The fix applies to decoded NDJSON buffering and response consumption.
 
-Covers the many-to-one and many-to-many augmentation dispatchers.
+**[#8908](https://github.com/morluto/rea/pull/8908) — Honor cancellation before returning from a completed bounded read** · merged 2026-11-06 10:11 · [`b153ba8`](https://github.com/morluto/rea/commit/b153ba8ddd5bf13cbc6ba74009eca290686adbca)
 
-**[#6580](https://github.com/kornia/kornia/pull/6580) — Accumulate FP16 and BF16 metric updates in FP32 before multiplying by the weight** · merged 2026-11-07 04:43 · [`1c52e60`](https://github.com/kornia/kornia/commit/1c52e60146fbd1ff53dc4611600a06b53919d4e8)
+Checks the abort state immediately after each awaited read as well as before initial work, including empty and fixed-size reads.
 
-Casts low-precision inputs before weighting and lets subsequent wider values promote the accumulator.
+Boundary tests abort while a filesystem read is in flight for empty, exact-fit and limit-crossing inputs and check that the caller-owned cancellation reason reaches the configured error conversion.
 
-Regressions check repeated increments, overflow during weighting and promotion by later updates.
+The fix applies to bounded file-byte reads.
 
-Changes AverageMeter accumulation while preserving the most recent raw input.
+### Sentence Transformers
 
-### Geoopt
+**[#4323](https://github.com/huggingface/sentence-transformers/pull/4323) — Mask padded token embeddings before CNN convolution** · merged 2026-11-05 20:45 · [`7da542f`](https://github.com/huggingface/sentence-transformers/commit/7da542fb4ac0da773ab608e8b214e19aea7066f5)
 
-**[#280](https://github.com/geoopt/geoopt/pull/280) — Correct canonical Stiefel projection, Cayley initial velocity and the line-search derivative** · merged 2026-11-05 16:36 · [`c9f86dd`](https://github.com/geoopt/geoopt/commit/c9f86dd03d0a51d329f3a51f004f5380843680c6)
+Zeros masked token embeddings before applying convolution so padding values cannot influence neighboring valid tokens and pooled sentence embeddings.
 
-Separates tangent projection from Riemannian gradient conversion and differentiates the actual Cayley retraction for Wolfe line search.
+Tests combine left and right padding, large and NaN padding values and multiple kernel sizes, with an unmasked control.
 
-Tests check projection idempotence, preservation of tangent momentum, retraction Jacobian–vector products against autograd and Wolfe derivatives against finite differences.
+The change affects the CNN module when an attention mask is supplied.
 
-Manifolds without a retraction differential retain the existing transported-direction approximation.
+**[#4114](https://github.com/huggingface/sentence-transformers/pull/4114) — Evaluate observed RRF rankings with all known positives as normalization** · merged 2026-11-02 18:54 · [`6994c94`](https://github.com/huggingface/sentence-transformers/commit/6994c94f39a3ff30f21075af1eca46d3ac5e8a8d)
 
-**[#278](https://github.com/geoopt/geoopt/pull/278) — Compute Euclidean norms and distances over all declared manifold dimensions** · merged 2026-11-05 16:35 · [`d2121d5`](https://github.com/geoopt/geoopt/commit/d2121d557d4d212894349475c2d46c0cd7834ae4)
+Computes MRR, MAP and NDCG from retrieved documents alone while normalizing MAP and ideal DCG against all known positives. Example rerankers receive the actual retrieved candidate set.
 
-Uses a vector-norm reduction over the manifold axes while retaining the outer batch shape.
+Regressions cover missing positives, a top-100 cutoff, empty and singleton results, complementary retrievers, tied scores and a zero cutoff.
 
-Tests cover three- and four-dimensional manifolds, keepdim and dtype behavior, reference gradients, and finite zero gradients at zero.
+The correction changes evaluation semantics and documented example metrics.
 
-Applies to the Euclidean manifold implementation.
+### LeRobot
+
+**[#4835](https://github.com/huggingface/lerobot/pull/4835) — Apply V-JEPA 2's existing pairwise RoPE correction to VLA-JEPA's training-only world predictor** · merged 2026-10-22 22:00 · [`f9e9d73`](https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693)
+
+Replaces frequency-block repetition with repeat_interleave(2, dim=-1), matching the adjacent-coordinate rotation layout and retaining the position axis for a single frequency. The correction targets the RoPE geometry used by the world predictor; it is an application of prior upstream work.
+
+The final upstream commit changes the production helper and compatibility documentation. No regression-test file was added.
+
+Not an original RoPE algorithm. The final merged diff contains the production helper and documentation only, with no added regression test file. Parameter names/shapes remain load-compatible, but existing world-predictor outputs and training losses change; pretrained quality requires separate evaluation. The world predictor is training-only, so no closed-loop robot performance, inference-quality or full-suite/GPU validation improvement is claimed. Tests were not rerun during this review.
 
 ## Previously selected work
 
