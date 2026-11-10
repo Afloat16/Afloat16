@@ -1,0 +1,2892 @@
+{
+  "verified_date": "2026-11-10",
+  "scope": "The established 15 public non-fork software projects owned by Afloat16, plus the profile repository as a separate inventory entry.",
+  "retrieval": "Official GitHub repository metadata and exact default-branch head checks. All 15 software heads matched the previously fully enumerated histories, so their reachable commit counts remain valid. The changed profile head was checked against a complete, parent-closed 32-commit history. README descriptions and release observations retain their original verification timestamps.",
+  "private_repositories_included": false,
+  "summary": {
+    "public_nonfork_repositories": 16,
+    "software_projects_excluding_profile": 15,
+    "total_project_stars": 17,
+    "total_project_forks": 0,
+    "default_branch_commit_sum_excluding_profile": 157
+  },
+  "sort": "Stars descending, then default-branch commit count descending, then name. Same-star order does not imply a quality ranking.",
+  "projects": [
+    {
+      "name": "anti-rea-forge",
+      "full_name": "Afloat16/anti-rea-forge",
+      "url": "https://github.com/Afloat16/anti-rea-forge",
+      "description": "🛡️ Open research on native software protection against AI reverse engineering tools such as REA. CMake/C++ components, PE/ELF release gates, and reproducible experiments. Contributions welcome.",
+      "stars": 6,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-11-09T15:42:01Z",
+      "pushed_at": "2026-11-09T15:41:55Z",
+      "created_at": "2026-10-15T13:11:28Z",
+      "topics": [
+        "anti-reverse-engineering",
+        "cmake",
+        "cpp",
+        "ghidra",
+        "open-source",
+        "rea",
+        "reverse-engineering",
+        "security-research",
+        "software-protection",
+        "windows"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/anti-rea-forge",
+      "default_branch_commit_count": 31,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+        "date": "2026-11-09T15:41:55Z",
+        "author": "Afloat16",
+        "message": "Add encrypted native function instructions and verified compiler controls\n\n* Add externally keyed native function virtualization and verified controls\n\n* Handle CRLF LLVM output across host platforms\n\n* Clarify native profile coverage and record final regression results",
+        "url": "https://github.com/Afloat16/anti-rea-forge/commit/11c5e5b0e19e311e06b86047bcd3da671e893817"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/anti-rea-forge/blob/11c5e5b0e19e311e06b86047bcd3da671e893817/README.md",
+        "sha": "c2b6d8c2a1fe8e309b5a72724d60c0a8b31f3461"
+      },
+      "suggested_display": {
+        "en": "Seal native data with independently supplied keys and generated C++17/OpenSSL readers. Explore experimental LLVM 18 function virtualization and recorded analyzer controls.",
+        "zh": "以独立提供的密钥保护原生数据，生成 C++17/OpenSSL 读取代码。另含实验性的 LLVM 18 函数虚拟化与分析器验证记录。",
+        "version": "v0.10.0",
+        "group": "Native protection"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.514Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.681Z",
+      "release_verified_at": "2026-11-10T03:05:34.252Z",
+      "readme_verified_at": "2026-11-10T03:05:34.252Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.514Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+        "source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.514Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:34.252Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?per_page=100&page=1"
+    },
+    {
+      "name": "jev-mcp",
+      "full_name": "Afloat16/jev-mcp",
+      "url": "https://github.com/Afloat16/jev-mcp",
+      "description": "TypeSafe AI Jev MCP server for bounded probabilistic decisions: four read-only stdio tools for choices, routing, risk signals, and yes/no gates. Conservative second opinions with installers for Codex, Claude Code, Cursor, Kimi, Gemini CLI, and other MCP clients.",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-15T12:52:08Z",
+      "pushed_at": "2026-11-02T14:24:05Z",
+      "created_at": "2026-09-28T09:41:45Z",
+      "topics": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "decision-model",
+        "gemini-cli",
+        "jev",
+        "jev-ai",
+        "kimi",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "nodejs",
+        "probabilistic-decision",
+        "risk-assessment",
+        "stdio",
+        "typesafe-ai",
+        "typescript",
+        "workflow-routing",
+        "zcode"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/jev-mcp",
+      "default_branch_commit_count": 49,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/jev-mcp/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "date": "2026-10-14T09:32:58Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/jev-mcp/commit/59a7278771f13d9bf12d98c50365c1c6daf27ba2"
+      },
+      "latest_published_release": {
+        "tag": "v0.5.0",
+        "name": "v0.5.0",
+        "published_at": "2026-09-28T13:34:53Z",
+        "url": "https://github.com/Afloat16/jev-mcp/releases/tag/v0.5.0",
+        "draft": false,
+        "prerelease": false
+      },
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/jev-mcp/blob/59a7278771f13d9bf12d98c50365c1c6daf27ba2/README.md",
+        "sha": "17c2b3d7d31d56371a80853a0b03c097027d0a13"
+      },
+      "suggested_display": {
+        "en": "Bring TypeSafe Jev advice to bounded choices, routing and risk checks through four MCP tools, with installers for multiple coding clients.",
+        "zh": "通过四个 MCP 工具，将 TypeSafe Jev 建议接入有限选项、路由和风险判断，并提供多款编码客户端安装器。",
+        "version": "v0.5.0",
+        "group": "MCP tools"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.037Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.736Z",
+      "release_verified_at": "2026-11-10T03:05:34.254Z",
+      "readme_verified_at": "2026-11-10T03:05:34.255Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.037Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.037Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:34.254Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?per_page=100&page=1"
+    },
+    {
+      "name": "ai-dev-steward",
+      "full_name": "Afloat16/ai-dev-steward",
+      "url": "https://github.com/Afloat16/ai-dev-steward",
+      "description": "Task-scoped Git change checks with StewardCheck, plus an Agent Skill for artifact audits and reproducible algorithm reviews. Local Python tools, pinned baselines, explicit check execution, and traceable evidence.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:32:55Z",
+      "pushed_at": "2026-10-16T02:32:32Z",
+      "created_at": "2026-09-28T12:25:40Z",
+      "topics": [
+        "agent-skills",
+        "algorithm-optimization",
+        "artifact-management",
+        "claude-code",
+        "cli",
+        "code-review",
+        "codex",
+        "developer-tools",
+        "experiment-tracking",
+        "git",
+        "kimi",
+        "python",
+        "quality-assurance",
+        "reproducible-research",
+        "stewardcheck",
+        "task-management"
+      ],
+      "source": "https://api.github.com/repos/Afloat16/ai-dev-steward",
+      "default_branch_commit_count": 11,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+        "date": "2026-10-14T09:32:50Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/ai-dev-steward/commit/f360968f7154c4b1e47ce622b11b114ba955f681"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/ai-dev-steward/blob/f360968f7154c4b1e47ce622b11b114ba955f681/README.md",
+        "sha": "70d35e4784f5a394696971952938b15ef3b06cb5"
+      },
+      "suggested_display": {
+        "en": "Pin a task baseline, inspect edits against the agreed scope and keep test receipts tied to the files they actually checked.",
+        "zh": "固定任务起点，按约定范围检查改动，并让测试记录对应其实际检查的文件状态。",
+        "version": "0.2.0 Alpha",
+        "group": "Coding workflow"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.103Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.846Z",
+      "release_verified_at": "2026-11-10T03:05:35.346Z",
+      "license": null,
+      "readme_verified_at": "2026-11-10T03:05:35.346Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.103Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+        "source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.103Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:35.346Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?per_page=100&page=1"
+    },
+    {
+      "name": "debate-direction",
+      "full_name": "Afloat16/debate-direction",
+      "url": "https://github.com/Afloat16/debate-direction",
+      "description": "Two agents debate ambiguous requirements into reviewable directions. Native skill + Python CLI, with issue tracking, model consistency, and honest uncertainty.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:32:52Z",
+      "pushed_at": "2026-10-14T09:32:47Z",
+      "created_at": "2026-10-08T03:24:38Z",
+      "topics": [
+        "adversarial-review",
+        "agent-skills",
+        "agentic-workflows",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "decision-support",
+        "deepseek",
+        "design-review",
+        "developer-tools",
+        "kimi",
+        "llm",
+        "llm-debate",
+        "multi-agent",
+        "multi-agent-debate",
+        "python",
+        "requirements-analysis",
+        "requirements-clarification",
+        "requirements-engineering"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/debate-direction",
+      "default_branch_commit_count": 8,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/debate-direction/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+        "date": "2026-10-14T09:32:46Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/debate-direction/commit/fe438afe62ae3723422dff51ac81b22187323d88"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/debate-direction/blob/fe438afe62ae3723422dff51ac81b22187323d88/README.md",
+        "sha": "53baf36e33b375720e3e16ff8e294253768bae83"
+      },
+      "suggested_display": {
+        "en": "Let two agents propose, challenge and revise a plan. Keep the objections, remaining disagreements and next validation steps in a reviewable report.",
+        "zh": "让两个智能体提出、质疑并迭代方案，将异议、未决分歧和下一步验证保留在可审阅报告中。",
+        "version": null,
+        "group": "Agent workflows"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.137Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.803Z",
+      "release_verified_at": "2026-11-10T03:05:35.347Z",
+      "readme_verified_at": "2026-11-10T03:05:35.347Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.137Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+        "source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.137Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:35.347Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?per_page=100&page=1"
+    },
+    {
+      "name": "research-to-fix",
+      "full_name": "Afloat16/research-to-fix",
+      "url": "https://github.com/Afloat16/research-to-fix",
+      "description": "Evidence-driven debugging Agent Skill: research prior fixes and viable approaches across GitHub, Hugging Face, communities and original papers, map evidence to local code, repair and validate.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-11-05T09:59:11Z",
+      "pushed_at": "2026-11-05T09:59:06Z",
+      "created_at": "2026-10-14T02:15:10Z",
+      "topics": [
+        "agent-skills",
+        "bug-fixing",
+        "codex",
+        "codex-skills",
+        "debugging",
+        "developer-tools",
+        "evidence-based",
+        "github-issues",
+        "hugging-face",
+        "literature-review",
+        "local-code",
+        "problem-solving",
+        "python",
+        "reproducibility",
+        "research",
+        "research-workflow"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/research-to-fix",
+      "default_branch_commit_count": 7,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/research-to-fix/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "date": "2026-11-05T09:59:06Z",
+        "author": "Afloat16",
+        "message": "Reuse local repair cases and preserve per-test evidence (#2)\n\nAdd bounded local case recall, preserve comparable per-test outcomes, and record reproducible repair examples with retained source and execution evidence.\n\nKeep the helper offline and standard-library-only. Validate the record, validation, and recall workflow on Python 3.10 and 3.13.",
+        "url": "https://github.com/Afloat16/research-to-fix/commit/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/research-to-fix/blob/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c/README.md",
+        "sha": "5ded246b0edf160497f3ae164b3922b8028f3895"
+      },
+      "suggested_display": {
+        "en": "Research similar failures, map relevant solutions to your code and verify the repair. Save cases with source links and before-and-after evidence.",
+        "zh": "研究相似故障，将适用方案映射到本地代码并验证修复。连同来源和前后对照证据保存案例。",
+        "version": null,
+        "group": "Research workflow"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.117Z",
+      "metadata_verified_at": "2026-11-10T08:25:59.002Z",
+      "release_verified_at": "2026-11-10T03:05:36.106Z",
+      "readme_verified_at": "2026-11-10T03:05:36.106Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.117Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.117Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:36.106Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?per_page=100&page=1"
+    },
+    {
+      "name": "llm-handshake",
+      "full_name": "Afloat16/llm-handshake",
+      "url": "https://github.com/Afloat16/llm-handshake",
+      "description": "Dependency-free Python CLI for OpenAI-compatible endpoint diagnostics: chat, SSE streaming, usage, tool calls, structured output, and report regression checks.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:10Z",
+      "pushed_at": "2026-11-01T01:26:23Z",
+      "created_at": "2026-09-30T08:13:14Z",
+      "topics": [
+        "api-testing",
+        "cli",
+        "developer-tools",
+        "diagnostics",
+        "json-schema",
+        "llm",
+        "openai-compatible",
+        "python",
+        "regression-testing",
+        "sse",
+        "streaming",
+        "tool-calling"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/llm-handshake",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/llm-handshake/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "date": "2026-10-14T09:33:03Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/llm-handshake/commit/386c0d4e9f99309ab562d23589cd8725326eecfc"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/llm-handshake/blob/386c0d4e9f99309ab562d23589cd8725326eecfc/README.md",
+        "sha": "67e99087b1ef6a22b6accbc7042f4d53f1877690"
+      },
+      "suggested_display": {
+        "en": "Probe OpenAI-compatible endpoints for streaming, tool calls and structured output. Preview exact requests and compare reports after a gateway or model upgrade.",
+        "zh": "逐项检查 OpenAI 兼容接口的流式输出、工具调用和结构化输出。先预览请求，再比较网关或模型升级前后的报告。",
+        "version": "0.1.0",
+        "group": "LLM interfaces"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.099Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.804Z",
+      "release_verified_at": "2026-11-10T03:05:36.106Z",
+      "readme_verified_at": "2026-11-10T03:05:36.106Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.099Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.099Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:36.106Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?per_page=100&page=1"
+    },
+    {
+      "name": "modeldock",
+      "full_name": "Afloat16/modeldock",
+      "url": "https://github.com/Afloat16/modeldock",
+      "description": "Open-source 3D/CAD preview for VS Code, Codex-compatible desktop hosts and DeepSeek Harness. Bounded 5+ GiB binary PLY/STL previews, multi-model alignment and reference evaluation.",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-30T06:43:01Z",
+      "pushed_at": "2026-10-30T06:42:57Z",
+      "created_at": "2026-10-29T09:59:16Z",
+      "topics": [],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "source": "https://api.github.com/repos/Afloat16/modeldock",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/modeldock/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "date": "2026-10-30T06:42:57Z",
+        "author": "Afloat16",
+        "message": "docs: record three.js showcase submission awaiting moderation",
+        "url": "https://github.com/Afloat16/modeldock/commit/d15bb8b3c1c398ca4350ddb10dd5b3d817839423"
+      },
+      "latest_published_release": {
+        "tag": "v0.2.0",
+        "name": "ModelDock 0.2.0 — Large-file preview and model comparison",
+        "published_at": "2026-10-29T10:18:45Z",
+        "url": "https://github.com/Afloat16/modeldock/releases/tag/v0.2.0",
+        "draft": false,
+        "prerelease": false
+      },
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/modeldock/blob/d15bb8b3c1c398ca4350ddb10dd5b3d817839423/README.md",
+        "sha": "f3080430af5780b63ddd16c44cdd96a8422d636d"
+      },
+      "suggested_display": {
+        "en": "Preview, align and compare meshes or point clouds locally. Explore sampled binary PLY/STL previews above 5 GiB and export comparison reports.",
+        "zh": "本地预览、对齐和比较网格与点云。支持超过 5 GiB 的二进制 PLY/STL 采样预览，并导出比较报告。",
+        "version": "v0.2.0",
+        "group": "3D & CAD"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.219Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.758Z",
+      "release_verified_at": "2026-11-10T03:05:36.713Z",
+      "readme_verified_at": "2026-11-10T03:05:36.713Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.219Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.219Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:36.713Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?per_page=100&page=1"
+    },
+    {
+      "name": "bag-timeline-audit",
+      "full_name": "Afloat16/bag-timeline-audit",
+      "url": "https://github.com/Afloat16/bag-timeline-audit",
+      "description": "Read-only ROS 2 SQLite and MCAP timestamp diagnostics: gaps, regressions, duplicates and cross-topic alignment.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-22T09:24:55Z",
+      "pushed_at": "2026-10-14T09:33:11Z",
+      "created_at": "2026-10-14T08:07:54Z",
+      "topics": [
+        "cli",
+        "diagnostics",
+        "mcap",
+        "python",
+        "robotics",
+        "ros2",
+        "rosbag2",
+        "timestamps"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/bag-timeline-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "date": "2026-10-14T09:33:10Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/bag-timeline-audit/commit/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/bag-timeline-audit/blob/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3/README.md",
+        "sha": "5b974882d6051f12b795dc68323fa9525e24cb40"
+      },
+      "suggested_display": {
+        "en": "Find timestamp gaps, reversals and duplicates in ROS 2 SQLite or MCAP recordings, then compare topics using an explicitly shared clock.",
+        "zh": "检查 ROS 2 SQLite 或 MCAP 记录中的时间间隔、倒退和重复，并在确认共同时钟后比较不同话题。",
+        "version": null,
+        "group": "Robotics"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.157Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.957Z",
+      "release_verified_at": "2026-11-10T03:05:36.714Z",
+      "readme_verified_at": "2026-11-10T03:05:36.714Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.157Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.157Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:36.714Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?per_page=100&page=1"
+    },
+    {
+      "name": "recontrail",
+      "full_name": "Afloat16/recontrail",
+      "url": "https://github.com/Afloat16/recontrail",
+      "description": "Local-first 3D reconstruction on your CPU. Inspect photo quality, recover sparse geometry and camera poses, reconstruct calibrated stereo, and share offline interactive reports. No cloud, GPU, or model downloads required.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-21T17:20:31Z",
+      "pushed_at": "2026-10-14T09:32:55Z",
+      "created_at": "2026-10-08T05:54:58Z",
+      "topics": [
+        "3d-reconstruction",
+        "3d-visualization",
+        "camera-calibration",
+        "colmap",
+        "computer-vision",
+        "cpu",
+        "image-quality",
+        "local-first",
+        "mesh-generation",
+        "multi-view-geometry",
+        "offline",
+        "opencv",
+        "photogrammetry",
+        "point-cloud",
+        "python",
+        "reproducible-research",
+        "sfm",
+        "stereo-vision",
+        "structure-from-motion",
+        "video-processing"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/recontrail",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/recontrail/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "date": "2026-10-14T09:32:54Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/recontrail/commit/ed5215f0162bb488421664c43fd9c73a39e02ec3"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/recontrail/blob/ed5215f0162bb488421664c43fd9c73a39e02ec3/README.md",
+        "sha": "e6bebdec435def0f16bf3d14ce3d82b88ad29a89"
+      },
+      "suggested_display": {
+        "en": "Check photo quality, reconstruct sparse 3D geometry on a CPU, and share a self-contained interactive report that opens offline.",
+        "zh": "检查照片质量，在 CPU 上重建稀疏三维几何，并分享可离线打开的交互报告。",
+        "version": null,
+        "group": "Photogrammetry"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.103Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.877Z",
+      "release_verified_at": "2026-11-10T03:05:37.307Z",
+      "readme_verified_at": "2026-11-10T03:05:37.308Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.103Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.103Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:37.307Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?per_page=100&page=1"
+    },
+    {
+      "name": "sse-toolcall-audit",
+      "full_name": "Afloat16/sse-toolcall-audit",
+      "url": "https://github.com/Afloat16/sse-toolcall-audit",
+      "description": "Offline SSE capture auditor for Chat Completions and Responses tool-call assembly, completion and semantic comparison.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-27T06:18:29Z",
+      "pushed_at": "2026-10-14T09:33:17Z",
+      "created_at": "2026-10-14T08:10:45Z",
+      "topics": [
+        "cli",
+        "diagnostics",
+        "llm",
+        "openai-compatible",
+        "python",
+        "sse",
+        "streaming",
+        "tool-calling",
+        "vllm"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/sse-toolcall-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "date": "2026-10-14T09:33:16Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/sse-toolcall-audit/blob/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b/README.md",
+        "sha": "c8de09ef47363529c0bfe08896fd26a3fd842303"
+      },
+      "suggested_display": {
+        "en": "Reassemble parallel tool calls from saved SSE captures and check completion markers, JSON arguments and consistency with a saved final response.",
+        "zh": "从保存的 SSE 流中重组并行工具调用，检查结束标记、JSON 参数及与已保存最终响应的一致性。",
+        "version": null,
+        "group": "LLM interfaces"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.084Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.889Z",
+      "release_verified_at": "2026-11-10T03:05:37.308Z",
+      "readme_verified_at": "2026-11-10T03:05:37.308Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.084Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.084Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:37.308Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?per_page=100&page=1"
+    },
+    {
+      "name": "tf-route-audit",
+      "full_name": "Afloat16/tf-route-audit",
+      "url": "https://github.com/Afloat16/tf-route-audit",
+      "description": "Offline TF topology and time-window diagnostics from exported ROS TransformStamped records.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-22T09:25:12Z",
+      "pushed_at": "2026-10-14T09:33:14Z",
+      "created_at": "2026-10-14T08:10:04Z",
+      "topics": [
+        "cli",
+        "diagnostics",
+        "python",
+        "robotics",
+        "ros2",
+        "tf2",
+        "transforms"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/tf-route-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "date": "2026-10-14T09:33:13Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/tf-route-audit/commit/44a0f2ceb0ca796f7feee2ec571d38ca2553e070"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/tf-route-audit/blob/44a0f2ceb0ca796f7feee2ec571d38ca2553e070/README.md",
+        "sha": "2e64f665982a45068aea9ba19f772bad9766ff1c"
+      },
+      "suggested_display": {
+        "en": "Check exported TF records and native URDF for cycles, disconnected frames and conflicting edges. Query routes against observed time windows.",
+        "zh": "检查导出的 TF 记录与原生 URDF 中的环路、断连和边冲突，并根据观测时间范围查询路径。",
+        "version": null,
+        "group": "Robotics"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.210Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.786Z",
+      "release_verified_at": "2026-11-10T03:05:38.118Z",
+      "readme_verified_at": "2026-11-10T03:05:38.118Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.210Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.210Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:38.118Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?per_page=100&page=1"
+    },
+    {
+      "name": "tooltrace-audit",
+      "full_name": "Afloat16/tooltrace-audit",
+      "url": "https://github.com/Afloat16/tooltrace-audit",
+      "description": "Offline tool execution and conversation trace diagnostics for duplicate attempts, overlapping retries and unmatched results.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-27T06:18:25Z",
+      "pushed_at": "2026-10-14T09:33:21Z",
+      "created_at": "2026-10-14T08:13:13Z",
+      "topics": [
+        "agents",
+        "cli",
+        "diagnostics",
+        "langgraph",
+        "llm",
+        "observability",
+        "python",
+        "tool-calling"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/tooltrace-audit",
+      "default_branch_commit_count": 5,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "date": "2026-10-14T09:33:20Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/tooltrace-audit/commit/7f13faa7a75fe80afd42bbc4f87b43673ebf21de"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/tooltrace-audit/blob/7f13faa7a75fe80afd42bbc4f87b43673ebf21de/README.md",
+        "sha": "2d42801f8b217ffd877e4d2a4473e94d1a912fa1"
+      },
+      "suggested_display": {
+        "en": "Review saved execution traces for overlapping retries, duplicate attempts and unmatched results. Add the optional recorder around your own tool calls.",
+        "zh": "分析保存的执行轨迹，定位重叠重试、重复尝试与未匹配结果。可为自己的工具调用接入可选记录器。",
+        "version": null,
+        "group": "Agent workflows"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.091Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.956Z",
+      "release_verified_at": "2026-11-10T03:05:38.119Z",
+      "readme_verified_at": "2026-11-10T03:05:38.119Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.091Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.091Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:38.119Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?per_page=100&page=1"
+    },
+    {
+      "name": "Afloat16",
+      "full_name": "Afloat16/Afloat16",
+      "url": "https://github.com/Afloat16/Afloat16",
+      "description": "Research and open-source engineering in robotics, large language models, and 3D reconstruction. Projects and verified upstream contributions.",
+      "stars": 0,
+      "forks": 0,
+      "language": null,
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-11-10T03:41:55Z",
+      "pushed_at": "2026-11-10T03:41:52Z",
+      "created_at": "2026-10-14T09:24:56Z",
+      "topics": [
+        "3d-reconstruction",
+        "computer-vision",
+        "large-language-models",
+        "llm",
+        "mcp",
+        "open-source",
+        "portfolio",
+        "python",
+        "research",
+        "robotics",
+        "typescript"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/Afloat16",
+      "default_branch_commit_count": 32,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/Afloat16/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "d2f614eff68c5c3ee52d6f505658219038cfcfe9",
+        "date": "2026-11-10T03:41:51Z",
+        "author": "Afloat16",
+        "message": "Refresh profile statistics and selected merges for 2026-11-10\n\nUpdate both language profiles with 385 merged PRs across 35 upstreams, 29 displayed projects, and 17 verified top-30 positions. Refresh the fixed seven-project selection, personal project metrics, and source snapshots at 11:40 CST.",
+        "url": "https://github.com/Afloat16/Afloat16/commit/d2f614eff68c5c3ee52d6f505658219038cfcfe9"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/Afloat16/blob/b78a91bb9e21ae5d859da6eb8d6bb1c04e8f72ac/README.md",
+        "sha": "1f4677f0721b96410bc0c4c96078831a67695bd0"
+      },
+      "suggested_display": null,
+      "metrics_verified_at": "2026-11-10T08:26:05.089Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.855Z",
+      "release_verified_at": "2026-11-10T03:05:38.812Z",
+      "history_enumerated_at": "2026-11-10T08:26:18.186Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/Afloat16/commits?per_page=100&page=1",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.089Z",
+      "default_branch_history_revalidation": {
+        "method": "Enumerated complete reachable default-branch history after head changed.",
+        "head_sha": "d2f614eff68c5c3ee52d6f505658219038cfcfe9",
+        "source_url": "https://api.github.com/repos/Afloat16/Afloat16/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.089Z"
+      }
+    },
+    {
+      "name": "agent-action-notifier",
+      "full_name": "Afloat16/agent-action-notifier",
+      "url": "https://github.com/Afloat16/agent-action-notifier",
+      "description": "Durable email and local desktop notifications for agent workflows that need human input, with SQLite request tracking, retries, and unverified reply review.",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:12Z",
+      "pushed_at": "2026-10-14T09:33:07Z",
+      "created_at": "2026-10-04T04:27:17Z",
+      "topics": [
+        "agent-workflows",
+        "claude-code",
+        "cli",
+        "codex",
+        "desktop-notifications",
+        "email-notifications",
+        "human-in-the-loop",
+        "notifications",
+        "python",
+        "smtp",
+        "sqlite",
+        "webhooks"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/agent-action-notifier",
+      "default_branch_commit_count": 6,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "date": "2026-10-14T09:33:06Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/agent-action-notifier/commit/d5d5db0ba818169356bae9627c4eaea040e6b2bb"
+      },
+      "latest_published_release": {
+        "tag": "v0.2.0",
+        "name": "v0.2.0 - Email-first workflow instructions",
+        "published_at": "2026-10-05T00:36:37Z",
+        "url": "https://github.com/Afloat16/agent-action-notifier/releases/tag/v0.2.0",
+        "draft": false,
+        "prerelease": false
+      },
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/agent-action-notifier/blob/d5d5db0ba818169356bae9627c4eaea040e6b2bb/README.md",
+        "sha": "c3d44a5a7547ba1627f46fbce105d9b356389b30"
+      },
+      "suggested_display": {
+        "en": "Turn explicit workflow events into queued email or desktop alerts, with pending-request tracking, retries and recovery after interrupted delivery.",
+        "zh": "将明确的工作流事件转为排队发送的邮件或桌面通知，追踪待处理请求、重试，并在发送中断后恢复。",
+        "version": "v0.2.0",
+        "group": "Agent workflows"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.100Z",
+      "metadata_verified_at": "2026-11-10T08:25:59.137Z",
+      "release_verified_at": "2026-11-10T03:05:38.812Z",
+      "readme_verified_at": "2026-11-10T03:05:38.812Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.100Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.100Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:38.812Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?per_page=100&page=1"
+    },
+    {
+      "name": "colmap-model-audit",
+      "full_name": "Afloat16/colmap-model-audit",
+      "url": "https://github.com/Afloat16/colmap-model-audit",
+      "description": "Read-only COLMAP text-model checks for camera fields, reciprocal tracks, disconnected view graphs and merge overlap.",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:29Z",
+      "pushed_at": "2026-10-14T09:33:25Z",
+      "created_at": "2026-10-14T08:16:06Z",
+      "topics": [
+        "3d-reconstruction",
+        "cli",
+        "colmap",
+        "computer-vision",
+        "diagnostics",
+        "photogrammetry",
+        "python",
+        "structure-from-motion"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/colmap-model-audit",
+      "default_branch_commit_count": 4,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+        "date": "2026-10-14T09:33:24Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/colmap-model-audit/commit/40f0316fed6fb181079a79c63ea29834685de0b3"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/colmap-model-audit/blob/40f0316fed6fb181079a79c63ea29834685de0b3/README.md",
+        "sha": "a2f6d64d50c6b3f847bdd77fabddbd02f9aabcc6"
+      },
+      "suggested_display": {
+        "en": "Audit COLMAP text models for camera-field errors, broken reciprocal tracks and disconnected view graphs, with optional image-path and model-overlap checks.",
+        "zh": "检查 COLMAP 文本模型的相机字段、互相引用的轨迹及视图连接图的连通性，还可核对图像路径与模型重叠。",
+        "version": null,
+        "group": "3D geometry"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.095Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.877Z",
+      "release_verified_at": "2026-11-10T03:05:39.280Z",
+      "readme_verified_at": "2026-11-10T03:05:39.280Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.095Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+        "source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.095Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:39.280Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?per_page=100&page=1"
+    },
+    {
+      "name": "pose-convention-bridge",
+      "full_name": "Afloat16/pose-convention-bridge",
+      "url": "https://github.com/Afloat16/pose-convention-bridge",
+      "description": "Explicit rigid camera-pose conversion between OpenCV/OpenGL and world-to-camera/camera-to-world conventions.",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "updated_at": "2026-10-14T09:33:34Z",
+      "pushed_at": "2026-10-14T09:33:29Z",
+      "created_at": "2026-10-14T08:18:03Z",
+      "topics": [
+        "3d-reconstruction",
+        "camera-pose",
+        "cli",
+        "colmap",
+        "computer-vision",
+        "coordinate-systems",
+        "nerfstudio",
+        "python"
+      ],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "source": "https://api.github.com/repos/Afloat16/pose-convention-bridge",
+      "default_branch_commit_count": 4,
+      "commit_count_source": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?sha=main&per_page=100&page=1",
+      "default_branch_head": {
+        "sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "date": "2026-10-14T09:33:28Z",
+        "author": "Afloat16",
+        "message": "Prioritize English and localize project navigation",
+        "url": "https://github.com/Afloat16/pose-convention-bridge/commit/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca"
+      },
+      "latest_published_release": null,
+      "readme_evidence": {
+        "url": "https://github.com/Afloat16/pose-convention-bridge/blob/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca/README.md",
+        "sha": "e6836cf9cfbe7d0103e05535e841719aeb2233a9"
+      },
+      "suggested_display": {
+        "en": "Convert camera poses between OpenCV and OpenGL axes or world-to-camera and camera-to-world forms, with validated transforms and Nerfstudio export.",
+        "zh": "转换 OpenCV/OpenGL 坐标轴与世界到相机、相机到世界位姿，校验刚体变换并导出 Nerfstudio 格式。",
+        "version": null,
+        "group": "3D geometry"
+      },
+      "metrics_verified_at": "2026-11-10T08:26:05.251Z",
+      "metadata_verified_at": "2026-11-10T08:25:58.859Z",
+      "release_verified_at": "2026-11-10T03:05:39.281Z",
+      "readme_verified_at": "2026-11-10T03:05:39.281Z",
+      "default_branch_head_verified_at": "2026-11-10T08:26:05.251Z",
+      "default_branch_history_revalidation": {
+        "method": "Exact default-branch head unchanged from prior enumerated history.",
+        "head_sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?per_page=1&page=1",
+        "verified_at": "2026-11-10T08:26:05.251Z"
+      },
+      "history_enumerated_at": "2026-11-10T03:05:39.281Z",
+      "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?per_page=100&page=1"
+    }
+  ],
+  "recommendation": {
+    "existing_content_to_preserve": [
+      "anti-rea-forge",
+      "modeldock",
+      "jev-mcp",
+      "bag-timeline-audit",
+      "llm-handshake",
+      "recontrail",
+      "tf-route-audit",
+      "sse-toolcall-audit",
+      "pose-convention-bridge",
+      "colmap-model-audit",
+      "tooltrace-audit",
+      "research-to-fix",
+      "debate-direction",
+      "ai-dev-steward",
+      "agent-action-notifier"
+    ],
+    "new_project_to_add": null,
+    "copy_updates": [],
+    "layout": "Retain the existing 15 cards in their current order and three-column, five-row arrangement."
+  },
+  "limitations": [
+    "Repository star and fork counts are snapshots and may change.",
+    "Commit counts count reachable default-branch history entries, not personal contributions, effort, or quality.",
+    "ModelDock repository license metadata is NOASSERTION; README says original code/examples MIT and CAD third-party dependencies retain LGPL. Do not use a blanket all-MIT claim.",
+    "No project tests were rerun during this read-only inventory.",
+    "Anti-REA Forge v0.10.0 is documented on its default branch and has no published GitHub release. Native function virtualization remains experimental with the verification status stated in its current README."
+  ],
+  "sources": [
+    "https://github.com/search?q=user%3AAfloat16+is%3Apublic+fork%3Afalse&type=repositories",
+    "https://api.github.com/repos/Afloat16/anti-rea-forge",
+    "https://api.github.com/repos/Afloat16/jev-mcp",
+    "https://api.github.com/repos/Afloat16/ai-dev-steward",
+    "https://api.github.com/repos/Afloat16/debate-direction",
+    "https://api.github.com/repos/Afloat16/llm-handshake",
+    "https://api.github.com/repos/Afloat16/bag-timeline-audit",
+    "https://api.github.com/repos/Afloat16/recontrail",
+    "https://api.github.com/repos/Afloat16/research-to-fix",
+    "https://api.github.com/repos/Afloat16/sse-toolcall-audit",
+    "https://api.github.com/repos/Afloat16/tf-route-audit",
+    "https://api.github.com/repos/Afloat16/tooltrace-audit",
+    "https://api.github.com/repos/Afloat16/modeldock",
+    "https://api.github.com/repos/Afloat16/Afloat16",
+    "https://api.github.com/repos/Afloat16/agent-action-notifier",
+    "https://api.github.com/repos/Afloat16/colmap-model-audit",
+    "https://api.github.com/repos/Afloat16/pose-convention-bridge"
+  ],
+  "metrics_refreshed_at": "2026-11-10T08:26:18.083Z",
+  "snapshot_generated_at": "2026-11-10T08:44:06Z",
+  "refresh_audit": {
+    "baseline_source": "docs/projects-2026-11-10-1140.json",
+    "baseline_head": "d2f614eff68c5c3ee52d6f505658219038cfcfe9",
+    "reviewed_at": "2026-11-10T08:26:18.083Z",
+    "profile_commit_count_prepublication": 32,
+    "software_project_head_changes": [],
+    "card_copy_changes": [],
+    "preserved_card_order": [
+      "anti-rea-forge",
+      "modeldock",
+      "jev-mcp",
+      "bag-timeline-audit",
+      "llm-handshake",
+      "recontrail",
+      "tf-route-audit",
+      "sse-toolcall-audit",
+      "pose-convention-bridge",
+      "colmap-model-audit",
+      "tooltrace-audit",
+      "research-to-fix",
+      "debate-direction",
+      "ai-dev-steward",
+      "agent-action-notifier"
+    ],
+    "personal_head_checks": [
+      {
+        "repository": "Afloat16/anti-rea-forge",
+        "url": "https://github.com/Afloat16/anti-rea-forge",
+        "stars": 6,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge",
+        "metadata_verified_at": "2026-11-10T08:25:58.681Z",
+        "previous_stars": 6,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 31,
+        "default_branch_head": {
+          "sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+          "date": "2026-11-09T15:41:55Z",
+          "author": "Afloat16",
+          "message": "Add encrypted native function instructions and verified compiler controls\n\n* Add externally keyed native function virtualization and verified controls\n\n* Handle CRLF LLVM output across host platforms\n\n* Clarify native profile coverage and record final regression results",
+          "url": "https://github.com/Afloat16/anti-rea-forge/commit/11c5e5b0e19e311e06b86047bcd3da671e893817"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.514Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+          "source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.514Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:34.252Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?per_page=100&page=1",
+        "default_branch_commit_count": 31
+      },
+      {
+        "repository": "Afloat16/jev-mcp",
+        "url": "https://github.com/Afloat16/jev-mcp",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/jev-mcp",
+        "metadata_verified_at": "2026-11-10T08:25:58.736Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 49,
+        "default_branch_head": {
+          "sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+          "date": "2026-10-14T09:32:58Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/jev-mcp/commit/59a7278771f13d9bf12d98c50365c1c6daf27ba2"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.037Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+          "source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.037Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:34.254Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?per_page=100&page=1",
+        "default_branch_commit_count": 49
+      },
+      {
+        "repository": "Afloat16/ai-dev-steward",
+        "url": "https://github.com/Afloat16/ai-dev-steward",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": null,
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward",
+        "metadata_verified_at": "2026-11-10T08:25:58.846Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 11,
+        "default_branch_head": {
+          "sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+          "date": "2026-10-14T09:32:50Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/ai-dev-steward/commit/f360968f7154c4b1e47ce622b11b114ba955f681"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.103Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+          "source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.103Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:35.346Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?per_page=100&page=1",
+        "default_branch_commit_count": 11
+      },
+      {
+        "repository": "Afloat16/debate-direction",
+        "url": "https://github.com/Afloat16/debate-direction",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/debate-direction",
+        "metadata_verified_at": "2026-11-10T08:25:58.803Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 8,
+        "default_branch_head": {
+          "sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+          "date": "2026-10-14T09:32:46Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/debate-direction/commit/fe438afe62ae3723422dff51ac81b22187323d88"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.137Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+          "source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.137Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:35.347Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?per_page=100&page=1",
+        "default_branch_commit_count": 8
+      },
+      {
+        "repository": "Afloat16/research-to-fix",
+        "url": "https://github.com/Afloat16/research-to-fix",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/research-to-fix",
+        "metadata_verified_at": "2026-11-10T08:25:59.002Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 7,
+        "default_branch_head": {
+          "sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+          "date": "2026-11-05T09:59:06Z",
+          "author": "Afloat16",
+          "message": "Reuse local repair cases and preserve per-test evidence (#2)\n\nAdd bounded local case recall, preserve comparable per-test outcomes, and record reproducible repair examples with retained source and execution evidence.\n\nKeep the helper offline and standard-library-only. Validate the record, validation, and recall workflow on Python 3.10 and 3.13.",
+          "url": "https://github.com/Afloat16/research-to-fix/commit/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.117Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+          "source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.117Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:36.106Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?per_page=100&page=1",
+        "default_branch_commit_count": 7
+      },
+      {
+        "repository": "Afloat16/llm-handshake",
+        "url": "https://github.com/Afloat16/llm-handshake",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/llm-handshake",
+        "metadata_verified_at": "2026-11-10T08:25:58.804Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 6,
+        "default_branch_head": {
+          "sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+          "date": "2026-10-14T09:33:03Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/llm-handshake/commit/386c0d4e9f99309ab562d23589cd8725326eecfc"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.099Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+          "source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.099Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:36.106Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?per_page=100&page=1",
+        "default_branch_commit_count": 6
+      },
+      {
+        "repository": "Afloat16/modeldock",
+        "url": "https://github.com/Afloat16/modeldock",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/modeldock",
+        "metadata_verified_at": "2026-11-10T08:25:58.758Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 6,
+        "default_branch_head": {
+          "sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+          "date": "2026-10-30T06:42:57Z",
+          "author": "Afloat16",
+          "message": "docs: record three.js showcase submission awaiting moderation",
+          "url": "https://github.com/Afloat16/modeldock/commit/d15bb8b3c1c398ca4350ddb10dd5b3d817839423"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.219Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+          "source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.219Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:36.713Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?per_page=100&page=1",
+        "default_branch_commit_count": 6
+      },
+      {
+        "repository": "Afloat16/bag-timeline-audit",
+        "url": "https://github.com/Afloat16/bag-timeline-audit",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit",
+        "metadata_verified_at": "2026-11-10T08:25:58.957Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 5,
+        "default_branch_head": {
+          "sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+          "date": "2026-10-14T09:33:10Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/bag-timeline-audit/commit/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.157Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+          "source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.157Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:36.714Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?per_page=100&page=1",
+        "default_branch_commit_count": 5
+      },
+      {
+        "repository": "Afloat16/recontrail",
+        "url": "https://github.com/Afloat16/recontrail",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/recontrail",
+        "metadata_verified_at": "2026-11-10T08:25:58.877Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 5,
+        "default_branch_head": {
+          "sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+          "date": "2026-10-14T09:32:54Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/recontrail/commit/ed5215f0162bb488421664c43fd9c73a39e02ec3"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.103Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+          "source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.103Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:37.307Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?per_page=100&page=1",
+        "default_branch_commit_count": 5
+      },
+      {
+        "repository": "Afloat16/sse-toolcall-audit",
+        "url": "https://github.com/Afloat16/sse-toolcall-audit",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit",
+        "metadata_verified_at": "2026-11-10T08:25:58.889Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 5,
+        "default_branch_head": {
+          "sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+          "date": "2026-10-14T09:33:16Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.084Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+          "source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.084Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:37.308Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?per_page=100&page=1",
+        "default_branch_commit_count": 5
+      },
+      {
+        "repository": "Afloat16/tf-route-audit",
+        "url": "https://github.com/Afloat16/tf-route-audit",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/tf-route-audit",
+        "metadata_verified_at": "2026-11-10T08:25:58.786Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 5,
+        "default_branch_head": {
+          "sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+          "date": "2026-10-14T09:33:13Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/tf-route-audit/commit/44a0f2ceb0ca796f7feee2ec571d38ca2553e070"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.210Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+          "source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.210Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:38.118Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?per_page=100&page=1",
+        "default_branch_commit_count": 5
+      },
+      {
+        "repository": "Afloat16/tooltrace-audit",
+        "url": "https://github.com/Afloat16/tooltrace-audit",
+        "stars": 1,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit",
+        "metadata_verified_at": "2026-11-10T08:25:58.956Z",
+        "previous_stars": 1,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 5,
+        "default_branch_head": {
+          "sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+          "date": "2026-10-14T09:33:20Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/tooltrace-audit/commit/7f13faa7a75fe80afd42bbc4f87b43673ebf21de"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.091Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+          "source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.091Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:38.119Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?per_page=100&page=1",
+        "default_branch_commit_count": 5
+      },
+      {
+        "repository": "Afloat16/Afloat16",
+        "url": "https://github.com/Afloat16/Afloat16",
+        "stars": 0,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": null,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/Afloat16",
+        "metadata_verified_at": "2026-11-10T08:25:58.855Z",
+        "previous_stars": 0,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 31,
+        "default_branch_head": {
+          "sha": "d2f614eff68c5c3ee52d6f505658219038cfcfe9",
+          "date": "2026-11-10T03:41:51Z",
+          "author": "Afloat16",
+          "message": "Refresh profile statistics and selected merges for 2026-11-10\n\nUpdate both language profiles with 385 merged PRs across 35 upstreams, 29 displayed projects, and 17 verified top-30 positions. Refresh the fixed seven-project selection, personal project metrics, and source snapshots at 11:40 CST.",
+          "url": "https://github.com/Afloat16/Afloat16/commit/d2f614eff68c5c3ee52d6f505658219038cfcfe9"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.089Z",
+        "default_branch_history_revalidation": {
+          "method": "Enumerated complete reachable default-branch history after head changed.",
+          "head_sha": "d2f614eff68c5c3ee52d6f505658219038cfcfe9",
+          "source_url": "https://api.github.com/repos/Afloat16/Afloat16/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.089Z"
+        },
+        "history_enumerated_at": "2026-11-10T08:26:18.186Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/Afloat16/commits?per_page=100&page=1",
+        "default_branch_commit_count": 32,
+        "history_parent_closure_verified": true
+      },
+      {
+        "repository": "Afloat16/agent-action-notifier",
+        "url": "https://github.com/Afloat16/agent-action-notifier",
+        "stars": 0,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier",
+        "metadata_verified_at": "2026-11-10T08:25:59.137Z",
+        "previous_stars": 0,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 6,
+        "default_branch_head": {
+          "sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+          "date": "2026-10-14T09:33:06Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/agent-action-notifier/commit/d5d5db0ba818169356bae9627c4eaea040e6b2bb"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.100Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+          "source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.100Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:38.812Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?per_page=100&page=1",
+        "default_branch_commit_count": 6
+      },
+      {
+        "repository": "Afloat16/colmap-model-audit",
+        "url": "https://github.com/Afloat16/colmap-model-audit",
+        "stars": 0,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit",
+        "metadata_verified_at": "2026-11-10T08:25:58.877Z",
+        "previous_stars": 0,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 4,
+        "default_branch_head": {
+          "sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+          "date": "2026-10-14T09:33:24Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/colmap-model-audit/commit/40f0316fed6fb181079a79c63ea29834685de0b3"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.095Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+          "source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.095Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:39.280Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?per_page=100&page=1",
+        "default_branch_commit_count": 4
+      },
+      {
+        "repository": "Afloat16/pose-convention-bridge",
+        "url": "https://github.com/Afloat16/pose-convention-bridge",
+        "stars": 0,
+        "forks": 0,
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "default_branch": "main",
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "metadata_source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge",
+        "metadata_verified_at": "2026-11-10T08:25:58.859Z",
+        "previous_stars": 0,
+        "stars_delta": 0,
+        "previous_default_branch_commit_count": 4,
+        "default_branch_head": {
+          "sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+          "date": "2026-10-14T09:33:28Z",
+          "author": "Afloat16",
+          "message": "Prioritize English and localize project navigation",
+          "url": "https://github.com/Afloat16/pose-convention-bridge/commit/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca"
+        },
+        "default_branch_head_verified_at": "2026-11-10T08:26:05.251Z",
+        "default_branch_history_revalidation": {
+          "method": "Exact default-branch head unchanged from prior enumerated history.",
+          "head_sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+          "source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?per_page=1&page=1",
+          "verified_at": "2026-11-10T08:26:05.251Z"
+        },
+        "history_enumerated_at": "2026-11-10T03:05:39.281Z",
+        "history_enumeration_source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?per_page=100&page=1",
+        "default_branch_commit_count": 4
+      }
+    ],
+    "release_and_readme_observations_retained": true
+  },
+  "snapshot_id": "2026-11-10-1644",
+  "profile_cards": {
+    "layout": "three columns, five rows, one project per cell",
+    "order": [
+      "anti-rea-forge",
+      "modeldock",
+      "jev-mcp",
+      "bag-timeline-audit",
+      "llm-handshake",
+      "recontrail",
+      "tf-route-audit",
+      "sse-toolcall-audit",
+      "pose-convention-bridge",
+      "colmap-model-audit",
+      "tooltrace-audit",
+      "research-to-fix",
+      "debate-direction",
+      "ai-dev-steward",
+      "agent-action-notifier"
+    ],
+    "projects": [
+      {
+        "full_name": "Afloat16/anti-rea-forge",
+        "url": "https://github.com/Afloat16/anti-rea-forge",
+        "head_sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+        "readme_sha": "c2b6d8c2a1fe8e309b5a72724d60c0a8b31f3461",
+        "readme_source_url": "https://github.com/Afloat16/anti-rea-forge/blob/11c5e5b0e19e311e06b86047bcd3da671e893817/README.md",
+        "readme_verified_at": "2026-11-10T03:05:34.252Z",
+        "head_verified_at": "2026-11-10T08:26:05.514Z",
+        "release_verified_at": "2026-11-10T03:05:34.252Z",
+        "latest_release": null,
+        "name": "Anti-REA Forge",
+        "slug": "anti-rea-forge",
+        "version": "v0.10.0",
+        "version_source": "README version",
+        "stars": 6,
+        "default_branch_commit_count": 31,
+        "category_en": "Native protection",
+        "category_zh": "原生软件保护",
+        "tagline_en": "Seal native data with external keys",
+        "tagline_zh": "用外部密钥保护原生数据",
+        "description_en": "Seal native data with independently supplied keys and generated C++17/OpenSSL readers. Explore experimental LLVM 18 function virtualization and recorded analyzer controls.",
+        "description_zh": "以独立提供的密钥保护原生数据，生成 C++17/OpenSSL 读取代码。另含实验性的 LLVM 18 函数虚拟化与分析器验证记录。",
+        "copy_en": {
+          "benefit": "Seal native data with independently supplied keys and generated C++17/OpenSSL readers. Explore experimental LLVM 18 function virtualization and recorded analyzer controls.",
+          "bullets": [
+            "Externally keyed native data",
+            "Experimental LLVM 18 profiles"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "以独立提供的密钥保护原生数据，生成 C++17/OpenSSL 读取代码。另含实验性的 LLVM 18 函数虚拟化与分析器验证记录。",
+          "bullets": [
+            "外部密钥原生数据",
+            "实验性 LLVM 18 方案"
+          ]
+        },
+        "highlights_en": [
+          "Externally keyed native data",
+          "Experimental LLVM 18 profiles",
+          "Recorded analyzer controls"
+        ],
+        "highlights_zh": [
+          "外部密钥原生数据",
+          "实验性 LLVM 18 方案",
+          "分析器验证记录"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/anti-rea-forge/blob/main/docs/private-elf-debug.md",
+          "label_en": "Explore the controls",
+          "label_zh": "查看实验与接入"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/anti-rea-forge",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Native assets require independent key delivery. Function virtualization is experimental Linux x86-64 scalar-integer LLVM18 integration. Authorized processes hold plaintext storage. The post-fix independent reconstruction remains incomplete, as documented in the current README. Do not claim general reverse-engineering resistance.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/anti-rea-forge/blob/11c5e5b0e19e311e06b86047bcd3da671e893817/README.md",
+          "https://github.com/Afloat16/anti-rea-forge/blob/11c5e5b0e19e311e06b86047bcd3da671e893817/docs/native-code.md",
+          "https://github.com/Afloat16/anti-rea-forge/blob/11c5e5b0e19e311e06b86047bcd3da671e893817/docs/native-assets.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.721Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": true,
+        "history_enumerated_at": "2026-11-10T03:05:34.252Z"
+      },
+      {
+        "full_name": "Afloat16/modeldock",
+        "url": "https://github.com/Afloat16/modeldock",
+        "head_sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "readme_sha": "f3080430af5780b63ddd16c44cdd96a8422d636d",
+        "readme_source_url": "https://github.com/Afloat16/modeldock/blob/d15bb8b3c1c398ca4350ddb10dd5b3d817839423/README.md",
+        "readme_verified_at": "2026-11-10T03:05:36.713Z",
+        "head_verified_at": "2026-11-10T08:26:05.219Z",
+        "release_verified_at": "2026-11-10T03:05:36.713Z",
+        "latest_release": {
+          "tag": "v0.2.0",
+          "name": "ModelDock 0.2.0 — Large-file preview and model comparison",
+          "published_at": "2026-10-29T10:18:45Z",
+          "url": "https://github.com/Afloat16/modeldock/releases/tag/v0.2.0",
+          "draft": false,
+          "prerelease": false
+        },
+        "name": "ModelDock",
+        "slug": "modeldock",
+        "version": "v0.2.0",
+        "version_source": "published GitHub release",
+        "stars": 1,
+        "default_branch_commit_count": 6,
+        "category_en": "3D & CAD",
+        "category_zh": "三维与 CAD",
+        "tagline_en": "Inspect models beside your code",
+        "tagline_zh": "在代码旁查看三维模型",
+        "description_en": "Preview, align and compare meshes or point clouds locally. Explore sampled binary PLY/STL previews above 5 GiB and export comparison reports.",
+        "description_zh": "本地预览、对齐和比较网格与点云。支持超过 5 GiB 的二进制 PLY/STL 采样预览，并导出比较报告。",
+        "copy_en": {
+          "benefit": "Preview, align and compare meshes or point clouds locally. Explore sampled binary PLY/STL previews above 5 GiB and export comparison reports.",
+          "bullets": [
+            "Multi-model comparison",
+            "5+ GiB sampled previews"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "本地预览、对齐和比较网格与点云。支持超过 5 GiB 的二进制 PLY/STL 采样预览，并导出比较报告。",
+          "bullets": [
+            "多模型比较",
+            "5+ GiB 采样预览"
+          ]
+        },
+        "highlights_en": [
+          "Multi-model comparison",
+          "5+ GiB sampled previews",
+          "JSON / CSV reports"
+        ],
+        "highlights_zh": [
+          "多模型比较",
+          "5+ GiB 采样预览",
+          "JSON / CSV 报告"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/modeldock/blob/main/docs/validation.md",
+          "label_en": "View examples and validation",
+          "label_zh": "查看示例与验证"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/modeldock",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "5+ GiB refers to bounded sampled binary PLY/STL previews. Comparison metrics use sampled geometry. Do not promote this to complete rendering of huge CAD files or acceptance in every desktop host.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/modeldock/blob/d15bb8b3c1c398ca4350ddb10dd5b3d817839423/README.md",
+          "https://github.com/Afloat16/modeldock/releases/tag/v0.2.0"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:36.713Z"
+      },
+      {
+        "full_name": "Afloat16/recontrail",
+        "url": "https://github.com/Afloat16/recontrail",
+        "head_sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "readme_sha": "e6bebdec435def0f16bf3d14ce3d82b88ad29a89",
+        "readme_source_url": "https://github.com/Afloat16/recontrail/blob/ed5215f0162bb488421664c43fd9c73a39e02ec3/README.md",
+        "readme_verified_at": "2026-11-10T03:05:37.308Z",
+        "head_verified_at": "2026-11-10T08:26:05.103Z",
+        "release_verified_at": "2026-11-10T03:05:37.307Z",
+        "latest_release": null,
+        "name": "ReconTrail",
+        "slug": "recontrail",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 5,
+        "category_en": "Photogrammetry",
+        "category_zh": "摄影测量",
+        "tagline_en": "Turn photos into inspectable geometry",
+        "tagline_zh": "从照片到可检查的几何",
+        "description_en": "Check photo quality, reconstruct sparse 3D geometry on a CPU, and share a self-contained interactive report that opens offline.",
+        "description_zh": "检查照片质量，在 CPU 上重建稀疏三维几何，并分享可离线打开的交互报告。",
+        "copy_en": {
+          "benefit": "Check photo quality, reconstruct sparse 3D geometry on a CPU, and share a self-contained interactive report that opens offline.",
+          "bullets": [
+            "Capture diagnostics",
+            "CPU sparse reconstruction"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "检查照片质量，在 CPU 上重建稀疏三维几何，并分享可离线打开的交互报告。",
+          "bullets": [
+            "采集质量诊断",
+            "CPU 稀疏重建"
+          ]
+        },
+        "highlights_en": [
+          "Capture diagnostics",
+          "CPU sparse reconstruction",
+          "Offline HTML reports"
+        ],
+        "highlights_zh": [
+          "采集质量诊断",
+          "CPU 稀疏重建",
+          "离线 HTML 报告"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/recontrail/blob/main/README.md#try-it-without-taking-photos",
+          "label_en": "Try the reconstruction demo",
+          "label_zh": "体验重建示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/recontrail",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "The ordinary photo path yields sparse geometry at arbitrary scale. Calibrated stereo is a separate path with scale determined by calibration.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/recontrail/blob/ed5215f0162bb488421664c43fd9c73a39e02ec3/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:37.307Z"
+      },
+      {
+        "full_name": "Afloat16/bag-timeline-audit",
+        "url": "https://github.com/Afloat16/bag-timeline-audit",
+        "head_sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "readme_sha": "5b974882d6051f12b795dc68323fa9525e24cb40",
+        "readme_source_url": "https://github.com/Afloat16/bag-timeline-audit/blob/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3/README.md",
+        "readme_verified_at": "2026-11-10T03:05:36.714Z",
+        "head_verified_at": "2026-11-10T08:26:05.157Z",
+        "release_verified_at": "2026-11-10T03:05:36.714Z",
+        "latest_release": null,
+        "name": "Bag Timeline Audit",
+        "slug": "bag-timeline-audit",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 5,
+        "category_en": "Robotics",
+        "category_zh": "机器人",
+        "tagline_en": "Inspect recording timestamps",
+        "tagline_zh": "检查录包时间戳",
+        "description_en": "Find timestamp gaps, reversals and duplicates in ROS 2 SQLite or MCAP recordings, then compare topics using an explicitly shared clock.",
+        "description_zh": "检查 ROS 2 SQLite 或 MCAP 记录中的时间间隔、倒退和重复，并在确认共同时钟后比较不同话题。",
+        "copy_en": {
+          "benefit": "Find timestamp gaps, reversals and duplicates in ROS 2 SQLite or MCAP recordings, then compare topics using an explicitly shared clock.",
+          "bullets": [
+            "SQLite + MCAP",
+            "Integer nanoseconds"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "检查 ROS 2 SQLite 或 MCAP 记录中的时间间隔、倒退和重复，并在确认共同时钟后比较不同话题。",
+          "bullets": [
+            "SQLite 与 MCAP",
+            "整数纳秒时间戳"
+          ]
+        },
+        "highlights_en": [
+          "SQLite + MCAP",
+          "Integer nanoseconds",
+          "Cross-topic pairing"
+        ],
+        "highlights_zh": [
+          "SQLite 与 MCAP",
+          "整数纳秒时间戳",
+          "跨话题配对"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/bag-timeline-audit/blob/main/README.md#first-run",
+          "label_en": "Try the sample recording",
+          "label_zh": "试用记录示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/bag-timeline-audit",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Topic pairing assumes an explicitly verified shared clock. Timestamp gaps alone do not prove packet or sensor loss.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/bag-timeline-audit/blob/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:36.714Z"
+      },
+      {
+        "full_name": "Afloat16/tf-route-audit",
+        "url": "https://github.com/Afloat16/tf-route-audit",
+        "head_sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "readme_sha": "2e64f665982a45068aea9ba19f772bad9766ff1c",
+        "readme_source_url": "https://github.com/Afloat16/tf-route-audit/blob/44a0f2ceb0ca796f7feee2ec571d38ca2553e070/README.md",
+        "readme_verified_at": "2026-11-10T03:05:38.118Z",
+        "head_verified_at": "2026-11-10T08:26:05.210Z",
+        "release_verified_at": "2026-11-10T03:05:38.118Z",
+        "latest_release": null,
+        "name": "TF Route Audit",
+        "slug": "tf-route-audit",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 5,
+        "category_en": "Robotics",
+        "category_zh": "机器人",
+        "tagline_en": "Inspect TF routes and timing",
+        "tagline_zh": "检查 TF 路径与时间",
+        "description_en": "Check exported TF records and native URDF for cycles, disconnected frames and conflicting edges. Query routes against observed time windows.",
+        "description_zh": "检查导出的 TF 记录与原生 URDF 中的环路、断连和边冲突，并根据观测时间范围查询路径。",
+        "copy_en": {
+          "benefit": "Check exported TF records and native URDF for cycles, disconnected frames and conflicting edges. Query routes against observed time windows.",
+          "bullets": [
+            "Native URDF input",
+            "Topology diagnostics"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "检查导出的 TF 记录与原生 URDF 中的环路、断连和边冲突，并根据观测时间范围查询路径。",
+          "bullets": [
+            "原生 URDF 输入",
+            "拓扑诊断"
+          ]
+        },
+        "highlights_en": [
+          "Native URDF input",
+          "Topology diagnostics",
+          "Time-window queries"
+        ],
+        "highlights_zh": [
+          "原生 URDF 输入",
+          "拓扑诊断",
+          "时间窗口查询"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/tf-route-audit/blob/main/README.md#first-run",
+          "label_en": "Inspect a sample frame graph",
+          "label_zh": "查看坐标系示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/tf-route-audit",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Card claims are limited to the current documented workflow.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/tf-route-audit/blob/44a0f2ceb0ca796f7feee2ec571d38ca2553e070/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:38.118Z"
+      },
+      {
+        "full_name": "Afloat16/pose-convention-bridge",
+        "url": "https://github.com/Afloat16/pose-convention-bridge",
+        "head_sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "readme_sha": "e6836cf9cfbe7d0103e05535e841719aeb2233a9",
+        "readme_source_url": "https://github.com/Afloat16/pose-convention-bridge/blob/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca/README.md",
+        "readme_verified_at": "2026-11-10T03:05:39.281Z",
+        "head_verified_at": "2026-11-10T08:26:05.251Z",
+        "release_verified_at": "2026-11-10T03:05:39.281Z",
+        "latest_release": null,
+        "name": "Pose Convention Bridge",
+        "slug": "pose-convention-bridge",
+        "version": null,
+        "version_source": null,
+        "stars": 0,
+        "default_branch_commit_count": 4,
+        "category_en": "3D geometry",
+        "category_zh": "三维几何",
+        "tagline_en": "Make camera conventions explicit",
+        "tagline_zh": "明确相机位姿约定",
+        "description_en": "Convert camera poses between OpenCV and OpenGL axes or world-to-camera and camera-to-world forms, with validated transforms and Nerfstudio export.",
+        "description_zh": "转换 OpenCV/OpenGL 坐标轴与世界到相机、相机到世界位姿，校验刚体变换并导出 Nerfstudio 格式。",
+        "copy_en": {
+          "benefit": "Convert camera poses between OpenCV and OpenGL axes or world-to-camera and camera-to-world forms, with validated transforms and Nerfstudio export.",
+          "bullets": [
+            "COLMAP + TUM inputs",
+            "Rigid-transform checks"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "转换 OpenCV/OpenGL 坐标轴与世界到相机、相机到世界位姿，校验刚体变换并导出 Nerfstudio 格式。",
+          "bullets": [
+            "COLMAP 与 TUM 输入",
+            "刚体变换校验"
+          ]
+        },
+        "highlights_en": [
+          "COLMAP + TUM inputs",
+          "Rigid-transform checks",
+          "Nerfstudio export"
+        ],
+        "highlights_zh": [
+          "COLMAP 与 TUM 输入",
+          "刚体变换校验",
+          "Nerfstudio 导出"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/pose-convention-bridge/blob/main/README.md#first-run",
+          "label_en": "Try a pose conversion",
+          "label_zh": "试用位姿转换"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/pose-convention-bridge",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Inputs must explicitly declare conventions. Nerfstudio export requires real filenames and supplied intrinsics.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/pose-convention-bridge/blob/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:39.281Z"
+      },
+      {
+        "full_name": "Afloat16/colmap-model-audit",
+        "url": "https://github.com/Afloat16/colmap-model-audit",
+        "head_sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+        "readme_sha": "a2f6d64d50c6b3f847bdd77fabddbd02f9aabcc6",
+        "readme_source_url": "https://github.com/Afloat16/colmap-model-audit/blob/40f0316fed6fb181079a79c63ea29834685de0b3/README.md",
+        "readme_verified_at": "2026-11-10T03:05:39.280Z",
+        "head_verified_at": "2026-11-10T08:26:05.095Z",
+        "release_verified_at": "2026-11-10T03:05:39.280Z",
+        "latest_release": null,
+        "name": "COLMAP Model Audit",
+        "slug": "colmap-model-audit",
+        "version": null,
+        "version_source": null,
+        "stars": 0,
+        "default_branch_commit_count": 4,
+        "category_en": "3D geometry",
+        "category_zh": "三维几何",
+        "tagline_en": "Inspect a reconstruction before reuse",
+        "tagline_zh": "复用前检查重建模型",
+        "description_en": "Audit COLMAP text models for camera-field errors, broken reciprocal tracks and disconnected view graphs, with optional image-path and model-overlap checks.",
+        "description_zh": "检查 COLMAP 文本模型的相机字段、互相引用的轨迹及视图连接图的连通性，还可核对图像路径与模型重叠。",
+        "copy_en": {
+          "benefit": "Audit COLMAP text models for camera-field errors, broken reciprocal tracks and disconnected view graphs, with optional image-path and model-overlap checks.",
+          "bullets": [
+            "Read-only model checks",
+            "Reciprocal track validation"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "检查 COLMAP 文本模型的相机字段、互相引用的轨迹及视图连接图的连通性，还可核对图像路径与模型重叠。",
+          "bullets": [
+            "只读模型检查",
+            "双向轨迹校验"
+          ]
+        },
+        "highlights_en": [
+          "Read-only model checks",
+          "Reciprocal track validation",
+          "View-graph diagnostics"
+        ],
+        "highlights_zh": [
+          "只读模型检查",
+          "双向轨迹校验",
+          "视图连接图诊断"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/colmap-model-audit/blob/main/README.md#first-run",
+          "label_en": "Audit the sample model",
+          "label_zh": "检查模型示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/colmap-model-audit",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Audits the legacy COLMAP camera/image/point text representation. It does not establish ground-truth reconstruction accuracy.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/colmap-model-audit/blob/40f0316fed6fb181079a79c63ea29834685de0b3/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:39.280Z"
+      },
+      {
+        "full_name": "Afloat16/llm-handshake",
+        "url": "https://github.com/Afloat16/llm-handshake",
+        "head_sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "readme_sha": "67e99087b1ef6a22b6accbc7042f4d53f1877690",
+        "readme_source_url": "https://github.com/Afloat16/llm-handshake/blob/386c0d4e9f99309ab562d23589cd8725326eecfc/README.md",
+        "readme_verified_at": "2026-11-10T03:05:36.106Z",
+        "head_verified_at": "2026-11-10T08:26:05.099Z",
+        "release_verified_at": "2026-11-10T03:05:36.106Z",
+        "latest_release": null,
+        "name": "LLM Handshake",
+        "slug": "llm-handshake",
+        "version": "0.1.0",
+        "version_source": "README version",
+        "stars": 1,
+        "default_branch_commit_count": 6,
+        "category_en": "LLM interfaces",
+        "category_zh": "大模型接口",
+        "tagline_en": "Check the behaviors your app needs",
+        "tagline_zh": "检查应用依赖的接口行为",
+        "description_en": "Probe OpenAI-compatible endpoints for streaming, tool calls and structured output. Preview exact requests and compare reports after a gateway or model upgrade.",
+        "description_zh": "逐项检查 OpenAI 兼容接口的流式输出、工具调用和结构化输出。先预览请求，再比较网关或模型升级前后的报告。",
+        "copy_en": {
+          "benefit": "Probe OpenAI-compatible endpoints for streaming, tool calls and structured output. Preview exact requests and compare reports after a gateway or model upgrade.",
+          "bullets": [
+            "Seven focused probes",
+            "Request preview"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "逐项检查 OpenAI 兼容接口的流式输出、工具调用和结构化输出。先预览请求，再比较网关或模型升级前后的报告。",
+          "bullets": [
+            "七项专项检查",
+            "请求预览"
+          ]
+        },
+        "highlights_en": [
+          "Seven focused probes",
+          "Request preview",
+          "Report comparisons"
+        ],
+        "highlights_zh": [
+          "七项专项检查",
+          "请求预览",
+          "报告比较"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/llm-handshake/blob/main/README.md#try-it-without-a-key",
+          "label_en": "Run the local demo",
+          "label_zh": "运行本地示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/llm-handshake",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "The seven endpoint probes observe specific sample behaviors. Inference is opt-in and can be billable. Demo requests use a local mock server.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/llm-handshake/blob/386c0d4e9f99309ab562d23589cd8725326eecfc/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:36.106Z"
+      },
+      {
+        "full_name": "Afloat16/sse-toolcall-audit",
+        "url": "https://github.com/Afloat16/sse-toolcall-audit",
+        "head_sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "readme_sha": "c8de09ef47363529c0bfe08896fd26a3fd842303",
+        "readme_source_url": "https://github.com/Afloat16/sse-toolcall-audit/blob/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b/README.md",
+        "readme_verified_at": "2026-11-10T03:05:37.308Z",
+        "head_verified_at": "2026-11-10T08:26:05.084Z",
+        "release_verified_at": "2026-11-10T03:05:37.308Z",
+        "latest_release": null,
+        "name": "SSE Toolcall Audit",
+        "slug": "sse-toolcall-audit",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 5,
+        "category_en": "LLM interfaces",
+        "category_zh": "大模型接口",
+        "tagline_en": "Inspect streamed tool-call assembly",
+        "tagline_zh": "检查流式工具调用的组装",
+        "description_en": "Reassemble parallel tool calls from saved SSE captures and check completion markers, JSON arguments and consistency with a saved final response.",
+        "description_zh": "从保存的 SSE 流中重组并行工具调用，检查结束标记、JSON 参数及与已保存最终响应的一致性。",
+        "copy_en": {
+          "benefit": "Reassemble parallel tool calls from saved SSE captures and check completion markers, JSON arguments and consistency with a saved final response.",
+          "bullets": [
+            "Chat Completions + Responses",
+            "Parallel-call assembly"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "从保存的 SSE 流中重组并行工具调用，检查结束标记、JSON 参数及与已保存最终响应的一致性。",
+          "bullets": [
+            "两类 API 格式",
+            "并行调用重组"
+          ]
+        },
+        "highlights_en": [
+          "Chat Completions + Responses",
+          "Parallel-call assembly",
+          "Offline semantic comparison"
+        ],
+        "highlights_zh": [
+          "两类 API 格式",
+          "并行调用重组",
+          "离线语义比较"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/sse-toolcall-audit/blob/main/README.md#first-run",
+          "label_en": "Inspect a captured stream",
+          "label_zh": "检查流式示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/sse-toolcall-audit",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Audits saved captures and compares saved responses. It does not make live model calls or execute returned tools.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/sse-toolcall-audit/blob/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:37.308Z"
+      },
+      {
+        "full_name": "Afloat16/tooltrace-audit",
+        "url": "https://github.com/Afloat16/tooltrace-audit",
+        "head_sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "readme_sha": "2d42801f8b217ffd877e4d2a4473e94d1a912fa1",
+        "readme_source_url": "https://github.com/Afloat16/tooltrace-audit/blob/7f13faa7a75fe80afd42bbc4f87b43673ebf21de/README.md",
+        "readme_verified_at": "2026-11-10T03:05:38.119Z",
+        "head_verified_at": "2026-11-10T08:26:05.091Z",
+        "release_verified_at": "2026-11-10T03:05:38.119Z",
+        "latest_release": null,
+        "name": "Tooltrace Audit",
+        "slug": "tooltrace-audit",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 5,
+        "category_en": "Agent workflows",
+        "category_zh": "智能体工作流",
+        "tagline_en": "Trace retries and missing results",
+        "tagline_zh": "追踪重试与缺失结果",
+        "description_en": "Review saved execution traces for overlapping retries, duplicate attempts and unmatched results. Add the optional recorder around your own tool calls.",
+        "description_zh": "分析保存的执行轨迹，定位重叠重试、重复尝试与未匹配结果。可为自己的工具调用接入可选记录器。",
+        "copy_en": {
+          "benefit": "Review saved execution traces for overlapping retries, duplicate attempts and unmatched results. Add the optional recorder around your own tool calls.",
+          "bullets": [
+            "Execution + conversation traces",
+            "Retry overlap checks"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "分析保存的执行轨迹，定位重叠重试、重复尝试与未匹配结果。可为自己的工具调用接入可选记录器。",
+          "bullets": [
+            "执行与对话轨迹",
+            "重试重叠检查"
+          ]
+        },
+        "highlights_en": [
+          "Execution + conversation traces",
+          "Retry overlap checks",
+          "Optional Python recorder"
+        ],
+        "highlights_zh": [
+          "执行与对话轨迹",
+          "重试重叠检查",
+          "可选 Python 记录器"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/tooltrace-audit/blob/main/examples/instrument.py",
+          "label_en": "Explore trace instrumentation",
+          "label_zh": "查看调用记录示例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/tooltrace-audit",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Card claims are limited to the current documented workflow.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/tooltrace-audit/blob/7f13faa7a75fe80afd42bbc4f87b43673ebf21de/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:38.119Z"
+      },
+      {
+        "full_name": "Afloat16/jev-mcp",
+        "url": "https://github.com/Afloat16/jev-mcp",
+        "head_sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "readme_sha": "17c2b3d7d31d56371a80853a0b03c097027d0a13",
+        "readme_source_url": "https://github.com/Afloat16/jev-mcp/blob/59a7278771f13d9bf12d98c50365c1c6daf27ba2/README.md",
+        "readme_verified_at": "2026-11-10T03:05:34.255Z",
+        "head_verified_at": "2026-11-10T08:26:05.037Z",
+        "release_verified_at": "2026-11-10T03:05:34.254Z",
+        "latest_release": {
+          "tag": "v0.5.0",
+          "name": "v0.5.0",
+          "published_at": "2026-09-28T13:34:53Z",
+          "url": "https://github.com/Afloat16/jev-mcp/releases/tag/v0.5.0",
+          "draft": false,
+          "prerelease": false
+        },
+        "name": "Jev MCP",
+        "slug": "jev-mcp",
+        "version": "v0.5.0",
+        "version_source": "published GitHub release",
+        "stars": 1,
+        "default_branch_commit_count": 49,
+        "category_en": "MCP tools",
+        "category_zh": "MCP 工具",
+        "tagline_en": "Add a probabilistic second opinion",
+        "tagline_zh": "接入概率型辅助判断",
+        "description_en": "Bring TypeSafe Jev advice to bounded choices, routing and risk checks through four MCP tools, with installers for multiple coding clients.",
+        "description_zh": "通过四个 MCP 工具，将 TypeSafe Jev 建议接入有限选项、路由和风险判断，并提供多款编码客户端安装器。",
+        "copy_en": {
+          "benefit": "Bring TypeSafe Jev advice to bounded choices, routing and risk checks through four MCP tools, with installers for multiple coding clients.",
+          "bullets": [
+            "Four stdio tools",
+            "Explicit bounded choices"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "通过四个 MCP 工具，将 TypeSafe Jev 建议接入有限选项、路由和风险判断，并提供多款编码客户端安装器。",
+          "bullets": [
+            "四个 stdio 工具",
+            "显式有限选项"
+          ]
+        },
+        "highlights_en": [
+          "Four stdio tools",
+          "Explicit bounded choices",
+          "Multi-client installers"
+        ],
+        "highlights_zh": [
+          "四个 stdio 工具",
+          "显式有限选项",
+          "多客户端安装器"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/jev-mcp/blob/main/docs/QUICKSTART.md",
+          "label_en": "Try an MCP call",
+          "label_zh": "试用 MCP 调用"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/jev-mcp",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Four local stdio MCP tools call a TypeSafe-hosted API using the user’s credential. Results are advisory probabilities. Community-maintained integration.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/jev-mcp/blob/59a7278771f13d9bf12d98c50365c1c6daf27ba2/README.md",
+          "https://github.com/Afloat16/jev-mcp/releases/tag/v0.5.0"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.721Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:34.254Z"
+      },
+      {
+        "full_name": "Afloat16/ai-dev-steward",
+        "url": "https://github.com/Afloat16/ai-dev-steward",
+        "head_sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+        "readme_sha": "70d35e4784f5a394696971952938b15ef3b06cb5",
+        "readme_source_url": "https://github.com/Afloat16/ai-dev-steward/blob/f360968f7154c4b1e47ce622b11b114ba955f681/README.md",
+        "readme_verified_at": "2026-11-10T03:05:35.346Z",
+        "head_verified_at": "2026-11-10T08:26:05.103Z",
+        "release_verified_at": "2026-11-10T03:05:35.346Z",
+        "latest_release": null,
+        "name": "StewardCheck",
+        "slug": "ai-dev-steward",
+        "version": "0.2.0 Alpha",
+        "version_source": "StewardCheck CLI in README",
+        "stars": 1,
+        "default_branch_commit_count": 11,
+        "category_en": "Coding workflow",
+        "category_zh": "编码工作流",
+        "tagline_en": "Tie coding changes to test receipts",
+        "tagline_zh": "让代码改动对应验证记录",
+        "description_en": "Pin a task baseline, inspect edits against the agreed scope and keep test receipts tied to the files they actually checked.",
+        "description_zh": "固定任务起点，按约定范围检查改动，并让测试记录对应其实际检查的文件状态。",
+        "copy_en": {
+          "benefit": "Pin a task baseline, inspect edits against the agreed scope and keep test receipts tied to the files they actually checked.",
+          "bullets": [
+            "Task-scoped Git checks",
+            "Workspace fingerprints"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "固定任务起点，按约定范围检查改动，并让测试记录对应其实际检查的文件状态。",
+          "bullets": [
+            "任务范围检查",
+            "工作区指纹"
+          ]
+        },
+        "highlights_en": [
+          "Task-scoped Git checks",
+          "Workspace fingerprints",
+          "Reviewable receipts"
+        ],
+        "highlights_zh": [
+          "任务范围检查",
+          "工作区指纹",
+          "可审阅验证记录"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/ai-dev-steward/blob/main/tools/stewardcheck/README.md",
+          "label_en": "Explore StewardCheck",
+          "label_zh": "了解 StewardCheck"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/ai-dev-steward",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "StewardCheck is a 0.2.0 Alpha CLI inside ai-dev-steward. The separate agent skill is documented as v1.1.0. Receipts bind declared checks to recorded workspace state, not to a guarantee of correctness.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/ai-dev-steward/blob/f360968f7154c4b1e47ce622b11b114ba955f681/README.md",
+          "https://github.com/Afloat16/ai-dev-steward/blob/f360968f7154c4b1e47ce622b11b114ba955f681/tools/stewardcheck/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "component_versions": {
+          "StewardCheck": "0.2.0 Alpha",
+          "Agent Skill": "v1.1.0"
+        },
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:35.346Z"
+      },
+      {
+        "full_name": "Afloat16/debate-direction",
+        "url": "https://github.com/Afloat16/debate-direction",
+        "head_sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+        "readme_sha": "53baf36e33b375720e3e16ff8e294253768bae83",
+        "readme_source_url": "https://github.com/Afloat16/debate-direction/blob/fe438afe62ae3723422dff51ac81b22187323d88/README.md",
+        "readme_verified_at": "2026-11-10T03:05:35.347Z",
+        "head_verified_at": "2026-11-10T08:26:05.137Z",
+        "release_verified_at": "2026-11-10T03:05:35.347Z",
+        "latest_release": null,
+        "name": "Debate Direction",
+        "slug": "debate-direction",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 8,
+        "category_en": "Agent workflows",
+        "category_zh": "智能体工作流",
+        "tagline_en": "Stress-test a direction before coding",
+        "tagline_zh": "编码前检验方案",
+        "description_en": "Let two agents propose, challenge and revise a plan. Keep the objections, remaining disagreements and next validation steps in a reviewable report.",
+        "description_zh": "让两个智能体提出、质疑并迭代方案，将异议、未决分歧和下一步验证保留在可审阅报告中。",
+        "copy_en": {
+          "benefit": "Let two agents propose, challenge and revise a plan. Keep the objections, remaining disagreements and next validation steps in a reviewable report.",
+          "bullets": [
+            "Persistent proposer + critic",
+            "Issue ledger"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "让两个智能体提出、质疑并迭代方案，将异议、未决分歧和下一步验证保留在可审阅报告中。",
+          "bullets": [
+            "持续提案与质疑",
+            "问题台账"
+          ]
+        },
+        "highlights_en": [
+          "Persistent proposer + critic",
+          "Issue ledger",
+          "HTML / Markdown / JSON"
+        ],
+        "highlights_zh": [
+          "持续提案与质疑",
+          "问题台账",
+          "三种报告格式"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/debate-direction/blob/main/examples/demo-output/report.md",
+          "label_en": "Read a debate report",
+          "label_zh": "查看辩论报告"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/debate-direction",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Card claims are limited to the current documented workflow.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/debate-direction/blob/fe438afe62ae3723422dff51ac81b22187323d88/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:35.347Z"
+      },
+      {
+        "full_name": "Afloat16/research-to-fix",
+        "url": "https://github.com/Afloat16/research-to-fix",
+        "head_sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "readme_sha": "5ded246b0edf160497f3ae164b3922b8028f3895",
+        "readme_source_url": "https://github.com/Afloat16/research-to-fix/blob/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c/README.md",
+        "readme_verified_at": "2026-11-10T03:05:36.106Z",
+        "head_verified_at": "2026-11-10T08:26:05.117Z",
+        "release_verified_at": "2026-11-10T03:05:36.106Z",
+        "latest_release": null,
+        "name": "Research to Fix",
+        "slug": "research-to-fix",
+        "version": null,
+        "version_source": null,
+        "stars": 1,
+        "default_branch_commit_count": 7,
+        "category_en": "Research workflow",
+        "category_zh": "研究工作流",
+        "tagline_en": "Connect prior solutions to local fixes",
+        "tagline_zh": "把已有方案连接到本地修复",
+        "description_en": "Research similar failures, map relevant solutions to your code and verify the repair. Save cases with source links and before-and-after evidence.",
+        "description_zh": "研究相似故障，将适用方案映射到本地代码并验证修复。连同来源和前后对照证据保存案例。",
+        "copy_en": {
+          "benefit": "Research similar failures, map relevant solutions to your code and verify the repair. Save cases with source links and before-and-after evidence.",
+          "bullets": [
+            "Source-backed diagnosis",
+            "Local applicability checks"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "研究相似故障，将适用方案映射到本地代码并验证修复。连同来源和前后对照证据保存案例。",
+          "bullets": [
+            "来源可追溯诊断",
+            "本地适用性核对"
+          ]
+        },
+        "highlights_en": [
+          "Source-backed diagnosis",
+          "Local applicability checks",
+          "Reusable repair cases"
+        ],
+        "highlights_zh": [
+          "来源可追溯诊断",
+          "本地适用性核对",
+          "可复用修复案例"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/research-to-fix/blob/main/examples/streaming-metrics/README.md",
+          "label_en": "Inspect a repair case",
+          "label_zh": "查看修复案例"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/research-to-fix",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Card claims are limited to the current documented workflow.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/research-to-fix/blob/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c/README.md"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:36.106Z"
+      },
+      {
+        "full_name": "Afloat16/agent-action-notifier",
+        "url": "https://github.com/Afloat16/agent-action-notifier",
+        "head_sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "readme_sha": "c3d44a5a7547ba1627f46fbce105d9b356389b30",
+        "readme_source_url": "https://github.com/Afloat16/agent-action-notifier/blob/d5d5db0ba818169356bae9627c4eaea040e6b2bb/README.md",
+        "readme_verified_at": "2026-11-10T03:05:38.812Z",
+        "head_verified_at": "2026-11-10T08:26:05.100Z",
+        "release_verified_at": "2026-11-10T03:05:38.812Z",
+        "latest_release": {
+          "tag": "v0.2.0",
+          "name": "v0.2.0 - Email-first workflow instructions",
+          "published_at": "2026-10-05T00:36:37Z",
+          "url": "https://github.com/Afloat16/agent-action-notifier/releases/tag/v0.2.0",
+          "draft": false,
+          "prerelease": false
+        },
+        "name": "Agent Action Notifier",
+        "slug": "agent-action-notifier",
+        "version": "v0.2.0",
+        "version_source": "published GitHub release",
+        "stars": 0,
+        "default_branch_commit_count": 6,
+        "category_en": "Agent workflows",
+        "category_zh": "智能体工作流",
+        "tagline_en": "Receive an alert when work needs you",
+        "tagline_zh": "在任务需要你时收到通知",
+        "description_en": "Turn explicit workflow events into queued email or desktop alerts, with pending-request tracking, retries and recovery after interrupted delivery.",
+        "description_zh": "将明确的工作流事件转为排队发送的邮件或桌面通知，追踪待处理请求、重试，并在发送中断后恢复。",
+        "copy_en": {
+          "benefit": "Turn explicit workflow events into queued email or desktop alerts, with pending-request tracking, retries and recovery after interrupted delivery.",
+          "bullets": [
+            "SQLite outbox",
+            "Email + desktop channels"
+          ]
+        },
+        "copy_zh": {
+          "benefit": "将明确的工作流事件转为排队发送的邮件或桌面通知，追踪待处理请求、重试，并在发送中断后恢复。",
+          "bullets": [
+            "SQLite 发件队列",
+            "邮件与桌面渠道"
+          ]
+        },
+        "highlights_en": [
+          "SQLite outbox",
+          "Email + desktop channels",
+          "Request lifecycle tracking"
+        ],
+        "highlights_zh": [
+          "SQLite 发件队列",
+          "邮件与桌面渠道",
+          "请求生命周期跟踪"
+        ],
+        "cta": {
+          "url": "https://github.com/Afloat16/agent-action-notifier/blob/main/docs/email-first.md",
+          "label_en": "Set up workflow alerts",
+          "label_zh": "接入工作流通知"
+        },
+        "repository_cta": {
+          "url": "https://github.com/Afloat16/agent-action-notifier",
+          "label_en": "Explore on GitHub",
+          "label_zh": "在 GitHub 查看"
+        },
+        "scope_note": "Notifications are produced from explicit workflow events. The tool does not automatically monitor ChatGPT. SMTP acceptance and local popup command acceptance are recorded separately from actual user delivery.",
+        "evidence_urls": [
+          "https://github.com/Afloat16/agent-action-notifier/blob/d5d5db0ba818169356bae9627c4eaea040e6b2bb/README.md",
+          "https://github.com/Afloat16/agent-action-notifier/releases/tag/v0.2.0"
+        ],
+        "tests_executed_during_this_review": false,
+        "metadata_verified_at": "2026-11-10T03:31:01.722Z",
+        "default_branch": "main",
+        "forks": 0,
+        "content_changed_since_previous_snapshot": false,
+        "history_enumerated_at": "2026-11-10T03:05:38.812Z"
+      }
+    ]
+  }
+}
