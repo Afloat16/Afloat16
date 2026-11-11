@@ -109,6 +109,15 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 <p><a href="https://github.com/Afloat16/anti-rea-forge">Explore &amp; star →</a></p>
 </td>
 <td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/AI-Memory-Book">AI-Memory-Book</a></strong><br><sub>Agent memory · v0.2.1</sub></p>
+<p>Give agents shared local memory, organized as project books and task chapters. Opt in to background capture of supported conversations, then use MCP to recall bounded original evidence with source references when continuing earlier work.</p>
+<ul>
+<li>Opt-in background capture</li>
+<li>Cited MCP recall</li>
+</ul>
+<p><a href="https://github.com/Afloat16/AI-Memory-Book">Explore &amp; star →</a></p>
+</td>
+<td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/modeldock">ModelDock</a></strong><br><sub>3D &amp; CAD · v0.2.0</sub></p>
 <p>Preview, align and compare meshes or point clouds locally. Explore sampled binary PLY/STL previews above 5 GiB and export comparison reports.</p>
 <ul>
@@ -117,6 +126,8 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/modeldock">Explore &amp; star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/jev-mcp">Jev MCP</a></strong><br><sub>MCP tools · v0.5.0</sub></p>
 <p>Bring TypeSafe Jev advice to bounded choices, routing and risk checks through four MCP tools, with installers for multiple coding clients.</p>
@@ -126,8 +137,6 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/jev-mcp">Explore &amp; star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/bag-timeline-audit">Bag Timeline Audit</a></strong><br><sub>Robotics</sub></p>
 <p>Find timestamp gaps, reversals and duplicates in ROS 2 SQLite or MCAP recordings, then compare topics using an explicitly shared clock.</p>
@@ -146,6 +155,8 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/llm-handshake">Explore &amp; star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/recontrail">ReconTrail</a></strong><br><sub>Photogrammetry</sub></p>
 <p>Check photo quality, reconstruct sparse 3D geometry on a CPU, and share a self-contained interactive report that opens offline.</p>
@@ -155,8 +166,6 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/recontrail">Explore &amp; star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/tf-route-audit">TF Route Audit</a></strong><br><sub>Robotics</sub></p>
 <p>Check exported TF records and native URDF for cycles, disconnected frames and conflicting edges. Query routes against observed time windows.</p>
@@ -175,6 +184,8 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/sse-toolcall-audit">Explore &amp; star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/pose-convention-bridge">Pose Convention Bridge</a></strong><br><sub>3D geometry</sub></p>
 <p>Convert camera poses between OpenCV and OpenGL axes or world-to-camera and camera-to-world forms, with validated transforms and Nerfstudio export.</p>
@@ -184,8 +195,6 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/pose-convention-bridge">Explore &amp; star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/colmap-model-audit">COLMAP Model Audit</a></strong><br><sub>3D geometry</sub></p>
 <p>Audit COLMAP text models for camera-field errors, broken reciprocal tracks and disconnected view graphs, with optional image-path and model-overlap checks.</p>
@@ -204,6 +213,8 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/tooltrace-audit">Explore &amp; star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/research-to-fix">Research to Fix</a></strong><br><sub>Research workflow</sub></p>
 <p>Research similar failures, map relevant solutions to your code and verify the repair. Save cases with source links and before-and-after evidence.</p>
@@ -213,8 +224,6 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/research-to-fix">Explore &amp; star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/debate-direction">Debate Direction</a></strong><br><sub>Agent workflows</sub></p>
 <p>Let two agents propose, challenge and revise a plan. Keep the objections, remaining disagreements and next validation steps in a reviewable report.</p>
@@ -233,6 +242,8 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 </ul>
 <p><a href="https://github.com/Afloat16/ai-dev-steward">Explore &amp; star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/agent-action-notifier">Agent Action Notifier</a></strong><br><sub>Agent workflows · v0.2.0</sub></p>
 <p>Turn explicit workflow events into queued email or desktop alerts, with pending-request tracking, retries and recovery after interrupted delivery.</p>
@@ -248,9 +259,9 @@ Small tools for concrete engineering problems. Explore a project, try its exampl
 I isolate the symptom, understand the boundary, write a regression, and make the result inspectable. The [six domain utilities](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release) have **67 local tests and 36 passing OS/Python CI combinations** at the recorded release. These are experimental diagnostics and conversion tools; each repository documents its limits.
 
 <details>
-<summary><b>All 15 projects: stars and default-branch commits</b></summary>
+<summary><b>All 16 projects: stars and default-branch commits</b></summary>
 
-Snapshot: **11 November 2026 · 12:45 CST (UTC+8)**. Sorted by stars, then repository commit count. Commits count reachable default-branch history, including merge commits; they are not personal authored-commit counts. [Sources and versions](docs/PROJECTS.md).
+Snapshot: **11 November 2026 · 18:18 CST (UTC+8)**. Sorted by stars, then repository commit count. Commits count reachable default-branch history, including merge commits; they are not personal authored-commit counts. [Sources and versions](docs/PROJECTS.md).
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
@@ -258,6 +269,7 @@ Snapshot: **11 November 2026 · 12:45 CST (UTC+8)**. Sorted by stars, then repos
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
+| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [1](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [7](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [Research to Fix](https://github.com/Afloat16/research-to-fix) | [1](https://github.com/Afloat16/research-to-fix/stargazers) | [7](https://github.com/Afloat16/research-to-fix/commits/main/) | Python |
 | [LLM Handshake](https://github.com/Afloat16/llm-handshake) | [1](https://github.com/Afloat16/llm-handshake/stargazers) | [6](https://github.com/Afloat16/llm-handshake/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [1](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |

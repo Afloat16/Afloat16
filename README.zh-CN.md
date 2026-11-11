@@ -109,6 +109,15 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 <p><a href="https://github.com/Afloat16/anti-rea-forge">查看项目 · Star →</a></p>
 </td>
 <td width="33%" valign="top">
+<p><strong><a href="https://github.com/Afloat16/AI-Memory-Book">AI-Memory-Book</a></strong><br><sub>智能体记忆 · v0.2.1</sub></p>
+<p>为智能体提供共享的本地记忆，按项目成书、任务成章。主动开启受支持会话的后台采集，通过 MCP 按需召回带出处、长度受限的原文证据，延续先前工作。</p>
+<ul>
+<li>主动开启后台采集</li>
+<li>带出处的 MCP 召回</li>
+</ul>
+<p><a href="https://github.com/Afloat16/AI-Memory-Book">查看项目 · Star →</a></p>
+</td>
+<td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/modeldock">ModelDock</a></strong><br><sub>三维与 CAD · v0.2.0</sub></p>
 <p>本地预览、对齐和比较网格与点云。支持超过 5 GiB 的二进制 PLY/STL 采样预览，并导出比较报告。</p>
 <ul>
@@ -117,6 +126,8 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/modeldock">查看项目 · Star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/jev-mcp">Jev MCP</a></strong><br><sub>MCP 工具 · v0.5.0</sub></p>
 <p>通过四个 MCP 工具，将 TypeSafe Jev 建议接入有限选项、路由和风险判断，并提供多款编码客户端安装器。</p>
@@ -126,8 +137,6 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/jev-mcp">查看项目 · Star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/bag-timeline-audit">Bag Timeline Audit</a></strong><br><sub>机器人</sub></p>
 <p>检查 ROS 2 SQLite 或 MCAP 记录中的时间间隔、倒退和重复，并在确认共同时钟后比较不同话题。</p>
@@ -146,6 +155,8 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/llm-handshake">查看项目 · Star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/recontrail">ReconTrail</a></strong><br><sub>摄影测量</sub></p>
 <p>检查照片质量，在 CPU 上重建稀疏三维几何，并分享可离线打开的交互报告。</p>
@@ -155,8 +166,6 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/recontrail">查看项目 · Star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/tf-route-audit">TF Route Audit</a></strong><br><sub>机器人</sub></p>
 <p>检查导出的 TF 记录与原生 URDF 中的环路、断连和边冲突，并根据观测时间范围查询路径。</p>
@@ -175,6 +184,8 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/sse-toolcall-audit">查看项目 · Star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/pose-convention-bridge">Pose Convention Bridge</a></strong><br><sub>三维几何</sub></p>
 <p>转换 OpenCV/OpenGL 坐标轴与世界到相机、相机到世界位姿，校验刚体变换并导出 Nerfstudio 格式。</p>
@@ -184,8 +195,6 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/pose-convention-bridge">查看项目 · Star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/colmap-model-audit">COLMAP Model Audit</a></strong><br><sub>三维几何</sub></p>
 <p>检查 COLMAP 文本模型的相机字段、互相引用的轨迹及视图连接图的连通性，还可核对图像路径与模型重叠。</p>
@@ -204,6 +213,8 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/tooltrace-audit">查看项目 · Star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/research-to-fix">Research to Fix</a></strong><br><sub>研究工作流</sub></p>
 <p>研究相似故障，将适用方案映射到本地代码并验证修复。连同来源和前后对照证据保存案例。</p>
@@ -213,8 +224,6 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/research-to-fix">查看项目 · Star →</a></p>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/debate-direction">Debate Direction</a></strong><br><sub>智能体工作流</sub></p>
 <p>让两个智能体提出、质疑并迭代方案，将异议、未决分歧和下一步验证保留在可审阅报告中。</p>
@@ -233,6 +242,8 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 </ul>
 <p><a href="https://github.com/Afloat16/ai-dev-steward">查看项目 · Star →</a></p>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 <p><strong><a href="https://github.com/Afloat16/agent-action-notifier">Agent Action Notifier</a></strong><br><sub>智能体工作流 · v0.2.0</sub></p>
 <p>将明确的工作流事件转为排队发送的邮件或桌面通知，追踪待处理请求、重试，并在发送中断后恢复。</p>
@@ -248,9 +259,9 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 我通常会先隔离症状、明确边界、补充回归测试，并让结果可检查。[六个领域工具](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release)在记录的发布版本中有 **67 项本地测试、36 组通过的 OS/Python CI 组合**。这些是实验性诊断与转换工具，各仓库均说明适用范围。
 
 <details>
-<summary><b>全部 15 个项目：Stars 与默认分支 commits</b></summary>
+<summary><b>全部 16 个项目：Stars 与默认分支 commits</b></summary>
 
-截至 **2026-11-11 12:45（UTC+8）**，按 stars 降序，同星按仓库 commit 数降序排列。这里的 commits 是各仓库默认分支可达的历史提交数（含 merge commits），不是个人作者提交数。完整来源与版本见[项目记录](docs/PROJECTS.md)。
+截至 **2026-11-11 18:18（UTC+8）**，按 stars 降序，同星按仓库 commit 数降序排列。这里的 commits 是各仓库默认分支可达的历史提交数（含 merge commits），不是个人作者提交数。完整来源与版本见[项目记录](docs/PROJECTS.md)。
 
 | 项目 | ★ | 默认分支 commits | 主要语言 |
 |---|---:|---:|---|
@@ -258,6 +269,7 @@ Robotics Toolbox 也将 [#735](https://github.com/petercorke/robotics-toolbox-py
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
+| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [1](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [7](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [Research to Fix](https://github.com/Afloat16/research-to-fix) | [1](https://github.com/Afloat16/research-to-fix/stargazers) | [7](https://github.com/Afloat16/research-to-fix/commits/main/) | Python |
 | [LLM Handshake](https://github.com/Afloat16/llm-handshake) | [1](https://github.com/Afloat16/llm-handshake/stargazers) | [6](https://github.com/Afloat16/llm-handshake/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [1](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
