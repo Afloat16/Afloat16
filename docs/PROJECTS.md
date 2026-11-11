@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **10 November 2026 · 22:01 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Repository metrics and exact default-branch heads were rechecked for this snapshot. The 15 software heads matched the previously enumerated histories; release and README observations retain their recorded verification times. Individual observation times are recorded in the source snapshot.
+Snapshot: **11 November 2026 · 12:45 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). Repository metrics and exact default-branch heads were rechecked for this snapshot. The 15 software heads matched the previously enumerated histories; release and README observations retain their recorded verification times. Individual observation times are recorded in the source snapshot.
 
 **15 public, non-fork software projects**, excluding the profile repository. All 15 are unarchived. Each repository has a separate profile card with its purpose, two highlights and a project link.
 
@@ -8,7 +8,7 @@ Snapshot: **10 November 2026 · 22:01 CST (UTC+8)**. Account: [Afloat16](https:/
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [6](https://github.com/Afloat16/anti-rea-forge/stargazers) | [31](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [7](https://github.com/Afloat16/anti-rea-forge/stargazers) | [31](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
@@ -24,9 +24,9 @@ Snapshot: **10 November 2026 · 22:01 CST (UTC+8)**. Account: [Afloat16](https:/
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. The unchanged software heads preserve the previous complete history counts; the profile repository’s 33-entry history was verified against its current head and parent-chain evidence; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-10-2201.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. The unchanged software heads preserve the previous complete history counts; the profile repository’s 34-entry history was verified against its current head and parent-chain evidence; head SHA and source URLs are retained in the [machine-readable snapshot](projects-2026-11-11-1245.json). Stars and commit counts are fixed as of this snapshot. Current numbers can be checked through the linked repository pages.
 
-The 15 software projects total **17 stars, 0 forks and 157 reachable default-branch commits**. The profile repository had **33 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 15 software projects total **18 stars, 0 forks and 157 reachable default-branch commits**. The profile repository had **34 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
