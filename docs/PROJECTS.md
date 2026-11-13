@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **13 November 2026 · 14:17 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). The complete public non-fork account inventory still contains 17 repositories. Repository metrics, release listings and exact default-branch heads were rechecked for all 17. Fifteen software heads matched their previously fully enumerated histories. AI-Memory-Book’s changed default-branch history and the profile repository history were fully enumerated again. Project card descriptions are preserved; the refreshed AI-Memory-Book README and prerelease observations retain their actual check times. Individual observation times are recorded in the source snapshot.
+Snapshot: **13 November 2026 · 14:34 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; all 16 heads match their previously enumerated histories. The profile repository’s 39-commit prepublication history was fully enumerated again at a pinned head. Project cards, release listings and README observations retain their original review dates. Individual observation times are recorded in the source snapshot.
 
 **16 public, non-fork software projects**, excluding the profile repository. All 16 are unarchived. Each repository has a separate profile card with its purpose, two highlights and a project link. **Anti-REA Forge and AI-Memory-Book are core projects, placed beside each other at the start of the homepage grid.**
 
@@ -25,9 +25,9 @@ Snapshot: **13 November 2026 · 14:17 CST (UTC+8)**. Account: [Afloat16](https:/
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Fifteen software counts were revalidated by exact head equality with the previously enumerated histories. AI-Memory-Book’s 504-entry history and the profile repository’s 38-entry history were fully enumerated in this refresh. Head SHAs, original enumeration dates and source URLs are retained in the [machine-readable snapshot](projects-2026-11-13-1417.json). Stars and commit counts are fixed as of this snapshot.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. All 16 software counts were revalidated by exact head equality with the previously enumerated histories. The profile repository’s 39-entry prepublication history was fully enumerated in this refresh. Head SHAs, original enumeration dates and source URLs are retained in the [machine-readable snapshot](projects-2026-11-13-1434.json). Stars and commit counts are fixed as of this snapshot.
 
-The 16 software projects total **21 stars, 0 forks and 661 reachable default-branch commits**. The profile repository had **38 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 16 software projects total **21 stars, 0 forks and 661 reachable default-branch commits**. The profile repository had **39 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
@@ -143,7 +143,7 @@ SQLite outbox · Email + desktop channels.
 
 ## Retained validation context
 
-The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review. All 16 software heads and metadata were rechecked. AI-Memory-Book’s current README was reread and all 17 repository release listings were rechecked; other README observations retain their original dates. Tests were not rerun.
+The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review. All 16 software heads and stars were rechecked. README and release observations retain their original dates. Tests were not rerun.
 
 ModelDock's 5+ GiB capability is bounded sampling of binary PLY/STL, not full large-file rendering or arbitrary CAD conversion. Its original code and samples use MIT; CAD dependencies retain their own LGPL licensing. The profile does not label all projects with one common license.
 
