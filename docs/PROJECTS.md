@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **13 November 2026 · 14:34 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; all 16 heads match their previously enumerated histories. The profile repository’s 39-commit prepublication history was fully enumerated again at a pinned head. Project cards, release listings and README observations retain their original review dates. Individual observation times are recorded in the source snapshot.
+Snapshot: **14 November 2026 · 13:48 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; all 16 heads match their previously enumerated histories. The profile repository’s 40-commit prepublication history was fully enumerated again at a pinned head. Project cards, release listings and README observations retain their original review dates. Individual observation times are recorded in the source snapshot.
 
 **16 public, non-fork software projects**, excluding the profile repository. All 16 are unarchived. Each repository has a separate profile card with its purpose, two highlights and a project link. **Anti-REA Forge and AI-Memory-Book are core projects, placed beside each other at the start of the homepage grid.**
 
@@ -8,14 +8,14 @@ Snapshot: **13 November 2026 · 14:34 CST (UTC+8)**. Account: [Afloat16](https:/
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [8](https://github.com/Afloat16/anti-rea-forge/stargazers) | [31](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
-| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [2](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [504](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [31](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [504](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
+| [ModelDock](https://github.com/Afloat16/modeldock) | [2](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
 | [Debate Direction](https://github.com/Afloat16/debate-direction) | [1](https://github.com/Afloat16/debate-direction/stargazers) | [8](https://github.com/Afloat16/debate-direction/commits/main/) | Python |
 | [Research to Fix](https://github.com/Afloat16/research-to-fix) | [1](https://github.com/Afloat16/research-to-fix/stargazers) | [7](https://github.com/Afloat16/research-to-fix/commits/main/) | Python |
 | [LLM Handshake](https://github.com/Afloat16/llm-handshake) | [1](https://github.com/Afloat16/llm-handshake/stargazers) | [6](https://github.com/Afloat16/llm-handshake/commits/main/) | Python |
-| [ModelDock](https://github.com/Afloat16/modeldock) | [1](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
 | [Bag Timeline Audit](https://github.com/Afloat16/bag-timeline-audit) | [1](https://github.com/Afloat16/bag-timeline-audit/stargazers) | [5](https://github.com/Afloat16/bag-timeline-audit/commits/main/) | Python |
 | [ReconTrail](https://github.com/Afloat16/recontrail) | [1](https://github.com/Afloat16/recontrail/stargazers) | [5](https://github.com/Afloat16/recontrail/commits/main/) | Python |
 | [SSE Toolcall Audit](https://github.com/Afloat16/sse-toolcall-audit) | [1](https://github.com/Afloat16/sse-toolcall-audit/stargazers) | [5](https://github.com/Afloat16/sse-toolcall-audit/commits/main/) | Python |
@@ -25,9 +25,9 @@ Snapshot: **13 November 2026 · 14:34 CST (UTC+8)**. Account: [Afloat16](https:/
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. All 16 software counts were revalidated by exact head equality with the previously enumerated histories. The profile repository’s 39-entry prepublication history was fully enumerated in this refresh. Head SHAs, original enumeration dates and source URLs are retained in the [machine-readable snapshot](projects-2026-11-13-1434.json). Stars and commit counts are fixed as of this snapshot.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. All 16 software counts were revalidated by exact head equality with the previously enumerated histories. The profile repository’s 40-entry prepublication history at [`bcf6dcd`](https://github.com/Afloat16/Afloat16/commit/bcf6dcd3ef148908f8b69062500b8def279f5f5a) was fully enumerated in this refresh. Head SHAs, original enumeration dates and source URLs are retained in the [machine-readable snapshot](projects-2026-11-14-1348.json). Stars and commit counts are fixed as of this snapshot.
 
-The 16 software projects total **21 stars, 0 forks and 661 reachable default-branch commits**. The profile repository had **39 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 16 software projects total **24 stars, 0 forks and 661 reachable default-branch commits**. The profile repository had **40 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
@@ -146,4 +146,3 @@ SQLite outbox · Email + desktop channels.
 The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review. All 16 software heads and stars were rechecked. README and release observations retain their original dates. Tests were not rerun.
 
 ModelDock's 5+ GiB capability is bounded sampling of binary PLY/STL, not full large-file rendering or arbitrary CAD conversion. Its original code and samples use MIT; CAD dependencies retain their own LGPL licensing. The profile does not label all projects with one common license.
-
