@@ -1,0 +1,996 @@
+{
+  "baseline_snapshot": "docs/projects-2026-11-16-2017.json",
+  "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+  "refreshed_at": "2026-11-17T02:15:22.075Z",
+  "scope": "Same established 16 public non-fork software projects plus separate profile repository. Account inventory not reenumerated; existing identity/selection retained.",
+  "summary": {
+    "software_projects": 16,
+    "total_stars": 24,
+    "total_forks": 0,
+    "default_branch_commits": 1118,
+    "unchanged_software_heads": 15,
+    "profile_prepublication_commits": 46
+  },
+  "projects": [
+    {
+      "full_name": "Afloat16/anti-rea-forge",
+      "name": "anti-rea-forge",
+      "url": "https://github.com/Afloat16/anti-rea-forge",
+      "stars": 9,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge",
+      "metadata_observed_at": "2026-11-17T02:15:22.329Z",
+      "default_branch_head": {
+        "sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+        "url": "https://github.com/Afloat16/anti-rea-forge/commit/11c5e5b0e19e311e06b86047bcd3da671e893817",
+        "date": "2026-11-09T15:41:55Z",
+        "parents": [
+          "6143e7989d16fe0ea596890bc59929f468c4de6b"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.513Z",
+      "default_branch_commit_count": 31,
+      "previous_default_branch_commit_count": 31,
+      "previous_stars": 9,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "11c5e5b0e19e311e06b86047bcd3da671e893817",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 31,
+        "original_enumeration_time": "2026-11-10T03:05:34.252Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/anti-rea-forge/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.513Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/AI-Memory-Book",
+      "name": "AI-Memory-Book",
+      "url": "https://github.com/Afloat16/AI-Memory-Book",
+      "stars": 3,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/AI-Memory-Book",
+      "metadata_observed_at": "2026-11-17T02:15:22.202Z",
+      "default_branch_head": {
+        "sha": "238c8058f723a203eaca99f94d924ab77de4c0b3",
+        "url": "https://github.com/Afloat16/AI-Memory-Book/commit/238c8058f723a203eaca99f94d924ab77de4c0b3",
+        "date": "2026-11-16T15:57:47Z",
+        "parents": [
+          "a2989b8681396db53115a73737cfc9ce69c9e4dc"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/AI-Memory-Book/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.540Z",
+      "default_branch_commit_count": 961,
+      "previous_default_branch_commit_count": 930,
+      "previous_stars": 3,
+      "history_verification": {
+        "method": "Pinned ancestor comparison against the previous completely verified reachable history; merge_base equals the previous head and behind_by=0, so every previous reachable commit is retained. Add the complete ahead set (including merges) to the baseline count.",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_head": "56eccd8c3a6f1d5637664607936da2595ce50c62",
+        "baseline_count": 930,
+        "head_sha": "238c8058f723a203eaca99f94d924ab77de4c0b3",
+        "comparison_url": "https://api.github.com/repos/Afloat16/AI-Memory-Book/compare/56eccd8c3a6f1d5637664607936da2595ce50c62...238c8058f723a203eaca99f94d924ab77de4c0b3?per_page=100&page=1",
+        "observed_at": "2026-11-17T02:15:39.223Z",
+        "status": "ahead",
+        "merge_base_sha": "56eccd8c3a6f1d5637664607936da2595ce50c62",
+        "behind_by": 0,
+        "ahead_by": 31,
+        "total_commits": 31,
+        "complete": true,
+        "commits": [
+          {
+            "sha": "330bf1786d461cfd87ac25299e1f4556de9de99e",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/330bf1786d461cfd87ac25299e1f4556de9de99e",
+            "parents": [
+              "56eccd8c3a6f1d5637664607936da2595ce50c62"
+            ],
+            "message": "perf: freeze native v0.8.1 profile and broader core migration plan\n\nPreserve the source-verified baseline before larger C function-family translations. Separate native database time from remaining Python control work, retain exact behavior requirements, and define independent measurement and delivery gates.",
+            "author_date": "2026-11-16T12:02:30Z",
+            "committer_date": "2026-11-16T12:02:30Z"
+          },
+          {
+            "sha": "b8f99da60c0cf431e1270f45fd5afc0f32b7be31",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/b8f99da60c0cf431e1270f45fd5afc0f32b7be31",
+            "parents": [
+              "330bf1786d461cfd87ac25299e1f4556de9de99e"
+            ],
+            "message": "WIP: preserve broader native core drafts after workspace loss [skip ci]\n\nRecover lexical/window, ranking/allocation, and source-unit implementations plus their Python dispatch wrappers. These files are not yet integrated, compiled, or accepted. Preserve the draft before rebuilding the environment; the released main remains unchanged.",
+            "author_date": "2026-11-16T12:13:46Z",
+            "committer_date": "2026-11-16T12:13:46Z"
+          },
+          {
+            "sha": "85a73593dc2798b2ef9ec2455ee628358aaef543",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/85a73593dc2798b2ef9ec2455ee628358aaef543",
+            "parents": [
+              "b8f99da60c0cf431e1270f45fd5afc0f32b7be31"
+            ],
+            "message": "feat: integrate broader native compute families for v0.9 development\n\nRegister lexical/window, ranking/allocation, and source-map kernels with preserved Python fallbacks and independent differential suites. Package and track all native headers, synchronize candidate installation metadata, and start validation. Runtime approval and performance acceptance remain pending.",
+            "author_date": "2026-11-16T12:19:20Z",
+            "committer_date": "2026-11-16T12:19:20Z"
+          },
+          {
+            "sha": "5ebb695d9635134d9bad3ccf643dc3720c10236c",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/5ebb695d9635134d9bad3ccf643dc3720c10236c",
+            "parents": [
+              "85a73593dc2798b2ef9ec2455ee628358aaef543"
+            ],
+            "message": "fix(native): preserve Unicode deletion and callback ranking semantics\n\nCorrect default excerpt Counter certification, preserve dynamic callback operations and SQL trace isolation, and retain the independent source-backend differential receipt. Extend native wheel tests to the complete planned kernel family; segmentation remains pending. Development checkpoint, no performance acceptance or release.",
+            "author_date": "2026-11-16T12:26:17Z",
+            "committer_date": "2026-11-16T12:26:17Z"
+          },
+          {
+            "sha": "e8530d234698c5da74caeb22644ea35148fd14f7",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/e8530d234698c5da74caeb22644ea35148fd14f7",
+            "parents": [
+              "5ebb695d9635134d9bad3ccf643dc3720c10236c"
+            ],
+            "message": "fix(native): certify Counter origin and test installed package paths\n\nPreserve wrapped Counter behavior, fix subprocess imports for installed-wheel CI, reject changed or missing native headers in package metadata tests, and retain successful and failed development checks. No runtime acceptance or publication.",
+            "author_date": "2026-11-16T12:29:56Z",
+            "committer_date": "2026-11-16T12:29:56Z"
+          },
+          {
+            "sha": "07e981d1ac99cb284a399aa46dd00111bb9c75da",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/07e981d1ac99cb284a399aa46dd00111bb9c75da",
+            "parents": [
+              "e8530d234698c5da74caeb22644ea35148fd14f7"
+            ],
+            "message": "test(perf): stage separate native core protocol and review evidence\n\nKeep prior frozen evaluators unchanged. New protocol binds each complete native header set, probes one helper at a time and preserves raw ingestion returns alongside the unchanged query timing and invariants. Candidate and positive probe counts remain explicitly UNFROZEN, so formal execution is not yet permitted. Retain reproducible Counter output regression and installed-package test repair.",
+            "author_date": "2026-11-16T12:33:09Z",
+            "committer_date": "2026-11-16T12:33:09Z"
+          },
+          {
+            "sha": "a0c73165bc0bf9df496ab84d7c040f46da0cf086",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/a0c73165bc0bf9df496ab84d7c040f46da0cf086",
+            "parents": [
+              "07e981d1ac99cb284a399aa46dd00111bb9c75da"
+            ],
+            "message": "perf(native): migrate complete conversation segmentation and pagination\n\nRegister all five turn, joining, page boundary, page construction and section grouping kernels in the optional C extension. Keep Python reference bodies, exact source aliases and dependency fallback. Add family differential tests and close inherited Counter override guards. Preserve the first fully green integration CI and protocol checks; candidate measurement remains unfrozen.",
+            "author_date": "2026-11-16T12:36:10Z",
+            "committer_date": "2026-11-16T12:36:10Z"
+          },
+          {
+            "sha": "0be1f09502aff1d4ddc0a9e644be7a62be6a944f",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/0be1f09502aff1d4ddc0a9e644be7a62be6a944f",
+            "parents": [
+              "a0c73165bc0bf9df496ab84d7c040f46da0cf086"
+            ],
+            "message": "fix(native): guard turn dictionaries before field lookups\n\nReject custom colliding keys before any callback or borrowed field access and retain Python fallback errors. Preserve allocation failures rather than treating them as unsupported input. Save independent segmentation checks and the complete 22-helper integration CI/debug-allocator receipt.",
+            "author_date": "2026-11-16T12:41:23Z",
+            "committer_date": "2026-11-16T12:41:23Z"
+          },
+          {
+            "sha": "e4351c53103960a263df075f65709d8c4ec5afb6",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/e4351c53103960a263df075f65709d8c4ec5afb6",
+            "parents": [
+              "0be1f09502aff1d4ddc0a9e644be7a62be6a944f"
+            ],
+            "message": "test(perf): require effective native results before formal timing\n\nReject probes that only enter C and return NotImplemented, bind effective and fallback counts in the plan and offline audit, and retain the counterexample. Save complete sanitizer, independent code/protocol review and development probe evidence, including the unmodified caller-digest typo record. Exact runtime remains 0be1f095; final effective-return probes are still pending.",
+            "author_date": "2026-11-16T12:52:00Z",
+            "committer_date": "2026-11-16T12:52:00Z"
+          },
+          {
+            "sha": "346e5ede35851fd6283bc8be8a34bf4243dc34dd",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/346e5ede35851fd6283bc8be8a34bf4243dc34dd",
+            "parents": [
+              "e4351c53103960a263df075f65709d8c4ec5afb6"
+            ],
+            "message": "perf: freeze native core candidate and complete paired protocol\n\nCompare native v0.8.1 at 56eccd8c with candidate 0be1f095. Both real binaries pass exact single-helper total/effective/fallback probes (7/22 helpers, zero fallbacks), identical common outputs, full candidate CI and ASAN/UBSAN. Freeze 113568 calls and 56784 pairs across all balanced rounds, both cohorts and character/token surfaces. Register the independent offline artifact auditor before outcomes; performance and publication remain unapproved.",
+            "author_date": "2026-11-16T12:57:31Z",
+            "committer_date": "2026-11-16T12:57:31Z"
+          },
+          {
+            "sha": "7873459d8fb87b52e498307e87bdeba7c363524b",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/7873459d8fb87b52e498307e87bdeba7c363524b",
+            "parents": [
+              "346e5ede35851fd6283bc8be8a34bf4243dc34dd"
+            ],
+            "message": "docs: register running native core evidence and packaging attempts [skip ci]\n\nRecord immutable source, evaluator, run IDs and recovery branches. No timing data, acceptance decision or frozen evaluator changes.",
+            "author_date": "2026-11-16T13:09:34Z",
+            "committer_date": "2026-11-16T13:09:34Z"
+          },
+          {
+            "sha": "342fc44f0b947d1272c5d18cd553c3c5e09a776d",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/342fc44f0b947d1272c5d18cd553c3c5e09a776d",
+            "parents": [
+              "7873459d8fb87b52e498307e87bdeba7c363524b"
+            ],
+            "message": "perf: retain first core trial and reject ingestion regression [skip ci]\n\nAll 56784 pairs are equivalent and all eight pooled query cells improve, but unchanged ingestion regresses consistently in both cohorts. Preserve every cell, paired round and resource cost, keep main on v0.8.1, and require a separately frozen refined candidate before adoption. No frozen evaluator or raw evidence changes.",
+            "author_date": "2026-11-16T13:22:06Z",
+            "committer_date": "2026-11-16T13:22:06Z"
+          },
+          {
+            "sha": "c739963b2c415fa585bd1e2f03af2d3607fcf6d9",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/c739963b2c415fa585bd1e2f03af2d3607fcf6d9",
+            "parents": [
+              "342fc44f0b947d1272c5d18cd553c3c5e09a776d"
+            ],
+            "message": "wip(native): checkpoint equivalent live segmentation guard migration [skip ci]\n\nThe first full trial exposed a stable unchanged-ingestion regression. Paired CPU profiles identify repeated Python dependency/class guards and generators. Save the initial C translation before verification, retain per-call live checks and Python fallback, and add no result or validation cache. Existing frozen trials are unchanged.",
+            "author_date": "2026-11-16T13:25:35Z",
+            "committer_date": "2026-11-16T13:25:35Z"
+          },
+          {
+            "sha": "cff1d9a3c183bf3c84183476f0485926f55abe56",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/cff1d9a3c183bf3c84183476f0485926f55abe56",
+            "parents": [
+              "c739963b2c415fa585bd1e2f03af2d3607fcf6d9"
+            ],
+            "message": "perf: validate native segmentation guards and stage refinement protocol\n\nRetain the first formal candidate's ingestion regressions. Save 22 passing guard tests, the explicitly post-result artifact schema audit amendment, and an unfrozen protocol 4 draft before further measurement.",
+            "author_date": "2026-11-16T13:33:22Z",
+            "committer_date": "2026-11-16T13:33:22Z"
+          },
+          {
+            "sha": "d189d96f6ce908eadc942b56b4fa07a6e6de1bbf",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/d189d96f6ce908eadc942b56b4fa07a6e6de1bbf",
+            "parents": [
+              "cff1d9a3c183bf3c84183476f0485926f55abe56"
+            ],
+            "message": "docs: preserve independent audit and refinement validation checkpoint [skip ci]\n\nRetain the rejected first formal attempt and all adverse results. Record exact cff1 native dispatch, nine green CI jobs, sanitizer checks and the still-unresolved repeated-ingestion performance regression.",
+            "author_date": "2026-11-16T13:40:37Z",
+            "committer_date": "2026-11-16T13:40:37Z"
+          },
+          {
+            "sha": "5b3109fb3a65efd29927122da90eba1b3e8c3636",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/5b3109fb3a65efd29927122da90eba1b3e8c3636",
+            "parents": [
+              "d189d96f6ce908eadc942b56b4fa07a6e6de1bbf"
+            ],
+            "message": "docs: retain all refinement diagnostics before further native tuning [skip ci]\n\nSave 160 paired unchanged-ingestion batches, fresh returns and source/binary identities for both fixed cohorts. Document why the first formal candidate and the readiness-only refinement are not yet accepted.",
+            "author_date": "2026-11-16T13:43:53Z",
+            "committer_date": "2026-11-16T13:43:53Z"
+          },
+          {
+            "sha": "cf1245b6a6f9e33de75357b7bb5f9a9a47fad2a4",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/cf1245b6a6f9e33de75357b7bb5f9a9a47fad2a4",
+            "parents": [
+              "5b3109fb3a65efd29927122da90eba1b3e8c3636"
+            ],
+            "message": "perf: reuse native segmentation names in per-module state\n\nTranslate Python-style immutable name reuse to the C implementation, retaining every live lookup and callback order. Preserve the measured cff1 bottleneck and protocol review. This is a development checkpoint pending full validation and paired performance acceptance.",
+            "author_date": "2026-11-16T13:50:39Z",
+            "committer_date": "2026-11-16T13:50:39Z"
+          },
+          {
+            "sha": "d35a3aaca690430841975cd35788899edfb8d7f6",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/d35a3aaca690430841975cd35788899edfb8d7f6",
+            "parents": [
+              "cf1245b6a6f9e33de75357b7bb5f9a9a47fad2a4"
+            ],
+            "message": "test: preserve parameterized refinement diagnostic and protocol receipt [skip ci]\n\nKeep the initial unexecuted diagnostic draft separate from the active runner with independent effective-native preflight. Every candidate uses a new directory and exact source/binary checks; prior baseline and cff1 results remain unchanged.",
+            "author_date": "2026-11-16T13:54:43Z",
+            "committer_date": "2026-11-16T13:54:43Z"
+          },
+          {
+            "sha": "81c3eb5ff1ec03f06442899db7480b99d936d52b",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/81c3eb5ff1ec03f06442899db7480b99d936d52b",
+            "parents": [
+              "d35a3aaca690430841975cd35788899edfb8d7f6"
+            ],
+            "message": "test: verify native module lifetimes and preserve constant-reuse diagnostics\n\nExercise independent extension instances, retained dictionaries, and available shared-GIL subinterpreters. Retain every local microbatch and the diagnostic preflight's zero-timed-call failure; the corrected runner does not force lazy imports.",
+            "author_date": "2026-11-16T13:58:02Z",
+            "committer_date": "2026-11-16T13:58:02Z"
+          },
+          {
+            "sha": "092474244b686ef436cb0e4624d333cefae20f48",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/092474244b686ef436cb0e4624d333cefae20f48",
+            "parents": [
+              "81c3eb5ff1ec03f06442899db7480b99d936d52b"
+            ],
+            "message": "docs: retain refined measurements and choose the faster joined path [skip ci]\n\nPreserve all cf1245 batches, sanitizer and nine-job CI receipts. Register the first refinement auditor draft before formal execution. The forthcoming candidate will retain Python joining because every tested public native joining shape was slower.",
+            "author_date": "2026-11-16T14:06:51Z",
+            "committer_date": "2026-11-16T14:06:51Z"
+          },
+          {
+            "sha": "e91183bf6dd9e125d6549ec3fe5d9c81598cd131",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/e91183bf6dd9e125d6549ec3fe5d9c81598cd131",
+            "parents": [
+              "092474244b686ef436cb0e4624d333cefae20f48"
+            ],
+            "message": "perf: retain faster Python joining and freeze the 22-entry candidate scope\n\nRemove only the unreleased slower joined_turns C path. Preserve original Python joining, the C page builder's dynamic call and all other native families. Align the still-unfrozen protocol and independent auditor inventories; keep all rejected candidates and measurements.",
+            "author_date": "2026-11-16T14:08:00Z",
+            "committer_date": "2026-11-16T14:08:00Z"
+          },
+          {
+            "sha": "0267f6cce5189e42ce9432e228366372e121cf38",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/0267f6cce5189e42ce9432e228366372e121cf38",
+            "parents": [
+              "e91183bf6dd9e125d6549ec3fe5d9c81598cd131"
+            ],
+            "message": "bench: freeze the complete native-core refinement experiment\n\nBind released native v0.8.1 and exact e911 runtime with measured 7/22 effective native dispatch, complete output identity, sanitizer and nine-job CI receipts. Preserve the rejected first experiment. The new 113568-call matrix retains all cohorts, rounds, budgets, resources and failures.",
+            "author_date": "2026-11-16T14:14:26Z",
+            "committer_date": "2026-11-16T14:14:26Z"
+          },
+          {
+            "sha": "4390d013986ab9c96b49cc6964f075f3866f21ee",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/4390d013986ab9c96b49cc6964f075f3866f21ee",
+            "parents": [
+              "0267f6cce5189e42ce9432e228366372e121cf38"
+            ],
+            "message": "fix: preserve Python 3.14 and 3.15 unpack errors in native guards\n\nMatch exact tuple/list/dict error messages without changing normal paths or generic iterator consumption. Add both Python versions to core CI and require all eleven jobs for release. Stage a separate unfrozen compatibility experiment; preserve every earlier frozen plan and result.",
+            "author_date": "2026-11-16T14:23:55Z",
+            "committer_date": "2026-11-16T14:23:55Z"
+          },
+          {
+            "sha": "cfdb3ca2c8ff2d71792e820923057d6613ea08b7",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/cfdb3ca2c8ff2d71792e820923057d6613ea08b7",
+            "parents": [
+              "4390d013986ab9c96b49cc6964f075f3866f21ee"
+            ],
+            "message": "bench: freeze exact cross-version-compatible native core validation\n\nBind exact 4390 runtime to the complete 113568-call protocol 5 matrix, measured 7/22 native dispatch, strict eleven-job CI and sanitizer receipts. Preregister the independent auditor. Preserve and independently audit all protocol 4 results without treating its incompatible runtime as releasable.",
+            "author_date": "2026-11-16T14:30:47Z",
+            "committer_date": "2026-11-16T14:30:47Z"
+          },
+          {
+            "sha": "923f752ec107c1888c5d0d582fdabc0e2b127769",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/923f752ec107c1888c5d0d582fdabc0e2b127769",
+            "parents": [
+              "cfdb3ca2c8ff2d71792e820923057d6613ea08b7"
+            ],
+            "message": "docs: record the selected native scope and exact active validation [skip ci]\n\nDocument the retained adverse results, faster Python joining, per-module constant reuse, Python 3.14/3.15 compatibility fix and strict eleven-job release gate. Preserve current formal and packaging run identities for interruption recovery.",
+            "author_date": "2026-11-16T14:36:39Z",
+            "committer_date": "2026-11-16T14:36:39Z"
+          },
+          {
+            "sha": "c2edd92037eb7347230a908bd8c45a838d6e2810",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/c2edd92037eb7347230a908bd8c45a838d6e2810",
+            "parents": [
+              "923f752ec107c1888c5d0d582fdabc0e2b127769"
+            ],
+            "message": "Preserve audited final native-core experiment and delivery checkpoint [skip ci]",
+            "author_date": "2026-11-16T14:50:01Z",
+            "committer_date": "2026-11-16T14:50:01Z"
+          },
+          {
+            "sha": "7ca0c8be249993eae5e238f6dd704a1fbba7185b",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/7ca0c8be249993eae5e238f6dd704a1fbba7185b",
+            "parents": [
+              "c2edd92037eb7347230a908bd8c45a838d6e2810"
+            ],
+            "message": "Document final native-core results and pending delivery decision [skip ci]",
+            "author_date": "2026-11-16T15:00:14Z",
+            "committer_date": "2026-11-16T15:00:14Z"
+          },
+          {
+            "sha": "000da2e108a71de546d96f5a94232d04814212f5",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/000da2e108a71de546d96f5a94232d04814212f5",
+            "parents": [
+              "7ca0c8be249993eae5e238f6dd704a1fbba7185b"
+            ],
+            "message": "Use supported macOS 26 ARM runners for complete native release builds",
+            "author_date": "2026-11-16T15:02:48Z",
+            "committer_date": "2026-11-16T15:02:48Z"
+          },
+          {
+            "sha": "ba1bcef8d4fcf325a3403c2ff9c540312c491464",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/ba1bcef8d4fcf325a3403c2ff9c540312c491464",
+            "parents": [
+              "000da2e108a71de546d96f5a94232d04814212f5"
+            ],
+            "message": "Retain all 30 native release checks while grouping Python builds by platform",
+            "author_date": "2026-11-16T15:35:07Z",
+            "committer_date": "2026-11-16T15:35:07Z"
+          },
+          {
+            "sha": "a2989b8681396db53115a73737cfc9ce69c9e4dc",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/a2989b8681396db53115a73737cfc9ce69c9e4dc",
+            "parents": [
+              "ba1bcef8d4fcf325a3403c2ff9c540312c491464"
+            ],
+            "message": "release: accept measured native core and prepare v0.9.0 delivery\n\nAccept the frozen 22-entry native runtime after full paired output and performance review, retaining regressing observations and resource costs.\n\nRecord all 30 successful native packaging cells, verified assets, raw compiler/test logs and independent audits. Publish complete bilingual performance and upgrade documentation.\n\nPin the installer CI macOS runner to the verified image after an unallocated job cancellation. Preserve all eleven exact-commit CI jobs and fresh release/public-install gates.",
+            "author_date": "2026-11-16T15:54:58Z",
+            "committer_date": "2026-11-16T15:54:58Z"
+          },
+          {
+            "sha": "238c8058f723a203eaca99f94d924ab77de4c0b3",
+            "url": "https://github.com/Afloat16/AI-Memory-Book/commit/238c8058f723a203eaca99f94d924ab77de4c0b3",
+            "parents": [
+              "a2989b8681396db53115a73737cfc9ce69c9e4dc"
+            ],
+            "message": "docs: distinguish passed and skipped native test results\n\nClarify two packaging report sentences without changing counts or acceptance. Save final document review and the preceding CI checkpoint. Runtime, package inputs, release approval and test gates are unchanged.",
+            "author_date": "2026-11-16T15:57:47Z",
+            "committer_date": "2026-11-16T15:57:47Z"
+          }
+        ],
+        "original_enumeration_time": "2026-11-16T01:17:11.574Z"
+      },
+      "release": {
+        "id": 447280694,
+        "url": "https://api.github.com/repos/Afloat16/AI-Memory-Book/releases/447280694",
+        "html_url": "https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.9.0",
+        "tag_name": "v0.9.0",
+        "name": "v0.9.0",
+        "target_commitish": "238c8058f723a203eaca99f94d924ab77de4c0b3",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-11-16T15:57:47Z",
+        "published_at": "2026-11-16T16:17:09Z",
+        "updated_at": "2026-11-16T16:17:09Z",
+        "source_url": "https://api.github.com/repos/Afloat16/AI-Memory-Book/releases/latest",
+        "observed_at": "2026-11-17T02:15:22.800Z"
+      },
+      "pinned_pyproject_version": "0.9.0",
+      "pinned_pyproject_url": "https://github.com/Afloat16/AI-Memory-Book/blob/238c8058f723a203eaca99f94d924ab77de4c0b3/pyproject.toml",
+      "pinned_readme_url": "https://github.com/Afloat16/AI-Memory-Book/blob/238c8058f723a203eaca99f94d924ab77de4c0b3/README.md",
+      "pinned_pyproject_observed_at": "2026-11-17T02:15:38.344Z",
+      "pinned_readme_observed_at": "2026-11-17T02:15:38.500Z",
+      "pinned_readme_version": "v0.9.0",
+      "pinned_readme_blob_sha": "86f5d66130dda66589b39d0abad4b138614a826a",
+      "pinned_pyproject_blob_sha": "d2f66ee90b1bb23833c12156f2eb306f621aa48a",
+      "previous_release_version": "v0.8.1"
+    },
+    {
+      "full_name": "Afloat16/modeldock",
+      "name": "modeldock",
+      "url": "https://github.com/Afloat16/modeldock",
+      "stars": 2,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/modeldock",
+      "metadata_observed_at": "2026-11-17T02:15:22.096Z",
+      "default_branch_head": {
+        "sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "url": "https://github.com/Afloat16/modeldock/commit/d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "date": "2026-10-30T06:42:57Z",
+        "parents": [
+          "056d4beee00b15a5f6551aa4760a59c67fde6e40"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.540Z",
+      "default_branch_commit_count": 6,
+      "previous_default_branch_commit_count": 6,
+      "previous_stars": 2,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "d15bb8b3c1c398ca4350ddb10dd5b3d817839423",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 6,
+        "original_enumeration_time": "2026-11-10T03:05:36.713Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/modeldock/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.540Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/jev-mcp",
+      "name": "jev-mcp",
+      "url": "https://github.com/Afloat16/jev-mcp",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/jev-mcp",
+      "metadata_observed_at": "2026-11-17T02:15:22.152Z",
+      "default_branch_head": {
+        "sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "url": "https://github.com/Afloat16/jev-mcp/commit/59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "date": "2026-10-14T09:32:58Z",
+        "parents": [
+          "d68bc5dadb0dabf5cb32a71ea1a3660a58642606"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.518Z",
+      "default_branch_commit_count": 49,
+      "previous_default_branch_commit_count": 49,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "59a7278771f13d9bf12d98c50365c1c6daf27ba2",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 49,
+        "original_enumeration_time": "2026-11-10T03:05:34.254Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/jev-mcp/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.518Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/Afloat16",
+      "name": "Afloat16",
+      "url": "https://github.com/Afloat16/Afloat16",
+      "stars": 1,
+      "forks": 0,
+      "language": null,
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/Afloat16",
+      "metadata_observed_at": "2026-11-17T02:15:22.096Z",
+      "default_branch_head": {
+        "sha": "d9981bf741bf5606acff7325af5fbb53f9b96b70",
+        "url": "https://github.com/Afloat16/Afloat16/commit/d9981bf741bf5606acff7325af5fbb53f9b96b70",
+        "date": "2026-11-16T12:21:10Z",
+        "parents": [
+          "429bc026462beaec0ca52260d1c5a17637d73075"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/Afloat16/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.601Z",
+      "default_branch_commit_count": 46,
+      "previous_default_branch_commit_count": 45,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Pinned ancestor comparison against the previous completely verified reachable history; merge_base equals the previous head and behind_by=0, so every previous reachable commit is retained. Add the complete ahead set (including merges) to the baseline count.",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_head": "429bc026462beaec0ca52260d1c5a17637d73075",
+        "baseline_count": 45,
+        "head_sha": "d9981bf741bf5606acff7325af5fbb53f9b96b70",
+        "comparison_url": "https://api.github.com/repos/Afloat16/Afloat16/compare/429bc026462beaec0ca52260d1c5a17637d73075...d9981bf741bf5606acff7325af5fbb53f9b96b70?per_page=100&page=1",
+        "observed_at": "2026-11-17T02:15:38.983Z",
+        "status": "ahead",
+        "merge_base_sha": "429bc026462beaec0ca52260d1c5a17637d73075",
+        "behind_by": 0,
+        "ahead_by": 1,
+        "total_commits": 1,
+        "complete": true,
+        "commits": [
+          {
+            "sha": "d9981bf741bf5606acff7325af5fbb53f9b96b70",
+            "url": "https://github.com/Afloat16/Afloat16/commit/d9981bf741bf5606acff7325af5fbb53f9b96b70",
+            "parents": [
+              "429bc026462beaec0ca52260d1c5a17637d73075"
+            ],
+            "message": "Refresh profile metrics for 16 November 2026, 20:17 CST\n\nUpdate verified totals to 1,100 merged author PRs across 44 upstream repositories.\nRecord 20 new direct merges, 1,346 default-branch author commits, and current\nstars and official Contributors graph positions for all 39 eligible upstreams.\n\nAdd Edge0 and Awesome MCP Servers, move Sentence Transformers to the existing\nmore-merged-work table, and keep 22 directly merged projects in the top 30.\nPreserve both README section layouts, table columns, seven selected projects,\nsixteen project cards, and the strict greater-than-1,000-star display threshold.\n\nRefresh AI-Memory-Book to v0.8.1 and 930 commits and update both statistics SVGs.\nArchive the previous contribution record and retain historical verification\ntimes separately from fresh search, graph, metadata, and head observations.",
+            "author_date": "2026-11-16T12:21:10Z",
+            "committer_date": "2026-11-16T12:21:10Z"
+          }
+        ],
+        "original_enumeration_time": "2026-11-16T01:16:57.876Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/ai-dev-steward",
+      "name": "ai-dev-steward",
+      "url": "https://github.com/Afloat16/ai-dev-steward",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward",
+      "metadata_observed_at": "2026-11-17T02:15:22.075Z",
+      "default_branch_head": {
+        "sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+        "url": "https://github.com/Afloat16/ai-dev-steward/commit/f360968f7154c4b1e47ce622b11b114ba955f681",
+        "date": "2026-10-14T09:32:50Z",
+        "parents": [
+          "996fc729a125ae18f34598f225be974fe732b7cb"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.489Z",
+      "default_branch_commit_count": 11,
+      "previous_default_branch_commit_count": 11,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "f360968f7154c4b1e47ce622b11b114ba955f681",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 11,
+        "original_enumeration_time": "2026-11-10T03:05:35.346Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/ai-dev-steward/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.489Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/debate-direction",
+      "name": "debate-direction",
+      "url": "https://github.com/Afloat16/debate-direction",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/debate-direction",
+      "metadata_observed_at": "2026-11-17T02:15:22.252Z",
+      "default_branch_head": {
+        "sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+        "url": "https://github.com/Afloat16/debate-direction/commit/fe438afe62ae3723422dff51ac81b22187323d88",
+        "date": "2026-10-14T09:32:46Z",
+        "parents": [
+          "9ca07cdb7620d0af3ada356d9e5442650041845a"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.514Z",
+      "default_branch_commit_count": 8,
+      "previous_default_branch_commit_count": 8,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "fe438afe62ae3723422dff51ac81b22187323d88",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 8,
+        "original_enumeration_time": "2026-11-10T03:05:35.347Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/debate-direction/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.514Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/research-to-fix",
+      "name": "research-to-fix",
+      "url": "https://github.com/Afloat16/research-to-fix",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/research-to-fix",
+      "metadata_observed_at": "2026-11-17T02:15:22.103Z",
+      "default_branch_head": {
+        "sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "url": "https://github.com/Afloat16/research-to-fix/commit/f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "date": "2026-11-05T09:59:06Z",
+        "parents": [
+          "fa73f80c53b91fc2dbbc26d5410a119c3d8952b1"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.489Z",
+      "default_branch_commit_count": 7,
+      "previous_default_branch_commit_count": 7,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "f7173f6269a681b70fa53d0c49e0bc2ab7fe5c0c",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 7,
+        "original_enumeration_time": "2026-11-10T03:05:36.106Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/research-to-fix/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.489Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/llm-handshake",
+      "name": "llm-handshake",
+      "url": "https://github.com/Afloat16/llm-handshake",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/llm-handshake",
+      "metadata_observed_at": "2026-11-17T02:15:22.278Z",
+      "default_branch_head": {
+        "sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "url": "https://github.com/Afloat16/llm-handshake/commit/386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "date": "2026-10-14T09:33:03Z",
+        "parents": [
+          "9cac34a3a2ef9a19e760707efb182777d2f11e66"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.498Z",
+      "default_branch_commit_count": 6,
+      "previous_default_branch_commit_count": 6,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "386c0d4e9f99309ab562d23589cd8725326eecfc",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 6,
+        "original_enumeration_time": "2026-11-10T03:05:36.106Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/llm-handshake/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.498Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/bag-timeline-audit",
+      "name": "bag-timeline-audit",
+      "url": "https://github.com/Afloat16/bag-timeline-audit",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit",
+      "metadata_observed_at": "2026-11-17T02:15:22.422Z",
+      "default_branch_head": {
+        "sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "url": "https://github.com/Afloat16/bag-timeline-audit/commit/5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "date": "2026-10-14T09:33:10Z",
+        "parents": [
+          "4d0fe9dfea496b8d64b219cc472a41d637367eb0"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.552Z",
+      "default_branch_commit_count": 5,
+      "previous_default_branch_commit_count": 5,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "5f20b2e3c7352d29ab74adb4ea24ca435b9275b3",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 5,
+        "original_enumeration_time": "2026-11-10T03:05:36.714Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/bag-timeline-audit/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.552Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/recontrail",
+      "name": "recontrail",
+      "url": "https://github.com/Afloat16/recontrail",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/recontrail",
+      "metadata_observed_at": "2026-11-17T02:15:22.109Z",
+      "default_branch_head": {
+        "sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "url": "https://github.com/Afloat16/recontrail/commit/ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "date": "2026-10-14T09:32:54Z",
+        "parents": [
+          "71a85b7e30602c06570dbe876b6e998d6ed64b27"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.502Z",
+      "default_branch_commit_count": 5,
+      "previous_default_branch_commit_count": 5,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "ed5215f0162bb488421664c43fd9c73a39e02ec3",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 5,
+        "original_enumeration_time": "2026-11-10T03:05:37.307Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/recontrail/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.502Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/sse-toolcall-audit",
+      "name": "sse-toolcall-audit",
+      "url": "https://github.com/Afloat16/sse-toolcall-audit",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit",
+      "metadata_observed_at": "2026-11-17T02:15:22.357Z",
+      "default_branch_head": {
+        "sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "url": "https://github.com/Afloat16/sse-toolcall-audit/commit/948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "date": "2026-10-14T09:33:16Z",
+        "parents": [
+          "aa59b9a9cb5cbed55a436532b7eac5c56b42a52f"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.779Z",
+      "default_branch_commit_count": 5,
+      "previous_default_branch_commit_count": 5,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "948a9a8f4910aef5110dc2d8c5a7ca0a623d684b",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 5,
+        "original_enumeration_time": "2026-11-10T03:05:37.308Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/sse-toolcall-audit/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.779Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/tf-route-audit",
+      "name": "tf-route-audit",
+      "url": "https://github.com/Afloat16/tf-route-audit",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/tf-route-audit",
+      "metadata_observed_at": "2026-11-17T02:15:22.114Z",
+      "default_branch_head": {
+        "sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "url": "https://github.com/Afloat16/tf-route-audit/commit/44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "date": "2026-10-14T09:33:13Z",
+        "parents": [
+          "dc9bc2be16d4d79e7bf7ebe33dd3ed0049c057d1"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.475Z",
+      "default_branch_commit_count": 5,
+      "previous_default_branch_commit_count": 5,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "44a0f2ceb0ca796f7feee2ec571d38ca2553e070",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 5,
+        "original_enumeration_time": "2026-11-10T03:05:38.118Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/tf-route-audit/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.475Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/tooltrace-audit",
+      "name": "tooltrace-audit",
+      "url": "https://github.com/Afloat16/tooltrace-audit",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit",
+      "metadata_observed_at": "2026-11-17T02:15:22.150Z",
+      "default_branch_head": {
+        "sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "url": "https://github.com/Afloat16/tooltrace-audit/commit/7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "date": "2026-10-14T09:33:20Z",
+        "parents": [
+          "0b83b73715d13413d642d1ce8a85086ee8f845f7"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.406Z",
+      "default_branch_commit_count": 5,
+      "previous_default_branch_commit_count": 5,
+      "previous_stars": 1,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "7f13faa7a75fe80afd42bbc4f87b43673ebf21de",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 5,
+        "original_enumeration_time": "2026-11-10T03:05:38.119Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/tooltrace-audit/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.406Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/agent-action-notifier",
+      "name": "agent-action-notifier",
+      "url": "https://github.com/Afloat16/agent-action-notifier",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier",
+      "metadata_observed_at": "2026-11-17T02:15:22.159Z",
+      "default_branch_head": {
+        "sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "url": "https://github.com/Afloat16/agent-action-notifier/commit/d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "date": "2026-10-14T09:33:06Z",
+        "parents": [
+          "20e2dcee98f3498658abe7861db7f36a7e0b0246"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.517Z",
+      "default_branch_commit_count": 6,
+      "previous_default_branch_commit_count": 6,
+      "previous_stars": 0,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "d5d5db0ba818169356bae9627c4eaea040e6b2bb",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 6,
+        "original_enumeration_time": "2026-11-10T03:05:38.812Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/agent-action-notifier/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.517Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/colmap-model-audit",
+      "name": "colmap-model-audit",
+      "url": "https://github.com/Afloat16/colmap-model-audit",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit",
+      "metadata_observed_at": "2026-11-17T02:15:22.108Z",
+      "default_branch_head": {
+        "sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+        "url": "https://github.com/Afloat16/colmap-model-audit/commit/40f0316fed6fb181079a79c63ea29834685de0b3",
+        "date": "2026-10-14T09:33:24Z",
+        "parents": [
+          "614adefeef13a8c1244105e9c5ca5d2047ae5414"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.601Z",
+      "default_branch_commit_count": 4,
+      "previous_default_branch_commit_count": 4,
+      "previous_stars": 0,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "40f0316fed6fb181079a79c63ea29834685de0b3",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 4,
+        "original_enumeration_time": "2026-11-10T03:05:39.280Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/colmap-model-audit/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.601Z"
+      }
+    },
+    {
+      "full_name": "Afloat16/pose-convention-bridge",
+      "name": "pose-convention-bridge",
+      "url": "https://github.com/Afloat16/pose-convention-bridge",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "default_branch": "main",
+      "archived": false,
+      "private": false,
+      "fork": false,
+      "metadata_source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge",
+      "metadata_observed_at": "2026-11-17T02:15:22.103Z",
+      "default_branch_head": {
+        "sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "url": "https://github.com/Afloat16/pose-convention-bridge/commit/e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "date": "2026-10-14T09:33:28Z",
+        "parents": [
+          "fe89aab0d1637561b25ce635ba221960e8873c34"
+        ]
+      },
+      "head_source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?sha=main&per_page=1&page=1",
+      "head_observed_at": "2026-11-17T02:15:30.643Z",
+      "default_branch_commit_count": 4,
+      "previous_default_branch_commit_count": 4,
+      "previous_stars": 0,
+      "history_verification": {
+        "method": "Exact current default-branch head equality with previous completely verified reachable history.",
+        "head_sha": "e2d060771e99ec3c5bc2917a4399b1b2d451e6ca",
+        "baseline_source": "https://github.com/Afloat16/Afloat16/blob/d9981bf741bf5606acff7325af5fbb53f9b96b70/docs/projects-2026-11-16-2017.json",
+        "baseline_count": 4,
+        "original_enumeration_time": "2026-11-10T03:05:39.281Z",
+        "original_enumeration_source_url": "https://api.github.com/repos/Afloat16/pose-convention-bridge/commits?per_page=100&page=1",
+        "revalidated_at": "2026-11-17T02:15:30.643Z"
+      }
+    }
+  ],
+  "limitations": [
+    "The same established 16 software projects and separate profile repository were refreshed; the entire account inventory was not reenumerated.",
+    "All metadata and default-branch heads were rechecked. Unchanged heads retain the prior verified reachable-history count and its underlying enumeration date; changed heads use a pinned ancestor comparison with behind_by=0. AI-Memory-Book README, package metadata and latest normal release were rechecked; other README/release observations retain prior dates. Tests were not rerun."
+  ],
+  "snapshot_id": "2026-11-17-1020",
+  "snapshot_completed_at": "2026-11-17T02:20:21.338558+00:00"
+}

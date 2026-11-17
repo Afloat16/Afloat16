@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **16 November 2026 · 20:17 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; 15 heads match their previously enumerated histories. Pinned ancestor comparisons confirm 29 new commits in AI-Memory-Book and one in the profile repository, with every previously reachable commit retained; their current histories therefore contain 930 and 45 commits respectively. AI-Memory-Book’s current README, package metadata and normal release v0.8.1 were rechecked; other project cards, release listings and README observations retain their original review dates. Individual observation times are recorded in the source snapshot.
+Snapshot: **17 November 2026 · 10:20 CST (UTC+8)**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; 15 heads match their previously enumerated histories. Pinned ancestor comparisons confirm 31 new commits in AI-Memory-Book and one in the profile repository, with every previously reachable commit retained; their current histories therefore contain 961 and 46 commits respectively. AI-Memory-Book’s current README, package metadata and normal release v0.9.0 were rechecked; other project cards, release listings and README observations retain their original review dates. Individual observation times are recorded in the source snapshot.
 
 **16 public, non-fork software projects**, excluding the profile repository. All 16 are unarchived. Each repository has a separate profile card with its purpose, two highlights and a project link. **Anti-REA Forge and AI-Memory-Book are core projects, placed beside each other at the start of the homepage grid.**
 
@@ -9,7 +9,7 @@ Snapshot: **16 November 2026 · 20:17 CST (UTC+8)**. Account: [Afloat16](https:/
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
 | [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [31](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
-| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [930](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
+| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [961](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [2](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
@@ -25,9 +25,9 @@ Snapshot: **16 November 2026 · 20:17 CST (UTC+8)**. Account: [Afloat16](https:/
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Fifteen software counts were revalidated by exact head equality with the previously enumerated histories. AI-Memory-Book’s pinned head is 29 commits ahead of its previously enumerated 901-commit history, with no commits behind, giving 930 reachable commits. The profile repository’s pinned prepublication head [`429bc02`](https://github.com/Afloat16/Afloat16/commit/429bc026462beaec0ca52260d1c5a17637d73075) is one commit ahead of its previously enumerated 44-commit history, giving 45 commits. Both comparisons use the previous head as the merge base and include every added commit. Head SHAs, original enumeration dates and source URLs are retained in the [machine-readable snapshot](projects-2026-11-16-2017.json). Stars and commit counts are fixed as of this snapshot.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Fifteen software counts were revalidated by exact head equality with the previously enumerated histories. AI-Memory-Book’s pinned head is 31 commits ahead of its previously verified 930-commit history, with no commits behind, giving 961 reachable commits. The profile repository’s pinned prepublication head [`d9981bf`](https://github.com/Afloat16/Afloat16/commit/d9981bf741bf5606acff7325af5fbb53f9b96b70) is one commit ahead of its previously verified 45-commit history, giving 46 commits. Both comparisons use the previous head as the merge base and include every added commit. Head SHAs, original enumeration dates and source URLs are retained in the [machine-readable snapshot](projects-2026-11-17-1020.json). Stars and commit counts are fixed as of this snapshot.
 
-The 16 software projects total **24 stars, 0 forks and 1,087 reachable default-branch commits**. The profile repository had **45 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 16 software projects total **24 stars, 0 forks and 1,118 reachable default-branch commits**. The profile repository had **46 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
@@ -43,7 +43,7 @@ Externally keyed native data · Experimental LLVM 18 profiles.
 
 Give agents shared local memory, organized as project books and task chapters. Opt in to background capture of supported conversations, then use MCP to recall bounded original evidence with source references when continuing earlier work.
 
-The latest published normal release is **v0.8.1**, published on **16 November 2026**. The pinned default-branch README and package metadata identify the same version; the homepage card keeps its existing description and shows the new published version. [Published release](https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.8.1) · [Current README](https://github.com/Afloat16/AI-Memory-Book/blob/56eccd8c3a6f1d5637664607936da2595ce50c62/README.md).
+The latest published normal release is **v0.9.0**, published on **17 November 2026**. The pinned default-branch README and package metadata identify the same version; the homepage card keeps its existing description and shows the new published version. [Published release](https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.9.0) · [Current README](https://github.com/Afloat16/AI-Memory-Book/blob/238c8058f723a203eaca99f94d924ab77de4c0b3/README.md).
 
 Opt-in background capture · Cited MCP recall.
 
@@ -143,7 +143,7 @@ SQLite outbox · Email + desktop channels.
 
 ## Retained validation context
 
-The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review. All 16 software heads and stars were rechecked. AI-Memory-Book’s README, package metadata and v0.8.1 normal release were rechecked; the other README and release observations retain their original dates. Tests were not rerun.
+The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review. All 16 software heads and stars were rechecked. AI-Memory-Book’s README, package metadata and v0.9.0 normal release were rechecked; the other README and release observations retain their original dates. Tests were not rerun.
 
 ModelDock's 5+ GiB capability is bounded sampling of binary PLY/STL, not full large-file rendering or arbitrary CAD conversion. Its original code and samples use MIT; CAD dependencies retain their own LGPL licensing. The profile does not label all projects with one common license.
 
