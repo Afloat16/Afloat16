@@ -1699,9 +1699,9 @@
       "rank_new_evidence": null
     }
   ],
-  "displayed_representative_repository_count": 35,
-  "displayed_representative_top30_count": 23,
-  "displayed_representative_more_count": 12,
+  "displayed_representative_repository_count": 42,
+  "displayed_representative_top30_count": 24,
+  "displayed_representative_more_count": 18,
   "representative_selection_file": "engineering-selection-2026-11-18.json",
   "owned_projects": {
     "observed_on": "2026-11-18",
@@ -1995,15 +1995,41 @@
   },
   "presentation": {
     "updated_on": "2026-11-18",
-    "readme_headings_preserved": true,
+    "readme_headings_preserved": false,
     "animated_banner": true,
     "reduced_motion_fallback": true,
     "automatic_metric_refresh": false,
     "details_default_closed": [
-      "top30",
-      "more",
       "adoptions",
       "owned_project_metrics"
-    ]
+    ],
+    "always_visible_tables": [
+      "top30",
+      "more"
+    ],
+    "selection_history_scope": "complete verified merged history; no recency cutoff",
+    "readme_section_order_preserved": true,
+    "heading_change": "Recent selected merges -> Selected merged contributions; matching Chinese heading updated.",
+    "corrected_on": "2026-11-18"
+  },
+  "representative_pr_count": 66,
+  "selection_policy_correction": {
+    "on": "2026-11-18",
+    "restored_top30": [
+      "JetBrains/thinkrail"
+    ],
+    "restored_more": [
+      "recommenders-team/recommenders",
+      "alibaba/open-code-review",
+      "carla-simulator/carla",
+      "tile-ai/tilelang",
+      "rasbt/mlxtend",
+      "TensorBlock/awesome-mcp-servers"
+    ],
+    "history_based_replacements": [
+      "thedotmack/claude-mem",
+      "storytold/craft-anything"
+    ],
+    "repository_coverage": "all eligible direct-merge repositories"
   }
 }

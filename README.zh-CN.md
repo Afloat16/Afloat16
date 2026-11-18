@@ -20,15 +20,17 @@
 
 更新于 **2026-11-18** · 上游列表仅展示 **超过 1,000 星**的项目 · 合并总数包含全部已核验的作者合并 PR。[核验记录](docs/CONTRIBUTIONS.md)。
 
-### 近期精选已合并贡献
+### 精选已合并贡献
+
+代表工作按各仓库完整已合并历史中的技术含量与实际作用选择。
 
 | 合并日期¹ | 上游项目 · ★ | 代表性工程改进 | PR |
 |---|---|---|---|
 | 2026-11-17 | **[ECC](https://github.com/affaan-m/ECC)**<br>305,625 ★ | 通过异步提供方队列、取消安全的许可移交和工作线程执行，保持智能体推理响应。 | [#3911](https://github.com/affaan-m/ECC/pull/3911) |
-| 2026-11-16 | **[Claude-Mem](https://github.com/thedotmack/claude-mem)**<br>118,029 ★ | 以事务保护生成状态转换，并持久化待删除向量的检查点，使中断的清理可在 worker 重启后恢复。 | [#5650](https://github.com/thedotmack/claude-mem/pull/5650) · [#6163](https://github.com/thedotmack/claude-mem/pull/6163) |
-| 2026-11-11 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>35,904 ★ | 增加 LZ4 SquashFS 文件恢复，并从不完整 ELF 节布局恢复动态符号与导入导出证据。 | [#1668](https://github.com/storytold/craft-anything/pull/1668) · [#1367](https://github.com/storytold/craft-anything/pull/1367) |
+| 2026-11-12 | **[Claude-Mem](https://github.com/thedotmack/claude-mem)**<br>118,029 ★ | 将目标映射改为有界、可恢复且逐批核验证据的流程，并以数据库行锁串行化生成任务的重试与取消。 | [#6001](https://github.com/thedotmack/claude-mem/pull/6001) · [#5650](https://github.com/thedotmack/claude-mem/pull/5650) |
 | 2026-11-06 | **[REA](https://github.com/morluto/rea)**<br>466,566 ★ | 在迭代中断后继续投递已缓冲的 NDJSON 响应，并补全 ZIP 定位读取中的短读。 | [#4414](https://github.com/morluto/rea/pull/4414) · [#8909](https://github.com/morluto/rea/pull/8909) |
 | 2026-11-05 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)**<br>19,291 ★ | 恢复严重错序样本的排序损失梯度，并避免填充内容污染 CNN 句向量。 | [#4116](https://github.com/huggingface/sentence-transformers/pull/4116) · [#4323](https://github.com/huggingface/sentence-transformers/pull/4323) |
+| 2026-11-03 | **[Craft Anything](https://github.com/storytold/craft-anything)**<br>35,904 ★ | 以持久化内容指纹终止无进展重建，并通过类型化、有界且可取消的重试恢复 API/CLI 构建回合。 | [#552](https://github.com/storytold/craft-anything/pull/552) · [#557](https://github.com/storytold/craft-anything/pull/557) |
 | 2026-11-02 | **[COLMAP](https://github.com/colmap/colmap)**<br>13,242 ★ | 消除重建尺度对平移角度基准评测的影响，覆盖极小和极大坐标量级。 | [#4932](https://github.com/colmap/colmap/pull/4932) |
 | 2026-10-22 | **[LeRobot](https://github.com/huggingface/lerobot)**<br>28,945 ★ | 将 V-JEPA 2 的成对 RoPE 修正应用于 VLA-JEPA 训练预测器，恢复范数与相对位置内积不变量。 | [#4835](https://github.com/huggingface/lerobot/pull/4835) |
 
@@ -36,23 +38,21 @@
 
 ### 最新核实的贡献榜前 30
 
-<details>
-<summary><b>23 个代表项目 · 24 个有直接合并 PR 的 Top-30 仓库</b></summary>
-
-² GitHub Contributors：**All / Commits / 默认分支**，最近核验日 **2026-11-18**；按星数排序。[排名证据](docs/CONTRIBUTIONS.md#verification-method)。
+**完整展示符合条件的 24 个项目。** ² GitHub Contributors：**All / Commits / 默认分支**，最近核验日 **2026-11-18**；按星数排序。[排名证据](docs/CONTRIBUTIONS.md#verification-method)。
 
 | 项目 | 上游 ★ | 排名² | 已合并 PR | 代表性工程改进 |
 |---|---:|---:|---:|---|
 | **[ECC](https://github.com/affaan-m/ECC)** | 305,625 | [#22](https://github.com/affaan-m/ECC/graphs/contributors?all=1) | **[13](https://github.com/affaan-m/ECC/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 通过异步提供方队列、取消安全的许可移交和工作线程执行，保持智能体推理响应。 [#3911](https://github.com/affaan-m/ECC/pull/3911) |
-| **[Claude-Mem](https://github.com/thedotmack/claude-mem)** | 118,029 | [#3](https://github.com/thedotmack/claude-mem/graphs/contributors?all=1) | **[389](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 以事务保护生成状态转换，并持久化待删除向量的检查点，使中断的清理可在 worker 重启后恢复。 [#5650](https://github.com/thedotmack/claude-mem/pull/5650) · [#6163](https://github.com/thedotmack/claude-mem/pull/6163) |
+| **[Claude-Mem](https://github.com/thedotmack/claude-mem)** | 118,029 | [#3](https://github.com/thedotmack/claude-mem/graphs/contributors?all=1) | **[389](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 将目标映射改为有界、可恢复且逐批核验证据的流程，并以数据库行锁串行化生成任务的重试与取消。 [#6001](https://github.com/thedotmack/claude-mem/pull/6001) · [#5650](https://github.com/thedotmack/claude-mem/pull/5650) |
 | **[reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** | 44,846 | [#8](https://github.com/zhaoxuya520/reverse-skill/graphs/contributors?all=1) | **[1](https://github.com/zhaoxuya520/reverse-skill/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 在整合写入前验证案例图身份、引用和本地证据，阻止歧义或无效知识图。 [#181](https://github.com/zhaoxuya520/reverse-skill/pull/181) |
-| **[Craft Anything](https://github.com/storytold/craft-anything)** | 35,904 | [#1](https://github.com/storytold/craft-anything/graphs/contributors?all=1) | **[246](docs/CONTRIBUTIONS.md#complete-merged-pr-index)** | 增加 LZ4 SquashFS 文件恢复，并从不完整 ELF 节布局恢复动态符号与导入导出证据。 [#1668](https://github.com/storytold/craft-anything/pull/1668) · [#1367](https://github.com/storytold/craft-anything/pull/1367) |
+| **[Craft Anything](https://github.com/storytold/craft-anything)** | 35,904 | [#1](https://github.com/storytold/craft-anything/graphs/contributors?all=1) | **[246](docs/CONTRIBUTIONS.md#complete-merged-pr-index)** | 以持久化内容指纹终止无进展重建，并通过类型化、有界且可取消的重试恢复 API/CLI 构建回合。 [#552](https://github.com/storytold/craft-anything/pull/552) · [#557](https://github.com/storytold/craft-anything/pull/557) |
 | **[Claude SEO](https://github.com/AgriciDaniel/claude-seo)** | 30,432 | [#3](https://github.com/AgriciDaniel/claude-seo/graphs/contributors?all=1) | **[32](https://github.com/AgriciDaniel/claude-seo/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 仅比较同一实测数据范围的 Core Web Vitals，并避免抓取失败被误报为低风险。 [#427](https://github.com/AgriciDaniel/claude-seo/pull/427) · [#431](https://github.com/AgriciDaniel/claude-seo/pull/431) |
 | **[OpenMausBot](https://github.com/milind-soni/OpenMausBot)** | 24,879 | [#8](https://github.com/milind-soni/OpenMausBot/graphs/contributors?all=1) | **[109](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 分离 MCP 事件流与单次请求的取消生命周期，并区分反向请求和响应，保持共享传输正确性。 [#5392](https://github.com/milind-soni/OpenMausBot/pull/5392) · [#5393](https://github.com/milind-soni/OpenMausBot/pull/5393) |
 | **[DeepFace](https://github.com/serengil/deepface)** | 23,710 | [#2](https://github.com/serengil/deepface/graphs/contributors?all=1) | **[61](https://github.com/serengil/deepface/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 统一 Milvus 与 DeepFace 距离语义，并串行化共享原生检测器调用，避免并发请求混淆推理结果。 [#1634](https://github.com/serengil/deepface/pull/1634) · [#1756](https://github.com/serengil/deepface/pull/1756) |
 | **[COLMAP](https://github.com/colmap/colmap)** | 13,242 | [#25](https://github.com/colmap/colmap/graphs/contributors?all=1) | **[5](https://github.com/colmap/colmap/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 消除重建尺度对平移角度基准评测的影响，覆盖极小和极大坐标量级。 [#4932](https://github.com/colmap/colmap/pull/4932) |
 | **[Edge0](https://github.com/Edge0-AI/Edge0)** | 11,994 | [#9](https://github.com/Edge0-AI/Edge0/graphs/contributors?all=1) | **[10](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 将 safetensors 直接读入最终缓冲区，并按请求数量限制 top-logprob 候选存储，减少多余分配。 [#171](https://github.com/Edge0-AI/Edge0/pull/171) · [#183](https://github.com/Edge0-AI/Edge0/pull/183) |
 | **[Denoising Diffusion](https://github.com/lucidrains/denoising-diffusion-pytorch)** | 10,724 | [#9](https://github.com/lucidrains/denoising-diffusion-pytorch/graphs/contributors?all=1) | **[1](https://github.com/lucidrains/denoising-diffusion-pytorch/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 在一维扩散训练、DDPM 与 DDIM 采样中一致传递外部条件和自条件。 [#373](https://github.com/lucidrains/denoising-diffusion-pytorch/pull/373) |
+| **[ThinkRail](https://github.com/JetBrains/thinkrail)** | 8,333 | [#14](https://github.com/JetBrains/thinkrail/graphs/contributors?all=1) | **[4](https://github.com/JetBrains/thinkrail/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 按结构解析 XML 根节点与终端控制序列，避免 SVG 误分类，并保留控制序列取消或替换后的 notebook 正文。 [#1184](https://github.com/JetBrains/thinkrail/pull/1184) · [#1258](https://github.com/JetBrains/thinkrail/pull/1258) |
 | **[GestaltX](https://github.com/huamidev/GestaltX)** | 8,157 | [#1](https://github.com/huamidev/GestaltX/graphs/contributors?all=1) | **[40](https://github.com/huamidev/GestaltX/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 从匹配的系统缓存代际恢复设备原值，并在备份或写入前拒绝改变设备身份的修改。 [#65](https://github.com/huamidev/GestaltX/pull/65) · [#67](https://github.com/huamidev/GestaltX/pull/67) |
 | **[billion-context](https://github.com/ranxianglei/billion-context)** | 7,794 | [#2](https://github.com/ranxianglei/billion-context/graphs/contributors?all=1) | **[78](https://github.com/ranxianglei/billion-context/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 线性扫描压缩 SSE 帧，并批量读取消息正文，消除重复流扫描和逐消息数据库查询。 [#6579](https://github.com/ranxianglei/billion-context/pull/6579) · [#6733](https://github.com/ranxianglei/billion-context/pull/6733) |
 | **[PyTorch Metric Learning](https://github.com/KevinMusgrave/pytorch-metric-learning)** | 6,343 | [#3](https://github.com/KevinMusgrave/pytorch-metric-learning/graphs/contributors?all=1) | **[17](https://github.com/KevinMusgrave/pytorch-metric-learning/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 稳定 NT-Xent 的分数平移数值行为，并安全计算混合精度 VICReg 统计量，保留训练梯度。 [#758](https://github.com/KevinMusgrave/pytorch-metric-learning/pull/758) · [#785](https://github.com/KevinMusgrave/pytorch-metric-learning/pull/785) |
@@ -67,31 +67,30 @@
 | **[Geoopt](https://github.com/geoopt/geoopt)** | 1,104 | [#2](https://github.com/geoopt/geoopt/graphs/contributors?all=1) | **[15](docs/CONTRIBUTIONS.md#complete-merged-pr-index)** | 修正 canonical Stiefel 投影及 Cayley 曲线导数，使流形优化保持切向动量与一致的线搜索斜率。 [#280](https://github.com/geoopt/geoopt/pull/280) |
 | **[skrl](https://github.com/Toni-SM/skrl)** | 1,104 | [#3](https://github.com/Toni-SM/skrl/graphs/contributors?all=1) | **[5](https://github.com/Toni-SM/skrl/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 修正高斯策略方差和 TRPO KL 散度，恢复预期采样尺度、似然和信赖域判断。 [#467](https://github.com/Toni-SM/skrl/pull/467) · [#469](https://github.com/Toni-SM/skrl/pull/469) |
 
-</details>
-
 ### 更多已合并的上游贡献
-
-<details>
-<summary><b>另外 12 个有实质工程贡献的项目</b></summary>
 
 | 项目 | 上游 ★ | 排名² | 已合并 PR | 代表性工程改进 |
 |---|---:|---:|---:|---|
 | **[REA](https://github.com/morluto/rea)** | 466,566 | [#64](https://github.com/morluto/rea/graphs/contributors?all=1) | **[6](https://github.com/morluto/rea/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 在迭代中断后继续投递已缓冲的 NDJSON 响应，并补全 ZIP 定位读取中的短读。 [#4414](https://github.com/morluto/rea/pull/4414) · [#8909](https://github.com/morluto/rea/pull/8909) |
 | **[vLLM](https://github.com/vllm-project/vllm)** | 97,120 | [—](https://github.com/vllm-project/vllm/graphs/contributors?all=1) | **[1](https://github.com/vllm-project/vllm/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 在张量转换前规范 NumPy embedding 字节序，保留图像与视频输入的数值和精度。 [#67479](https://github.com/vllm-project/vllm/pull/67479) |
+| **[Open Code Review](https://github.com/alibaba/open-code-review)** | 53,835 | [#94](https://github.com/alibaba/open-code-review/graphs/contributors?all=1) | **[1](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 分离发现的身份字段，避免分隔符碰撞把新增或已解决的问题误判为持续问题。 [#1955](https://github.com/alibaba/open-code-review/pull/1955) |
 | **[Qwen Code](https://github.com/QwenLM/qwen-code)** | 30,734 | [#74](https://github.com/QwenLM/qwen-code/graphs/contributors?all=1) | **[16](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 共享不可变 transcript 页面并返回关联原请求的回调错误，改善 Java 会话重放效率与控制协议可靠性。 [#17113](https://github.com/QwenLM/qwen-code/pull/17113) · [#17115](https://github.com/QwenLM/qwen-code/pull/17115) |
 | **[LeRobot](https://github.com/huggingface/lerobot)** | 28,945 | [—](https://github.com/huggingface/lerobot/graphs/contributors?all=1) | **[2](https://github.com/huggingface/lerobot/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 将 V-JEPA 2 的成对 RoPE 修正应用于 VLA-JEPA 训练预测器，恢复范数与相对位置内积不变量。 [#4835](https://github.com/huggingface/lerobot/pull/4835) |
 | **[Haystack](https://github.com/deepset-ai/haystack)** | 27,039 | [—](https://github.com/deepset-ai/haystack/graphs/contributors?all=1) | **[1](https://github.com/deepset-ai/haystack/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 隔离运行中的可变访问计数与已保存状态，使 pipeline 检查点可重复用于恢复执行。 [#13076](https://github.com/deepset-ai/haystack/pull/13076) |
+| **[Recommenders](https://github.com/recommenders-team/recommenders)** | 22,002 | [#47](https://github.com/recommenders-team/recommenders/graphs/contributors?all=1) | **[3](https://github.com/recommenders-team/recommenders/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 分层切分时完整保留用户数据列，并在迭代 k-core 过滤中始终遵循自定义用户和物品标识列。 [#2419](https://github.com/recommenders-team/recommenders/pull/2419) · [#2389](https://github.com/recommenders-team/recommenders/pull/2389) |
 | **[Sentence Transformers](https://github.com/huggingface/sentence-transformers)** | 19,291 | [#33](https://github.com/huggingface/sentence-transformers/graphs/contributors?all=1) | **[6](https://github.com/huggingface/sentence-transformers/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 恢复严重错序样本的排序损失梯度，并避免填充内容污染 CNN 句向量。 [#4116](https://github.com/huggingface/sentence-transformers/pull/4116) · [#4323](https://github.com/huggingface/sentence-transformers/pull/4323) |
 | **[Unstructured](https://github.com/Unstructured-IO/unstructured)** | 15,762 | [#36](https://github.com/Unstructured-IO/unstructured/graphs/contributors?all=1) | **[9](https://github.com/Unstructured-IO/unstructured/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 使密集 XY-cut 投影计算随框数与轴长线性增长，并消除分块接纳过程中的重复表格扫描。 [#4748](https://github.com/Unstructured-IO/unstructured/pull/4748) · [#4744](https://github.com/Unstructured-IO/unstructured/pull/4744) |
+| **[CARLA](https://github.com/carla-simulator/carla)** | 14,633 | [#61](https://github.com/carla-simulator/carla/graphs/contributors?all=1) | **[5](https://github.com/carla-simulator/carla/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 让 CARLA 纹理工具支持 RGB/RGBA 输入与部分材质更新。 [#10194](https://github.com/carla-simulator/carla/pull/10194) |
 | **[Kornia](https://github.com/kornia/kornia)** | 12,393 | [#79](https://github.com/kornia/kornia/graphs/contributors?all=1) | **[7](https://github.com/kornia/kornia/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 稳定小根四次方程求解与平行线面求交导数，保留有效根和有限几何梯度。 [#5474](https://github.com/kornia/kornia/pull/5474) · [#5517](https://github.com/kornia/kornia/pull/5517) |
 | **[Betaflight](https://github.com/betaflight/betaflight)** | 11,802 | [—](https://github.com/betaflight/betaflight/graphs/contributors?all=1) | **[1](https://github.com/betaflight/betaflight/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 正确保留 S-record 载荷，并在生成可刷写 DfuSe 镜像前验证长度、校验和和地址范围。 [#15983](https://github.com/betaflight/betaflight/pull/15983) |
+| **[TileLang](https://github.com/tile-ai/tilelang)** | 8,994 | [—](https://github.com/tile-ai/tilelang/graphs/contributors?all=1) | **[1](https://github.com/tile-ai/tilelang/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 未显式指定设备时，让基准测试的缓存清理缓冲区分配在当前 CUDA 设备上。 [#3357](https://github.com/tile-ai/tilelang/pull/3357) |
 | **[openMVG](https://github.com/openMVG/openMVG)** | 6,603 | [#96](https://github.com/openMVG/openMVG/graphs/contributors?all=1) | **[1](https://github.com/openMVG/openMVG/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 恢复依观测视线判断的三角化正深度约束，使球面相机保留前后半球的有效观测。 [#2445](https://github.com/openMVG/openMVG/pull/2445) |
+| **[MLxtend](https://github.com/rasbt/mlxtend)** | 5,195 | [#60](https://github.com/rasbt/mlxtend/graphs/contributors?all=1) | **[1](https://github.com/rasbt/mlxtend/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 在文本分词器中保留单词与表情的独立 token，避免首个提取表情粘连到最后一个单词。 [#1207](https://github.com/rasbt/mlxtend/pull/1207) |
 | **[Trimesh](https://github.com/mikedh/trimesh)** | 3,725 | [—](https://github.com/mikedh/trimesh/graphs/contributors?all=1) | **[1](https://github.com/mikedh/trimesh/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 将对应点权重应用于 Procrustes 协方差，修正非均匀权重下的旋转并保留等权拟合。 [#2618](https://github.com/mikedh/trimesh/pull/2618) |
 | **[Geomstats](https://github.com/geomstats/geomstats)** | 1,531 | [#53](https://github.com/geomstats/geomstats/graphs/contributors?all=1) | **[3](https://github.com/geomstats/geomstats/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 保持对称矩阵重建的自动微分能力，并正确保留逐点 Jacobian/Hessian 的批次维度。 [#2235](https://github.com/geomstats/geomstats/pull/2235) · [#2238](https://github.com/geomstats/geomstats/pull/2238) |
+| **[Awesome MCP Servers](https://github.com/TensorBlock/awesome-mcp-servers)** | 1,096 | [—](https://github.com/TensorBlock/awesome-mcp-servers/graphs/contributors?all=1) | **[1](https://github.com/TensorBlock/awesome-mcp-servers/pulls?q=is%3Apr%20author%3AAfloat16%20is%3Amerged)** | 在记忆服务器目录登记 AI-Memory-Book，补齐安装命令、stdio 传输与客户端元数据。 [#6055](https://github.com/TensorBlock/awesome-mcp-servers/pull/6055) |
 
 ² 排名采用相同图表设置与核验日期。`—` 表示未出现在完整展示的前 100 名中，不是精确名次。图表排名与合并 PR 数分别统计。
-
-</details>
 
 ### 由维护者整合进入默认分支的代码
 
@@ -305,4 +304,5 @@
 ---
 
 [项目指南](https://github.com/Afloat16/research-to-fix/blob/main/docs/PROJECTS.zh-CN.md) · [需求研究](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md) · [项目数据](docs/PROJECTS.md) · [贡献记录](docs/CONTRIBUTIONS.md)
+
 
