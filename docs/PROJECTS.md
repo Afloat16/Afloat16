@@ -1,6 +1,6 @@
 # Project inventory
 
-Snapshot: **17 November 2026**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; 15 heads match their previously verified histories. Anti-REA Forge advanced by one ancestor-verified commit, from 31 to 32 reachable commits. AI-Memory-Book remains at 972 commits. A separate pinned ancestor comparison confirms one additional profile-repository commit, giving 49 prepublication commits. The five displayed version labels were revalidated against current normal releases or pinned repository metadata and are unchanged. Individual observation times and the original history-enumeration evidence are recorded in the source snapshot.
+Snapshot: **18 November 2026**. Account: [Afloat16](https://github.com/Afloat16). This refresh covers the same 17 repositories as the previous complete public non-fork inventory. Stars and exact default-branch heads were rechecked for the 16 software projects; 15 heads match their previously verified histories. Anti-REA Forge advanced by two ancestor-verified commits, from 32 to 34 reachable commits. AI-Memory-Book remains at 972 commits. A separate pinned ancestor comparison confirms one additional profile-repository commit, giving 50 prepublication commits. The five displayed version labels were revalidated against current normal releases or pinned repository metadata and are unchanged. Individual observation times and the original history-enumeration evidence are recorded in the source snapshot.
 
 **16 public, non-fork software projects**, excluding the profile repository. All 16 are unarchived. Each repository has a separate profile card with its purpose, two highlights and a project link. **Anti-REA Forge and AI-Memory-Book are core projects, placed beside each other at the start of the homepage grid.**
 
@@ -8,7 +8,7 @@ Snapshot: **17 November 2026**. Account: [Afloat16](https://github.com/Afloat16)
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [32](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [34](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [972](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [2](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
@@ -25,9 +25,9 @@ Snapshot: **17 November 2026**. Account: [Afloat16](https://github.com/Afloat16)
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Fifteen software counts were revalidated by exact head equality with the previously verified histories. Anti-REA Forge’s pinned head [`08ed341`](https://github.com/Afloat16/anti-rea-forge/commit/08ed341d09ebcb2b1e1dd1e8647bb62eb7badfb6) is one commit ahead of its verified 31-commit history, with no commits behind, giving 32 commits. AI-Memory-Book remains pinned at [`2348916`](https://github.com/Afloat16/AI-Memory-Book/commit/234891619d7bed88ddf3fae37e7f3e1b14a808b6), whose complete 972-commit history was previously enumerated across ten pages. The profile repository’s pinned prepublication head [`fcd3904`](https://github.com/Afloat16/Afloat16/commit/fcd390447d3903f4387a2fe3d5fb8076fbfe3ef0) is one commit ahead of its previously verified 48-commit history, with no commits behind, giving 49 commits. Head SHAs, original enumeration dates, current revalidation times and source URLs are retained in the [machine-readable snapshot](projects-2026-11-17.json). Stars and commit counts are fixed as of this snapshot.
+Sorted by stars descending, then default-branch commits descending, then name. Same-star ordering does not imply a quality ranking. Commit counts include the complete reachable default-branch history and merge commits, not personal authored-commit totals. Fifteen software counts were revalidated by exact head equality with the previously verified histories. Anti-REA Forge’s pinned head [`7d697b5`](https://github.com/Afloat16/anti-rea-forge/commit/7d697b5639c340479d101e507c88d9f5ef3bf375) is two commits ahead of its verified 32-commit history, with no commits behind, giving 34 commits. AI-Memory-Book remains pinned at [`2348916`](https://github.com/Afloat16/AI-Memory-Book/commit/234891619d7bed88ddf3fae37e7f3e1b14a808b6), whose complete 972-commit history was previously enumerated across ten pages. The profile repository’s pinned prepublication head [`8ed3b3c`](https://github.com/Afloat16/Afloat16/commit/8ed3b3cc5661100d0cdd9d933d7686a98ace8e6f) is one commit ahead of its previously verified 49-commit history, with no commits behind, giving 50 commits. Head SHAs, original enumeration dates, current revalidation times and source URLs are retained in the [machine-readable snapshot](projects-2026-11-18.json). Stars and commit counts are fixed as of this snapshot.
 
-The 16 software projects total **24 stars, 0 forks and 1,130 reachable default-branch commits**. The profile repository had **49 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
+The 16 software projects total **24 stars, 0 forks and 1,132 reachable default-branch commits**. The profile repository had **50 commits before this publication** and is excluded from these totals. Fork counts are recorded in the source snapshot rather than repeated in every table row.
 
 ## What the projects do
 
@@ -35,7 +35,7 @@ The 16 software projects total **24 stars, 0 forks and 1,130 reachable default-b
 
 Seal native data with independently supplied keys and generated C++17/OpenSSL readers. Explore experimental LLVM 18 function virtualization and recorded analyzer controls.
 
-Version recorded in the repository is **v0.10.0**. [Current README](https://github.com/Afloat16/anti-rea-forge/blob/08ed341d09ebcb2b1e1dd1e8647bb62eb7badfb6/README.md).
+Version recorded in the repository is **v0.10.0**. [Current README](https://github.com/Afloat16/anti-rea-forge/blob/7d697b5639c340479d101e507c88d9f5ef3bf375/README.md).
 
 Externally keyed native data · Experimental LLVM 18 profiles.
 
