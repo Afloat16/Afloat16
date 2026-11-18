@@ -825,7 +825,7 @@
       "latest_selected_merge_date": "2026-11-17"
     },
     {
-      "repo": "huamidev/GestaltX",
+      "repo": "huami-dev/GestaltX",
       "display_name": "GestaltX",
       "en": "Recover original device values from matching cache generations and reject identity-changing system writes before backup or mutation.",
       "zh": "从匹配的系统缓存代际恢复设备原值，并在备份或写入前拒绝改变设备身份的修改。",
@@ -835,7 +835,7 @@
       "prs": [
         {
           "number": 65,
-          "url": "https://github.com/huamidev/GestaltX/pull/65",
+          "url": "https://github.com/huami-dev/GestaltX/pull/65",
           "title": "fix: recover cache originals from matching system generations",
           "author": "Afloat16",
           "merged": true,
@@ -843,7 +843,7 @@
           "merged_date_shanghai": "2026-11-11",
           "merge_commit_sha": "419944f1da8f324140efc16803d551b685627d99",
           "base_branch": "main",
-          "evidence_url": "https://api.github.com/repos/huamidev/GestaltX/pulls/65/files?per_page=100",
+          "evidence_url": "https://api.github.com/repos/huami-dev/GestaltX/pulls/65/files?per_page=100",
           "production_files": [
             "GestaltX/DeviceCacheOptions.swift",
             "GestaltX/GestaltDocument.swift"
@@ -851,12 +851,12 @@
           "regression_files": [
             "tests/OriginalCacheGenerationTests.swift"
           ],
-          "metadata_source_url": "https://api.github.com/repos/huamidev/GestaltX/pulls/65",
-          "merge_commit_url": "https://github.com/huamidev/GestaltX/commit/419944f1da8f324140efc16803d551b685627d99"
+          "metadata_source_url": "https://api.github.com/repos/huami-dev/GestaltX/pulls/65",
+          "merge_commit_url": "https://github.com/huami-dev/GestaltX/commit/419944f1da8f324140efc16803d551b685627d99"
         },
         {
           "number": 67,
-          "url": "https://github.com/huamidev/GestaltX/pull/67",
+          "url": "https://github.com/huami-dev/GestaltX/pull/67",
           "title": "fix: reject device identity changes before system writes",
           "author": "Afloat16",
           "merged": true,
@@ -864,15 +864,15 @@
           "merged_date_shanghai": "2026-11-11",
           "merge_commit_sha": "671f029590310a6d3f15032c6cbd120442d2acd3",
           "base_branch": "main",
-          "evidence_url": "https://api.github.com/repos/huamidev/GestaltX/pulls/67/files?per_page=100",
+          "evidence_url": "https://api.github.com/repos/huami-dev/GestaltX/pulls/67/files?per_page=100",
           "production_files": [
             "GestaltX/GestaltDocument.swift"
           ],
           "regression_files": [
             "tests/DeviceIdentityEditTests.swift"
           ],
-          "metadata_source_url": "https://api.github.com/repos/huamidev/GestaltX/pulls/67",
-          "merge_commit_url": "https://github.com/huamidev/GestaltX/commit/671f029590310a6d3f15032c6cbd120442d2acd3"
+          "metadata_source_url": "https://api.github.com/repos/huami-dev/GestaltX/pulls/67",
+          "merge_commit_url": "https://github.com/huami-dev/GestaltX/commit/671f029590310a6d3f15032c6cbd120442d2acd3"
         }
       ],
       "review_complete": true,
@@ -2021,5 +2021,7 @@
   "previous_scope_corrections": [
     "MLxtend #1207 changes the production mlxtend/text/tokenizer.py library API, not a preprocessing example.",
     "CARLA #10194 changes the PythonAPI/util/apply_texture.py utility, not documentation alone."
-  ]
+  ],
+  "metrics_refreshed_on": "2026-11-18",
+  "selection_preserved_from_commit": "c826433e143f7f2811db274e9cb6e9c49904152c"
 }

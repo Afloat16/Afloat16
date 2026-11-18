@@ -1,15 +1,15 @@
 # Project inventory
 
-Updated **2026-11-18**. Account: [Afloat16](https://github.com/Afloat16). The public non-fork inventory was checked again: **16 unarchived software projects**, plus the separate profile repository. Stars and pinned default-branch heads were refreshed for all of them. Fifteen software heads exactly match their previously verified histories; Anti-REA Forge has one verified additional ancestor commit, increasing from **34 to 35**. AI-Memory-Book remains at **972** commits. Display dates show the day only. [Current refresh evidence](profile-refresh-2026-11-18.json).
+Updated **2026-11-18**. Account: [Afloat16](https://github.com/Afloat16). The same **16 public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were refreshed for all 16 projects. Fourteen software heads exactly match previously verified histories; Anti-REA Forge advances from **35 to 40** commits, and AI-Memory-Book from **972 to 996**. Both changed histories were verified by ancestor comparison with no commits behind. Display dates show the day only. [Current refresh evidence](profile-refresh-2026-11-18.json).
 
-Anti-REA Forge and AI-Memory-Book remain beside each other at the start of the homepage's 16-project grid. The existing card purposes, highlights and order are preserved. Anti-REA Forge and AI-Memory-Book version labels were checked against their pinned READMEs; unchanged project metadata retains its earlier verified source.
+The existing 16 project cards, purposes, highlights and order are preserved. The two updated version labels were checked against pinned READMEs and published normal releases: **Anti-REA Forge v1.4.0** and **AI-Memory-Book v0.12.0**. Other project descriptions and versions retain their earlier evidence.
 
 ## Project metrics
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [35](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
-| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [972](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [40](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [996](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [2](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
@@ -25,9 +25,9 @@ Anti-REA Forge and AI-Memory-Book remain beside each other at the start of the h
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. Anti-REA Forge's pinned head [`674f8b2`](https://github.com/Afloat16/anti-rea-forge/commit/674f8b20cc0fae7bd2684b15dc74cc4db567db29) is one commit ahead of its verified 34-commit history with no commits behind, giving 35. [Ancestor comparison](https://github.com/Afloat16/anti-rea-forge/compare/7d697b5639c340479d101e507c88d9f5ef3bf375...674f8b20cc0fae7bd2684b15dc74cc4db567db29).
+Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. [Anti-REA Forge ancestor comparison](https://github.com/Afloat16/anti-rea-forge/compare/674f8b20cc0fae7bd2684b15dc74cc4db567db29...4a39c52766323ea27c47b4fd4b75b26897b98524) · [AI-Memory-Book ancestor comparison](https://github.com/Afloat16/AI-Memory-Book/compare/234891619d7bed88ddf3fae37e7f3e1b14a808b6...8044e4bafe18e73ea422af5eeb47ef961e65246c).
 
-The software projects total **24 stars, 0 forks and 1,133 reachable default-branch commits**. The profile repository had **51 commits at the pinned verification head** and is excluded. Exact current heads and comparison URLs are recorded in the [current refresh](profile-refresh-2026-11-18.json); complete earlier history-enumeration evidence remains in the [pinned baseline](https://github.com/Afloat16/Afloat16/blob/711398f33c205a687fdbedd327aef81e9da56d7b/docs/projects-2026-11-18.json).
+The software projects total **24 stars, 0 forks and 1,162 reachable default-branch commits**. The profile repository had **54 commits at the pinned verification head** and is excluded. Exact heads, comparison receipts and version sources are recorded in the [current refresh](profile-refresh-2026-11-18.json).
 
 ## What the projects do
 
@@ -35,7 +35,7 @@ The software projects total **24 stars, 0 forks and 1,133 reachable default-bran
 
 Seal native data with independently supplied keys and generated C++17/OpenSSL readers. Explore experimental LLVM 18 function virtualization and recorded analyzer controls.
 
-Version recorded in the repository is **v0.10.0**. [Current README](https://github.com/Afloat16/anti-rea-forge/blob/674f8b20cc0fae7bd2684b15dc74cc4db567db29/README.md).
+The latest published normal release is **v1.4.0**, published on **2026-11-18**. The pinned README confirms this version. [Published release](https://github.com/Afloat16/anti-rea-forge/releases/tag/v1.4.0) · [Pinned README](https://github.com/Afloat16/anti-rea-forge/blob/4a39c52766323ea27c47b4fd4b75b26897b98524/README.md).
 
 Externally keyed native data · Experimental LLVM 18 profiles.
 
@@ -43,7 +43,7 @@ Externally keyed native data · Experimental LLVM 18 profiles.
 
 Give agents shared local memory, organized as project books and task chapters. Opt in to background capture of supported conversations, then use MCP to recall bounded original evidence with source references when continuing earlier work.
 
-The latest published normal release is **v0.10.0**, published on **17 November 2026**. The pinned default-branch README and package metadata identify the same version; the homepage card keeps its existing description and shows the new published version. [Published release](https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.10.0) · [Current README](https://github.com/Afloat16/AI-Memory-Book/blob/234891619d7bed88ddf3fae37e7f3e1b14a808b6/README.md).
+The latest published normal release is **v0.12.0**, published on **2026-11-18**. The pinned README confirms this version. [Published release](https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.12.0) · [Pinned README](https://github.com/Afloat16/AI-Memory-Book/blob/8044e4bafe18e73ea422af5eeb47ef961e65246c/README.md).
 
 Opt-in background capture · Cited MCP recall.
 
