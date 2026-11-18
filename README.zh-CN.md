@@ -14,8 +14,8 @@
 ## 开源贡献
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-dark.svg?v=1">
-  <img src="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-light.svg?v=1" alt="截至 2026-11-18：1,220 个已核验作者合并 PR，49 个上游仓库，超过 1,000 星项目中的 24 个已核验 Top-30 排名。" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-dark.svg?v=2">
+  <img src="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-light.svg?v=2" alt="截至 2026-11-18：1,220 个已核验作者合并 PR，49 个上游仓库，超过 1,000 星且有直接合并 PR 的上游中，24 个已核验 Top-30 排名。" width="100%">
 </picture>
 
 更新于 **2026-11-18** · 上游列表仅展示 **超过 1,000 星**的项目 · 合并总数包含全部已核验的作者合并 PR。[核验记录](docs/CONTRIBUTIONS.md)。
@@ -37,7 +37,7 @@
 ### 最新核实的贡献榜前 30
 
 <details>
-<summary><b>23 个代表性项目 · 整体已核验 24 个 Top-30 排名</b></summary>
+<summary><b>23 个代表项目 · 24 个有直接合并 PR 的 Top-30 仓库</b></summary>
 
 ² GitHub Contributors：**All / Commits / 默认分支**，最近核验日 **2026-11-18**；按星数排序。[排名证据](docs/CONTRIBUTIONS.md#verification-method)。
 

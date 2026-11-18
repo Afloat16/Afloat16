@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="title desc">
   <title id="title">Verified upstream contributions — 2026-11-18</title>
-  <desc id="desc">1,220 verified merged author pull requests across 49 upstream repositories. 24 verified top-30 contributor positions in displayed projects with more than 1,000 stars. The total pull-request and repository counts include all verified upstream work, regardless of repository stars. Snapshot: 2026-11-18.</desc>
+  <desc id="desc">1,220 verified merged author pull requests across 49 upstream repositories. 24 verified top-30 contributor positions among upstreams with directly merged author PRs and more than 1,000 stars. The total pull-request and repository counts include all verified upstream work, regardless of repository stars. Snapshot: 2026-11-18.</desc>
   <rect x="1" y="1" width="1198" height="94" rx="14" fill="#F8FAFD" stroke="#D5E1ED" stroke-width="2"/>
   <path d="M400 20V76 M800 20V76" stroke="#D5E1ED"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
@@ -17,7 +17,7 @@
     <g font-size="10.5" fill="#51657A">
       <text x="200" y="83">2026-11-18</text>
       <text x="600" y="83">All verified upstream work</text>
-      <text x="1000" y="83">Projects with more than 1,000 stars</text>
+      <text x="1000" y="83">Direct-merge projects · >1,000 stars</text>
     </g>
   </g>
 </svg>

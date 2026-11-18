@@ -14,8 +14,8 @@ Research tools and upstream engineering · Python · TypeScript · C/C++
 ## Open-source contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-dark.svg?v=1">
-  <img src="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-light.svg?v=1" alt="1,220 verified merged author PRs across 49 upstream repositories; 24 verified top-30 positions in projects with more than 1,000 stars. Updated 2026-11-18." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-dark.svg?v=2">
+  <img src="https://raw.githubusercontent.com/Afloat16/Afloat16/main/assets/stats-compact-light.svg?v=2" alt="1,220 verified merged author PRs across 49 upstream repositories; 24 verified top-30 positions among direct-merge upstreams with more than 1,000 stars. Updated 2026-11-18." width="100%">
 </picture>
 
 Updated **2026-11-18** · Upstream lists: **>1,000 stars** · Totals include all verified merged author PRs. [Evidence](docs/CONTRIBUTIONS.md).
@@ -37,7 +37,7 @@ Updated **2026-11-18** · Upstream lists: **>1,000 stars** · Totals include all
 ### Latest verified top-30 contributor positions
 
 <details>
-<summary><b>23 representative projects · 24 verified Top-30 positions overall</b></summary>
+<summary><b>23 selected projects · 24 verified Top-30 upstreams with merged PRs</b></summary>
 
 ² GitHub Contributors: **All / Commits / default branch**, last verified **2026-11-18**. Sorted by stars. [Ranking evidence](docs/CONTRIBUTIONS.md#verification-method).
 

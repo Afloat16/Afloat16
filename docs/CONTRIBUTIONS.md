@@ -2,11 +2,11 @@
 
 Updated **2026-11-18** for [Afloat16](https://github.com/Afloat16). Display dates use Asia/Shanghai and show the date only. [Current profile refresh](profile-refresh-2026-11-18.json) · [Earlier full evidence snapshot](https://github.com/Afloat16/Afloat16/blob/711398f33c205a687fdbedd327aef81e9da56d7b/docs/contributions-2026-11-18.json).
 
-**1,220 verified merged author PRs · 49 upstream repositories · 24 verified Top-30 positions in eligible projects**
+**1,220 verified merged author PRs · 49 upstream repositories · 24 verified Top-30 positions in eligible direct-merge projects**
 
 The current refresh found **no new direct merges** relative to the earlier same-day snapshot. It reverified **1,216 merged PRs across 48 accessible upstreams** and retains four previously verified ONNX Runtime merges with their original evidence. Repository and PR requests for ONNX Runtime still return 404, so it is absent from the homepage lists. Twenty-four upstream repositories have changed star counts.
 
-There are **43 currently accessible accepted-contribution repositories with more than 1,000 stars**: 42 with directly merged PRs, totaling **1,201 merges**, and adopted-only TD-MPC2. The homepage now selects **35 repositories with substantial core engineering work**, comprising **23 Top-30 projects and 12 additional projects**. The complete eligible Top-30 count remains **24**; ThinkRail's ranking remains in this complete record while its narrower representative fixes are archived from the homepage.
+There are **43 currently accessible accepted-contribution repositories with more than 1,000 stars**: 42 with directly merged PRs, totaling **1,201 merges**, and adopted-only TD-MPC2. The homepage now selects **35 repositories with substantial core engineering work**, comprising **23 Top-30 projects and 12 additional projects**. The eligible Top-30 count for repositories with directly merged author PRs remains **24** (25 including adopted-only TD-MPC2); ThinkRail's ranking remains in this complete record while its narrower representative fixes are archived from the homepage.
 
 ## Verification method
 

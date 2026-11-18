@@ -27,7 +27,7 @@ Anti-REA Forge and AI-Memory-Book remain beside each other at the start of the h
 
 Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. Anti-REA Forge's pinned head [`674f8b2`](https://github.com/Afloat16/anti-rea-forge/commit/674f8b20cc0fae7bd2684b15dc74cc4db567db29) is one commit ahead of its verified 34-commit history with no commits behind, giving 35. [Ancestor comparison](https://github.com/Afloat16/anti-rea-forge/compare/7d697b5639c340479d101e507c88d9f5ef3bf375...674f8b20cc0fae7bd2684b15dc74cc4db567db29).
 
-The software projects total **24 stars, 0 forks and 1,133 reachable default-branch commits**. The profile repository had **51 commits before this publication** and is excluded. Exact current heads and comparison URLs are recorded in the [current refresh](profile-refresh-2026-11-18.json); complete earlier history-enumeration evidence remains in the [pinned baseline](https://github.com/Afloat16/Afloat16/blob/711398f33c205a687fdbedd327aef81e9da56d7b/docs/projects-2026-11-18.json).
+The software projects total **24 stars, 0 forks and 1,133 reachable default-branch commits**. The profile repository had **51 commits at the pinned verification head** and is excluded. Exact current heads and comparison URLs are recorded in the [current refresh](profile-refresh-2026-11-18.json); complete earlier history-enumeration evidence remains in the [pinned baseline](https://github.com/Afloat16/Afloat16/blob/711398f33c205a687fdbedd327aef81e9da56d7b/docs/projects-2026-11-18.json).
 
 ## What the projects do
 
