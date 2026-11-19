@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="title desc">
   <title id="title">Verified upstream contributions — 2026-11-19</title>
-  <desc id="desc">1,264 verified merged author pull requests across 51 upstream repositories. 24 verified top-30 contributor positions among upstreams with directly merged author PRs and more than 1,000 stars. The total pull-request and repository counts include all verified upstream work, regardless of repository stars. Snapshot: 2026-11-19.</desc>
+  <desc id="desc">1,264 verified merged author pull requests across 51 upstream repositories. 26 verified top-30 contributor positions among upstreams with directly merged author PRs and more than 1,000 stars. The total pull-request and repository counts include all verified upstream work, regardless of repository stars. Snapshot: 2026-11-19.</desc>
   <rect x="1" y="1" width="1198" height="94" rx="14" fill="#F8FAFD" stroke="#D5E1ED" stroke-width="2"/>
   <path d="M400 20V76 M800 20V76" stroke="#D5E1ED"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
     <g font-size="33" font-weight="700" letter-spacing="-.8" fill="#17283E">
       <text x="200" y="43">1,264</text>
       <text x="600" y="43">51</text>
-      <text x="1000" y="43">24</text>
+      <text x="1000" y="43">26</text>
     </g>
     <g font-size="13" font-weight="600" letter-spacing=".55" fill="#51657A">
       <text x="200" y="66">VERIFIED MERGED PRs</text>

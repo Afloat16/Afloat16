@@ -13,7 +13,7 @@
   "eligible_metadata_count": 45,
   "eligible_direct_merged_repository_count": 44,
   "eligible_direct_merged_pr_count": 1245,
-  "eligible_top30_direct_merged_repository_count": 24,
+  "eligible_top30_direct_merged_repository_count": 26,
   "display_policy": {
     "threshold": 1000,
     "comparison": ">",
@@ -336,10 +336,12 @@
     "status": "complete_with_explicit_ranking_limits",
     "freshly_rechecked_repositories": [
       "geoopt/geoopt",
+      "jingyaogong/minimind",
+      "mdiri-ai/SoduWork",
       "ranxianglei/billion-context",
       "storytold/craft-anything"
     ],
-    "freshly_rechecked_eligible_repository_count": 3,
+    "freshly_rechecked_eligible_repository_count": 5,
     "retained_prior_eligible_repository_count": 40,
     "retained_prior_eligible_repositories": [
       "morluto/rea",
@@ -383,14 +385,11 @@
       "TensorBlock/awesome-mcp-servers",
       "nicklashansen/tdmpc2"
     ],
-    "unverified_eligible_repositories": [
-      "jingyaogong/minimind",
-      "mdiri-ai/SoduWork"
-    ],
+    "unverified_eligible_repositories": [],
     "homepage_verification_date_range": "2026-11-18–2026-11-19",
     "method": "Official rendered GitHub Contributors graph: All / Commits / default branch. Read actual Afloat16 cards; confirm the complete displayed top 100 for absence. No inference from PR counts or REST contributor order.",
-    "note": "Only the explicitly listed fresh graphs were rechecked on the current date. Other known positions retain their original checked dates; new unconfirmed positions are labeled Not verified. Graph commits, merged PRs and independent author histories are different measures.",
-    "current_browser_limitation": {
+    "note": "Five graphs were directly checked on the current date, including MiniMind and SoduWork after browser access recovered. The other 40 eligible graphs retain their 2026-11-18 verification dates. Graph commits, merged PRs and independent author histories are different measures.",
+    "initial_refresh_browser_limitation": {
       "checked_date": "2026-11-19",
       "method": "Official rendered GitHub Contributors graph: All / Commits / default branch. Exact displayed Afloat16 card positions only; no inference from PR counts or REST contributors order.",
       "freshly_rechecked_repositories": [
@@ -449,6 +448,21 @@
       "limitation": "Chromium/CDP became unstable: navigation, Runtime.evaluate, Page.getFrameTree, DOMSnapshot and screenshot deadlines. Native desktop showed Chromium Aw, Snap! Error code: 9, and Sky keyboard failed because the AT-SPI provider was unavailable. Existing verified rankings retain original 2026-11-18 dates; the two new repositories have no verified ranking.",
       "no_rank_inference": true,
       "browser_issue_id": "fb8af3ab-bfe8-4e0d-bae4-0b7a67866541"
+    },
+    "followup_verification": {
+      "date": "2026-11-19",
+      "baseline_commit": "4c16d75606a36a2d24c2716249d2b473f037e159",
+      "status": "completed",
+      "browser_access": "Recovered; both official contributor cards and their All / Commits / default-branch controls were read successfully.",
+      "repositories": [
+        "jingyaogong/minimind",
+        "mdiri-ai/SoduWork"
+      ],
+      "previous_top30_direct_merged_count": 24,
+      "current_top30_direct_merged_count": 26,
+      "previous_more_count": 20,
+      "current_more_count": 18,
+      "remaining_rank_scope": "The other 40 eligible previously verified graphs were outside this two-repository follow-up and retain their original dates."
     }
   },
   "author_commit_counts": {
@@ -705,16 +719,44 @@
       "currently_reverified_merged_pr_count": 5,
       "merged_count_status": "fresh_complete_closed_search",
       "currently_eligible": true,
-      "contributor_position": null,
-      "graph_contributor_commit_count": null,
-      "rank_checked_date": null,
+      "contributor_position": 3,
+      "graph_contributor_commit_count": 5,
+      "rank_checked_date": "2026-11-19",
       "rank_source_url": "https://github.com/jingyaogong/minimind/graphs/contributors?all=1",
-      "rank_refresh_status": "unverified_new_repository",
-      "rank_new_evidence": null,
+      "rank_refresh_status": "freshly_verified_official_visible_card",
+      "rank_new_evidence": {
+        "repository": "jingyaogong/minimind",
+        "date": "2026-11-19",
+        "source_url": "https://github.com/jingyaogong/minimind/graphs/contributors?all=1",
+        "controls": [
+          "Period: All",
+          "Contributions: Commits"
+        ],
+        "subtitle": "Contributions per week to master, excluding merge commits",
+        "position": 3,
+        "commits": 5,
+        "card": "Afloat16\nAfloat16\n's Commits\n5 commits\n168 ++\n8 --\n#3",
+        "settings": {
+          "period": "All",
+          "contributions": "Commits",
+          "branch": "master"
+        },
+        "complete": true,
+        "evidence_scope": "Exact displayed Afloat16 contributor card and active graph controls; rank read from its printed number, not DOM order."
+      },
       "previous_merged_pr_count": 0,
       "default_branch_author_commit_count": 5,
       "default_branch_author_commit_status": "verified",
-      "default_branch_author_commit_source": "author-commits-refresh-2026-11-19.json"
+      "default_branch_author_commit_source": "author-commits-refresh-2026-11-19.json",
+      "rank_evidence_source": "https://github.com/jingyaogong/minimind/graphs/contributors?all=1",
+      "rank_settings": {
+        "period": "All",
+        "contributions": "Commits",
+        "branch": "master"
+      },
+      "rank_previous_checked_date": null,
+      "previous_contributor_position": null,
+      "previous_graph_contributor_commit_count": null
     },
     {
       "repository": "alibaba/open-code-review",
@@ -2035,16 +2077,44 @@
       "currently_reverified_merged_pr_count": 1,
       "merged_count_status": "fresh_complete_closed_search",
       "currently_eligible": true,
-      "contributor_position": null,
-      "graph_contributor_commit_count": null,
-      "rank_checked_date": null,
+      "contributor_position": 19,
+      "graph_contributor_commit_count": 2,
+      "rank_checked_date": "2026-11-19",
       "rank_source_url": "https://github.com/mdiri-ai/SoduWork/graphs/contributors?all=1",
-      "rank_refresh_status": "unverified_new_repository",
-      "rank_new_evidence": null,
+      "rank_refresh_status": "freshly_verified_official_visible_card",
+      "rank_new_evidence": {
+        "repository": "mdiri-ai/SoduWork",
+        "date": "2026-11-19",
+        "source_url": "https://github.com/mdiri-ai/SoduWork/graphs/contributors?all=1",
+        "controls": [
+          "Period: All",
+          "Contributions: Commits"
+        ],
+        "subtitle": "Contributions per week to main, excluding merge commits",
+        "position": 19,
+        "commits": 2,
+        "card": "Afloat16\nAfloat16\n's Commits\n2 commits\n54 ++\n9 --\n#19",
+        "settings": {
+          "period": "All",
+          "contributions": "Commits",
+          "branch": "main"
+        },
+        "complete": true,
+        "evidence_scope": "Exact displayed Afloat16 contributor card and active graph controls; rank read from its printed number, not DOM order."
+      },
       "previous_merged_pr_count": 0,
       "default_branch_author_commit_count": 2,
       "default_branch_author_commit_status": "verified",
-      "default_branch_author_commit_source": "author-commits-refresh-2026-11-19.json"
+      "default_branch_author_commit_source": "author-commits-refresh-2026-11-19.json",
+      "rank_evidence_source": "https://github.com/mdiri-ai/SoduWork/graphs/contributors?all=1",
+      "rank_settings": {
+        "period": "All",
+        "contributions": "Commits",
+        "branch": "main"
+      },
+      "rank_previous_checked_date": null,
+      "previous_contributor_position": null,
+      "previous_graph_contributor_commit_count": null
     },
     {
       "repository": "elalish/manifold",
@@ -2643,8 +2713,8 @@
     }
   ],
   "displayed_representative_repository_count": 44,
-  "displayed_representative_top30_count": 24,
-  "displayed_representative_more_count": 20,
+  "displayed_representative_top30_count": 26,
+  "displayed_representative_more_count": 18,
   "representative_selection_file": "engineering-selection-2026-11-19.json",
   "owned_projects": {
     "observed_on": "2026-11-19",
