@@ -1,15 +1,15 @@
 # Project inventory
 
-Updated **2026-11-18**. Account: [Afloat16](https://github.com/Afloat16). The same **16 public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were refreshed for all 16 projects. Fourteen software heads exactly match previously verified histories; Anti-REA Forge advances from **35 to 40** commits, and AI-Memory-Book from **972 to 996**. Both changed histories were verified by ancestor comparison with no commits behind. Display dates show the day only. [Current refresh evidence](profile-refresh-2026-11-18.json).
+Updated **2026-11-19**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were refreshed for all 16. 15 software heads match their previously verified histories; AI-Memory-Book advances from **996 to 1,025** commits. Changed histories were checked by ancestor comparison with no commits behind. Display dates show the day only. [Current evidence](profile-refresh-2026-11-19.json).
 
-The existing 16 project cards, purposes, highlights and order are preserved. The two updated version labels were checked against pinned READMEs and published normal releases: **Anti-REA Forge v1.4.0** and **AI-Memory-Book v0.12.0**. Other project descriptions and versions retain their earlier evidence.
+The existing project-card layout, descriptions and order are preserved. AI-Memory-Book's published version is now **v0.13.0**; Anti-REA Forge remains **v1.4.0**. Both version labels were checked against published normal releases and fixed-HEAD READMEs. Other project descriptions retain their earlier evidence.
 
 ## Project metrics
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
 | [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [9](https://github.com/Afloat16/anti-rea-forge/stargazers) | [40](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
-| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [996](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
+| [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [3](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [1,025](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [ModelDock](https://github.com/Afloat16/modeldock) | [2](https://github.com/Afloat16/modeldock/stargazers) | [6](https://github.com/Afloat16/modeldock/commits/main/) | TypeScript |
 | [Jev MCP](https://github.com/Afloat16/jev-mcp) | [1](https://github.com/Afloat16/jev-mcp/stargazers) | [49](https://github.com/Afloat16/jev-mcp/commits/main/) | TypeScript |
 | [StewardCheck](https://github.com/Afloat16/ai-dev-steward) | [1](https://github.com/Afloat16/ai-dev-steward/stargazers) | [11](https://github.com/Afloat16/ai-dev-steward/commits/main/) | Python |
@@ -25,9 +25,9 @@ The existing 16 project cards, purposes, highlights and order are preserved. The
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. [Anti-REA Forge ancestor comparison](https://github.com/Afloat16/anti-rea-forge/compare/674f8b20cc0fae7bd2684b15dc74cc4db567db29...4a39c52766323ea27c47b4fd4b75b26897b98524) · [AI-Memory-Book ancestor comparison](https://github.com/Afloat16/AI-Memory-Book/compare/234891619d7bed88ddf3fae37e7f3e1b14a808b6...8044e4bafe18e73ea422af5eeb47ef961e65246c).
+Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. [AI-Memory-Book ancestor comparison](https://github.com/Afloat16/AI-Memory-Book/compare/8044e4bafe18e73ea422af5eeb47ef961e65246c...861b7f35ac2557024d89bc51d5b3017ca35cb9d0).
 
-The software projects total **24 stars, 0 forks and 1,162 reachable default-branch commits**. The profile repository had **54 commits at the pinned verification head** and is excluded. Exact heads, comparison receipts and version sources are recorded in the [current refresh](profile-refresh-2026-11-18.json).
+The software projects total **24 stars, 0 forks and 1,191 reachable default-branch commits**. The profile repository had **55 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-19.json).
 
 ## What the projects do
 
@@ -43,7 +43,7 @@ Externally keyed native data · Experimental LLVM 18 profiles.
 
 Give agents shared local memory, organized as project books and task chapters. Opt in to background capture of supported conversations, then use MCP to recall bounded original evidence with source references when continuing earlier work.
 
-The latest published normal release is **v0.12.0**, published on **2026-11-18**. The pinned README confirms this version. [Published release](https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.12.0) · [Pinned README](https://github.com/Afloat16/AI-Memory-Book/blob/8044e4bafe18e73ea422af5eeb47ef961e65246c/README.md).
+The latest published normal release is **v0.13.0**, published on **2026-11-19**. The pinned README confirms this version. [Published release](https://github.com/Afloat16/AI-Memory-Book/releases/tag/v0.13.0) · [Pinned README](https://github.com/Afloat16/AI-Memory-Book/blob/861b7f35ac2557024d89bc51d5b3017ca35cb9d0/README.md).
 
 Opt-in background capture · Cited MCP recall.
 

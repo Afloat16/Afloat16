@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="title desc">
-  <title id="title">Verified upstream contributions — 2026-11-18</title>
-  <desc id="desc">1,249 verified merged author pull requests across 49 upstream repositories. 24 verified top-30 contributor positions among upstreams with directly merged author PRs and more than 1,000 stars. The total pull-request and repository counts include all verified upstream work, regardless of repository stars. Snapshot: 2026-11-18.</desc>
+  <title id="title">Verified upstream contributions — 2026-11-19</title>
+  <desc id="desc">1,264 verified merged author pull requests across 51 upstream repositories. 24 verified top-30 contributor positions among upstreams with directly merged author PRs and more than 1,000 stars. The total pull-request and repository counts include all verified upstream work, regardless of repository stars. Snapshot: 2026-11-19.</desc>
   <rect x="1" y="1" width="1198" height="94" rx="14" fill="#111923" stroke="#2C4055" stroke-width="2"/>
   <path d="M400 20V76 M800 20V76" stroke="#2C4055"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" text-anchor="middle">
     <g font-size="33" font-weight="700" letter-spacing="-.8" fill="#E9F1FA">
-      <text x="200" y="43">1,249</text>
-      <text x="600" y="43">49</text>
+      <text x="200" y="43">1,264</text>
+      <text x="600" y="43">51</text>
       <text x="1000" y="43">24</text>
     </g>
     <g font-size="13" font-weight="600" letter-spacing=".55" fill="#A8BBD0">
@@ -15,7 +15,7 @@
       <text x="1000" y="66">VERIFIED TOP-30 POSITIONS</text>
     </g>
     <g font-size="10.5" fill="#A8BBD0">
-      <text x="200" y="83">2026-11-18</text>
+      <text x="200" y="83">2026-11-19</text>
       <text x="600" y="83">All verified upstream work</text>
       <text x="1000" y="83">Direct-merge projects · >1,000 stars</text>
     </g>
