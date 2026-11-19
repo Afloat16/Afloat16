@@ -2113,11 +2113,8 @@
     "CARLA #10194 changes the PythonAPI/util/apply_texture.py utility, not documentation alone."
   ],
   "metrics_refreshed_on": "2026-11-19",
-  "selection_preserved_from_commit": "fdc7dfd5c6a8ce0a9726e8b0e09ca560fc72184c",
+  "selection_preserved_from_commit": "1635ee624651998a21173abd5c31aaee838a9a54",
   "retained_selection_review_date": "2026-11-18",
-  "newly_reviewed_repositories": [
-    "jingyaogong/minimind",
-    "mdiri-ai/SoduWork"
-  ],
-  "review_note": "Retained all prior engineering selections and their original evidence; reviewed all six merged PRs from two newly eligible upstreams and selected three representative PRs."
+  "newly_reviewed_repositories": [],
+  "review_note": "All 69 representative PR selections and their reviewed implementation evidence are preserved from the pinned baseline. This refresh updates metrics and graph positions only."
 }

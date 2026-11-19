@@ -1,8 +1,8 @@
 # Project inventory
 
-Updated **2026-11-19**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were refreshed for all 16. 15 software heads match their previously verified histories; AI-Memory-Book advances from **996 to 1,025** commits. Changed histories were checked by ancestor comparison with no commits behind. Display dates show the day only. [Current evidence](profile-refresh-2026-11-19.json).
+Updated **2026-11-19**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were refreshed for all 16. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-19.json).
 
-The existing project-card layout, descriptions and order are preserved. AI-Memory-Book's published version is now **v0.13.0**; Anti-REA Forge remains **v1.4.0**. Both version labels were checked against published normal releases and fixed-HEAD READMEs. Other project descriptions retain their earlier evidence.
+The existing project-card layout, descriptions and order are preserved. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published normal releases were rechecked; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
 
 ## Project metrics
 
@@ -25,9 +25,9 @@ The existing project-card layout, descriptions and order are preserved. AI-Memor
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [0](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
 | [Pose Convention Bridge](https://github.com/Afloat16/pose-convention-bridge) | [0](https://github.com/Afloat16/pose-convention-bridge/stargazers) | [4](https://github.com/Afloat16/pose-convention-bridge/commits/main/) | Python |
 
-Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. [AI-Memory-Book ancestor comparison](https://github.com/Afloat16/AI-Memory-Book/compare/8044e4bafe18e73ea422af5eeb47ef961e65246c...861b7f35ac2557024d89bc51d5b3017ca35cb9d0).
+Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All selected software heads match the pinned previous histories.
 
-The software projects total **24 stars, 0 forks and 1,191 reachable default-branch commits**. The profile repository had **55 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-19.json).
+The software projects total **24 stars, 0 forks and 1,191 reachable default-branch commits**. The profile repository had **57 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-19.json).
 
 ## What the projects do
 

@@ -2,19 +2,19 @@
   "snapshot_date": "2026-11-19",
   "timezone": "Asia/Shanghai",
   "user": "Afloat16",
-  "baseline_commit": "fdc7dfd5c6a8ce0a9726e8b0e09ca560fc72184c",
-  "original_merge_receipt_source": "https://github.com/Afloat16/Afloat16/blob/fdc7dfd5c6a8ce0a9726e8b0e09ca560fc72184c/docs/merged-refresh-2026-11-18.json",
-  "scope": "Public merged PRs authored by Afloat16 in external upstream repositories, excluding Genesis-Embodied-AI. Current closed-author merged_at is reverified for1260PRs; prior immutable merge SHAs are retained from the pinned baseline, with all15newPRs individually checked. Four currently inaccessible historical ONNX Runtime merges retain original evidence. Display dates use Asia/Shanghai and include the day only.",
+  "baseline_commit": "1635ee624651998a21173abd5c31aaee838a9a54",
+  "original_merge_receipt_source": "https://github.com/Afloat16/Afloat16/blob/1635ee624651998a21173abd5c31aaee838a9a54/docs/merged-refresh-2026-11-19.json",
+  "scope": "Public merged PRs authored by Afloat16 in external upstream repositories, excluding Genesis-Embodied-AI. Current closed-author merged_at is reverified for 1,293 PRs; prior immutable merge SHAs are retained from the pinned baseline, with all 33 new PRs individually checked. Four currently inaccessible historical ONNX Runtime merges retain original evidence. Display dates use Asia/Shanghai and include the day only.",
   "summary": {
-    "merged_pr_total": 1264,
-    "merged_repository_total": 51,
-    "currently_reverified_merged_pr_total": 1260,
-    "currently_reverified_merged_repository_total": 50,
+    "merged_pr_total": 1297,
+    "merged_repository_total": 52,
+    "currently_reverified_merged_pr_total": 1293,
+    "currently_reverified_merged_repository_total": 51,
     "historically_verified_unavailable_merged_pr_total": 4,
-    "previous_merged_pr_total": 1249,
-    "previous_merged_repository_total": 49,
-    "new_merged_pr_total": 15,
-    "new_upstream_repository_total": 2
+    "previous_merged_pr_total": 1264,
+    "previous_merged_repository_total": 51,
+    "new_merged_pr_total": 33,
+    "new_upstream_repository_total": 1
   },
   "search_verification": {
     "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public -org:Genesis-Embodied-AI",
@@ -34,26 +34,26 @@
       {
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "pages": 8,
-        "records": 756,
+        "records": 767,
         "complete": true
       },
       {
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:>=2026-11-16 -org:Genesis-Embodied-AI",
-        "pages": 3,
-        "records": 300,
+        "pages": 5,
+        "records": 415,
         "complete": true
       }
     ],
-    "page_count": 20,
-    "closed_record_count": 1905,
-    "merged_at_record_count": 1260,
+    "page_count": 22,
+    "closed_record_count": 2031,
+    "merged_at_record_count": 1293,
     "incomplete_results": false,
     "unique": true,
-    "indexed_merged_count": 1257,
+    "indexed_merged_count": 1290,
     "indexed_merged_query": {
       "query": "author:Afloat16 is:pr is:merged -user:Afloat16 is:public -org:Genesis-Embodied-AI",
       "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Amerged%20-user%3AAfloat16%20is%3Apublic%20-org%3AGenesis-Embodied-AI&per_page=1&page=1",
-      "total_count": 1257,
+      "total_count": 1290,
       "incomplete_results": false,
       "checked_date": "2026-11-19"
     },
@@ -153,7 +153,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=1&sort=created&order=asc",
         "page": 1,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-10",
         "checked_date": "2026-11-19",
@@ -163,7 +163,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=2&sort=created&order=asc",
         "page": 2,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-11",
         "checked_date": "2026-11-19",
@@ -173,7 +173,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=3&sort=created&order=asc",
         "page": 3,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-12",
         "checked_date": "2026-11-19",
@@ -183,7 +183,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=4&sort=created&order=asc",
         "page": 4,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-13",
         "checked_date": "2026-11-19",
@@ -193,7 +193,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=5&sort=created&order=asc",
         "page": 5,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-14",
         "checked_date": "2026-11-19",
@@ -203,7 +203,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=6&sort=created&order=asc",
         "page": 6,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-15",
         "checked_date": "2026-11-19",
@@ -213,7 +213,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=7&sort=created&order=asc",
         "page": 7,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-16",
         "checked_date": "2026-11-19",
@@ -223,17 +223,17 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:2026-11-11..2026-11-15 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A2026-11-11..2026-11-15%20-org%3AGenesis-Embodied-AI&per_page=100&page=8&sort=created&order=asc",
         "page": 8,
-        "total_count": 756,
+        "total_count": 767,
         "incomplete_results": false,
         "id": "closed-17",
         "checked_date": "2026-11-19",
-        "returned_records": 56
+        "returned_records": 67
       },
       {
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:>=2026-11-16 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A%3E%3D2026-11-16%20-org%3AGenesis-Embodied-AI&per_page=100&page=1&sort=created&order=asc",
         "page": 1,
-        "total_count": 300,
+        "total_count": 415,
         "incomplete_results": false,
         "id": "closed-18",
         "checked_date": "2026-11-19",
@@ -243,7 +243,7 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:>=2026-11-16 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A%3E%3D2026-11-16%20-org%3AGenesis-Embodied-AI&per_page=100&page=2&sort=created&order=asc",
         "page": 2,
-        "total_count": 300,
+        "total_count": 415,
         "incomplete_results": false,
         "id": "closed-19",
         "checked_date": "2026-11-19",
@@ -253,11 +253,31 @@
         "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:>=2026-11-16 -org:Genesis-Embodied-AI",
         "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A%3E%3D2026-11-16%20-org%3AGenesis-Embodied-AI&per_page=100&page=3&sort=created&order=asc",
         "page": 3,
-        "total_count": 300,
+        "total_count": 415,
         "incomplete_results": false,
         "id": "closed-20",
         "checked_date": "2026-11-19",
         "returned_records": 100
+      },
+      {
+        "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:>=2026-11-16 -org:Genesis-Embodied-AI",
+        "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A%3E%3D2026-11-16%20-org%3AGenesis-Embodied-AI&per_page=100&page=4&sort=created&order=asc",
+        "page": 4,
+        "total_count": 415,
+        "incomplete_results": false,
+        "id": "closed-21",
+        "checked_date": "2026-11-19",
+        "returned_records": 100
+      },
+      {
+        "query": "author:Afloat16 is:pr is:closed -user:Afloat16 is:public created:>=2026-11-16 -org:Genesis-Embodied-AI",
+        "url": "https://api.github.com/search/issues?q=author%3AAfloat16%20is%3Apr%20is%3Aclosed%20-user%3AAfloat16%20is%3Apublic%20created%3A%3E%3D2026-11-16%20-org%3AGenesis-Embodied-AI&per_page=100&page=5&sort=created&order=asc",
+        "page": 5,
+        "total_count": 415,
+        "incomplete_results": false,
+        "id": "closed-22",
+        "checked_date": "2026-11-19",
+        "returned_records": 15
       }
     ],
     "known_missing_index_entries": [
@@ -289,7 +309,7 @@
     "omission_verification_receipts": [
       {
         "query": "repo:geoopt/geoopt author:Afloat16 is:pr is:merged",
-        "url": "https://api.github.com/search/issues?q=repo%3Ageoopt%2Fgeoopt%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=1&sort=created&order=asc",
+        "url": "https://api.github.com/search/issues?q=repo%3Ageoopt%2Fgeoopt%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=1",
         "page": 1,
         "total_count": 13,
         "incomplete_results": false,
@@ -298,30 +318,30 @@
       },
       {
         "query": "repo:storytold/craft-anything author:Afloat16 is:pr is:merged",
-        "url": "https://api.github.com/search/issues?q=repo%3Astorytold%2Fcraft-anything%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=1&sort=created&order=asc",
+        "url": "https://api.github.com/search/issues?q=repo%3Astorytold%2Fcraft-anything%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=1",
         "page": 1,
-        "total_count": 245,
+        "total_count": 246,
         "incomplete_results": false,
         "checked_date": "2026-11-19",
         "returned_records": 100
       },
       {
         "query": "repo:storytold/craft-anything author:Afloat16 is:pr is:merged",
-        "url": "https://api.github.com/search/issues?q=repo%3Astorytold%2Fcraft-anything%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=2&sort=created&order=asc",
+        "url": "https://api.github.com/search/issues?q=repo%3Astorytold%2Fcraft-anything%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=2",
         "page": 2,
-        "total_count": 245,
+        "total_count": 246,
         "incomplete_results": false,
         "checked_date": "2026-11-19",
         "returned_records": 100
       },
       {
         "query": "repo:storytold/craft-anything author:Afloat16 is:pr is:merged",
-        "url": "https://api.github.com/search/issues?q=repo%3Astorytold%2Fcraft-anything%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=3&sort=created&order=asc",
+        "url": "https://api.github.com/search/issues?q=repo%3Astorytold%2Fcraft-anything%20author%3AAfloat16%20is%3Apr%20is%3Amerged&per_page=100&page=3",
         "page": 3,
-        "total_count": 245,
+        "total_count": 246,
         "incomplete_results": false,
         "checked_date": "2026-11-19",
-        "returned_records": 45
+        "returned_records": 46
       }
     ],
     "note": "Count actual pull_request.merged_at from the complete closed-author inventory. Merged-only search omits the three listed Geoopt/Craft Anything entries. Four inaccessible ONNX Runtime historical merges remain separate historical evidence."
@@ -350,40 +370,67 @@
   ],
   "repository_deltas": [
     {
-      "repository": "jingyaogong/minimind",
-      "merged_count": 5,
-      "previous_merged_count": 0,
+      "repository": "alibaba/open-code-review",
+      "merged_count": 2,
+      "previous_merged_count": 1,
+      "delta": 1
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "merged_count": 22,
+      "previous_merged_count": 4,
+      "delta": 18
+    },
+    {
+      "repository": "elalish/manifold",
+      "merged_count": 18,
+      "previous_merged_count": 11,
+      "delta": 7
+    },
+    {
+      "repository": "NVIDIA/SkillEvaluator",
+      "merged_count": 9,
+      "previous_merged_count": 4,
       "delta": 5
     },
     {
-      "repository": "mdiri-ai/SoduWork",
+      "repository": "simplexai-labs/linger",
       "merged_count": 1,
       "previous_merged_count": 0,
       "delta": 1
     },
     {
-      "repository": "petercorke/robotics-toolbox-python",
-      "merged_count": 22,
-      "previous_merged_count": 18,
-      "delta": 4
-    },
-    {
-      "repository": "QwenLM/qwen-code",
-      "merged_count": 29,
-      "previous_merged_count": 24,
-      "delta": 5
+      "repository": "storytold/craft-anything",
+      "merged_count": 247,
+      "previous_merged_count": 246,
+      "delta": 1
     }
   ],
   "new_upstream_repositories": [
-    "jingyaogong/minimind",
-    "mdiri-ai/SoduWork"
+    "simplexai-labs/linger"
   ],
   "unavailable_direct_checks": [
     {
       "kind": "historical",
-      "repo": "microsoft/onnxruntime",
+      "repository": "microsoft/onnxruntime",
+      "number": null,
+      "source_url": "https://api.github.com/repos/microsoft/onnxruntime",
+      "checked_date": "2026-11-19",
+      "result": {
+        "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}",
+        "error_code": "NOT_FOUND",
+        "error_data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+          "status": "404"
+        }
+      }
+    },
+    {
+      "kind": "historical",
+      "repository": "microsoft/onnxruntime",
       "number": 34179,
-      "url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34179",
+      "source_url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34179",
       "checked_date": "2026-11-19",
       "result": {
         "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/pulls/pulls#get-a-pull-request\",\"status\":\"404\"}",
@@ -397,9 +444,9 @@
     },
     {
       "kind": "historical",
-      "repo": "microsoft/onnxruntime",
+      "repository": "microsoft/onnxruntime",
       "number": 34180,
-      "url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34180",
+      "source_url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34180",
       "checked_date": "2026-11-19",
       "result": {
         "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/pulls/pulls#get-a-pull-request\",\"status\":\"404\"}",
@@ -413,9 +460,9 @@
     },
     {
       "kind": "historical",
-      "repo": "microsoft/onnxruntime",
+      "repository": "microsoft/onnxruntime",
       "number": 34185,
-      "url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34185",
+      "source_url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34185",
       "checked_date": "2026-11-19",
       "result": {
         "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/pulls/pulls#get-a-pull-request\",\"status\":\"404\"}",
@@ -429,9 +476,9 @@
     },
     {
       "kind": "historical",
-      "repo": "microsoft/onnxruntime",
+      "repository": "microsoft/onnxruntime",
       "number": 34190,
-      "url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34190",
+      "source_url": "https://api.github.com/repos/microsoft/onnxruntime/pulls/34190",
       "checked_date": "2026-11-19",
       "result": {
         "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/pulls/pulls#get-a-pull-request\",\"status\":\"404\"}",
@@ -446,214 +493,466 @@
   ],
   "new_merged_pr_receipts": [
     {
-      "repository": "petercorke/robotics-toolbox-python",
-      "number": 925,
-      "url": "https://github.com/petercorke/robotics-toolbox-python/pull/925",
-      "title": "fix(build): allow pure wheels without a compiler",
-      "source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/925",
+      "repository": "simplexai-labs/linger",
+      "number": 272,
+      "url": "https://github.com/simplexai-labs/linger/pull/272",
+      "title": "fix(local-installation): cancel blocked download bodies immediately",
+      "source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/272",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "f307d7b3209c2249f00b87c8e17f203824fdce9f",
+      "merge_commit_sha": "3fe700d4cdd54f854ff7b06180e01d21b3121a53",
       "base_branch": "main",
-      "base_repository_id": 33467565,
+      "base_repository_id": 1452175380,
       "merged_date": "2026-11-19"
     },
     {
-      "repository": "petercorke/robotics-toolbox-python",
-      "number": 927,
-      "url": "https://github.com/petercorke/robotics-toolbox-python/pull/927",
-      "title": "fix(mobile): resolve landmark indices in sensor Jacobians",
-      "source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/927",
+      "repository": "Denys88/rl_games",
+      "number": 406,
+      "url": "https://github.com/Denys88/rl_games/pull/406",
+      "title": "Keep singleton advantage normalization finite during PPO updates",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/406",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "f11e339a2993adc89e650258bc00ce6eb9001dad",
-      "base_branch": "main",
-      "base_repository_id": 33467565,
-      "merged_date": "2026-11-19"
-    },
-    {
-      "repository": "petercorke/robotics-toolbox-python",
-      "number": 928,
-      "url": "https://github.com/petercorke/robotics-toolbox-python/pull/928",
-      "title": "fix(mobile): clip occupancy updates to grid bounds",
-      "source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/928",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "f3ddf9237559d76869eeacb5d095ba337d7bd65d",
-      "base_branch": "main",
-      "base_repository_id": 33467565,
-      "merged_date": "2026-11-19"
-    },
-    {
-      "repository": "petercorke/robotics-toolbox-python",
-      "number": 931,
-      "url": "https://github.com/petercorke/robotics-toolbox-python/pull/931",
-      "title": "fix(mobile): reject PRM maps with no free cells",
-      "source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/931",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "bceb42c18877840280037539dac036f21d4fefe5",
-      "base_branch": "main",
-      "base_repository_id": 33467565,
-      "merged_date": "2026-11-19"
-    },
-    {
-      "repository": "QwenLM/qwen-code",
-      "number": 17576,
-      "url": "https://github.com/QwenLM/qwen-code/pull/17576",
-      "title": "fix(sdk): enforce the peer frame limit before dispatch",
-      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17576",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "27eda3b22fc90016f5239a8350a9c039feecf1bf",
-      "base_branch": "main",
-      "base_repository_id": 1008713177,
-      "merged_date": "2026-11-19"
-    },
-    {
-      "repository": "QwenLM/qwen-code",
-      "number": 17578,
-      "url": "https://github.com/QwenLM/qwen-code/pull/17578",
-      "title": "fix(copy): preserve fence-like content in code and math extraction",
-      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17578",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "2ab6571a329890fcb348f63d03411ddf110bd181",
-      "base_branch": "main",
-      "base_repository_id": 1008713177,
-      "merged_date": "2026-11-18"
-    },
-    {
-      "repository": "QwenLM/qwen-code",
-      "number": 17580,
-      "url": "https://github.com/QwenLM/qwen-code/pull/17580",
-      "title": "fix(sdk): wait for actual child termination",
-      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17580",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "e8984cfede163f279cd1cea8670f0d2293995882",
-      "base_branch": "main",
-      "base_repository_id": 1008713177,
-      "merged_date": "2026-11-19"
-    },
-    {
-      "repository": "QwenLM/qwen-code",
-      "number": 17581,
-      "url": "https://github.com/QwenLM/qwen-code/pull/17581",
-      "title": "fix(sdk): clear permission deadlines on callback failure",
-      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17581",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "d83fa2154e648fa6b2e209a2dfceddc786857bac",
-      "base_branch": "main",
-      "base_repository_id": 1008713177,
-      "merged_date": "2026-11-18"
-    },
-    {
-      "repository": "QwenLM/qwen-code",
-      "number": 17688,
-      "url": "https://github.com/QwenLM/qwen-code/pull/17688",
-      "title": "fix(java): return newlines in file content responses",
-      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17688",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "a3918be98c2e32366fe6ff1bbc5df3b660bfd419",
-      "base_branch": "main",
-      "base_repository_id": 1008713177,
-      "merged_date": "2026-11-18"
-    },
-    {
-      "repository": "jingyaogong/minimind",
-      "number": 905,
-      "url": "https://github.com/jingyaogong/minimind/pull/905",
-      "title": "[fix] keep synchronous inference off the API event loop",
-      "source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/905",
-      "checked_date": "2026-11-19",
-      "author": "Afloat16",
-      "merged": true,
-      "merge_commit_sha": "2794acc34bad2744958793a8563a5db2b9a6e92c",
+      "merge_commit_sha": "3f6110cfb10a80a4b12a07a5d6b890c90f69da1d",
       "base_branch": "master",
-      "base_repository_id": 834369920,
-      "merged_date": "2026-11-18"
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
     },
     {
-      "repository": "jingyaogong/minimind",
-      "number": 907,
-      "url": "https://github.com/jingyaogong/minimind/pull/907",
-      "title": "[fix] accept boolean padding masks in manual attention",
-      "source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/907",
+      "repository": "Denys88/rl_games",
+      "number": 407,
+      "url": "https://github.com/Denys88/rl_games/pull/407",
+      "title": "Stabilize gradients through smoothed PPO clipping",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/407",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "2bbf372bfea211ea5c69a1693027361107148522",
+      "merge_commit_sha": "95b6ec7d5aa9e341b38e47e3d2a379f7442ca2a9",
       "base_branch": "master",
-      "base_repository_id": 834369920,
-      "merged_date": "2026-11-18"
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
     },
     {
-      "repository": "jingyaogong/minimind",
-      "number": 909,
-      "url": "https://github.com/jingyaogong/minimind/pull/909",
-      "title": "[fix] keep empty supervised distillation batches finite",
-      "source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/909",
+      "repository": "Denys88/rl_games",
+      "number": 408,
+      "url": "https://github.com/Denys88/rl_games/pull/408",
+      "title": "Apply pending seeds when Gymnasium vector environments reset",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/408",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "5d8981e82f227c9d7f5263c7788cfd087add450e",
+      "merge_commit_sha": "ba0a9a439f31e4762315805de929bd395fc9682d",
       "base_branch": "master",
-      "base_repository_id": 834369920,
-      "merged_date": "2026-11-18"
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
     },
     {
-      "repository": "jingyaogong/minimind",
-      "number": 912,
-      "url": "https://github.com/jingyaogong/minimind/pull/912",
-      "title": "[fix] ignore sampling temperature for greedy generation",
-      "source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/912",
+      "repository": "Denys88/rl_games",
+      "number": 409,
+      "url": "https://github.com/Denys88/rl_games/pull/409",
+      "title": "Preserve terminal observations across manual autoresets",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/409",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "eaa4b87f67e7349a04aafbed2888246e1d073178",
+      "merge_commit_sha": "8e02b875a8259db991b607de2fcf9a5c73f8cb9c",
       "base_branch": "master",
-      "base_repository_id": 834369920,
-      "merged_date": "2026-11-18"
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
     },
     {
-      "repository": "jingyaogong/minimind",
-      "number": 919,
-      "url": "https://github.com/jingyaogong/minimind/pull/919",
-      "title": "[fix] accumulate LoRA deltas before rounding merged weights",
-      "source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/919",
+      "repository": "Denys88/rl_games",
+      "number": 410,
+      "url": "https://github.com/Denys88/rl_games/pull/410",
+      "title": "Honor vector environment action masks during evaluation",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/410",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "9f05da1c3d3b4e5dc9257a525bf19e99acee401b",
+      "merge_commit_sha": "294f02035eab7fd0cbf8bf69dbe5e358a6d707e0",
       "base_branch": "master",
-      "base_repository_id": 834369920,
-      "merged_date": "2026-11-18"
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
     },
     {
-      "repository": "mdiri-ai/SoduWork",
-      "number": 457,
-      "url": "https://github.com/mdiri-ai/SoduWork/pull/457",
-      "title": "fix(client): include stylesheets imported after CSS comments",
-      "source_url": "https://api.github.com/repos/mdiri-ai/SoduWork/pulls/457",
+      "repository": "Denys88/rl_games",
+      "number": 411,
+      "url": "https://github.com/Denys88/rl_games/pull/411",
+      "title": "Handle full and partially written evaluation checkpoints",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/411",
       "checked_date": "2026-11-19",
       "author": "Afloat16",
       "merged": true,
-      "merge_commit_sha": "719202b7a4e0d36745a48ebd99ad165b13cdcc01",
+      "merge_commit_sha": "87105e726849db1a7a6ad2f33e857c6030154217",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 412,
+      "url": "https://github.com/Denys88/rl_games/pull/412",
+      "title": "Retain balanced evaluation statistics across environment resets",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/412",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "06eb063b451b504946f32928970506a05e7443e4",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 413,
+      "url": "https://github.com/Denys88/rl_games/pull/413",
+      "title": "Preserve MLP widths with first-layer-only normalization",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/413",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "053a0dd90869634eade07cdbcced093a91b1753e",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 414,
+      "url": "https://github.com/Denys88/rl_games/pull/414",
+      "title": "Share coordinate convolution grids across actor batches",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/414",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "bb0a950724cfc63a5a81c0d3e771be740854323e",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 416,
+      "url": "https://github.com/Denys88/rl_games/pull/416",
+      "title": "Prevent timeout bootstrapping for terminated Gymnasium episodes",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/416",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "ff60662fa0f7bfaf5328cb912c02131affa883cf",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 417,
+      "url": "https://github.com/Denys88/rl_games/pull/417",
+      "title": "Accept the recurrent call contract in IdentityRNN",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/417",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "f6d9af470aeff9e149a4cea6848299f6d5c3c426",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 419,
+      "url": "https://github.com/Denys88/rl_games/pull/419",
+      "title": "Honor independent optional inputs in recurrent Impala policies",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/419",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "a82ca6198cac80783efd1c9754cf2e748baf9854",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 420,
+      "url": "https://github.com/Denys88/rl_games/pull/420",
+      "title": "Preserve discrete player action batch and component dimensions",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/420",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "b90f45f202d314f7f41c23e4b91caa44daa8ed84",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 421,
+      "url": "https://github.com/Denys88/rl_games/pull/421",
+      "title": "Disable autograd during SAC player inference",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/421",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "d6d211b8ba781f2c0b70cfe9e87e737ebfb9c5a9",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 422,
+      "url": "https://github.com/Denys88/rl_games/pull/422",
+      "title": "Honor sigma parametrization and logstd bounds in Impala policies",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/422",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "5e5fbca7fc2290223177cd4010f53aff6fc13574",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 423,
+      "url": "https://github.com/Denys88/rl_games/pull/423",
+      "title": "Construct LayerNorm for recurrent Impala policies when requested",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/423",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "b686104f8ab3bdd9173ae3cf25ec88e204988f90",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 424,
+      "url": "https://github.com/Denys88/rl_games/pull/424",
+      "title": "Exclude next-step reset rows from player statistics and RNN state",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/424",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "7884bac4d60a2be4aeb9909f0d16a7f7bbb7b455",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 1971,
+      "url": "https://github.com/elalish/manifold/pull/1971",
+      "title": "Preserve operand order when computing Minkowski differences",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/1971",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "4a6e01bef00ad707dbc976b31e4728782e398f9d",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "Denys88/rl_games",
+      "number": 405,
+      "url": "https://github.com/Denys88/rl_games/pull/405",
+      "title": "Preserve recurrent critic state during bootstrap queries",
+      "source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/405",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "e895a2d4e13a4c80dae06aa7a9faa356f395d695",
+      "base_branch": "master",
+      "base_repository_id": 165469880,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "NVIDIA/SkillEvaluator",
+      "number": 720,
+      "url": "https://github.com/NVIDIA/SkillEvaluator/pull/720",
+      "title": "perf(embedding): skip provider calls when queries have no candidates",
+      "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/720",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "7637e1f614d6c64351c8aa47a05f549c7157a0b2",
       "base_branch": "main",
-      "base_repository_id": 1437869585,
-      "merged_date": "2026-11-18"
+      "base_repository_id": 1278676884,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "NVIDIA/SkillEvaluator",
+      "number": 721,
+      "url": "https://github.com/NVIDIA/SkillEvaluator/pull/721",
+      "title": "perf(tier3): reuse bootstrap means for constant case deltas",
+      "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/721",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "75380edf7c85ce9f629a30acd62120f20a80a5ed",
+      "base_branch": "main",
+      "base_repository_id": 1278676884,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "NVIDIA/SkillEvaluator",
+      "number": 733,
+      "url": "https://github.com/NVIDIA/SkillEvaluator/pull/733",
+      "title": "perf(tier3): index Claude tool results by call ID",
+      "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/733",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "f7c174ea460a0ff1493f78b2af3a4430f9bdef90",
+      "base_branch": "main",
+      "base_repository_id": 1278676884,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "alibaba/open-code-review",
+      "number": 1967,
+      "url": "https://github.com/alibaba/open-code-review/pull/1967",
+      "title": "perf(viewer): avoid copying owned JSONL records",
+      "source_url": "https://api.github.com/repos/alibaba/open-code-review/pulls/1967",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "a74bcbbd4975eb3a92493d5eb537cf276d79b322",
+      "base_branch": "main",
+      "base_repository_id": 1241960226,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "NVIDIA/SkillEvaluator",
+      "number": 743,
+      "url": "https://github.com/NVIDIA/SkillEvaluator/pull/743",
+      "title": "fix(paths): preserve whitespace in Git repository roots",
+      "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/743",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "85f39def06ab6022ea955162ddf636b34e3f45e8",
+      "base_branch": "main",
+      "base_repository_id": 1278676884,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "NVIDIA/SkillEvaluator",
+      "number": 761,
+      "url": "https://github.com/NVIDIA/SkillEvaluator/pull/761",
+      "title": "perf(results): reconcile independent diagnostics with local indexes",
+      "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/761",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "a3bb7e91a325c92e1d2e05bcd716e1139e3624f2",
+      "base_branch": "main",
+      "base_repository_id": 1278676884,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 1995,
+      "url": "https://github.com/elalish/manifold/pull/1995",
+      "title": "Keep mirrored CSG evaluation deferred for cancellation and progress",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/1995",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "70a77e2b56360f28786cbf450e3e230485e425ba",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 1996,
+      "url": "https://github.com/elalish/manifold/pull/1996",
+      "title": "Preserve sharp normals across vertex property seams",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/1996",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "4584b01cfcc46591a4bdd93ee73cfded9fba9fb8",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 1998,
+      "url": "https://github.com/elalish/manifold/pull/1998",
+      "title": "Prune RayCast BVH traversal with conservative segment bounds",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/1998",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "1061b97fd265b5373e17de274c353b96ed790aee",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 2000,
+      "url": "https://github.com/elalish/manifold/pull/2000",
+      "title": "Reduce projection scratch allocation for finely tessellated meshes",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/2000",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "4d818a7d034fdc4dbd3b1aca0a4ed01e63a1c637",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 2002,
+      "url": "https://github.com/elalish/manifold/pull/2002",
+      "title": "Keep empty bases empty in MinkowskiDifference",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/2002",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "0dca963a0689050dde5db8f88c2f016d8557abb8",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "elalish/manifold",
+      "number": 2003,
+      "url": "https://github.com/elalish/manifold/pull/2003",
+      "title": "Propagate non-finite pending transforms through batch unions",
+      "source_url": "https://api.github.com/repos/elalish/manifold/pulls/2003",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "d506ea91a42a3712812af5ff74f580ea8491ad53",
+      "base_branch": "master",
+      "base_repository_id": 172846478,
+      "merged_date": "2026-11-19"
+    },
+    {
+      "repository": "storytold/craft-anything",
+      "number": 2163,
+      "url": "https://github.com/storytold/craft-anything/pull/2163",
+      "title": "Validate legacy SquashFS block sizes before identifying filesystems (R3.12)",
+      "source_url": "https://api.github.com/repos/storytold/craft-anything/pulls/2163",
+      "checked_date": "2026-11-19",
+      "author": "Afloat16",
+      "merged": true,
+      "merge_commit_sha": "6e11ce469f01e8c06fbffec6739d15bb3e3c03ad",
+      "base_branch": "main",
+      "base_repository_id": 1440956372,
+      "merged_date": "2026-11-19"
     }
   ],
   "repositories": [
@@ -663,7 +962,7 @@
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
         "closed-13",
-        "closed-18"
+        "closed-19"
       ],
       "prs": [
         {
@@ -1041,7 +1340,7 @@
     },
     {
       "repository": "alibaba/open-code-review",
-      "merged_pr_count": 1,
+      "merged_pr_count": 2,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
         "closed-19"
@@ -1053,6 +1352,13 @@
           "merged_date": "2026-11-17",
           "merge_commit_sha": "d30f93864e9c682d27c7fb2d03ae112dca966c32",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 1967,
+          "url": "https://github.com/alibaba/open-code-review/pull/1967",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "a74bcbbd4975eb3a92493d5eb537cf276d79b322",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         }
       ]
     },
@@ -1208,11 +1514,13 @@
     },
     {
       "repository": "Denys88/rl_games",
-      "merged_pr_count": 4,
+      "merged_pr_count": 22,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
         "closed-01",
-        "closed-02"
+        "closed-02",
+        "closed-17",
+        "closed-18"
       ],
       "prs": [
         {
@@ -1242,6 +1550,132 @@
           "merged_date": "2026-11-02",
           "merge_commit_sha": "f7e43450628c9e3eb3c9927b825b6ca3d1e0e286",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 405,
+          "url": "https://github.com/Denys88/rl_games/pull/405",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "e895a2d4e13a4c80dae06aa7a9faa356f395d695",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 406,
+          "url": "https://github.com/Denys88/rl_games/pull/406",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "3f6110cfb10a80a4b12a07a5d6b890c90f69da1d",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 407,
+          "url": "https://github.com/Denys88/rl_games/pull/407",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "95b6ec7d5aa9e341b38e47e3d2a379f7442ca2a9",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 408,
+          "url": "https://github.com/Denys88/rl_games/pull/408",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "ba0a9a439f31e4762315805de929bd395fc9682d",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 409,
+          "url": "https://github.com/Denys88/rl_games/pull/409",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "8e02b875a8259db991b607de2fcf9a5c73f8cb9c",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 410,
+          "url": "https://github.com/Denys88/rl_games/pull/410",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "294f02035eab7fd0cbf8bf69dbe5e358a6d707e0",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 411,
+          "url": "https://github.com/Denys88/rl_games/pull/411",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "87105e726849db1a7a6ad2f33e857c6030154217",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 412,
+          "url": "https://github.com/Denys88/rl_games/pull/412",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "06eb063b451b504946f32928970506a05e7443e4",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 413,
+          "url": "https://github.com/Denys88/rl_games/pull/413",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "053a0dd90869634eade07cdbcced093a91b1753e",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 414,
+          "url": "https://github.com/Denys88/rl_games/pull/414",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "bb0a950724cfc63a5a81c0d3e771be740854323e",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 416,
+          "url": "https://github.com/Denys88/rl_games/pull/416",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "ff60662fa0f7bfaf5328cb912c02131affa883cf",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 417,
+          "url": "https://github.com/Denys88/rl_games/pull/417",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "f6d9af470aeff9e149a4cea6848299f6d5c3c426",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 419,
+          "url": "https://github.com/Denys88/rl_games/pull/419",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "a82ca6198cac80783efd1c9754cf2e748baf9854",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 420,
+          "url": "https://github.com/Denys88/rl_games/pull/420",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "b90f45f202d314f7f41c23e4b91caa44daa8ed84",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 421,
+          "url": "https://github.com/Denys88/rl_games/pull/421",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "d6d211b8ba781f2c0b70cfe9e87e737ebfb9c5a9",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 422,
+          "url": "https://github.com/Denys88/rl_games/pull/422",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "5e5fbca7fc2290223177cd4010f53aff6fc13574",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 423,
+          "url": "https://github.com/Denys88/rl_games/pull/423",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "b686104f8ab3bdd9173ae3cf25ec88e204988f90",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 424,
+          "url": "https://github.com/Denys88/rl_games/pull/424",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "7884bac4d60a2be4aeb9909f0d16a7f7bbb7b455",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         }
       ]
     },
@@ -1276,7 +1710,7 @@
       "closed_search_receipts": [
         "closed-11",
         "closed-12",
-        "closed-19"
+        "closed-20"
       ],
       "prs": [
         {
@@ -1841,14 +2275,17 @@
     },
     {
       "repository": "elalish/manifold",
-      "merged_pr_count": 11,
+      "merged_pr_count": 18,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
         "closed-02",
         "closed-04",
         "closed-05",
         "closed-14",
-        "closed-18"
+        "closed-18",
+        "closed-19",
+        "closed-21",
+        "closed-22"
       ],
       "prs": [
         {
@@ -1885,6 +2322,13 @@
           "merged_date": "2026-11-18",
           "merge_commit_sha": "7d3361658ca81d5e2e723f7ad4f9de2c07101576",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 1971,
+          "url": "https://github.com/elalish/manifold/pull/1971",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "4a6e01bef00ad707dbc976b31e4728782e398f9d",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         },
         {
           "number": 1972,
@@ -1927,6 +2371,48 @@
           "merged_date": "2026-11-17",
           "merge_commit_sha": "c1978de3cd4c1171da939b5a3d6a6af207c55fc0",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 1995,
+          "url": "https://github.com/elalish/manifold/pull/1995",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "70a77e2b56360f28786cbf450e3e230485e425ba",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 1996,
+          "url": "https://github.com/elalish/manifold/pull/1996",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "4584b01cfcc46591a4bdd93ee73cfded9fba9fb8",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 1998,
+          "url": "https://github.com/elalish/manifold/pull/1998",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "1061b97fd265b5373e17de274c353b96ed790aee",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 2000,
+          "url": "https://github.com/elalish/manifold/pull/2000",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "4d818a7d034fdc4dbd3b1aca0a4ed01e63a1c637",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 2002,
+          "url": "https://github.com/elalish/manifold/pull/2002",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "0dca963a0689050dde5db8f88c2f016d8557abb8",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 2003,
+          "url": "https://github.com/elalish/manifold/pull/2003",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "d506ea91a42a3712812af5ff74f580ea8491ad53",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         }
       ]
     },
@@ -2494,7 +2980,7 @@
       "merged_pr_count": 5,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
-        "closed-20"
+        "closed-21"
       ],
       "prs": [
         {
@@ -2502,35 +2988,35 @@
           "url": "https://github.com/jingyaogong/minimind/pull/905",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "2794acc34bad2744958793a8563a5db2b9a6e92c",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 907,
           "url": "https://github.com/jingyaogong/minimind/pull/907",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "2bbf372bfea211ea5c69a1693027361107148522",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 909,
           "url": "https://github.com/jingyaogong/minimind/pull/909",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "5d8981e82f227c9d7f5263c7788cfd087add450e",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 912,
           "url": "https://github.com/jingyaogong/minimind/pull/912",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "eaa4b87f67e7349a04aafbed2888246e1d073178",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 919,
           "url": "https://github.com/jingyaogong/minimind/pull/919",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "9f05da1c3d3b4e5dc9257a525bf19e99acee401b",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         }
       ]
     },
@@ -2542,7 +3028,6 @@
         "closed-01",
         "closed-04",
         "closed-05",
-        "closed-13",
         "closed-14"
       ],
       "prs": [
@@ -2798,7 +3283,7 @@
       "merged_pr_count": 1,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
-        "closed-20"
+        "closed-21"
       ],
       "prs": [
         {
@@ -2806,7 +3291,7 @@
           "url": "https://github.com/mdiri-ai/SoduWork/pull/457",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "719202b7a4e0d36745a48ebd99ad165b13cdcc01",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         }
       ]
     },
@@ -2878,9 +3363,8 @@
         "closed-15",
         "closed-16",
         "closed-17",
-        "closed-18",
         "closed-19",
-        "closed-20"
+        "closed-21"
       ],
       "prs": [
         {
@@ -3872,18 +4356,47 @@
     },
     {
       "repository": "NVIDIA/SkillEvaluator",
-      "merged_pr_count": 4,
+      "merged_pr_count": 9,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
-        "closed-19"
+        "closed-19",
+        "closed-20"
       ],
       "prs": [
+        {
+          "number": 720,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/720",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "7637e1f614d6c64351c8aa47a05f549c7157a0b2",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 721,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/721",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "75380edf7c85ce9f629a30acd62120f20a80a5ed",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
         {
           "number": 725,
           "url": "https://github.com/NVIDIA/SkillEvaluator/pull/725",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "e3ede733f4d57578a1630b0579ea236b8cf8a727",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 733,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/733",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "f7c174ea460a0ff1493f78b2af3a4430f9bdef90",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        },
+        {
+          "number": 743,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/743",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "85f39def06ab6022ea955162ddf636b34e3f45e8",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         },
         {
           "number": 746,
@@ -3905,6 +4418,13 @@
           "merged_date": "2026-11-18",
           "merge_commit_sha": "6e85d9b9129e39bc0298c9e08af5c24c6fa5402c",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 761,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/761",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "a3bb7e91a325c92e1d2e05bcd716e1139e3624f2",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         }
       ]
     },
@@ -4038,7 +4558,7 @@
           "url": "https://github.com/petercorke/robotics-toolbox-python/pull/925",
           "merged_date": "2026-11-19",
           "merge_commit_sha": "f307d7b3209c2249f00b87c8e17f203824fdce9f",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 926,
@@ -4052,14 +4572,14 @@
           "url": "https://github.com/petercorke/robotics-toolbox-python/pull/927",
           "merged_date": "2026-11-19",
           "merge_commit_sha": "f11e339a2993adc89e650258bc00ce6eb9001dad",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 928,
           "url": "https://github.com/petercorke/robotics-toolbox-python/pull/928",
           "merged_date": "2026-11-19",
           "merge_commit_sha": "f3ddf9237559d76869eeacb5d095ba337d7bd65d",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 929,
@@ -4080,7 +4600,7 @@
           "url": "https://github.com/petercorke/robotics-toolbox-python/pull/931",
           "merged_date": "2026-11-19",
           "merge_commit_sha": "bceb42c18877840280037539dac036f21d4fefe5",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 932,
@@ -4137,8 +4657,9 @@
       "closed_search_receipts": [
         "closed-14",
         "closed-17",
-        "closed-18",
-        "closed-20"
+        "closed-19",
+        "closed-20",
+        "closed-21"
       ],
       "prs": [
         {
@@ -4300,7 +4821,7 @@
           "url": "https://github.com/QwenLM/qwen-code/pull/17576",
           "merged_date": "2026-11-19",
           "merge_commit_sha": "27eda3b22fc90016f5239a8350a9c039feecf1bf",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 17577,
@@ -4314,7 +4835,7 @@
           "url": "https://github.com/QwenLM/qwen-code/pull/17578",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "2ab6571a329890fcb348f63d03411ddf110bd181",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 17579,
@@ -4328,21 +4849,21 @@
           "url": "https://github.com/QwenLM/qwen-code/pull/17580",
           "merged_date": "2026-11-19",
           "merge_commit_sha": "e8984cfede163f279cd1cea8670f0d2293995882",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 17581,
           "url": "https://github.com/QwenLM/qwen-code/pull/17581",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "d83fa2154e648fa6b2e209a2dfceddc786857bac",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         },
         {
           "number": 17688,
           "url": "https://github.com/QwenLM/qwen-code/pull/17688",
           "merged_date": "2026-11-18",
           "merge_commit_sha": "a3918be98c2e32366fe6ff1bbc5df3b660bfd419",
-          "verification_status": "direct_pr_metadata_and_closed_search"
+          "verification_status": "closed_search_merged_at_reverified"
         }
       ]
     },
@@ -4353,7 +4874,6 @@
       "closed_search_receipts": [
         "closed-06",
         "closed-10",
-        "closed-13",
         "closed-14",
         "closed-15",
         "closed-16",
@@ -4970,6 +5490,7 @@
         "closed-11",
         "closed-12",
         "closed-13",
+        "closed-14",
         "closed-17",
         "closed-18"
       ],
@@ -5404,6 +5925,23 @@
       ]
     },
     {
+      "repository": "simplexai-labs/linger",
+      "merged_pr_count": 1,
+      "historically_verified_unavailable_pr_count": 0,
+      "closed_search_receipts": [
+        "closed-22"
+      ],
+      "prs": [
+        {
+          "number": 272,
+          "url": "https://github.com/simplexai-labs/linger/pull/272",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "3fe700d4cdd54f854ff7b06180e01d21b3121a53",
+          "verification_status": "direct_pr_metadata_and_closed_search"
+        }
+      ]
+    },
+    {
       "repository": "stephane-caron/qpmpc",
       "merged_pr_count": 3,
       "historically_verified_unavailable_pr_count": 0,
@@ -5436,7 +5974,7 @@
     },
     {
       "repository": "storytold/craft-anything",
-      "merged_pr_count": 246,
+      "merged_pr_count": 247,
       "historically_verified_unavailable_pr_count": 0,
       "closed_search_receipts": [
         "closed-03",
@@ -5449,7 +5987,8 @@
         "closed-10",
         "closed-11",
         "closed-12",
-        "closed-13"
+        "closed-13",
+        "closed-22"
       ],
       "prs": [
         {
@@ -7173,6 +7712,13 @@
           "merged_date": "2026-11-11",
           "merge_commit_sha": "3a9ad9c6c5de05701d423b8c7e9cc37b550a7170",
           "verification_status": "closed_search_merged_at_reverified"
+        },
+        {
+          "number": 2163,
+          "url": "https://github.com/storytold/craft-anything/pull/2163",
+          "merged_date": "2026-11-19",
+          "merge_commit_sha": "6e11ce469f01e8c06fbffec6739d15bb3e3c03ad",
+          "verification_status": "direct_pr_metadata_and_closed_search"
         }
       ]
     },
@@ -7212,7 +7758,6 @@
         "closed-14",
         "closed-15",
         "closed-16",
-        "closed-18",
         "closed-19"
       ],
       "prs": [
