@@ -2,7 +2,7 @@
 
 Updated **2026-11-20**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were refreshed for all 16. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-20.json).
 
-The existing project-card layout, descriptions and order are preserved. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published normal releases were rechecked; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
+The existing project-card layout, descriptions and order are preserved. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published release versions retain their prior verification evidence; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
 
 ## Project metrics
 
@@ -27,7 +27,7 @@ The existing project-card layout, descriptions and order are preserved. AI-Memor
 
 Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All selected software heads match the pinned previous histories.
 
-The software projects total **24 stars, 1 fork and 1,191 reachable default-branch commits**. The profile repository had **58 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-20.json).
+The software projects total **24 stars, 1 fork and 1,191 reachable default-branch commits**. The profile repository had **59 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-20.json).
 
 ## What the projects do
 

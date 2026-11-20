@@ -2,67 +2,24 @@
   "snapshot_date": "2026-11-20",
   "timezone": "Asia/Shanghai",
   "user": "Afloat16",
-  "scope": "All 54 recorded accepted upstream repositories, including adopted-only TD-MPC2 and newly merged google-deepmind/mujoco; Genesis-Embodied-AI is excluded.",
-  "baseline_source": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+  "scope": "All 54 recorded accepted upstream repositories, including adopted-only TD-MPC2; Genesis-Embodied-AI is excluded. All accessible current default-branch heads were freshly checked.",
+  "baseline_source": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
   "method": "Read current default-branch HEAD through the commits endpoint with sha omitted. Retain previously complete counts only when pinned HEAD is identical; otherwise enumerate author=Afloat16 commits at the newly pinned SHA until a terminal page with fewer than 100 entries and deduplicate SHA. All returned author logins were Afloat16. Includes authored merge commits, distinct from Contributors graph counts and merged PRs.",
   "summary": {
     "repository_count": 54,
-    "baseline_total": 1601,
+    "baseline_total": 1654,
     "default_branch_author_commit_total": 1654,
     "currently_revalidated_author_commit_total": 1650,
     "historically_verified_unavailable_author_commit_total": 4,
-    "exact_unchanged_heads": 28,
-    "fully_enumerated_changed_heads": 24,
-    "fully_enumerated_new_repositories": 1,
+    "exact_unchanged_heads": 46,
+    "fully_enumerated_changed_heads": 7,
+    "fully_enumerated_new_repositories": 0,
     "unavailable_repositories": [
       "microsoft/onnxruntime"
     ],
-    "enumeration_pages": 34,
+    "enumeration_pages": 9,
     "duplicate_repositories": [],
-    "deltas": [
-      {
-        "repository": "affaan-m/ECC",
-        "previous": 21,
-        "current": 45,
-        "delta": 24
-      },
-      {
-        "repository": "storytold/craft-anything",
-        "previous": 248,
-        "current": 251,
-        "delta": 3
-      },
-      {
-        "repository": "kornia/kornia",
-        "previous": 7,
-        "current": 10,
-        "delta": 3
-      },
-      {
-        "repository": "NVIDIA/SkillEvaluator",
-        "previous": 9,
-        "current": 15,
-        "delta": 6
-      },
-      {
-        "repository": "elalish/manifold",
-        "previous": 18,
-        "current": 21,
-        "delta": 3
-      },
-      {
-        "repository": "simplexai-labs/linger",
-        "previous": 1,
-        "current": 14,
-        "delta": 13
-      },
-      {
-        "repository": "google-deepmind/mujoco",
-        "previous": 0,
-        "current": 1,
-        "delta": 1
-      }
-    ]
+    "deltas": []
   },
   "repository_aliases": [],
   "repositories": [
@@ -70,24 +27,24 @@
       "repository": "morluto/rea",
       "canonical_repository": "morluto/rea",
       "default_branch": "main",
-      "head_sha": "ddd31b028948b97918468107727c7ba4bfaf53d8",
+      "head_sha": "34f3682afd2458b4394375512c73fa19feb4d37c",
       "head_source_url": "https://api.github.com/repos/morluto/rea/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "b74b314fbddffadb731d7cff43ea214f7808133d",
+      "previous_head_sha": "ddd31b028948b97918468107727c7ba4bfaf53d8",
       "previous_count": 6,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 6,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/morluto/rea/commits?sha=ddd31b028948b97918468107727c7ba4bfaf53d8&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/morluto/rea/commits?sha=34f3682afd2458b4394375512c73fa19feb4d37c&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "morluto/rea",
           "page": 1,
-          "url": "https://api.github.com/repos/morluto/rea/commits?sha=ddd31b028948b97918468107727c7ba4bfaf53d8&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/morluto/rea/commits?sha=34f3682afd2458b4394375512c73fa19feb4d37c&author=Afloat16&per_page=100&page=1",
           "returned": 6,
           "author_login_counts": {
             "Afloat16": 6
@@ -102,7 +59,8 @@
         "82e4e032dfe97b7912cebc2812e1e9fc41c1eb33",
         "c012015ae812242eebac2527f819a458cb35aa8c"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "affaan-m/ECC",
@@ -111,15 +69,15 @@
       "head_sha": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
       "head_source_url": "https://api.github.com/repos/affaan-m/ECC/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7",
-      "previous_count": 21,
-      "head_unchanged": false,
+      "previous_head_sha": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
+      "previous_count": 45,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 45,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/affaan-m/ECC/commits?sha=4adeee6732a12d1540f49a4d50a38ce8c97f9a53&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -179,7 +137,8 @@
         "ca422f3c195f000a9a3bc15a45e697fa2ce33a87",
         "08bf8e18f7a46f8c960812d243201f00116c2a4e"
       ],
-      "merge_commit_count": 1
+      "merge_commit_count": 1,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "thedotmack/claude-mem",
@@ -188,15 +147,15 @@
       "head_sha": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
       "head_source_url": "https://api.github.com/repos/thedotmack/claude-mem/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "c62467ca301c85e809f2f40809b862c23cf47c1a",
+      "previous_head_sha": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
       "previous_count": 451,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 451,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/thedotmack/claude-mem/commits?sha=c0f37d60b2e4860851575e3cbb003f23fc340d4e&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -698,30 +657,31 @@
         "4f6ea0653275e67d1b304632ccb85c2521b83b49",
         "6ed60fbcb220aa43f571f190396ec535d5e6ec94"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "vllm-project/vllm",
       "canonical_repository": "vllm-project/vllm",
       "default_branch": "main",
-      "head_sha": "12924016eb8dbaae87d5163a1b7ec2614a44a797",
+      "head_sha": "898a7c68c2d1e869ebde2ce25ffbfc1e253bf0b4",
       "head_source_url": "https://api.github.com/repos/vllm-project/vllm/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "b4853f2f4953a9f3a2d7ce10fe7c540246382326",
+      "previous_head_sha": "12924016eb8dbaae87d5163a1b7ec2614a44a797",
       "previous_count": 1,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/vllm-project/vllm/commits?sha=12924016eb8dbaae87d5163a1b7ec2614a44a797&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/vllm-project/vllm/commits?sha=898a7c68c2d1e869ebde2ce25ffbfc1e253bf0b4&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "vllm-project/vllm",
           "page": 1,
-          "url": "https://api.github.com/repos/vllm-project/vllm/commits?sha=12924016eb8dbaae87d5163a1b7ec2614a44a797&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/vllm-project/vllm/commits?sha=898a7c68c2d1e869ebde2ce25ffbfc1e253bf0b4&author=Afloat16&per_page=100&page=1",
           "returned": 1,
           "author_login_counts": {
             "Afloat16": 1
@@ -731,7 +691,8 @@
       "commit_shas": [
         "cf8fce503c326d68fce5a531a43aec25da132bb5"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "jingyaogong/minimind",
@@ -745,13 +706,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 5,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/jingyaogong/minimind/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "alibaba/open-code-review",
@@ -765,10 +727,10 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 2,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/alibaba/open-code-review/commits?per_page=1&page=1",
       "page_evidence": [
         {
@@ -787,7 +749,8 @@
       ],
       "merge_commit_count": 0,
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "zhaoxuya520/reverse-skill",
@@ -801,36 +764,37 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 10,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/zhaoxuya520/reverse-skill/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "storytold/craft-anything",
       "canonical_repository": "storytold/craft-anything",
       "default_branch": "main",
-      "head_sha": "ee72e20d4a271453d1b2e460711209c38aada52e",
+      "head_sha": "1ec0a37db95545224c71d89d5605548db5140647",
       "head_source_url": "https://api.github.com/repos/storytold/craft-anything/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "6e11ce469f01e8c06fbffec6739d15bb3e3c03ad",
-      "previous_count": 248,
+      "previous_head_sha": "ee72e20d4a271453d1b2e460711209c38aada52e",
+      "previous_count": 251,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 251,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=ee72e20d4a271453d1b2e460711209c38aada52e&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=1ec0a37db95545224c71d89d5605548db5140647&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "storytold/craft-anything",
           "page": 1,
-          "url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=ee72e20d4a271453d1b2e460711209c38aada52e&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=1ec0a37db95545224c71d89d5605548db5140647&author=Afloat16&per_page=100&page=1",
           "returned": 100,
           "author_login_counts": {
             "Afloat16": 100
@@ -839,7 +803,7 @@
         {
           "repository": "storytold/craft-anything",
           "page": 2,
-          "url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=ee72e20d4a271453d1b2e460711209c38aada52e&author=Afloat16&per_page=100&page=2",
+          "url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=1ec0a37db95545224c71d89d5605548db5140647&author=Afloat16&per_page=100&page=2",
           "returned": 100,
           "author_login_counts": {
             "Afloat16": 100
@@ -848,7 +812,7 @@
         {
           "repository": "storytold/craft-anything",
           "page": 3,
-          "url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=ee72e20d4a271453d1b2e460711209c38aada52e&author=Afloat16&per_page=100&page=3",
+          "url": "https://api.github.com/repos/storytold/craft-anything/commits?sha=1ec0a37db95545224c71d89d5605548db5140647&author=Afloat16&per_page=100&page=3",
           "returned": 51,
           "author_login_counts": {
             "Afloat16": 51
@@ -1108,30 +1072,31 @@
         "0ce375bcba193266450feacd95c13d9b675e7dad",
         "d8314238aeb2df816c3d29da2f135fb3d370b0b1"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "QwenLM/qwen-code",
       "canonical_repository": "QwenLM/qwen-code",
       "default_branch": "main",
-      "head_sha": "ca7fa5eae76bbcd62607ed3cb1eed69564d42cd7",
+      "head_sha": "58a8dcdfd1cd1ed7800b68cdb9d933721d2e1bb7",
       "head_source_url": "https://api.github.com/repos/QwenLM/qwen-code/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "036f306eee6d65b2b21a47d67d6313ef660f6000",
+      "previous_head_sha": "ca7fa5eae76bbcd62607ed3cb1eed69564d42cd7",
       "previous_count": 29,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 29,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/commits?sha=ca7fa5eae76bbcd62607ed3cb1eed69564d42cd7&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/QwenLM/qwen-code/commits?sha=58a8dcdfd1cd1ed7800b68cdb9d933721d2e1bb7&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "QwenLM/qwen-code",
           "page": 1,
-          "url": "https://api.github.com/repos/QwenLM/qwen-code/commits?sha=ca7fa5eae76bbcd62607ed3cb1eed69564d42cd7&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/QwenLM/qwen-code/commits?sha=58a8dcdfd1cd1ed7800b68cdb9d933721d2e1bb7&author=Afloat16&per_page=100&page=1",
           "returned": 29,
           "author_login_counts": {
             "Afloat16": 29
@@ -1169,7 +1134,8 @@
         "ed8271748b475e821f9025eed4d96017933ac6be",
         "8937085373c7900fb6bd1305be21db3f68ad1dcb"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "AgriciDaniel/claude-seo",
@@ -1183,13 +1149,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 34,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "huggingface/lerobot",
@@ -1198,15 +1165,15 @@
       "head_sha": "83883ae60a8e1682552b6853e4170c74d83a4525",
       "head_source_url": "https://api.github.com/repos/huggingface/lerobot/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "8ec1a474da5f3f90a670d9343386995ec9f81264",
+      "previous_head_sha": "83883ae60a8e1682552b6853e4170c74d83a4525",
       "previous_count": 2,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 2,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/huggingface/lerobot/commits?sha=83883ae60a8e1682552b6853e4170c74d83a4525&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1223,7 +1190,8 @@
         "866dc27e0a077373f4712214231880f9a61887d2",
         "f9e9d739ea7055b282ea1b165e8785412a674693"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "deepset-ai/haystack",
@@ -1232,15 +1200,15 @@
       "head_sha": "65fc36abbe59f40f46002476df84f326c91601af",
       "head_source_url": "https://api.github.com/repos/deepset-ai/haystack/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "8241370703292a94b032a37763763e49105b9154",
+      "previous_head_sha": "65fc36abbe59f40f46002476df84f326c91601af",
       "previous_count": 1,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/deepset-ai/haystack/commits?sha=65fc36abbe59f40f46002476df84f326c91601af&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1256,7 +1224,8 @@
       "commit_shas": [
         "34ab69146ed9f32688144d2b5a5ff0e81acbf372"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "milind-soni/OpenMausBot",
@@ -1265,15 +1234,15 @@
       "head_sha": "ecabd15caa08f674877e155d03c553c30a35a63b",
       "head_source_url": "https://api.github.com/repos/milind-soni/OpenMausBot/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "8fa16ef69b72430f5895696271a641467e015ca8",
+      "previous_head_sha": "ecabd15caa08f674877e155d03c553c30a35a63b",
       "previous_count": 168,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 168,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/milind-soni/OpenMausBot/commits?sha=ecabd15caa08f674877e155d03c553c30a35a63b&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1465,7 +1434,8 @@
         "1872e9fa09e81ec84946b7507df585a27a89a9fa",
         "ba3c2b7c65b1f6d1a10d4a56aa173a4a94e685f7"
       ],
-      "merge_commit_count": 1
+      "merge_commit_count": 1,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "serengil/deepface",
@@ -1479,13 +1449,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 61,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/serengil/deepface/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "microsoft/onnxruntime",
@@ -1497,10 +1468,10 @@
       "head_sha": "5e289356eff2c1c66e83696a7b119f388230d5af",
       "head_source_url": "https://api.github.com/repos/microsoft/onnxruntime/commits?per_page=1&page=1",
       "head_status": "unavailable_404",
-      "verification": "historically_verified_unavailable",
+      "verification": "retained_historical_evidence_repository_unavailable",
       "complete": false,
       "historical_complete": true,
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "error": {
         "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/commits/commits#list-commits\",\"status\":\"404\"}",
         "error_code": "NOT_FOUND",
@@ -1511,8 +1482,19 @@
         }
       },
       "note": "Current metadata and default-branch HEAD requests returned 404; preserve four historical authored commits without claiming current revalidation.",
-      "status": "historically_verified_unavailable",
-      "metadata_error_source_url": "https://api.github.com/repos/microsoft/onnxruntime"
+      "status": "historically_verified_currently_unavailable_404",
+      "metadata_error_source_url": "https://api.github.com/repos/microsoft/onnxruntime",
+      "previous_head_sha": "5e289356eff2c1c66e83696a7b119f388230d5af",
+      "current_error": {
+        "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/commits/commits#list-commits\",\"status\":\"404\"}",
+        "error_code": "NOT_FOUND",
+        "error_data": {
+          "message": "Not Found",
+          "documentation_url": "https://docs.github.com/rest/commits/commits#list-commits",
+          "status": "404"
+        }
+      },
+      "current_source_url": "https://api.github.com/repos/microsoft/onnxruntime/commits?per_page=1&page=1"
     },
     {
       "repository": "recommenders-team/recommenders",
@@ -1526,13 +1508,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 6,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/recommenders-team/recommenders/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "huggingface/sentence-transformers",
@@ -1541,15 +1524,15 @@
       "head_sha": "745b17918cf7b03c2747aa045be3d93a9ef16842",
       "head_source_url": "https://api.github.com/repos/huggingface/sentence-transformers/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "4c9cdf73c8759bde17e97f6dd18e1cdf70cd9908",
+      "previous_head_sha": "745b17918cf7b03c2747aa045be3d93a9ef16842",
       "previous_count": 6,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 6,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/huggingface/sentence-transformers/commits?sha=745b17918cf7b03c2747aa045be3d93a9ef16842&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1570,7 +1553,8 @@
         "abd266f29c7135e7ab9ccd3a41dfa74456b40c20",
         "847abf6e6f2187159d699c0001af2bb1f65e1f18"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "Unstructured-IO/unstructured",
@@ -1579,15 +1563,15 @@
       "head_sha": "1ab3be89b689fbe91a2152b720908b7edb143945",
       "head_source_url": "https://api.github.com/repos/Unstructured-IO/unstructured/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "52735431453043da0f3225b1fdd3d20b15c71b91",
+      "previous_head_sha": "1ab3be89b689fbe91a2152b720908b7edb143945",
       "previous_count": 9,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 9,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/Unstructured-IO/unstructured/commits?sha=1ab3be89b689fbe91a2152b720908b7edb143945&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1611,7 +1595,8 @@
         "c47ef65e827f2b3d80a4bf246909d029dc8b4fe8",
         "5df7ea22dda26b8efa3ef6ea24153f7351bf3f00"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "carla-simulator/carla",
@@ -1620,15 +1605,15 @@
       "head_sha": "472a239798394e966c1073052ffb50869c190838",
       "head_source_url": "https://api.github.com/repos/carla-simulator/carla/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "c278223cb35b12efb0a154d61afa3aa074cda24d",
+      "previous_head_sha": "472a239798394e966c1073052ffb50869c190838",
       "previous_count": 5,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 5,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/carla-simulator/carla/commits?sha=472a239798394e966c1073052ffb50869c190838&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1648,7 +1633,8 @@
         "25aaca94698b22f66de23610006348e91dcfbed2",
         "2692f389acfd6d0b248d7ecc3e8e7adb0846fa05"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "colmap/colmap",
@@ -1662,13 +1648,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 5,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/colmap/colmap/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "kornia/kornia",
@@ -1677,15 +1664,15 @@
       "head_sha": "7ecfbb392285e03f73b4dd4cce62fc3fb8349c33",
       "head_source_url": "https://api.github.com/repos/kornia/kornia/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "9a311912c0579ed010face500a26dca5360453b0",
-      "previous_count": 7,
-      "head_unchanged": false,
+      "previous_head_sha": "7ecfbb392285e03f73b4dd4cce62fc3fb8349c33",
+      "previous_count": 10,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 10,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/kornia/kornia/commits?sha=7ecfbb392285e03f73b4dd4cce62fc3fb8349c33&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1710,7 +1697,8 @@
         "e47d6eff2c7ae3ee84adf4437d1500198e62754d",
         "e753cc4609d961e5b59cbaefc7f810d58cb7f205"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "Edge0-AI/Edge0",
@@ -1719,15 +1707,15 @@
       "head_sha": "8a2eb4d4439e7efa6ba1b1c634d1350d2569ebf9",
       "head_source_url": "https://api.github.com/repos/Edge0-AI/Edge0/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "17bb0e99fa1c040f3f7d23e9f6b435922c82d973",
+      "previous_head_sha": "8a2eb4d4439e7efa6ba1b1c634d1350d2569ebf9",
       "previous_count": 12,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 12,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/Edge0-AI/Edge0/commits?sha=8a2eb4d4439e7efa6ba1b1c634d1350d2569ebf9&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1754,7 +1742,8 @@
         "b5695f14bf76a1ee709a441e1492d05b98e5ae6f",
         "0206068fae2b70a0963bc8e32aeacfa46edd3c4d"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "betaflight/betaflight",
@@ -1763,15 +1752,15 @@
       "head_sha": "83eb9ac5317bc01e0ddfe98bfd0dfbbcbda98933",
       "head_source_url": "https://api.github.com/repos/betaflight/betaflight/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "7a2d7fcdf119e3ac89f9f7a62b8c03963913e56b",
+      "previous_head_sha": "83eb9ac5317bc01e0ddfe98bfd0dfbbcbda98933",
       "previous_count": 1,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/betaflight/betaflight/commits?sha=83eb9ac5317bc01e0ddfe98bfd0dfbbcbda98933&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1787,7 +1776,8 @@
       "commit_shas": [
         "4893afe183dad054b241ced09b63885bc5ef1e70"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "lucidrains/denoising-diffusion-pytorch",
@@ -1801,13 +1791,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "tile-ai/tilelang",
@@ -1816,15 +1807,15 @@
       "head_sha": "4ed9b9edb5c9a1e05f52b3bd45e7116fea7ec9ab",
       "head_source_url": "https://api.github.com/repos/tile-ai/tilelang/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "b1367a59ce10ae4939d26821f4ed8a82457fb004",
+      "previous_head_sha": "4ed9b9edb5c9a1e05f52b3bd45e7116fea7ec9ab",
       "previous_count": 1,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/tile-ai/tilelang/commits?sha=4ed9b9edb5c9a1e05f52b3bd45e7116fea7ec9ab&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -1840,7 +1831,8 @@
       "commit_shas": [
         "004b7a2a6908d6a7f20bc140db0e4074316b2ad8"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "huami1314/GestaltX",
@@ -1854,13 +1846,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 53,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/huami1314/GestaltX/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "JetBrains/thinkrail",
@@ -1874,13 +1867,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 4,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/JetBrains/thinkrail/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "ranxianglei/billion-context",
@@ -1889,15 +1883,15 @@
       "head_sha": "6453feeeb842bd1e471d875bf00287e5036a96c7",
       "head_source_url": "https://api.github.com/repos/ranxianglei/billion-context/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "04ecbb42dd38543e9c407bd40eb773ae5ec8b60b",
+      "previous_head_sha": "6453feeeb842bd1e471d875bf00287e5036a96c7",
       "previous_count": 223,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 223,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/ranxianglei/billion-context/commits?sha=6453feeeb842bd1e471d875bf00287e5036a96c7&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -2153,7 +2147,8 @@
         "95f4d874bab1077eb6e8b049a1d00199896a0dfa",
         "d90c2b6320e58f4b9b7c42d4b22a77d503aa511f"
       ],
-      "merge_commit_count": 45
+      "merge_commit_count": 45,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "openMVG/openMVG",
@@ -2167,13 +2162,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/openMVG/openMVG/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "KevinMusgrave/pytorch-metric-learning",
@@ -2187,13 +2183,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 21,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "Eigenwise/atomic-agents",
@@ -2207,13 +2204,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 68,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/Eigenwise/atomic-agents/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "rasbt/mlxtend",
@@ -2227,13 +2225,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/rasbt/mlxtend/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "NVIDIA/SkillEvaluator",
@@ -2242,15 +2241,15 @@
       "head_sha": "f867b7f311c74ae22ac4fe8b230ee6fca501242e",
       "head_source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "85f39def06ab6022ea955162ddf636b34e3f45e8",
-      "previous_count": 9,
-      "head_unchanged": false,
+      "previous_head_sha": "f867b7f311c74ae22ac4fe8b230ee6fca501242e",
+      "previous_count": 15,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 15,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/commits?sha=f867b7f311c74ae22ac4fe8b230ee6fca501242e&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -2280,7 +2279,8 @@
         "47a6738a91d705e6e2352574acf8e2ba02ba8a7e",
         "6e85d9b9129e39bc0298c9e08af5c24c6fa5402c"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "mikedh/trimesh",
@@ -2294,13 +2294,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/mikedh/trimesh/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "petercorke/robotics-toolbox-python",
@@ -2314,36 +2315,37 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 22,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "mdiri-ai/SoduWork",
       "canonical_repository": "mdiri-ai/SoduWork",
       "default_branch": "main",
-      "head_sha": "7e2ef174299df6dee0b8ce5743551514da7fd3da",
+      "head_sha": "abb78cc928ad0e381dd8410a41817c9476c78860",
       "head_source_url": "https://api.github.com/repos/mdiri-ai/SoduWork/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "5f79de934c260e8f369c2c8958035380f841ad0d",
+      "previous_head_sha": "7e2ef174299df6dee0b8ce5743551514da7fd3da",
       "previous_count": 2,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 2,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/mdiri-ai/SoduWork/commits?sha=7e2ef174299df6dee0b8ce5743551514da7fd3da&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/mdiri-ai/SoduWork/commits?sha=abb78cc928ad0e381dd8410a41817c9476c78860&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "mdiri-ai/SoduWork",
           "page": 1,
-          "url": "https://api.github.com/repos/mdiri-ai/SoduWork/commits?sha=7e2ef174299df6dee0b8ce5743551514da7fd3da&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/mdiri-ai/SoduWork/commits?sha=abb78cc928ad0e381dd8410a41817c9476c78860&author=Afloat16&per_page=100&page=1",
           "returned": 2,
           "author_login_counts": {
             "Afloat16": 2
@@ -2354,7 +2356,8 @@
         "4ef8c8dde92c081a6a47540c0fc049e3e5f6fe01",
         "6497ce8438bc21792cf616ca9f3ae9ec891ecede"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "leggedrobotics/rsl_rl",
@@ -2368,13 +2371,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 3,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "elalish/manifold",
@@ -2383,15 +2387,15 @@
       "head_sha": "08723c1b9f72225d1b63037f8a95e48387661b14",
       "head_source_url": "https://api.github.com/repos/elalish/manifold/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "70a77e2b56360f28786cbf450e3e230485e425ba",
-      "previous_count": 18,
-      "head_unchanged": false,
+      "previous_head_sha": "08723c1b9f72225d1b63037f8a95e48387661b14",
+      "previous_count": 21,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 21,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/elalish/manifold/commits?sha=08723c1b9f72225d1b63037f8a95e48387661b14&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -2427,30 +2431,31 @@
         "20a8c5e24ac6c5c56a161cf0f00be78103248b0d",
         "067016c567caf8ed53020b6c06a31aaa820a7d87"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "agentes-chat/agentes-chat",
       "canonical_repository": "agentes-chat/agentes-chat",
       "default_branch": "main",
-      "head_sha": "ffd39e1ac1f7b04de1aea4d7f144e654f33cbf63",
+      "head_sha": "c66d1a295092fe94a5601a949c138f66b23b5709",
       "head_source_url": "https://api.github.com/repos/agentes-chat/agentes-chat/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "df4b9610c15491fd320ddb576f3a2fc5f2a8808f",
+      "previous_head_sha": "ffd39e1ac1f7b04de1aea4d7f144e654f33cbf63",
       "previous_count": 6,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 6,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/agentes-chat/agentes-chat/commits?sha=ffd39e1ac1f7b04de1aea4d7f144e654f33cbf63&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/agentes-chat/agentes-chat/commits?sha=c66d1a295092fe94a5601a949c138f66b23b5709&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "agentes-chat/agentes-chat",
           "page": 1,
-          "url": "https://api.github.com/repos/agentes-chat/agentes-chat/commits?sha=ffd39e1ac1f7b04de1aea4d7f144e654f33cbf63&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/agentes-chat/agentes-chat/commits?sha=c66d1a295092fe94a5601a949c138f66b23b5709&author=Afloat16&per_page=100&page=1",
           "returned": 6,
           "author_login_counts": {
             "Afloat16": 6
@@ -2465,7 +2470,8 @@
         "c3bf1f652c8adf52d5c1793a7ea1681455d97d4d",
         "7b3114c2e8e5652c76cd9a1323271df025c6073c"
       ],
-      "merge_commit_count": 1
+      "merge_commit_count": 1,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "pypose/pypose",
@@ -2479,13 +2485,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 6,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/pypose/pypose/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "geomstats/geomstats",
@@ -2494,15 +2501,15 @@
       "head_sha": "5971bcab94215a2caf54050a94b831b1cccf186d",
       "head_source_url": "https://api.github.com/repos/geomstats/geomstats/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "2d648cd782ef5507bc75b65e7fd2f2c0f75a3761",
+      "previous_head_sha": "5971bcab94215a2caf54050a94b831b1cccf186d",
       "previous_count": 4,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 4,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/geomstats/geomstats/commits?sha=5971bcab94215a2caf54050a94b831b1cccf186d&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -2521,7 +2528,8 @@
         "beba696acf5471d55fec4705e072857dd7f39d26",
         "22959f5045dc87b13ef4e57267d454e58598912e"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "Denys88/rl_games",
@@ -2535,10 +2543,10 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 23,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/Denys88/rl_games/commits?per_page=1&page=1",
       "page_evidence": [
         {
@@ -2578,7 +2586,8 @@
       ],
       "merge_commit_count": 0,
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "geoopt/geoopt",
@@ -2592,13 +2601,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 15,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/geoopt/geoopt/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "Toni-SM/skrl",
@@ -2612,13 +2622,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 5,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/Toni-SM/skrl/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "TensorBlock/awesome-mcp-servers",
@@ -2627,15 +2638,15 @@
       "head_sha": "8d1a118e7efe0084d8b691cdec12b03641630d9a",
       "head_source_url": "https://api.github.com/repos/TensorBlock/awesome-mcp-servers/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "d8d6cf696536c2400a0dadb6c3c94e977e901ee3",
+      "previous_head_sha": "8d1a118e7efe0084d8b691cdec12b03641630d9a",
       "previous_count": 1,
-      "head_unchanged": false,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/TensorBlock/awesome-mcp-servers/commits?sha=8d1a118e7efe0084d8b691cdec12b03641630d9a&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -2651,7 +2662,8 @@
       "commit_shas": [
         "bd3d9608407ae96a809307e2347e4f19faaf9521"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "nicklashansen/tdmpc2",
@@ -2665,36 +2677,37 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/nicklashansen/tdmpc2/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "simplexai-labs/linger",
       "canonical_repository": "simplexai-labs/linger",
       "default_branch": "main",
-      "head_sha": "cd0e23af6cacbca311bfe1964e11ea6c73cc7562",
+      "head_sha": "e05bc3befad5f336c423782a82cec8635b137ed4",
       "head_source_url": "https://api.github.com/repos/simplexai-labs/linger/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": "27adbd6db0a95fe176f4fa1e22e0af41d983f4e9",
-      "previous_count": 1,
+      "previous_head_sha": "cd0e23af6cacbca311bfe1964e11ea6c73cc7562",
+      "previous_count": 14,
       "head_unchanged": false,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 14,
       "complete": true,
       "verification": "complete_pinned_author_enumeration",
-      "source_url": "https://api.github.com/repos/simplexai-labs/linger/commits?sha=cd0e23af6cacbca311bfe1964e11ea6c73cc7562&author=Afloat16&per_page=100&page=1",
+      "source_url": "https://api.github.com/repos/simplexai-labs/linger/commits?sha=e05bc3befad5f336c423782a82cec8635b137ed4&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
           "repository": "simplexai-labs/linger",
           "page": 1,
-          "url": "https://api.github.com/repos/simplexai-labs/linger/commits?sha=cd0e23af6cacbca311bfe1964e11ea6c73cc7562&author=Afloat16&per_page=100&page=1",
+          "url": "https://api.github.com/repos/simplexai-labs/linger/commits?sha=e05bc3befad5f336c423782a82cec8635b137ed4&author=Afloat16&per_page=100&page=1",
           "returned": 14,
           "author_login_counts": {
             "Afloat16": 14
@@ -2717,7 +2730,8 @@
         "c6679e0c84e69f9fd2f2136842ee49c60e5c9ae3",
         "3fe700d4cdd54f854ff7b06180e01d21b3121a53"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": false
     },
     {
       "repository": "dfki-ric/pytransform3d",
@@ -2731,13 +2745,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 2,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/dfki-ric/pytransform3d/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "naver/roma",
@@ -2751,13 +2766,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 4,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/naver/roma/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "lucidrains/rectified-flow-pytorch",
@@ -2771,13 +2787,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "neka-nat/kinpy",
@@ -2791,13 +2808,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 3,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/neka-nat/kinpy/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "danijar/elements",
@@ -2811,13 +2829,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 2,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/danijar/elements/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "stephane-caron/qpmpc",
@@ -2831,13 +2850,14 @@
       "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 5,
       "complete": true,
-      "verification": "exact_pinned_head_match",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/stephane-caron/qpmpc/commits?per_page=1&page=1",
       "note": "The freshly read default-branch HEAD exactly matches the previously complete pinned inventory; count and any retained SHA/page evidence are reused from the immutable baseline.",
-      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json"
+      "enumeration_reused_from": "https://github.com/Afloat16/Afloat16/blob/96560d452f29e2ae0e005cce4eabdd1135389787/docs/author-commits-refresh-2026-11-19.json",
+      "baseline_enumeration_reused": true
     },
     {
       "repository": "google-deepmind/mujoco",
@@ -2846,15 +2866,15 @@
       "head_sha": "62f40770e525f6f005ca8251f4e8d14f7163ce4c",
       "head_source_url": "https://api.github.com/repos/google-deepmind/mujoco/commits?per_page=1&page=1",
       "head_method": "The commits endpoint with sha omitted selects the repository's current default branch.",
-      "previous_head_sha": null,
-      "previous_count": 0,
-      "head_unchanged": false,
+      "previous_head_sha": "62f40770e525f6f005ca8251f4e8d14f7163ce4c",
+      "previous_count": 1,
+      "head_unchanged": true,
       "status": "verified",
       "checked_date": "2026-11-20",
-      "baseline_source_url": null,
+      "baseline_source_url": "https://github.com/Afloat16/Afloat16/blob/641301d366b30682d5d5f547bfc08466a31a5a94/docs/author-commits-refresh-2026-11-20.json",
       "count": 1,
       "complete": true,
-      "verification": "complete_pinned_author_enumeration",
+      "verification": "exact_unchanged_head_matches_complete_baseline",
       "source_url": "https://api.github.com/repos/google-deepmind/mujoco/commits?sha=62f40770e525f6f005ca8251f4e8d14f7163ce4c&author=Afloat16&per_page=100&page=1",
       "page_evidence": [
         {
@@ -2870,7 +2890,395 @@
       "commit_shas": [
         "fa409327048cb03059ed0c8fec2d0f3e8548cefa"
       ],
-      "merge_commit_count": 0
+      "merge_commit_count": 0,
+      "baseline_enumeration_reused": true
     }
-  ]
+  ],
+  "baseline_commit": "641301d366b30682d5d5f547bfc08466a31a5a94",
+  "head_verification": {
+    "checked_date": "2026-11-20",
+    "attempted_repository_count": 54,
+    "accessible_head_count": 53,
+    "head_requests": [
+      {
+        "repository": "morluto/rea",
+        "source_url": "https://api.github.com/repos/morluto/rea/commits?per_page=1&page=1",
+        "head_sha": "34f3682afd2458b4394375512c73fa19feb4d37c",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "affaan-m/ECC",
+        "source_url": "https://api.github.com/repos/affaan-m/ECC/commits?per_page=1&page=1",
+        "head_sha": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "thedotmack/claude-mem",
+        "source_url": "https://api.github.com/repos/thedotmack/claude-mem/commits?per_page=1&page=1",
+        "head_sha": "c0f37d60b2e4860851575e3cbb003f23fc340d4e",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "vllm-project/vllm",
+        "source_url": "https://api.github.com/repos/vllm-project/vllm/commits?per_page=1&page=1",
+        "head_sha": "898a7c68c2d1e869ebde2ce25ffbfc1e253bf0b4",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "jingyaogong/minimind",
+        "source_url": "https://api.github.com/repos/jingyaogong/minimind/commits?per_page=1&page=1",
+        "head_sha": "cc9629e5f464ef46ef9411bfac916364e0a6dff1",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "alibaba/open-code-review",
+        "source_url": "https://api.github.com/repos/alibaba/open-code-review/commits?per_page=1&page=1",
+        "head_sha": "a74bcbbd4975eb3a92493d5eb537cf276d79b322",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "zhaoxuya520/reverse-skill",
+        "source_url": "https://api.github.com/repos/zhaoxuya520/reverse-skill/commits?per_page=1&page=1",
+        "head_sha": "b972ad0e90f26d8f044828f004da22a4a585da12",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "storytold/craft-anything",
+        "source_url": "https://api.github.com/repos/storytold/craft-anything/commits?per_page=1&page=1",
+        "head_sha": "1ec0a37db95545224c71d89d5605548db5140647",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "QwenLM/qwen-code",
+        "source_url": "https://api.github.com/repos/QwenLM/qwen-code/commits?per_page=1&page=1",
+        "head_sha": "58a8dcdfd1cd1ed7800b68cdb9d933721d2e1bb7",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "AgriciDaniel/claude-seo",
+        "source_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/commits?per_page=1&page=1",
+        "head_sha": "468ed5b0d9e3249394783710e54abb02837e326b",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "huggingface/lerobot",
+        "source_url": "https://api.github.com/repos/huggingface/lerobot/commits?per_page=1&page=1",
+        "head_sha": "83883ae60a8e1682552b6853e4170c74d83a4525",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "deepset-ai/haystack",
+        "source_url": "https://api.github.com/repos/deepset-ai/haystack/commits?per_page=1&page=1",
+        "head_sha": "65fc36abbe59f40f46002476df84f326c91601af",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "milind-soni/OpenMausBot",
+        "source_url": "https://api.github.com/repos/milind-soni/OpenMausBot/commits?per_page=1&page=1",
+        "head_sha": "ecabd15caa08f674877e155d03c553c30a35a63b",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "serengil/deepface",
+        "source_url": "https://api.github.com/repos/serengil/deepface/commits?per_page=1&page=1",
+        "head_sha": "c2a6fd9a2b845a958ec5d0e61d592ec7fedc0a49",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "microsoft/onnxruntime",
+        "source_url": "https://api.github.com/repos/microsoft/onnxruntime/commits?per_page=1&page=1",
+        "head_sha": null,
+        "status": "unavailable_404",
+        "head_unchanged": false
+      },
+      {
+        "repository": "recommenders-team/recommenders",
+        "source_url": "https://api.github.com/repos/recommenders-team/recommenders/commits?per_page=1&page=1",
+        "head_sha": "cc47866b0599721f8544d1cc850a5a1db091acb3",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "huggingface/sentence-transformers",
+        "source_url": "https://api.github.com/repos/huggingface/sentence-transformers/commits?per_page=1&page=1",
+        "head_sha": "745b17918cf7b03c2747aa045be3d93a9ef16842",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "Unstructured-IO/unstructured",
+        "source_url": "https://api.github.com/repos/Unstructured-IO/unstructured/commits?per_page=1&page=1",
+        "head_sha": "1ab3be89b689fbe91a2152b720908b7edb143945",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "carla-simulator/carla",
+        "source_url": "https://api.github.com/repos/carla-simulator/carla/commits?per_page=1&page=1",
+        "head_sha": "472a239798394e966c1073052ffb50869c190838",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "colmap/colmap",
+        "source_url": "https://api.github.com/repos/colmap/colmap/commits?per_page=1&page=1",
+        "head_sha": "c1b5a967736c5d4790a1d5fa5e948b33e1523de4",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "kornia/kornia",
+        "source_url": "https://api.github.com/repos/kornia/kornia/commits?per_page=1&page=1",
+        "head_sha": "7ecfbb392285e03f73b4dd4cce62fc3fb8349c33",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "Edge0-AI/Edge0",
+        "source_url": "https://api.github.com/repos/Edge0-AI/Edge0/commits?per_page=1&page=1",
+        "head_sha": "8a2eb4d4439e7efa6ba1b1c634d1350d2569ebf9",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "betaflight/betaflight",
+        "source_url": "https://api.github.com/repos/betaflight/betaflight/commits?per_page=1&page=1",
+        "head_sha": "83eb9ac5317bc01e0ddfe98bfd0dfbbcbda98933",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "lucidrains/denoising-diffusion-pytorch",
+        "source_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/commits?per_page=1&page=1",
+        "head_sha": "c8155b1dc622e3f1ef0d53dc6e5a570ca105bcec",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "tile-ai/tilelang",
+        "source_url": "https://api.github.com/repos/tile-ai/tilelang/commits?per_page=1&page=1",
+        "head_sha": "4ed9b9edb5c9a1e05f52b3bd45e7116fea7ec9ab",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "huami1314/GestaltX",
+        "source_url": "https://api.github.com/repos/huami1314/GestaltX/commits?per_page=1&page=1",
+        "head_sha": "311f78999d9f5f062f7e3b4c6374684782be5382",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "JetBrains/thinkrail",
+        "source_url": "https://api.github.com/repos/JetBrains/thinkrail/commits?per_page=1&page=1",
+        "head_sha": "e85862ddf7b3e8e5608a70c04109191f845d5442",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "ranxianglei/billion-context",
+        "source_url": "https://api.github.com/repos/ranxianglei/billion-context/commits?per_page=1&page=1",
+        "head_sha": "6453feeeb842bd1e471d875bf00287e5036a96c7",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "openMVG/openMVG",
+        "source_url": "https://api.github.com/repos/openMVG/openMVG/commits?per_page=1&page=1",
+        "head_sha": "e0162aef9a5ba6ec9f54c39ed49ea47a0e82e1db",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "KevinMusgrave/pytorch-metric-learning",
+        "source_url": "https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/commits?per_page=1&page=1",
+        "head_sha": "b95a42310f50720a766b91008470b278364f705d",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "Eigenwise/atomic-agents",
+        "source_url": "https://api.github.com/repos/Eigenwise/atomic-agents/commits?per_page=1&page=1",
+        "head_sha": "f2f17483423712cc13a4c5fd8dc10ca5deb561fe",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "rasbt/mlxtend",
+        "source_url": "https://api.github.com/repos/rasbt/mlxtend/commits?per_page=1&page=1",
+        "head_sha": "1aee767ef57b84a8191511a08955c583b65de382",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "NVIDIA/SkillEvaluator",
+        "source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/commits?per_page=1&page=1",
+        "head_sha": "f867b7f311c74ae22ac4fe8b230ee6fca501242e",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "mikedh/trimesh",
+        "source_url": "https://api.github.com/repos/mikedh/trimesh/commits?per_page=1&page=1",
+        "head_sha": "7fe4ac4405ba5af02756c2db729da6822510304c",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "petercorke/robotics-toolbox-python",
+        "source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/commits?per_page=1&page=1",
+        "head_sha": "bceb42c18877840280037539dac036f21d4fefe5",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "mdiri-ai/SoduWork",
+        "source_url": "https://api.github.com/repos/mdiri-ai/SoduWork/commits?per_page=1&page=1",
+        "head_sha": "abb78cc928ad0e381dd8410a41817c9476c78860",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "leggedrobotics/rsl_rl",
+        "source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/commits?per_page=1&page=1",
+        "head_sha": "c88d9737c1f03eb08c89a5b6acbc3e87889d7748",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "elalish/manifold",
+        "source_url": "https://api.github.com/repos/elalish/manifold/commits?per_page=1&page=1",
+        "head_sha": "08723c1b9f72225d1b63037f8a95e48387661b14",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "agentes-chat/agentes-chat",
+        "source_url": "https://api.github.com/repos/agentes-chat/agentes-chat/commits?per_page=1&page=1",
+        "head_sha": "c66d1a295092fe94a5601a949c138f66b23b5709",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "pypose/pypose",
+        "source_url": "https://api.github.com/repos/pypose/pypose/commits?per_page=1&page=1",
+        "head_sha": "298e9f0862cb228b0e8851b2616e682ccdca6a32",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "geomstats/geomstats",
+        "source_url": "https://api.github.com/repos/geomstats/geomstats/commits?per_page=1&page=1",
+        "head_sha": "5971bcab94215a2caf54050a94b831b1cccf186d",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "Denys88/rl_games",
+        "source_url": "https://api.github.com/repos/Denys88/rl_games/commits?per_page=1&page=1",
+        "head_sha": "294f02035eab7fd0cbf8bf69dbe5e358a6d707e0",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "geoopt/geoopt",
+        "source_url": "https://api.github.com/repos/geoopt/geoopt/commits?per_page=1&page=1",
+        "head_sha": "4623ea1d2a9808b8e87bf10949cccb2c5ec6233c",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "Toni-SM/skrl",
+        "source_url": "https://api.github.com/repos/Toni-SM/skrl/commits?per_page=1&page=1",
+        "head_sha": "819e8b1bcb173bec6c9d1c742278f96ab35e033d",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "TensorBlock/awesome-mcp-servers",
+        "source_url": "https://api.github.com/repos/TensorBlock/awesome-mcp-servers/commits?per_page=1&page=1",
+        "head_sha": "8d1a118e7efe0084d8b691cdec12b03641630d9a",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "nicklashansen/tdmpc2",
+        "source_url": "https://api.github.com/repos/nicklashansen/tdmpc2/commits?per_page=1&page=1",
+        "head_sha": "332f19e4aba4bffe2dc736f45ea7f7bdc585903a",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "simplexai-labs/linger",
+        "source_url": "https://api.github.com/repos/simplexai-labs/linger/commits?per_page=1&page=1",
+        "head_sha": "e05bc3befad5f336c423782a82cec8635b137ed4",
+        "status": "verified",
+        "head_unchanged": false
+      },
+      {
+        "repository": "dfki-ric/pytransform3d",
+        "source_url": "https://api.github.com/repos/dfki-ric/pytransform3d/commits?per_page=1&page=1",
+        "head_sha": "7c0fd67d939f97a44b02dc0764a07bea12bdf7b9",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "naver/roma",
+        "source_url": "https://api.github.com/repos/naver/roma/commits?per_page=1&page=1",
+        "head_sha": "2d7484bfc54d3919be04adf5de4df21853620535",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "lucidrains/rectified-flow-pytorch",
+        "source_url": "https://api.github.com/repos/lucidrains/rectified-flow-pytorch/commits?per_page=1&page=1",
+        "head_sha": "3ca498a138b4335c6e3c485d3b1c7446a7cb2ece",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "neka-nat/kinpy",
+        "source_url": "https://api.github.com/repos/neka-nat/kinpy/commits?per_page=1&page=1",
+        "head_sha": "627c3a6789242592b5ebdee8d89852cf28f01123",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "danijar/elements",
+        "source_url": "https://api.github.com/repos/danijar/elements/commits?per_page=1&page=1",
+        "head_sha": "d664f8124cd647ba77131950ed35b3faf717d291",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "stephane-caron/qpmpc",
+        "source_url": "https://api.github.com/repos/stephane-caron/qpmpc/commits?per_page=1&page=1",
+        "head_sha": "ed2f2868d7e2a449184736dc6927821873b29a61",
+        "status": "verified",
+        "head_unchanged": true
+      },
+      {
+        "repository": "google-deepmind/mujoco",
+        "source_url": "https://api.github.com/repos/google-deepmind/mujoco/commits?per_page=1&page=1",
+        "head_sha": "62f40770e525f6f005ca8251f4e8d14f7163ce4c",
+        "status": "verified",
+        "head_unchanged": true
+      }
+    ],
+    "changed_author_commit_sets": []
+  }
 }
