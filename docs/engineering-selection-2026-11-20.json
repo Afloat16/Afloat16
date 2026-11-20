@@ -1,0 +1,2437 @@
+{
+  "checked_date": "2026-11-20",
+  "status": "complete",
+  "policy": "Retain every eligible upstream repository. Select its strongest reviewed merged author contributions across the complete history, using technical depth and practical effect rather than recency. Describe the actual scope without inflating narrow fixes or catalog work.",
+  "scope": {
+    "included_repositories": 46,
+    "excluded_repositories": 0,
+    "featured_repositories": 7,
+    "representative_prs": 72,
+    "top30_repositories": 27,
+    "more_repositories": 19,
+    "history_window": "complete verified merged history; no recency cutoff"
+  },
+  "caveats": [
+    "Repository coverage follows current eligibility and verified ranking; qualitative example selection never removes an eligible repository.",
+    "Representative work is a qualitative choice within each repository, not a claim that all projects received equally large contributions or original research.",
+    "Narrow fixes and catalog registrations retain their actual scope when those are the only verified merges in that repository.",
+    "LeRobot applies an existing V-JEPA 2 RoPE correction to a training predictor; no measured model-quality gain is claimed.",
+    "COLMAP work affects benchmark evaluation, not reconstruction solver performance.",
+    "Haystack isolates synchronous Pipeline.run visit counters via shallow copy.",
+    "Upstream test suites were not rerun during this profile review; committed regression cases were inspected."
+  ],
+  "rows": [
+    {
+      "repo": "affaan-m/ECC",
+      "display_name": "ECC",
+      "en": "Keep agent inference responsive with asynchronous per-provider queues, cancellation-safe permit transfer and worker-thread execution.",
+      "zh": "通过异步提供方队列、取消安全的许可移交和工作线程执行，保持智能体推理响应。",
+      "reason": "新增跨事件循环排队和取消生命周期机制，解决阻塞与独立提供方饥饿。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 3911,
+          "url": "https://github.com/affaan-m/ECC/pull/3911",
+          "title": "fix(llm): keep provider requests off the agent event loop",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-16T20:03:39Z",
+          "merged_date_shanghai": "2026-11-17",
+          "merge_commit_sha": "8109e5689259b80dbee8096d7346508f0f4a9e5f",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/affaan-m/ECC/pulls/3911/files?per_page=100",
+          "production_files": [
+            "src/llm/tools/executor.py"
+          ],
+          "regression_files": [
+            "tests/test_react_provider_lifecycle.py",
+            "tests/test_react_provider_queue.py",
+            "tests/test_react_responsiveness.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/affaan-m/ECC/pulls/3911",
+          "merge_commit_url": "https://github.com/affaan-m/ECC/commit/8109e5689259b80dbee8096d7346508f0f4a9e5f"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-17"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "display_name": "Claude-Mem",
+      "en": "Map goals in bounded, resumable batches with validated evidence, and serialize generation retries and cancellations under database row locks.",
+      "zh": "将目标映射改为有界、可恢复且逐批核验证据的流程，并以数据库行锁串行化生成任务的重试与取消。",
+      "reason": "6001新增跨代理后端的有界首次目标映射、逐批原文证据核验、源身份检查点及幂等保存；同5650的数据库事务/行锁状态机形成两个独立核心系统层面贡献。相比6163单独的向量删除任务持久化，更能展示完整流程设计与可复核边界。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 6001,
+          "url": "https://github.com/thedotmack/claude-mem/pull/6001",
+          "title": "fix(work-view): checkpoint bounded initial owner-goals mapping",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-12T06:53:11Z",
+          "merged_date_shanghai": "2026-11-12",
+          "merge_commit_sha": "a375395d77956903ff10d7e814b70bc12a13176c",
+          "base_branch": "main",
+          "metadata_source_url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/6001",
+          "merge_commit_url": "https://github.com/thedotmack/claude-mem/commit/a375395d77956903ff10d7e814b70bc12a13176c",
+          "evidence_url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/6001/files?per_page=100",
+          "production_files": [
+            "plugin/skills/owner-goals/scripts/save_goals.py",
+            "src/services/prompt-import/owner-prompts-file.ts",
+            "src/services/work-view/my-focus.d.mts",
+            "src/services/work-view/my-focus.mjs",
+            "src/services/work-view/owner-goals-batches.ts",
+            "src/services/work-view/refresh-task.ts",
+            "src/services/worker/http/routes/WorkViewRoutes.ts",
+            "tests/helpers/fake-owner-goals-worker.ts"
+          ],
+          "regression_files": [
+            "tests/work-view/owner-goals-batching.test.ts",
+            "tests/worker/http/routes/work-view-focus-routes.test.ts",
+            "tests/worker/work-view/shared-writer-compatibility.test.ts"
+          ]
+        },
+        {
+          "number": 5650,
+          "url": "https://github.com/thedotmack/claude-mem/pull/5650",
+          "title": "fix(server): lock operator generation state transitions",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-09T21:44:41Z",
+          "merged_date_shanghai": "2026-11-10",
+          "merge_commit_sha": "e7978b0fcd6880819a0df55d7d61fd1818de4af9",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/5650/files?per_page=100",
+          "production_files": [
+            "src/server/routes/v1/ServerV1PostgresRoutes.ts"
+          ],
+          "regression_files": [
+            "tests/server/runtime/operator-transition-locks.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/5650",
+          "merge_commit_url": "https://github.com/thedotmack/claude-mem/commit/e7978b0fcd6880819a0df55d7d61fd1818de4af9"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author/merged metadata and production changed-file patches for the newly selected historical PRs; existing audited #5650 evidence retained. No upstream tests rerun.",
+      "latest_selected_merge_date": "2026-11-12",
+      "scope_note": "The initial goal-mapping question is capped by a 640 KiB byte heuristic, with source batches up to 512 KiB and existing single-call behavior retained for smaller inputs. Validation uses source evidence and resumable checkpoints; separate HTTP persistence is idempotent, not a cross-store transaction. Do not convert fixture bytes to a universal model-quality or token-cost claim."
+    },
+    {
+      "repo": "storytold/craft-anything",
+      "display_name": "Craft Anything",
+      "en": "Stop unchanged rebuilds using persisted content fingerprints, and recover interrupted API/CLI turns through typed, bounded, cancellable retries.",
+      "zh": "以持久化内容指纹终止无进展重建，并通过类型化、有界且可取消的重试恢复 API/CLI 构建回合。",
+      "reason": "历史R5.3核心构建控制：552以类型化错误取代文本启发式并统一API/CLI/有状态/无状态重试；557新增跨运行持久化内容指纹及两回合停滞控制，涵盖缓存失效、取消、版本迁移和恢复顺序。相比1668/1367单项格式恢复，更集中体现核心执行架构。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 552,
+          "url": "https://github.com/storytold/craft-anything/pull/552",
+          "title": "Retry builder turns from typed failures, including stateless backends (R5.3)",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-03T08:51:05Z",
+          "merged_date_shanghai": "2026-11-03",
+          "merge_commit_sha": "f307d39480ec0aa5ce23ebcc50c0de8e9bbc8223",
+          "base_branch": "main",
+          "metadata_source_url": "https://api.github.com/repos/storytold/craft-anything/pulls/552",
+          "merge_commit_url": "https://github.com/storytold/craft-anything/commit/f307d39480ec0aa5ce23ebcc50c0de8e9bbc8223",
+          "evidence_url": "https://api.github.com/repos/storytold/craft-anything/pulls/552/files?per_page=100",
+          "production_files": [
+            "crates/ai/src/agent.rs",
+            "crates/ai/src/anthropic.rs",
+            "crates/ai/src/cli_agents/acp.rs",
+            "crates/ai/src/cli_agents/adapters.rs",
+            "crates/ai/src/cli_agents/adapters/opencode.rs",
+            "crates/ai/src/cli_agents/mod.rs",
+            "crates/ai/src/failure.rs",
+            "crates/ai/src/http.rs",
+            "crates/ai/src/lib.rs",
+            "crates/ai/src/openai.rs",
+            "crates/ai/src/rebuild/mod.rs"
+          ],
+          "regression_files": [
+            "crates/ai/src/rebuild/tests.rs"
+          ]
+        },
+        {
+          "number": 557,
+          "url": "https://github.com/storytold/craft-anything/pull/557",
+          "title": "Stop unchanged rebuilds after two turns across runs (R5.3)",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-03T12:31:23Z",
+          "merged_date_shanghai": "2026-11-03",
+          "merge_commit_sha": "48759fb5fccde45405c2db29d162ac55edbc6562",
+          "base_branch": "main",
+          "metadata_source_url": "https://api.github.com/repos/storytold/craft-anything/pulls/557",
+          "merge_commit_url": "https://github.com/storytold/craft-anything/commit/48759fb5fccde45405c2db29d162ac55edbc6562",
+          "evidence_url": "https://api.github.com/repos/storytold/craft-anything/pulls/557/files?per_page=100",
+          "production_files": [
+            "crates/ai/src/rebuild/mod.rs",
+            "crates/engine/src/workspace.rs",
+            "crates/engine/src/workspace/progress.rs"
+          ],
+          "regression_files": [
+            "crates/ai/src/rebuild/note_progress_tests.rs",
+            "crates/ai/src/rebuild/tests.rs"
+          ]
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author/merged metadata and production changed-file patches for the newly selected historical PRs; existing audited #5650 evidence retained. No upstream tests rerun.",
+      "latest_selected_merge_date": "2026-11-03",
+      "scope_note": "Retries apply only to typed transient/rate-limit failures, with at most three cancellable retries; authentication/configuration/tool failures stop. The no-progress guard counts two completed turns with unchanged app files and persists across runs. Ordinary scan failure disables the guard for that run; no live-provider or universal build-success claim."
+    },
+    {
+      "repo": "morluto/rea",
+      "display_name": "REA",
+      "en": "Resume buffered NDJSON replies after interrupted iteration and complete partial positional ZIP reads.",
+      "zh": "在迭代中断后继续投递已缓冲的 NDJSON 响应，并补全 ZIP 定位读取中的短读。",
+      "reason": "#8909 在消费者提前结束迭代后继续交付同一行缓冲器内的完整响应；#4414 在已核准文件范围内循环完成定位读取。两项均不提供断线重连或进程故障恢复。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 4414,
+          "url": "https://github.com/morluto/rea/pull/4414",
+          "title": "fix(artifacts): complete positional ZIP reads",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-21T22:13:24Z",
+          "merged_date_shanghai": "2026-10-22",
+          "merge_commit_sha": "82e4e032dfe97b7912cebc2812e1e9fc41c1eb33",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/morluto/rea/pulls/4414/files?per_page=100",
+          "production_files": [
+            "src/artifacts/ZipArtifactReader.ts"
+          ],
+          "regression_files": [
+            "src/artifacts/ZipArtifactReader.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/morluto/rea/pulls/4414",
+          "merge_commit_url": "https://github.com/morluto/rea/commit/82e4e032dfe97b7912cebc2812e1e9fc41c1eb33"
+        },
+        {
+          "number": 8909,
+          "url": "https://github.com/morluto/rea/pull/8909",
+          "title": "fix(process): resume buffered NDJSON frames on partial chunks",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-06T02:12:44Z",
+          "merged_date_shanghai": "2026-11-06",
+          "merge_commit_sha": "a3621e5e1f73755d927dd97861ab4216cabf4787",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/morluto/rea/pulls/8909/files?per_page=100",
+          "production_files": [
+            "src/process/DecodedNdjsonLineBuffer.ts"
+          ],
+          "regression_files": [
+            "src/hopper/HopperResponseStream.test.ts",
+            "src/process/DecodedNdjsonLineBuffer.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/morluto/rea/pulls/8909",
+          "merge_commit_url": "https://github.com/morluto/rea/commit/a3621e5e1f73755d927dd97861ab4216cabf4787"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-06"
+    },
+    {
+      "repo": "huggingface/sentence-transformers",
+      "display_name": "Sentence Transformers",
+      "en": "Restore ranking-loss gradients for badly ordered pairs and prevent padding from contaminating CNN sentence embeddings.",
+      "zh": "恢复严重错序样本的排序损失梯度，并避免填充内容污染 CNN 句向量。",
+      "reason": "直接影响训练信号与批次不变性，独立数值/梯度oracle支持。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 4116,
+          "url": "https://github.com/huggingface/sentence-transformers/pull/4116",
+          "title": "Preserve ranking-loss gradients with weighted log-sigmoid",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-12T14:52:07Z",
+          "merged_date_shanghai": "2026-10-12",
+          "merge_commit_sha": "abd266f29c7135e7ab9ccd3a41dfa74456b40c20",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/huggingface/sentence-transformers/pulls/4116/files?per_page=100",
+          "production_files": [
+            "sentence_transformers/cross_encoder/losses/lambda_loss.py"
+          ],
+          "regression_files": [
+            "tests/cross_encoder/losses/test_misc.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/huggingface/sentence-transformers/pulls/4116",
+          "merge_commit_url": "https://github.com/huggingface/sentence-transformers/commit/abd266f29c7135e7ab9ccd3a41dfa74456b40c20"
+        },
+        {
+          "number": 4323,
+          "url": "https://github.com/huggingface/sentence-transformers/pull/4323",
+          "title": "Exclude padded token embeddings before CNN convolution",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-05T12:45:54Z",
+          "merged_date_shanghai": "2026-11-05",
+          "merge_commit_sha": "7da542fb4ac0da773ab608e8b214e19aea7066f5",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/huggingface/sentence-transformers/pulls/4323/files?per_page=100",
+          "production_files": [
+            "sentence_transformers/sentence_transformer/modules/cnn.py"
+          ],
+          "regression_files": [
+            "tests/sentence_transformer/modules/test_cnn.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/huggingface/sentence-transformers/pulls/4323",
+          "merge_commit_url": "https://github.com/huggingface/sentence-transformers/commit/7da542fb4ac0da773ab608e8b214e19aea7066f5"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-05"
+    },
+    {
+      "repo": "huggingface/lerobot",
+      "display_name": "LeRobot",
+      "en": "Apply V-JEPA 2's pairwise RoPE correction to VLA-JEPA's training predictor, restoring norm and relative-position inner-product invariants.",
+      "zh": "将 V-JEPA 2 的成对 RoPE 修正应用于 VLA-JEPA 训练预测器，恢复范数与相对位置内积不变量。",
+      "reason": "将 echosprint 在 V-JEPA 2 #15 提出的已知成对频率修正应用于训练专用预测器；保持来源归属，不称原创算法，也不宣称已测得预训练模型质量收益。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 4835,
+          "url": "https://github.com/huggingface/lerobot/pull/4835",
+          "title": "fix(vla_jepa): pair rotary frequencies with adjacent coordinates",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-22T14:00:39Z",
+          "merged_date_shanghai": "2026-10-22",
+          "merge_commit_sha": "f9e9d739ea7055b282ea1b165e8785412a674693",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/huggingface/lerobot/pulls/4835/files?per_page=100",
+          "production_files": [
+            "src/lerobot/policies/vla_jepa/world_model.py"
+          ],
+          "regression_files": [],
+          "metadata_source_url": "https://api.github.com/repos/huggingface/lerobot/pulls/4835",
+          "merge_commit_url": "https://github.com/huggingface/lerobot/commit/f9e9d739ea7055b282ea1b165e8785412a674693"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-22"
+    },
+    {
+      "repo": "colmap/colmap",
+      "display_name": "COLMAP",
+      "en": "Make translation-angle benchmarks invariant to reconstruction scale, including extremely small and large coordinate magnitudes.",
+      "zh": "消除重建尺度对平移角度基准评测的影响，覆盖极小和极大坐标量级。",
+      "reason": "评测几何正确性，不将Flickr下载器或路径修复作为核心代表。",
+      "include": true,
+      "featured": true,
+      "prs": [
+        {
+          "number": 4932,
+          "url": "https://github.com/colmap/colmap/pull/4932",
+          "title": "Make benchmark translation-angle errors invariant to reconstruction scale",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-02T08:40:02Z",
+          "merged_date_shanghai": "2026-11-02",
+          "merge_commit_sha": "27ffad4388ce5647df3ea9e547bf8e1ea155fbcd",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/colmap/colmap/pulls/4932/files?per_page=100",
+          "production_files": [
+            "benchmark/reconstruction/evaluation/geometry.py"
+          ],
+          "regression_files": [
+            "benchmark/reconstruction/evaluation/geometry_test.py",
+            "benchmark/reconstruction/evaluation/utils_test.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/colmap/colmap/pulls/4932",
+          "merge_commit_url": "https://github.com/colmap/colmap/commit/27ffad4388ce5647df3ea9e547bf8e1ea155fbcd"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-02"
+    },
+    {
+      "repo": "serengil/deepface",
+      "display_name": "DeepFace",
+      "en": "Correct Milvus-to-DeepFace distance semantics and serialize shared native detectors to prevent cross-request inference corruption.",
+      "zh": "统一 Milvus 与 DeepFace 距离语义，并串行化共享原生检测器调用，避免并发请求混淆推理结果。",
+      "reason": "影响检索排序/阈值/置信度及真实原生推理并发正确性。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 1634,
+          "url": "https://github.com/serengil/deepface/pull/1634",
+          "title": "fix: convert Milvus scores to DeepFace distance units",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-01T08:18:11Z",
+          "merged_date_shanghai": "2026-10-01",
+          "merge_commit_sha": "bf5ed7339a0d430cbd214e4923ee6a694f808dec",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/serengil/deepface/pulls/1634/files?per_page=100",
+          "production_files": [
+            "deepface/modules/database/milvus.py"
+          ],
+          "regression_files": [
+            "tests/integration/test_milvus_distance_lite.py",
+            "tests/unit/test_milvus_distance.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/serengil/deepface/pulls/1634",
+          "merge_commit_url": "https://github.com/serengil/deepface/commit/bf5ed7339a0d430cbd214e4923ee6a694f808dec"
+        },
+        {
+          "number": 1756,
+          "url": "https://github.com/serengil/deepface/pull/1756",
+          "title": "Serialize concurrent calls to shared native face detectors",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-16T15:25:28Z",
+          "merged_date_shanghai": "2026-11-16",
+          "merge_commit_sha": "5e16bdf618d9bb82cdd6ebd45c5ac61aa1ebcde9",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/serengil/deepface/pulls/1756/files?per_page=100",
+          "production_files": [
+            "deepface/models/face_detection/external/MediaPipe.py",
+            "deepface/models/face_detection/opencv/OpenCv.py"
+          ],
+          "regression_files": [
+            "tests/unit/test_face_crop_bounds.py",
+            "tests/unit/test_mediapipe_color_order.py",
+            "tests/unit/test_mediapipe_concurrent_inference.py",
+            "tests/unit/test_opencv_concurrent_inference.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/serengil/deepface/pulls/1756",
+          "merge_commit_url": "https://github.com/serengil/deepface/commit/5e16bdf618d9bb82cdd6ebd45c5ac61aa1ebcde9"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-16"
+    },
+    {
+      "repo": "Unstructured-IO/unstructured",
+      "display_name": "Unstructured",
+      "en": "Make dense XY-cut projections linear in box count plus axis length, and remove repeated table scans during chunk admission.",
+      "zh": "使密集 XY-cut 投影计算随框数与轴长线性增长，并消除分块接纳过程中的重复表格扫描。",
+      "reason": "#4748 仅将密集投影构建改为 O(框数+轴长)，稀疏和负坐标路径保留原逻辑；#4744 消除 chunk admission 的重复 table-family 扫描，不声称整个 XY-cut 排序或分块管线为线性。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 4748,
+          "url": "https://github.com/Unstructured-IO/unstructured/pull/4748",
+          "title": "perf(sorting): accumulate dense XY-cut projections once",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T19:20:47Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "230ed8b27ad1ebbca3ef6e8b41d4b87ccbe3e941",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/Unstructured-IO/unstructured/pulls/4748/files?per_page=100",
+          "production_files": [
+            "unstructured/partition/utils/xycut.py"
+          ],
+          "regression_files": [
+            "test_unstructured/partition/utils/test_xycut_projection_work.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Unstructured-IO/unstructured/pulls/4748",
+          "merge_commit_url": "https://github.com/Unstructured-IO/unstructured/commit/230ed8b27ad1ebbca3ef6e8b41d4b87ccbe3e941"
+        },
+        {
+          "number": 4744,
+          "url": "https://github.com/Unstructured-IO/unstructured/pull/4744",
+          "title": "perf(chunking): avoid repeated table scans while forming chunks",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T19:19:23Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "cb686ff9180afcc7bb6db43acd6aca8f3dc16e9c",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/Unstructured-IO/unstructured/pulls/4744/files?per_page=100",
+          "production_files": [
+            "unstructured/chunking/base.py"
+          ],
+          "regression_files": [
+            "test_unstructured/chunking/test_table_detection_work.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Unstructured-IO/unstructured/pulls/4744",
+          "merge_commit_url": "https://github.com/Unstructured-IO/unstructured/commit/cb686ff9180afcc7bb6db43acd6aca8f3dc16e9c"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-18"
+    },
+    {
+      "repo": "petercorke/robotics-toolbox-python",
+      "display_name": "Robotics Toolbox",
+      "en": "Correct operational-space Coriolis dynamics and arbitrary-axis half-turn residuals used by Python and native inverse kinematics.",
+      "zh": "修正操作空间科氏动力学，以及 Python/原生逆运动学使用的任意轴半转姿态残差。",
+      "reason": "直接修正动力学矩阵方程和IK/servo误差度量。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 793,
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/793",
+          "title": "fix(ik): preserve arbitrary half-turn pose error magnitude",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-15T23:36:59Z",
+          "merged_date_shanghai": "2026-10-16",
+          "merge_commit_sha": "fe519723d16e9a799e1406745faa53247e25b1d9",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/793/files?per_page=100",
+          "production_files": [
+            "src/roboticstoolbox/ets/cpp-extensions/ik.cpp",
+            "src/roboticstoolbox/tools/p_servo.py"
+          ],
+          "regression_files": [
+            "tests/test_servo_half_turn.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/793",
+          "merge_commit_url": "https://github.com/petercorke/robotics-toolbox-python/commit/fe519723d16e9a799e1406745faa53247e25b1d9"
+        },
+        {
+          "number": 796,
+          "url": "https://github.com/petercorke/robotics-toolbox-python/pull/796",
+          "title": "fix(dynamics): transform operational Coriolis terms consistently",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-15T23:37:17Z",
+          "merged_date_shanghai": "2026-10-16",
+          "merge_commit_sha": "c93afaf6bb36586968511b9e2ffcb5ffe513cd65",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/796/files?per_page=100",
+          "production_files": [
+            "src/roboticstoolbox/robot/Dynamics.py"
+          ],
+          "regression_files": [
+            "tests/test_coriolis_x.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/petercorke/robotics-toolbox-python/pulls/796",
+          "merge_commit_url": "https://github.com/petercorke/robotics-toolbox-python/commit/c93afaf6bb36586968511b9e2ffcb5ffe513cd65"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-16"
+    },
+    {
+      "repo": "kornia/kornia",
+      "display_name": "Kornia",
+      "en": "Stabilize small-root quartic solving and parallel line–plane derivatives, preserving usable roots and finite geometry gradients.",
+      "zh": "稳定小根四次方程求解与平行线面求交导数，保留有效根和有限几何梯度。",
+      "reason": "数值求解与可微几何核心，缩放/安全分母机制均有独立回归。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 5474,
+          "url": "https://github.com/kornia/kornia/pull/5474",
+          "title": "fix(geometry): normalize the scale of small-root quartics",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-06T07:41:54Z",
+          "merged_date_shanghai": "2026-10-06",
+          "merge_commit_sha": "e753cc4609d961e5b59cbaefc7f810d58cb7f205",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/kornia/kornia/pulls/5474/files?per_page=100",
+          "production_files": [
+            "kornia/geometry/solvers/polynomial_solver.py"
+          ],
+          "regression_files": [
+            "tests/geometry/solvers/test_polynomial_solver.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/kornia/kornia/pulls/5474",
+          "merge_commit_url": "https://github.com/kornia/kornia/commit/e753cc4609d961e5b59cbaefc7f810d58cb7f205"
+        },
+        {
+          "number": 5517,
+          "url": "https://github.com/kornia/kornia/pull/5517",
+          "title": "fix(geometry): keep parallel line-plane intersection gradients finite",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-06T18:55:55Z",
+          "merged_date_shanghai": "2026-10-07",
+          "merge_commit_sha": "e47d6eff2c7ae3ee84adf4437d1500198e62754d",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/kornia/kornia/pulls/5517/files?per_page=100",
+          "production_files": [
+            "kornia/geometry/line.py"
+          ],
+          "regression_files": [
+            "tests/geometry/test_line.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/kornia/kornia/pulls/5517",
+          "merge_commit_url": "https://github.com/kornia/kornia/commit/e47d6eff2c7ae3ee84adf4437d1500198e62754d"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-07"
+    },
+    {
+      "repo": "geomstats/geomstats",
+      "display_name": "Geomstats",
+      "en": "Preserve automatic differentiation in symmetric-matrix reconstruction and batch axes in pointwise Jacobians and Hessians.",
+      "zh": "保持对称矩阵重建的自动微分能力，并正确保留逐点 Jacobian/Hessian 的批次维度。",
+      "reason": "影响Fisher metric导数与高阶几何自动微分；跨Autograd/PyTorch修复。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 2235,
+          "url": "https://github.com/geomstats/geomstats/pull/2235",
+          "title": "Preserve differentiation when reconstructing symmetric matrices",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T20:17:50Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "beba696acf5471d55fec4705e072857dd7f39d26",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/geomstats/geomstats/pulls/2235/files?per_page=100",
+          "production_files": [
+            "geomstats/geometry/symmetric_matrices.py"
+          ],
+          "regression_files": [
+            "tests/tests_geomstats/test_geometry/test_symmetric_matrix_reconstruction.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/geomstats/geomstats/pulls/2235",
+          "merge_commit_url": "https://github.com/geomstats/geomstats/commit/beba696acf5471d55fec4705e072857dd7f39d26"
+        },
+        {
+          "number": 2238,
+          "url": "https://github.com/geomstats/geomstats/pull/2238",
+          "title": "Preserve batch axes in pointwise Jacobians and Hessians",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T02:56:17Z",
+          "merged_date_shanghai": "2026-11-17",
+          "merge_commit_sha": "930742c822b077e30292a157f8f0f050524ca39e",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/geomstats/geomstats/pulls/2238/files?per_page=100",
+          "production_files": [
+            "geomstats/_backend/autograd/autodiff.py",
+            "geomstats/_backend/pytorch/autodiff.py"
+          ],
+          "regression_files": [
+            "tests/tests_geomstats/test_backend/test_derivative_batch_axes.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/geomstats/geomstats/pulls/2238",
+          "merge_commit_url": "https://github.com/geomstats/geomstats/commit/930742c822b077e30292a157f8f0f050524ca39e"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-18"
+    },
+    {
+      "repo": "Toni-SM/skrl",
+      "display_name": "skrl",
+      "en": "Correct Gaussian policy variance and TRPO KL divergence, restoring the intended sampling scale, likelihoods and trust-region checks.",
+      "zh": "修正高斯策略方差和 TRPO KL 散度，恢复预期采样尺度、似然和信赖域判断。",
+      "reason": "虽代码短但直接纠正策略分布与优化目标，非普通样式/配置修复。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 467,
+          "url": "https://github.com/Toni-SM/skrl/pull/467",
+          "title": "Correct multivariate Gaussian standard deviation factors",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-17T17:52:55Z",
+          "merged_date_shanghai": "2026-10-18",
+          "merge_commit_sha": "64359178de2f1549a4cba1eb30e9944ab9ff904c",
+          "base_branch": "develop",
+          "evidence_url": "https://api.github.com/repos/Toni-SM/skrl/pulls/467/files?per_page=100",
+          "production_files": [
+            "skrl/models/torch/multivariate_gaussian.py"
+          ],
+          "regression_files": [],
+          "metadata_source_url": "https://api.github.com/repos/Toni-SM/skrl/pulls/467",
+          "merge_commit_url": "https://github.com/Toni-SM/skrl/commit/64359178de2f1549a4cba1eb30e9944ab9ff904c"
+        },
+        {
+          "number": 469,
+          "url": "https://github.com/Toni-SM/skrl/pull/469",
+          "title": "Fix the Gaussian KL logarithmic term in PyTorch TRPO",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-17T19:18:33Z",
+          "merged_date_shanghai": "2026-10-18",
+          "merge_commit_sha": "c549fa61a6176c780c0114ee04e66fa49001f83a",
+          "base_branch": "develop",
+          "evidence_url": "https://api.github.com/repos/Toni-SM/skrl/pulls/469/files?per_page=100",
+          "production_files": [
+            "docs/source/api/agents/trpo.rst",
+            "skrl/agents/torch/trpo/trpo.py",
+            "skrl/agents/torch/trpo/trpo_rnn.py"
+          ],
+          "regression_files": [],
+          "metadata_source_url": "https://api.github.com/repos/Toni-SM/skrl/pulls/469",
+          "merge_commit_url": "https://github.com/Toni-SM/skrl/commit/c549fa61a6176c780c0114ee04e66fa49001f83a"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-18"
+    },
+    {
+      "repo": "KevinMusgrave/pytorch-metric-learning",
+      "display_name": "PyTorch Metric Learning",
+      "en": "Stabilize NT-Xent against common score shifts and compute VICReg statistics safely under mixed precision, preserving training gradients.",
+      "zh": "稳定 NT-Xent 的分数平移数值行为，并安全计算混合精度 VICReg 统计量，保留训练梯度。",
+      "reason": "核心损失函数稳定性，避免下溢/溢出及梯度丢失。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 758,
+          "url": "https://github.com/KevinMusgrave/pytorch-metric-learning/pull/758",
+          "title": "Preserve NT-Xent values and gradients under common score shifts",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-30T21:44:19Z",
+          "merged_date_shanghai": "2026-10-31",
+          "merge_commit_sha": "2f8bed9b7ac4677d67815cf584ff6248d225740b",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/pulls/758/files?per_page=100",
+          "production_files": [
+            "src/pytorch_metric_learning/losses/ntxent_loss.py"
+          ],
+          "regression_files": [
+            "tests/losses/test_ntxent_loss.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/pulls/758",
+          "merge_commit_url": "https://github.com/KevinMusgrave/pytorch-metric-learning/commit/2f8bed9b7ac4677d67815cf584ff6248d225740b"
+        },
+        {
+          "number": 785,
+          "url": "https://github.com/KevinMusgrave/pytorch-metric-learning/pull/785",
+          "title": "fix(VICRegLoss): keep mixed-precision statistics finite and accurate",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-13T19:46:59Z",
+          "merged_date_shanghai": "2026-11-14",
+          "merge_commit_sha": "7cffc969b8f54a37a3a226fbe7a406069d479514",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/pulls/785/files?per_page=100",
+          "production_files": [
+            ".code-polishy.json",
+            "src/pytorch_metric_learning/losses/vicreg_loss.py"
+          ],
+          "regression_files": [
+            "tests/losses/test_vicreg_loss.py",
+            "tests/losses/test_vicreg_precision.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/KevinMusgrave/pytorch-metric-learning/pulls/785",
+          "merge_commit_url": "https://github.com/KevinMusgrave/pytorch-metric-learning/commit/7cffc969b8f54a37a3a226fbe7a406069d479514"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-14"
+    },
+    {
+      "repo": "geoopt/geoopt",
+      "display_name": "Geoopt",
+      "en": "Correct canonical Stiefel projection and Cayley curve derivatives so manifold optimization preserves tangent momentum and consistent line-search slopes.",
+      "zh": "修正 canonical Stiefel 投影及 Cayley 曲线导数，使流形优化保持切向动量与一致的线搜索斜率。",
+      "reason": "仅选#280已包含投影、Cayley初速度和可选retr_jvp扩展，比附带未经重跑的sampler修复更完整。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 280,
+          "url": "https://github.com/geoopt/geoopt/pull/280",
+          "title": "Preserve tangent vectors in canonical Stiefel projection",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-05T08:36:13Z",
+          "merged_date_shanghai": "2026-11-05",
+          "merge_commit_sha": "c9f86dd03d0a51d329f3a51f004f5380843680c6",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/geoopt/geoopt/pulls/280/files?per_page=100",
+          "production_files": [
+            "geoopt/manifolds/base.py",
+            "geoopt/manifolds/stiefel.py",
+            "geoopt/optim/rlinesearch.py"
+          ],
+          "regression_files": [
+            "tests/test_canonical_stiefel_projection.py",
+            "tests/test_manifold_basic.py",
+            "tests/test_rlinesearch_retraction_derivative.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/geoopt/geoopt/pulls/280",
+          "merge_commit_url": "https://github.com/geoopt/geoopt/commit/c9f86dd03d0a51d329f3a51f004f5380843680c6"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-05"
+    },
+    {
+      "repo": "Eigenwise/atomic-agents",
+      "display_name": "Atomic Agents",
+      "en": "Preserve recursive MCP schemas, reserved field identities and explicitly allowed object extensions through validation and tool transport.",
+      "zh": "在验证与工具传输中保留递归 MCP schema、保留字段名和显式允许的对象扩展。",
+      "reason": "核心schema转换器改造：完整JSON Pointer前向引用、字段别名、typed extras。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 389,
+          "url": "https://github.com/Eigenwise/atomic-agents/pull/389",
+          "title": "Preserve recursive MCP schemas and explicit object data",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T14:14:50Z",
+          "merged_date_shanghai": "2026-11-17",
+          "merge_commit_sha": "2417d1fe75b99c93494ef9a20b06ed9af7d82490",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/Eigenwise/atomic-agents/pulls/389/files?per_page=100",
+          "production_files": [
+            "atomic-agents/atomic_agents/connectors/mcp/schema_transformer.py"
+          ],
+          "regression_files": [
+            "atomic-agents/tests/connectors/mcp/test_explicit_extra_properties.py",
+            "atomic-agents/tests/connectors/mcp/test_property_names.py",
+            "atomic-agents/tests/connectors/mcp/test_recursive_schemas.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Eigenwise/atomic-agents/pulls/389",
+          "merge_commit_url": "https://github.com/Eigenwise/atomic-agents/commit/2417d1fe75b99c93494ef9a20b06ed9af7d82490"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-17"
+    },
+    {
+      "repo": "huami1314/GestaltX",
+      "display_name": "GestaltX",
+      "en": "Recover original device values from matching cache generations and reject identity-changing system writes before backup or mutation.",
+      "zh": "从匹配的系统缓存代际恢复设备原值，并在备份或写入前拒绝改变设备身份的修改。",
+      "reason": "恢复状态机和设备写入完整性，避免跨代际原值混用与破坏后续恢复。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 65,
+          "url": "https://github.com/huami1314/GestaltX/pull/65",
+          "title": "fix: recover cache originals from matching system generations",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-11T03:07:25Z",
+          "merged_date_shanghai": "2026-11-11",
+          "merge_commit_sha": "419944f1da8f324140efc16803d551b685627d99",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/huami1314/GestaltX/pulls/65/files?per_page=100",
+          "production_files": [
+            "GestaltX/DeviceCacheOptions.swift",
+            "GestaltX/GestaltDocument.swift"
+          ],
+          "regression_files": [
+            "tests/OriginalCacheGenerationTests.swift"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/huami1314/GestaltX/pulls/65",
+          "merge_commit_url": "https://github.com/huami1314/GestaltX/commit/419944f1da8f324140efc16803d551b685627d99"
+        },
+        {
+          "number": 67,
+          "url": "https://github.com/huami1314/GestaltX/pull/67",
+          "title": "fix: reject device identity changes before system writes",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-11T03:07:25Z",
+          "merged_date_shanghai": "2026-11-11",
+          "merge_commit_sha": "671f029590310a6d3f15032c6cbd120442d2acd3",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/huami1314/GestaltX/pulls/67/files?per_page=100",
+          "production_files": [
+            "GestaltX/GestaltDocument.swift"
+          ],
+          "regression_files": [
+            "tests/DeviceIdentityEditTests.swift"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/huami1314/GestaltX/pulls/67",
+          "merge_commit_url": "https://github.com/huami1314/GestaltX/commit/671f029590310a6d3f15032c6cbd120442d2acd3"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-11"
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "display_name": "billion-context",
+      "en": "Scan compaction SSE frames in linear time and batch message-body reads, removing repeated stream scans and per-message database queries.",
+      "zh": "线性扫描压缩 SSE 帧，并批量读取消息正文，消除重复流扫描和逐消息数据库查询。",
+      "reason": "数据面算法优化与数据库N+1查询消除；不把局部benchmark倍数当全系统收益。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 6579,
+          "url": "https://github.com/ranxianglei/billion-context/pull/6579",
+          "title": "[PR] perf: scan native compaction SSE frames in linear time",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T11:33:05Z",
+          "merged_date_shanghai": "2026-11-14",
+          "merge_commit_sha": "37f41c9c85e5b1a00135bf2c4815fb24f5e44152",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/ranxianglei/billion-context/pulls/6579/files?per_page=100",
+          "production_files": [
+            "src/stream-terminal.ts"
+          ],
+          "regression_files": [
+            "tests/terminal-sse-large-frames.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/ranxianglei/billion-context/pulls/6579",
+          "merge_commit_url": "https://github.com/ranxianglei/billion-context/commit/37f41c9c85e5b1a00135bf2c4815fb24f5e44152"
+        },
+        {
+          "number": 6733,
+          "url": "https://github.com/ranxianglei/billion-context/pull/6733",
+          "title": "[PR] perf: batch message bodies for storage readers",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T16:40:38Z",
+          "merged_date_shanghai": "2026-11-15",
+          "merge_commit_sha": "becb595d247d428a084118147b6c7373bd2af26b",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/ranxianglei/billion-context/pulls/6733/files?per_page=100",
+          "production_files": [
+            "src/storage/mysql.ts",
+            "src/storage/store.ts"
+          ],
+          "regression_files": [
+            "tests/issue4739-storage-read-snapshot.test.ts",
+            "tests/storage-message-content-join.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/ranxianglei/billion-context/pulls/6733",
+          "merge_commit_url": "https://github.com/ranxianglei/billion-context/commit/becb595d247d428a084118147b6c7373bd2af26b"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-15"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "display_name": "OpenMausBot",
+      "en": "Separate MCP stream lifetime from request cancellation and distinguish reverse requests from replies, preserving shared transport correctness.",
+      "zh": "分离 MCP 事件流与单次请求的取消生命周期，并区分反向请求和响应，保持共享传输正确性。",
+      "reason": "跨JSON batch/streamable HTTP/legacy SSE的核心协议生命周期与双向ID语义。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 5392,
+          "url": "https://github.com/milind-soni/OpenMausBot/pull/5392",
+          "title": "fix: detach MCP SSE lifetime from the opening request signal",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-12T15:04:06Z",
+          "merged_date_shanghai": "2026-11-12",
+          "merge_commit_sha": "8c6ebbfd9ed27647fd9037aa9e2f2a24440c3a1b",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5392/files?per_page=100",
+          "production_files": [
+            "server/mcp-http.ts"
+          ],
+          "regression_files": [
+            "server/mcp-http.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5392",
+          "merge_commit_url": "https://github.com/milind-soni/OpenMausBot/commit/8c6ebbfd9ed27647fd9037aa9e2f2a24440c3a1b"
+        },
+        {
+          "number": 5393,
+          "url": "https://github.com/milind-soni/OpenMausBot/pull/5393",
+          "title": "fix: distinguish server requests from MCP responses with matching IDs",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-12T15:04:06Z",
+          "merged_date_shanghai": "2026-11-12",
+          "merge_commit_sha": "dd6b4c4ea5349a20da3ca484cea1dce6c9ff30c4",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5393/files?per_page=100",
+          "production_files": [
+            "server/mcp-http.ts"
+          ],
+          "regression_files": [
+            "server/mcp-http.test.ts",
+            "server/testing/fake-http-mcp-server.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5393",
+          "merge_commit_url": "https://github.com/milind-soni/OpenMausBot/commit/dd6b4c4ea5349a20da3ca484cea1dce6c9ff30c4"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-12"
+    },
+    {
+      "repo": "Edge0-AI/Edge0",
+      "display_name": "Edge0",
+      "en": "Stream safetensors directly into final buffers and bound top-logprob candidate storage by requested count, reducing avoidable inference-tool allocations.",
+      "zh": "将 safetensors 直接读入最终缓冲区，并按请求数量限制 top-logprob 候选存储，减少多余分配。",
+      "reason": "内存结构改进：移除整文件/正文重复副本，top-k候选从O(vocab)降到O(k)。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 171,
+          "url": "https://github.com/Edge0-AI/Edge0/pull/171",
+          "title": "perf(assets): stream prerouter safetensors payloads",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-16T10:34:05Z",
+          "merged_date_shanghai": "2026-11-16",
+          "merge_commit_sha": "b5695f14bf76a1ee709a441e1492d05b98e5ae6f",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/Edge0-AI/Edge0/pulls/171/files?per_page=100",
+          "production_files": [
+            "edge0-infer/tools/assets/edge0_35b/prerouter.py"
+          ],
+          "regression_files": [
+            "edge0-infer/tools/assets/tests/test_prerouter.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Edge0-AI/Edge0/pulls/171",
+          "merge_commit_url": "https://github.com/Edge0-AI/Edge0/commit/b5695f14bf76a1ee709a441e1492d05b98e5ae6f"
+        },
+        {
+          "number": 183,
+          "url": "https://github.com/Edge0-AI/Edge0/pull/183",
+          "title": "perf(sampling): bound top-logprob candidate storage by requested count",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-16T10:36:01Z",
+          "merged_date_shanghai": "2026-11-16",
+          "merge_commit_sha": "3ad1c4005544206d0769eb90cd31b6352abd95e2",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/Edge0-AI/Edge0/pulls/183/files?per_page=100",
+          "production_files": [
+            "edge0-infer/src/app/sampling.cpp"
+          ],
+          "regression_files": [
+            "edge0-infer/tests/unit/app/sampling_test.cpp"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Edge0-AI/Edge0/pulls/183",
+          "merge_commit_url": "https://github.com/Edge0-AI/Edge0/commit/3ad1c4005544206d0769eb90cd31b6352abd95e2"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-16"
+    },
+    {
+      "repo": "lucidrains/denoising-diffusion-pytorch",
+      "display_name": "Denoising Diffusion",
+      "en": "Preserve external conditioning and self-conditioning throughout 1D diffusion training, DDPM sampling and DDIM sampling.",
+      "zh": "在一维扩散训练、DDPM 与 DDIM 采样中一致传递外部条件和自条件。",
+      "reason": "核心生成模型条件路由，恢复原先报错或条件丢失的训练/采样路径。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 373,
+          "url": "https://github.com/lucidrains/denoising-diffusion-pytorch/pull/373",
+          "title": "fix: route conditions consistently in 1D diffusion",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-09-29T14:11:34Z",
+          "merged_date_shanghai": "2026-09-29",
+          "merge_commit_sha": "882b2e5155919682ec54e94dfcc5c6bfd0997366",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/pulls/373/files?per_page=100",
+          "production_files": [
+            "denoising_diffusion_pytorch/denoising_diffusion_pytorch_1d.py"
+          ],
+          "regression_files": [
+            "tests/test_1d_conditioning_regression.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/lucidrains/denoising-diffusion-pytorch/pulls/373",
+          "merge_commit_url": "https://github.com/lucidrains/denoising-diffusion-pytorch/commit/882b2e5155919682ec54e94dfcc5c6bfd0997366"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-09-29"
+    },
+    {
+      "repo": "leggedrobotics/rsl_rl",
+      "display_name": "RSL-RL",
+      "en": "Retain every rollout sample in recurrent and feedforward minibatches, and resume RND exploration schedules consistently from PPO checkpoints.",
+      "zh": "保留循环与前馈 minibatch 的全部 rollout 样本，并从 PPO 检查点一致恢复 RND 探索调度。",
+      "reason": "训练数据覆盖与可恢复训练目标，非仅边界格式问题。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 240,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/240",
+          "title": "Resume RND exploration schedules from PPO checkpoints",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-08T14:51:48Z",
+          "merged_date_shanghai": "2026-10-08",
+          "merge_commit_sha": "72c895667787421e44dcf38fb2ca2859e18b711d",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/pulls/240/files?per_page=100",
+          "production_files": [
+            "rsl_rl/algorithms/ppo.py"
+          ],
+          "regression_files": [
+            "tests/algorithms/test_ppo.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/pulls/240",
+          "merge_commit_url": "https://github.com/leggedrobotics/rsl_rl/commit/72c895667787421e44dcf38fb2ca2859e18b711d"
+        },
+        {
+          "number": 244,
+          "url": "https://github.com/leggedrobotics/rsl_rl/pull/244",
+          "title": "fix(storage): retain rollout remainders in mini-batch generators",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-27T13:35:32Z",
+          "merged_date_shanghai": "2026-10-27",
+          "merge_commit_sha": "f1a12c2d6a38b5884571d51cb7c17e293d091160",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/pulls/244/files?per_page=100",
+          "production_files": [
+            "rsl_rl/storage/rollout_storage.py"
+          ],
+          "regression_files": [
+            "tests/storage/test_rollout_storage.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/leggedrobotics/rsl_rl/pulls/244",
+          "merge_commit_url": "https://github.com/leggedrobotics/rsl_rl/commit/f1a12c2d6a38b5884571d51cb7c17e293d091160"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-27"
+    },
+    {
+      "repo": "pypose/pypose",
+      "display_name": "PyPose",
+      "en": "Restore the least-squares optimum in SVD rigid alignment by correcting only the weakest singular direction when removing reflections.",
+      "zh": "通过仅修正最弱奇异方向去除反射，恢复 SVD 刚体配准的最小二乘最优解。",
+      "reason": "核心几何算法：原全矩阵取反可显著偏离最小误差，改为正确约束SVD。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 437,
+          "url": "https://github.com/pypose/pypose/pull/437",
+          "title": "Preserve least-squares optimum in svdtf reflection correction",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-20T23:17:12Z",
+          "merged_date_shanghai": "2026-10-21",
+          "merge_commit_sha": "f9b0882b248907c1289b31194ec491c98c597a7e",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/pypose/pypose/pulls/437/files?per_page=100",
+          "production_files": [
+            "pypose/function/geometry.py"
+          ],
+          "regression_files": [
+            "tests/function/test_svdtf.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/pypose/pypose/pulls/437",
+          "merge_commit_url": "https://github.com/pypose/pypose/commit/f9b0882b248907c1289b31194ec491c98c597a7e"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-21"
+    },
+    {
+      "repo": "Denys88/rl_games",
+      "display_name": "RL Games",
+      "en": "Preserve the newest replay transitions under oversized batches and include every occupied slot in prioritized sampling.",
+      "zh": "在超容量批次中保留最新 replay 数据，并让优先采样覆盖全部有效槽位。",
+      "reason": "核心经验回放数据语义和采样分布正确性。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 384,
+          "url": "https://github.com/Denys88/rl_games/pull/384",
+          "title": "Preserve the latest transitions when replay batches exceed capacity",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-29T01:57:39Z",
+          "merged_date_shanghai": "2026-10-29",
+          "merge_commit_sha": "5f6d61e4c92ca475e22e9d0ea4d7fe15712c202f",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/Denys88/rl_games/pulls/384/files?per_page=100",
+          "production_files": [
+            "rl_games/common/experience.py"
+          ],
+          "regression_files": [
+            "tests/test_replay_oversized_batches.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/384",
+          "merge_commit_url": "https://github.com/Denys88/rl_games/commit/5f6d61e4c92ca475e22e9d0ea4d7fe15712c202f"
+        },
+        {
+          "number": 393,
+          "url": "https://github.com/Denys88/rl_games/pull/393",
+          "title": "Include the final occupied slot in prioritized replay sampling",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-02T02:38:43Z",
+          "merged_date_shanghai": "2026-11-02",
+          "merge_commit_sha": "333c6217db0f8f50e29ff104423b942383ff1516",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/Denys88/rl_games/pulls/393/files?per_page=100",
+          "production_files": [
+            "rl_games/common/experience.py"
+          ],
+          "regression_files": [
+            "tests/test_prioritized_replay_sampling.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/Denys88/rl_games/pulls/393",
+          "merge_commit_url": "https://github.com/Denys88/rl_games/commit/333c6217db0f8f50e29ff104423b942383ff1516"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-02"
+    },
+    {
+      "repo": "mikedh/trimesh",
+      "display_name": "Trimesh",
+      "en": "Apply correspondence weights to the Procrustes covariance, correcting nonuniform-weight rotations while preserving equal-weight fits.",
+      "zh": "将对应点权重应用于 Procrustes 协方差，修正非均匀权重下的旋转并保留等权拟合。",
+      "reason": "修正旋转所用的加权协方差；不声称包括 RMS scale 在内的整体配准达到全局加权最小二乘最优。原 PR 合并到 release/angles，当前默认分支可达按已有证据记录。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 2618,
+          "url": "https://github.com/mikedh/trimesh/pull/2618",
+          "title": "Fix nonuniform weighted Procrustes rotation",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-02T20:55:10Z",
+          "merged_date_shanghai": "2026-11-03",
+          "merge_commit_sha": "9a0bdcfc55309340fe8d313eb807b144806482af",
+          "base_branch": "release/angles",
+          "evidence_url": "https://api.github.com/repos/mikedh/trimesh/pulls/2618/files?per_page=100",
+          "production_files": [
+            "trimesh/registration.py"
+          ],
+          "regression_files": [
+            "tests/test_registration.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/mikedh/trimesh/pulls/2618",
+          "merge_commit_url": "https://github.com/mikedh/trimesh/commit/9a0bdcfc55309340fe8d313eb807b144806482af"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-03"
+    },
+    {
+      "repo": "openMVG/openMVG",
+      "display_name": "openMVG",
+      "en": "Restore bearing-aware triangulation cheirality so spherical cameras retain valid observations across both front and rear hemispheres.",
+      "zh": "恢复依观测视线判断的三角化正深度约束，使球面相机保留前后半球的有效观测。",
+      "reason": "核心多视图几何，避免误用透视相机正z筛掉后半球观测。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 2445,
+          "url": "https://github.com/openMVG/openMVG/pull/2445",
+          "title": "Restore bearing-aware cheirality for DLT triangulation",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-07T01:15:30Z",
+          "merged_date_shanghai": "2026-11-07",
+          "merge_commit_sha": "5f84739844e8bc6aba243128498ff44910f60b66",
+          "base_branch": "develop",
+          "evidence_url": "https://api.github.com/repos/openMVG/openMVG/pulls/2445/files?per_page=100",
+          "production_files": [
+            "src/openMVG/multiview/triangulation.cpp"
+          ],
+          "regression_files": [
+            "src/openMVG/multiview/triangulation_test.cpp"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/openMVG/openMVG/pulls/2445",
+          "merge_commit_url": "https://github.com/openMVG/openMVG/commit/5f84739844e8bc6aba243128498ff44910f60b66"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-07"
+    },
+    {
+      "repo": "betaflight/betaflight",
+      "display_name": "Betaflight",
+      "en": "Recover S-record payloads correctly and validate lengths, checksums and address ranges before producing flashable DfuSe images.",
+      "zh": "正确保留 S-record 载荷，并在生成可刷写 DfuSe 镜像前验证长度、校验和和地址范围。",
+      "reason": "固件转换器数据完整性及地址零/尾记录处理，含完整记录校验机制。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 15983,
+          "url": "https://github.com/betaflight/betaflight/pull/15983",
+          "title": "Preserve S-record data and validate it before building DfuSe images",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-16T20:27:18Z",
+          "merged_date_shanghai": "2026-11-17",
+          "merge_commit_sha": "4893afe183dad054b241ced09b63885bc5ef1e70",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/betaflight/betaflight/pulls/15983/files?per_page=100",
+          "production_files": [
+            "src/utils/dfuse-pack.py"
+          ],
+          "regression_files": [
+            "src/utils/test_dfuse_pack.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/betaflight/betaflight/pulls/15983",
+          "merge_commit_url": "https://github.com/betaflight/betaflight/commit/4893afe183dad054b241ced09b63885bc5ef1e70"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-17"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "display_name": "vLLM",
+      "en": "Normalize NumPy embedding byte order before tensor conversion, preserving multimodal values and precision across image and video inputs.",
+      "zh": "在张量转换前规范 NumPy embedding 字节序，保留图像与视频输入的数值和精度。",
+      "reason": "核心多模态输入转换；原实现拒绝非本机字节序，修复通过真实数值转换接收输入并保持dtype；不称原实现静默损坏数据。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 67479,
+          "url": "https://github.com/vllm-project/vllm/pull/67479",
+          "title": "[Bugfix][Multimodal] Preserve values from non-native-endian NumPy embeddings",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-13T13:54:10Z",
+          "merged_date_shanghai": "2026-11-13",
+          "merge_commit_sha": "cf8fce503c326d68fce5a531a43aec25da132bb5",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/vllm-project/vllm/pulls/67479/files?per_page=100",
+          "production_files": [
+            "vllm/multimodal/media/image.py",
+            "vllm/multimodal/media/video.py",
+            "vllm/utils/serial_utils.py"
+          ],
+          "regression_files": [
+            "tests/renderers/test_numpy_embedding_byteorder.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/vllm-project/vllm/pulls/67479",
+          "merge_commit_url": "https://github.com/vllm-project/vllm/commit/cf8fce503c326d68fce5a531a43aec25da132bb5"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-13"
+    },
+    {
+      "repo": "deepset-ai/haystack",
+      "display_name": "Haystack",
+      "en": "Keep pipeline checkpoints reusable across repeated resumes by isolating mutable visit counters from the saved execution state.",
+      "zh": "隔离运行中的可变访问计数与已保存状态，使 pipeline 检查点可重复用于恢复执行。",
+      "reason": "已核实仅同步Pipeline.run的整型计数字典浅拷贝，不涉及异步管线或整个状态deepcopy；核心恢复语义修复。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 13076,
+          "url": "https://github.com/deepset-ai/haystack/pull/13076",
+          "title": "fix: keep pipeline snapshots reusable after resume",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-16T07:06:17Z",
+          "merged_date_shanghai": "2026-10-16",
+          "merge_commit_sha": "34ab69146ed9f32688144d2b5a5ff0e81acbf372",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/deepset-ai/haystack/pulls/13076/files?per_page=100",
+          "production_files": [
+            "haystack/core/pipeline/pipeline.py",
+            "releasenotes/notes/preserve-pipeline-snapshot-run-counters-037e24bfd9a7fb82.yaml"
+          ],
+          "regression_files": [
+            "test/core/pipeline/test_breakpoint.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/deepset-ai/haystack/pulls/13076",
+          "merge_commit_url": "https://github.com/deepset-ai/haystack/commit/34ab69146ed9f32688144d2b5a5ff0e81acbf372"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-10-16"
+    },
+    {
+      "repo": "QwenLM/qwen-code",
+      "display_name": "Qwen Code",
+      "en": "Share immutable transcript pages and return request-correlated callback errors, improving Java session replay efficiency and control-protocol reliability.",
+      "zh": "共享不可变 transcript 页面并返回关联原请求的回调错误，改善 Java 会话重放效率与控制协议可靠性。",
+      "reason": "避免重复大页复制，补齐协议错误响应而非令请求悬挂。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 17113,
+          "url": "https://github.com/QwenLM/qwen-code/pull/17113",
+          "title": "fix(java): return correlated errors for control callback failures",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T18:28:34Z",
+          "merged_date_shanghai": "2026-11-15",
+          "merge_commit_sha": "ed8271748b475e821f9025eed4d96017933ac6be",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17113/files?per_page=100",
+          "production_files": [
+            "packages/sdk-java/qwencode/src/main/java/com/alibaba/qwen/code/cli/protocol/message/control/CLIControlResponse.java",
+            "packages/sdk-java/qwencode/src/main/java/com/alibaba/qwen/code/cli/session/Session.java"
+          ],
+          "regression_files": [
+            "packages/sdk-java/qwencode/src/test/java/com/alibaba/qwen/code/cli/example/SessionExample.java",
+            "packages/sdk-java/qwencode/src/test/java/com/alibaba/qwen/code/cli/session/SessionControlRequestTest.java",
+            "packages/sdk-java/qwencode/src/test/java/com/alibaba/qwen/code/cli/transport/process/ProcessTransportTest.java"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17113",
+          "merge_commit_url": "https://github.com/QwenLM/qwen-code/commit/ed8271748b475e821f9025eed4d96017933ac6be"
+        },
+        {
+          "number": 17115,
+          "url": "https://github.com/QwenLM/qwen-code/pull/17115",
+          "title": "perf(java): share immutable transcript page snapshots",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T18:01:14Z",
+          "merged_date_shanghai": "2026-11-15",
+          "merge_commit_sha": "8937085373c7900fb6bd1305be21db3f68ad1dcb",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17115/files?per_page=100",
+          "production_files": [
+            "packages/sdk-java/qwencode/src/main/java/com/alibaba/qwen/code/daemon/HarnessTranscriptPage.java"
+          ],
+          "regression_files": [
+            "packages/sdk-java/qwencode/src/test/java/com/alibaba/qwen/code/daemon/HostedHarnessClientTest.java"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/QwenLM/qwen-code/pulls/17115",
+          "merge_commit_url": "https://github.com/QwenLM/qwen-code/commit/8937085373c7900fb6bd1305be21db3f68ad1dcb"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-15"
+    },
+    {
+      "repo": "zhaoxuya520/reverse-skill",
+      "display_name": "reverse-skill",
+      "en": "Validate case-graph identities, references and local evidence before consolidation writes, preventing ambiguous or invalid knowledge graphs.",
+      "zh": "在整合写入前验证案例图身份、引用和本地证据，阻止歧义或无效知识图。",
+      "reason": "项目核心case graph validator全面校验，覆盖ID冲突/悬空引用/本地证据约束。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 181,
+          "url": "https://github.com/zhaoxuya520/reverse-skill/pull/181",
+          "title": "Reject ambiguous and unsafe case graph records",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T08:24:15Z",
+          "merged_date_shanghai": "2026-11-14",
+          "merge_commit_sha": "c249ebd99b4f9613cc1d78121f3d6ea57ab5cf50",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/zhaoxuya520/reverse-skill/pulls/181/files?per_page=100",
+          "production_files": [
+            "skills/case-review/scripts/review_case.py",
+            "skills/scripts/consolidate-evidence.ps1",
+            "skills/scripts/consolidate_evidence.py"
+          ],
+          "regression_files": [
+            "skills/case-review/tests/test_review_case.py",
+            "skills/scripts/test-consolidate-evidence.ps1"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/zhaoxuya520/reverse-skill/pulls/181",
+          "merge_commit_url": "https://github.com/zhaoxuya520/reverse-skill/commit/c249ebd99b4f9613cc1d78121f3d6ea57ab5cf50"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-14"
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "display_name": "Claude SEO",
+      "en": "Compare Core Web Vitals within matching field-data scopes and keep failed crawls from producing misleading low-risk assessments.",
+      "zh": "仅比较同一实测数据范围的 Core Web Vitals，并避免抓取失败被误报为低风险。",
+      "reason": "较现有IPv6/品牌后缀代表更直接影响分析结论；仍属聚焦正确性修复，可严格筛选时归档。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 427,
+          "url": "https://github.com/AgriciDaniel/claude-seo/pull/427",
+          "title": "fix(drift): compare CWV metrics within the same field-data scope",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-15T10:10:38Z",
+          "merged_date_shanghai": "2026-11-15",
+          "merge_commit_sha": "623bf9df17c897e58a86a7a866f38ed070a357bf",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/pulls/427/files?per_page=100",
+          "production_files": [
+            "scripts/drift_compare.py"
+          ],
+          "regression_files": [
+            "tests/test_drift_cwv_scope.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/pulls/427",
+          "merge_commit_url": "https://github.com/AgriciDaniel/claude-seo/commit/623bf9df17c897e58a86a7a866f38ed070a357bf"
+        },
+        {
+          "number": 431,
+          "url": "https://github.com/AgriciDaniel/claude-seo/pull/431",
+          "title": "fix(parasite-risk): keep failed crawls out of low-risk results",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-15T10:10:38Z",
+          "merged_date_shanghai": "2026-11-15",
+          "merge_commit_sha": "f38c0c92f6098e6cfd5df77a3766ba1da9e0041c",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/pulls/431/files?per_page=100",
+          "production_files": [
+            "scripts/parasite_risk.py"
+          ],
+          "regression_files": [
+            "tests/test_parasite_unavailable_audits.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/AgriciDaniel/claude-seo/pulls/431",
+          "merge_commit_url": "https://github.com/AgriciDaniel/claude-seo/commit/f38c0c92f6098e6cfd5df77a3766ba1da9e0041c"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-15"
+    },
+    {
+      "repo": "NVIDIA/SkillEvaluator",
+      "display_name": "NVIDIA SkillEvaluator",
+      "en": "Keep AST linting iterative for deep valid expressions and reject ambiguous pricing inputs before evaluation budget accounting.",
+      "zh": "以迭代遍历处理深层合法表达式，并在评测预算计算前拒绝歧义费率输入。",
+      "reason": "评测核心可用性和预算解释正确性；不宣称新评测算法。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 760,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/760",
+          "title": "fix(lint): avoid recursion failures in valid Python expressions",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T18:00:37Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "6e85d9b9129e39bc0298c9e08af5c24c6fa5402c",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/760/files?per_page=100",
+          "production_files": [
+            "src/skillevaluator/validators/script_lint.py"
+          ],
+          "regression_files": [
+            "tests/validators/test_script_lint.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/760",
+          "merge_commit_url": "https://github.com/NVIDIA/SkillEvaluator/commit/6e85d9b9129e39bc0298c9e08af5c24c6fa5402c"
+        },
+        {
+          "number": 749,
+          "url": "https://github.com/NVIDIA/SkillEvaluator/pull/749",
+          "title": "fix(tier3): reject ambiguous or invalid price-file rates",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T18:41:23Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "47a6738a91d705e6e2352574acf8e2ba02ba8a7e",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/749/files?per_page=100",
+          "production_files": [
+            "src/skillevaluator/tier3/harbor/run_budget.py"
+          ],
+          "regression_files": [
+            "tests/tier3/test_price_file_validation.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/pulls/749",
+          "merge_commit_url": "https://github.com/NVIDIA/SkillEvaluator/commit/47a6738a91d705e6e2352574acf8e2ba02ba8a7e"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-18"
+    },
+    {
+      "repo": "elalish/manifold",
+      "display_name": "Manifold",
+      "en": "Correct rotation range reduction and skip unrequested curvature channels, preserving geometric results while eliminating unnecessary curvature computation.",
+      "zh": "修正旋转角度约简，并跳过未请求的曲率通道，在保留几何结果的同时减少多余计算。",
+      "reason": "核心几何数值与曲率计算路径改进。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 1948,
+          "url": "https://github.com/elalish/manifold/pull/1948",
+          "title": "Fix cosine range reduction for large rotation angles",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T05:23:06Z",
+          "merged_date_shanghai": "2026-11-14",
+          "merge_commit_sha": "e53f4ac6e85027694e28ffcf5762f47f48adea7a",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/elalish/manifold/pulls/1948/files?per_page=100",
+          "production_files": [
+            "include/manifold/common.h"
+          ],
+          "regression_files": [
+            "test/cross_section_test.cpp",
+            "test/manifold_test.cpp",
+            "test/utils_test.cpp"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/elalish/manifold/pulls/1948",
+          "merge_commit_url": "https://github.com/elalish/manifold/commit/e53f4ac6e85027694e28ffcf5762f47f48adea7a"
+        },
+        {
+          "number": 1981,
+          "url": "https://github.com/elalish/manifold/pull/1981",
+          "title": "Skip unrequested curvature channels",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T09:14:06Z",
+          "merged_date_shanghai": "2026-11-17",
+          "merge_commit_sha": "c1978de3cd4c1171da939b5a3d6a6af207c55fc0",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/elalish/manifold/pulls/1981/files?per_page=100",
+          "production_files": [
+            "src/properties.cpp"
+          ],
+          "regression_files": [
+            "test/properties_test.cpp"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/elalish/manifold/pulls/1981",
+          "merge_commit_url": "https://github.com/elalish/manifold/commit/c1978de3cd4c1171da939b5a3d6a6af207c55fc0"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-17"
+    },
+    {
+      "repo": "agentes-chat/agentes-chat",
+      "display_name": "Agentes Chat",
+      "en": "Validate embedding identities before mapping vectors to text, and reject inconsistent ZIP metadata before archive imports.",
+      "zh": "在向量映射到文本前验证 embedding 结果身份，并在归档导入前拒绝不一致 ZIP 元数据。",
+      "reason": "防止检索向量和文本静默错配，并提升agent归档导入的数据完整性；不称模型解包。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 336,
+          "url": "https://github.com/agentes-chat/agentes-chat/pull/336",
+          "title": "fix(providers): validate embedding response indices before mapping texts",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-15T16:51:47Z",
+          "merged_date_shanghai": "2026-11-16",
+          "merge_commit_sha": "652eb3be8384f24af795f2c40a8e1aa72ba32820",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/agentes-chat/agentes-chat/pulls/336/files?per_page=100",
+          "production_files": [
+            "packages/providers/src/embeddings.ts"
+          ],
+          "regression_files": [
+            "packages/providers/test/embedding-indices.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/agentes-chat/agentes-chat/pulls/336",
+          "merge_commit_url": "https://github.com/agentes-chat/agentes-chat/commit/652eb3be8384f24af795f2c40a8e1aa72ba32820"
+        },
+        {
+          "number": 354,
+          "url": "https://github.com/agentes-chat/agentes-chat/pull/354",
+          "title": "fix(client): validate ZIP entry sizes and ZIP64 extra fields",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-14T12:26:08Z",
+          "merged_date_shanghai": "2026-11-14",
+          "merge_commit_sha": "21d62cdff047693ab055838c1327ed374e8673f1",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/agentes-chat/agentes-chat/pulls/354/files?per_page=100",
+          "production_files": [
+            "packages/client/src/lib/zip.ts"
+          ],
+          "regression_files": [
+            "apps/web/test/zip-integrity.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/agentes-chat/agentes-chat/pulls/354",
+          "merge_commit_url": "https://github.com/agentes-chat/agentes-chat/commit/21d62cdff047693ab055838c1327ed374e8673f1"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh author and merged-state metadata, production changed-file patches; recorded regression files. No upstream tests executed during this profile review.",
+      "latest_selected_merge_date": "2026-11-16"
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "display_name": "Open Code Review",
+      "en": "Keep finding identity fields separate so review-session comparisons distinguish new, resolved and persisting findings without delimiter collisions.",
+      "zh": "分离发现的身份字段，避免分隔符碰撞把新增或已解决的问题误判为持续问题。",
+      "reason": "唯一已合并作者PR。采用可比较结构体保存路径、类别与正文的独立身份，修复会话对比语义；不按改动行数将其删除，也不宣称新评审算法。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 1955,
+          "url": "https://github.com/alibaba/open-code-review/pull/1955",
+          "title": "fix(session): keep finding identity fields separate",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-17T12:46:22Z",
+          "merged_date_shanghai": "2026-11-17",
+          "merge_commit_sha": "d30f93864e9c682d27c7fb2d03ae112dca966c32",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/alibaba/open-code-review/pulls/1955/files?per_page=100",
+          "production_files": [
+            "internal/session/compare.go"
+          ],
+          "regression_files": [
+            "internal/session/compare_test.go"
+          ],
+          "documentation_files": [],
+          "metadata_source_url": "https://api.github.com/repos/alibaba/open-code-review/pulls/1955",
+          "merge_commit_url": "https://github.com/alibaba/open-code-review/commit/d30f93864e9c682d27c7fb2d03ae112dca966c32"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh merged-state and author metadata plus final changed-file patches. Candidates considered across all recorded merged history, without recency restriction; no upstream tests rerun.",
+      "latest_selected_merge_date": "2026-11-17"
+    },
+    {
+      "repo": "JetBrains/thinkrail",
+      "display_name": "ThinkRail",
+      "en": "Parse XML roots and terminal control sequences structurally, preventing false SVG classification and preserving notebook text around cancelled or replaced controls.",
+      "zh": "按结构解析 XML 根节点与终端控制序列，避免 SVG 误分类，并保留控制序列取消或替换后的 notebook 正文。",
+      "reason": "Reviewed all four directly merged historical PRs. #1184 adds bounded XML preamble/root parsing; #1258 handles 7-bit and 8-bit control-string termination, cancellation and replacement. These are the strongest combined parsing improvements among this repository’s available merged contributions. Closed #1250 was adopted through another PR and is excluded from the directly merged examples. Scope is content classification and notebook text rendering, without a claim of new algorithms or measured whole-system gains.",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 1184,
+          "url": "https://github.com/JetBrains/thinkrail/pull/1184",
+          "title": "fix(fs): identify SVG by its document root",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-06T13:32:15Z",
+          "merged_date_shanghai": "2026-11-06",
+          "merge_commit_sha": "d39ef8bc8504de6e6a66c6358aa02b4095d55b33",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/JetBrains/thinkrail/pulls/1184/files?per_page=100",
+          "production_files": [
+            "packages/server/src/fs/content.ts"
+          ],
+          "regression_files": [
+            "packages/server/src/fs/content.test.ts"
+          ],
+          "documentation_files": [
+            "packages/server/src/fs/SPEC.md"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/JetBrains/thinkrail/pulls/1184",
+          "merge_commit_url": "https://github.com/JetBrains/thinkrail/commit/d39ef8bc8504de6e6a66c6358aa02b4095d55b33"
+        },
+        {
+          "number": 1258,
+          "url": "https://github.com/JetBrains/thinkrail/pull/1258",
+          "title": "Strip complete terminal control strings from notebook output",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-11T17:49:44Z",
+          "merged_date_shanghai": "2026-11-12",
+          "merge_commit_sha": "45e94baa96469b29b0a2c0a76cf3095412cae605",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/JetBrains/thinkrail/pulls/1258/files?per_page=100",
+          "production_files": [
+            "packages/resource-renderers/src/renderers/notebook/notebookModel.ts"
+          ],
+          "regression_files": [
+            "packages/resource-renderers/src/renderers/notebook/notebookModel.test.ts"
+          ],
+          "documentation_files": [],
+          "metadata_source_url": "https://api.github.com/repos/JetBrains/thinkrail/pulls/1258",
+          "merge_commit_url": "https://github.com/JetBrains/thinkrail/commit/45e94baa96469b29b0a2c0a76cf3095412cae605"
+        }
+      ],
+      "history_review": {
+        "direct_merged_candidates": [
+          1184,
+          1185,
+          1186,
+          1258
+        ],
+        "closed_unmerged_candidates": [
+          1250
+        ],
+        "all_history_search_complete": true
+      },
+      "review_complete": true,
+      "review_scope": "All historical merged-author candidates compared; fresh metadata and production patches reviewed, with committed regression coverage inspected. No upstream test suites rerun.",
+      "latest_selected_merge_date": "2026-11-12"
+    },
+    {
+      "repo": "recommenders-team/recommenders",
+      "display_name": "Recommenders",
+      "en": "Keep user-provided columns intact during stratified splitting and honor custom user/item identifiers throughout iterative k-core filtering.",
+      "zh": "分层切分时完整保留用户数据列，并在迭代 k-core 过滤中始终遵循自定义用户和物品标识列。",
+      "reason": "Reviewed all three historical merged PRs. #2419 moves internal sorting/ranking/count state outside caller-owned columns while retaining deterministic splits and duplicate-index behavior; #2389 propagates custom identifier column names through every k-core filtering pass. These offer broader data-pipeline correctness than #2388’s top_k validation. No new recommendation algorithm or measured recommendation-quality improvement is claimed.",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 2419,
+          "url": "https://github.com/recommenders-team/recommenders/pull/2419",
+          "title": "Preserve input columns in stratified splitters",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-05T11:41:14Z",
+          "merged_date_shanghai": "2026-11-05",
+          "merge_commit_sha": "6fb74f88b2a271b917be462a2a2a59e100b929da",
+          "base_branch": "staging",
+          "evidence_url": "https://api.github.com/repos/recommenders-team/recommenders/pulls/2419/files?per_page=100",
+          "production_files": [
+            "recommenders/datasets/python_splitters.py"
+          ],
+          "regression_files": [
+            "tests/test_groups.yml",
+            "tests/unit/recommenders/datasets/test_split_columns.py"
+          ],
+          "documentation_files": [],
+          "metadata_source_url": "https://api.github.com/repos/recommenders-team/recommenders/pulls/2419",
+          "merge_commit_url": "https://github.com/recommenders-team/recommenders/commit/6fb74f88b2a271b917be462a2a2a59e100b929da"
+        },
+        {
+          "number": 2389,
+          "url": "https://github.com/recommenders-team/recommenders/pull/2389",
+          "title": "fix: preserve custom columns throughout k-core filtering",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-15T19:46:34Z",
+          "merged_date_shanghai": "2026-10-16",
+          "merge_commit_sha": "06a0051eac96bb6e9c1da3c571b38aea37cd6e2b",
+          "base_branch": "staging",
+          "evidence_url": "https://api.github.com/repos/recommenders-team/recommenders/pulls/2389/files?per_page=100",
+          "production_files": [
+            "recommenders/datasets/split_utils.py"
+          ],
+          "regression_files": [
+            "tests/test_groups.yml",
+            "tests/unit/recommenders/datasets/test_python_splitter.py"
+          ],
+          "documentation_files": [],
+          "metadata_source_url": "https://api.github.com/repos/recommenders-team/recommenders/pulls/2389",
+          "merge_commit_url": "https://github.com/recommenders-team/recommenders/commit/06a0051eac96bb6e9c1da3c571b38aea37cd6e2b"
+        }
+      ],
+      "history_review": {
+        "direct_merged_candidates": [
+          2388,
+          2389,
+          2419
+        ],
+        "all_history_search_complete": true
+      },
+      "review_complete": true,
+      "review_scope": "All historical merged-author candidates compared; fresh metadata and production patches reviewed, with committed regression coverage inspected. No upstream test suites rerun.",
+      "latest_selected_merge_date": "2026-11-05"
+    },
+    {
+      "repo": "carla-simulator/carla",
+      "display_name": "CARLA",
+      "en": "Support RGB/RGBA texture inputs and partial material updates in CARLA's texture utility.",
+      "zh": "让 CARLA 纹理工具支持 RGB/RGBA 输入与部分材质更新。",
+      "reason": "Select the implemented texture utility rather than tutorial examples; this is a real PythonAPI tool change, not only documentation.",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 10194,
+          "url": "https://github.com/carla-simulator/carla/pull/10194",
+          "title": "Handle RGB textures and partial material updates in apply_texture",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-12T14:48:50Z",
+          "merged_date_shanghai": "2026-11-12",
+          "merge_commit_sha": "75809c7f5b875982c5b001bf9b9f2a895bd225fd",
+          "base_branch": "ue58-dev",
+          "evidence_url": "https://api.github.com/repos/carla-simulator/carla/pulls/10194/files?per_page=100",
+          "production_files": [
+            "PythonAPI/util/apply_texture.py"
+          ],
+          "regression_files": [],
+          "documentation_files": [
+            "CHANGELOG.md"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/carla-simulator/carla/pulls/10194",
+          "merge_commit_url": "https://github.com/carla-simulator/carla/commit/75809c7f5b875982c5b001bf9b9f2a895bd225fd"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh merged-state and author metadata plus final changed-file patches. Candidates considered across all recorded merged history, without recency restriction; no upstream tests rerun.",
+      "latest_selected_merge_date": "2026-11-12"
+    },
+    {
+      "repo": "tile-ai/tilelang",
+      "display_name": "TileLang",
+      "en": "Allocate benchmark cache-flush buffers on the active CUDA device when no explicit device is provided.",
+      "zh": "未显式指定设备时，让基准测试的缓存清理缓冲区分配在当前 CUDA 设备上。",
+      "reason": "唯一已合并作者PR，最终维护者接受的实现为一行默认设备修正。保证缓存清理对象与当前GPU一致，不宣称新性能优化算法或实测速度提升。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 3357,
+          "url": "https://github.com/tile-ai/tilelang/pull/3357",
+          "title": "[BugFix][Profiler] Use the current CUDA device when no device is specified",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-10-27T07:26:52Z",
+          "merged_date_shanghai": "2026-10-27",
+          "merge_commit_sha": "004b7a2a6908d6a7f20bc140db0e4074316b2ad8",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/tile-ai/tilelang/pulls/3357/files?per_page=100",
+          "production_files": [
+            "tilelang/profiler/bench.py"
+          ],
+          "regression_files": [],
+          "documentation_files": [],
+          "metadata_source_url": "https://api.github.com/repos/tile-ai/tilelang/pulls/3357",
+          "merge_commit_url": "https://github.com/tile-ai/tilelang/commit/004b7a2a6908d6a7f20bc140db0e4074316b2ad8"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh merged-state and author metadata plus final changed-file patches. Candidates considered across all recorded merged history, without recency restriction; no upstream tests rerun.",
+      "latest_selected_merge_date": "2026-10-27"
+    },
+    {
+      "repo": "rasbt/mlxtend",
+      "display_name": "MLxtend",
+      "en": "Preserve separate word and emoticon tokens in the text tokenizer, preventing the first extracted emoticon from merging with the final word.",
+      "zh": "在文本分词器中保留单词与表情的独立 token，避免首个提取表情粘连到最后一个单词。",
+      "reason": "唯一已合并作者PR；改动在实际库API mlxtend/text/tokenizer.py，而非此前误述的预处理示例。生产分词边界修复有参数化回归；不包装为新分词算法。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 1207,
+          "url": "https://github.com/rasbt/mlxtend/pull/1207",
+          "title": "fix: separate extracted emoticons from the final word",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-09-29T19:37:22Z",
+          "merged_date_shanghai": "2026-09-30",
+          "merge_commit_sha": "1aee767ef57b84a8191511a08955c583b65de382",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/rasbt/mlxtend/pulls/1207/files?per_page=100",
+          "production_files": [
+            "mlxtend/text/tokenizer.py"
+          ],
+          "regression_files": [
+            "mlxtend/text/tests/test_tokenizer.py"
+          ],
+          "documentation_files": [
+            "docs/sources/CHANGELOG.md"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/rasbt/mlxtend/pulls/1207",
+          "merge_commit_url": "https://github.com/rasbt/mlxtend/commit/1aee767ef57b84a8191511a08955c583b65de382"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh merged-state and author metadata plus final changed-file patches. Candidates considered across all recorded merged history, without recency restriction; no upstream tests rerun.",
+      "latest_selected_merge_date": "2026-09-30"
+    },
+    {
+      "repo": "TensorBlock/awesome-mcp-servers",
+      "display_name": "Awesome MCP Servers",
+      "en": "Register AI-Memory-Book with installation commands, stdio transport and client metadata in the memory-server directory.",
+      "zh": "在记忆服务器目录登记 AI-Memory-Book，补齐安装命令、stdio 传输与客户端元数据。",
+      "reason": "唯一已合并作者PR，贡献范围是目录条目与机器可读安装元数据。保持项目完整展示，但不得称上游运行时代码改进或MCP协议创新。",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 6055,
+          "url": "https://github.com/TensorBlock/awesome-mcp-servers/pull/6055",
+          "title": "Add AI-Memory-Book (replaces automated intake #6053)",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-16T09:06:59Z",
+          "merged_date_shanghai": "2026-11-16",
+          "merge_commit_sha": "0eb5570dbab8f615cf3cc717ff974fd7572362ac",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/TensorBlock/awesome-mcp-servers/pulls/6055/files?per_page=100",
+          "production_files": [
+            "data/server-metadata/github-afloat16-ai-memory-book-e5dd5f33.json"
+          ],
+          "regression_files": [],
+          "documentation_files": [
+            "docs/knowledge-management--memory.md"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/TensorBlock/awesome-mcp-servers/pulls/6055",
+          "merge_commit_url": "https://github.com/TensorBlock/awesome-mcp-servers/commit/0eb5570dbab8f615cf3cc717ff974fd7572362ac"
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Fresh merged-state and author metadata plus final changed-file patches. Candidates considered across all recorded merged history, without recency restriction; no upstream tests rerun.",
+      "latest_selected_merge_date": "2026-11-16"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "display_name": "MiniMind",
+      "en": "Accumulate LoRA weight updates in FP32 before final FP16 rounding, and keep greedy decoding independent of sampling temperature and filters.",
+      "zh": "以 FP32 累加 LoRA 权重更新后再舍入为 FP16，并让贪心解码不受采样温度和过滤器影响。",
+      "reason": "Reviewed all five merged PRs in this repository; selected core adapter-export precision and generation semantics over narrower input compatibility, empty-batch handling and API scheduling fixes.",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 919,
+          "url": "https://github.com/jingyaogong/minimind/pull/919",
+          "title": "[fix] accumulate LoRA deltas before rounding merged weights",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-18T14:57:11Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "9f05da1c3d3b4e5dc9257a525bf19e99acee401b",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/919/files?per_page=100",
+          "production_files": [
+            "model/model_lora.py"
+          ],
+          "regression_files": [
+            "tests/test_lora_merge_fp32.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/919",
+          "merge_commit_url": "https://github.com/jingyaogong/minimind/commit/9f05da1c3d3b4e5dc9257a525bf19e99acee401b"
+        },
+        {
+          "number": 912,
+          "url": "https://github.com/jingyaogong/minimind/pull/912",
+          "title": "[fix] ignore sampling temperature for greedy generation",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-18T14:56:56Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "eaa4b87f67e7349a04aafbed2888246e1d073178",
+          "base_branch": "master",
+          "evidence_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/912/files?per_page=100",
+          "production_files": [
+            "model/model_minimind.py"
+          ],
+          "regression_files": [
+            "tests/test_generation_greedy_temperature.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/jingyaogong/minimind/pulls/912",
+          "merge_commit_url": "https://github.com/jingyaogong/minimind/commit/eaa4b87f67e7349a04aafbed2888246e1d073178"
+        }
+      ],
+      "review_complete": true,
+      "reviewed_on": "2026-11-19",
+      "review_scope": "Verified actual merged authorship and SHA, read all changed production patches and recorded regression cases. No upstream test suite executed.",
+      "latest_selected_merge_date": "2026-11-18"
+    },
+    {
+      "repo": "mdiri-ai/SoduWork",
+      "display_name": "SoduWork",
+      "en": "Recognize CSS imports separated by comments so website deliveries retain transitive stylesheet and image dependencies.",
+      "zh": "识别被注释分隔的 CSS 导入，让网站交付保留后续样式表与图片依赖。",
+      "reason": "The sole verified merged author PR fixes production stylesheet dependency parsing. Keep its exact delivery-bundle scope; do not present it as a novel algorithm or a general parser redesign.",
+      "include": true,
+      "featured": false,
+      "prs": [
+        {
+          "number": 457,
+          "url": "https://github.com/mdiri-ai/SoduWork/pull/457",
+          "title": "fix(client): include stylesheets imported after CSS comments",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-18T13:08:43Z",
+          "merged_date_shanghai": "2026-11-18",
+          "merge_commit_sha": "719202b7a4e0d36745a48ebd99ad165b13cdcc01",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/mdiri-ai/SoduWork/pulls/457/files?per_page=100",
+          "production_files": [
+            "client/main/conversation/stylesheet-references.js"
+          ],
+          "regression_files": [
+            "client/tests/task-delivery-lifecycle.test.cjs"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/mdiri-ai/SoduWork/pulls/457",
+          "merge_commit_url": "https://github.com/mdiri-ai/SoduWork/commit/719202b7a4e0d36745a48ebd99ad165b13cdcc01"
+        }
+      ],
+      "review_complete": true,
+      "reviewed_on": "2026-11-19",
+      "review_scope": "Verified actual merged authorship and SHA, read all changed production patches and recorded regression cases. No upstream test suite executed.",
+      "latest_selected_merge_date": "2026-11-18"
+    },
+    {
+      "repo": "simplexai-labs/linger",
+      "display_name": "Linger",
+      "en": "Prevent canceled installation jobs from starting, drain pending writes during shutdown, and isolate cancellation across shared region probes.",
+      "zh": "修复安装任务持久化与取消、退出间的竞态，并隔离共享区域探测中各调用者的取消。",
+      "reason": "在全部 13 个已合并 PR 中，#291 处理持久化、执行、取消、等待和 shutdown 的完整任务生命周期；#282 建立共享异步操作与独立调用者取消之间的所有权机制。两者有互补的生产路径和明确回归证据，适合展示并发与生命周期工程能力。",
+      "include": true,
+      "featured": false,
+      "selected_pr_numbers": [
+        291,
+        282
+      ],
+      "prs": [
+        {
+          "number": 291,
+          "url": "https://github.com/simplexai-labs/linger/pull/291",
+          "title": "fix(installer): cancel jobs during initial persistence",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-19T13:01:04Z",
+          "merged_date_shanghai": "2026-11-19",
+          "merge_commit_sha": "2ef4c75afd5ac9a755602fa6542f23a91358f317",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/291/files?per_page=100&page=1",
+          "production_files": [
+            "apps/linger-installer/src/server/jobs.ts"
+          ],
+          "regression_files": [
+            "apps/linger-installer/src/server/jobs-start-cancel.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/291",
+          "merge_commit_url": "https://github.com/simplexai-labs/linger/commit/2ef4c75afd5ac9a755602fa6542f23a91358f317",
+          "implementation_evidence": [
+            "Tracks the initial durable write in record.starting before execution. busy includes startup persistence, and start skips execute when cancellation has already been requested.",
+            "Suppresses premature event persistence until private input is durable; a late cancellation is persisted again after the initial snapshot finishes.",
+            "shutdown cancels all starting or executing records, waits for startup and execution, and then drains the write queue. Already-reported initial write failure does not prevent other jobs from draining, while cancellation-save errors for retained jobs still propagate."
+          ],
+          "concrete_impact": "Prevents an installation from beginning after the user cancels it, keeps saved job state consistent with the private input, and makes waiting/shutdown cover work that is still starting.",
+          "author_reported_validation": "The PR description reports make check-installer passing typecheck, lint and 164 tests, plus Prettier and git diff --check.",
+          "validation_limit": "Production and test patches were reviewed directly. Upstream tests were not executed during this profile refresh; any recorded command results are attributed to the PR description.",
+          "regression_evidence": [
+            "Seven regression/control cases in jobs-start-cancel.test.ts use gated storage calls, real private-file writes in temporary directories, and a controlled runner.",
+            "They assert no execution after cancellation during the initial write; persisted cancellation after an already-captured snapshot; no orphan record after failed input persistence; shutdown waits for initial writes and other active jobs; wait covers deduplicated startup and execution; retained-job cancellation save failures are reported."
+          ]
+        },
+        {
+          "number": 282,
+          "url": "https://github.com/simplexai-labs/linger/pull/282",
+          "title": "fix(local-installation): isolate cancellation of shared region probes",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-19T12:58:03Z",
+          "merged_date_shanghai": "2026-11-19",
+          "merge_commit_sha": "dd475a0acf0ddfb8e4d1d7146d65ac790945b7a6",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/282/files?per_page=100&page=1",
+          "production_files": [
+            "packages/local-installation/src/region.ts"
+          ],
+          "regression_files": [
+            "packages/local-installation/src/region.test.ts"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/282",
+          "merge_commit_url": "https://github.com/simplexai-labs/linger/commit/dd475a0acf0ddfb8e4d1d7146d65ac790945b7a6",
+          "implementation_evidence": [
+            "Replaces a cached bare promise with a Resolution containing its own AbortController and active waiter count.",
+            "Each caller races the shared resolution against its own abort signal and removes its listener on exit. An already-aborted caller is rejected even for a cached region.",
+            "The underlying probe continues while another caller needs it. When the last waiter leaves before completion, the controller aborts and the cache entry is removed so a later caller can retry. Fulfilled results and fallback values retain caching behavior."
+          ],
+          "concrete_impact": "Makes cancellation belong to the requesting installation instead of disrupting another installation sharing the same regional download probe.",
+          "author_reported_validation": "The PR description reports the focused region suite passing 16 tests; package check passing typecheck, lint and 493 tests with 4 skipped; installer check passing 152 tests. It records an unrelated native-process fixture timing failure on an earlier full run and a passing complete rerun.",
+          "validation_limit": "Production and test patches were reviewed directly. Upstream tests were not executed during this profile refresh; any recorded command results are attributed to the PR description.",
+          "regression_evidence": [
+            "A parameterized regression cancels the first and second callers independently while a shared fetch is gated; the canceled caller rejects with its own reason and the other receives the region.",
+            "The same cases assert that sharing does not increase registry request count and that the result remains cached.",
+            "Separate tests reject a pre-aborted caller for a cached result and verify that canceling every waiter aborts underlying probes and permits a fresh successful retry."
+          ]
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Reviewed metadata, all production patches, and regression patches for all 13 currently merged authored Linger PRs. Compared behavior and depth rather than merge recency. No upstream tests executed.",
+      "latest_selected_merge_date": "2026-11-19",
+      "selection_rationale": "The pair covers persisted task state transitions and ownership of a shared asynchronous operation. Other reviewed work fixes useful, generally narrower paths (single retry/stream/file/quoting/binary/port behaviors) or overlaps this cancellation lifecycle theme. This is an editorial judgement supported by the concrete production diffs, not a claim of a measured ranking or a novel algorithm."
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "display_name": "MuJoCo",
+      "en": "Restore quintic interpolation for system identification, with regression coverage for polynomial accuracy and endpoint clamping.",
+      "zh": "修复系统辨识时间序列的五次样条插值，补充多项式精度与端点钳制回归。",
+      "reason": "当前唯一已合并的作者 PR；直接修复系统辨识 TimeSeries 生产 API 的 quintic 方法到 SciPy 插值器的适配。描述限定为功能正确性修复，不夸大为新插值算法、架构创新或性能优化。",
+      "include": true,
+      "featured": false,
+      "selected_pr_numbers": [
+        3765
+      ],
+      "prs": [
+        {
+          "number": 3765,
+          "url": "https://github.com/google-deepmind/mujoco/pull/3765",
+          "title": "Support quintic interpolation in system identification time series",
+          "author": "Afloat16",
+          "merged": true,
+          "merged_at": "2026-11-20T00:12:48Z",
+          "merged_date_shanghai": "2026-11-20",
+          "merge_commit_sha": "62f40770e525f6f005ca8251f4e8d14f7163ce4c",
+          "base_branch": "main",
+          "evidence_url": "https://api.github.com/repos/google-deepmind/mujoco/pulls/3765/files?per_page=100&page=1",
+          "production_files": [
+            "python/mujoco/sysid/_src/timeseries.py"
+          ],
+          "regression_files": [
+            "python/mujoco/sysid/tests/test_timeseries.py"
+          ],
+          "metadata_source_url": "https://api.github.com/repos/google-deepmind/mujoco/pulls/3765",
+          "merge_commit_url": "https://github.com/google-deepmind/mujoco/commit/62f40770e525f6f005ca8251f4e8d14f7163ce4c",
+          "implementation_evidence": [
+            "TimeSeries.interpolate maps the public method string quintic to SciPy interp1d integer order 5; other method values continue to pass through.",
+            "The existing axis, out-of-bounds behavior, and endpoint fill values remain in the same interpolation call."
+          ],
+          "concrete_impact": "Makes the API's quintic choice work instead of passing a rejected string to SciPy, while preserving endpoint clamping.",
+          "author_reported_validation": "The PR description reports a failing regression before the change and passing after it with MuJoCo 4.0.0 Python bindings.",
+          "validation_limit": "Production and test patches were reviewed directly. Upstream tests were not executed during this profile refresh; any recorded command results are attributed to the PR description.",
+          "regression_evidence": [
+            "A new test uses seven samples at times 0 through 6 with values times**5.",
+            "Queries at -1, 1.5, 3.5 and 7 assert both degree-five interpolation at fractional times and endpoint values 0 and 6**5 outside the sampled interval."
+          ]
+        }
+      ],
+      "review_complete": true,
+      "review_scope": "Reviewed the authored merged PR metadata and both changed-file patches. One production-line correction and one regression test; no benchmark or novel-algorithm claim.",
+      "latest_selected_merge_date": "2026-11-20",
+      "selection_rationale": "Only authored merged MuJoCo PR in the complete current inventory. It belongs to the core system-identification time-series library, but its implementation scope is a precise compatibility correction."
+    }
+  ],
+  "correction_on": "2026-11-18",
+  "previous_scope_corrections": [
+    "MLxtend #1207 changes the production mlxtend/text/tokenizer.py library API, not a preprocessing example.",
+    "CARLA #10194 changes the PythonAPI/util/apply_texture.py utility, not documentation alone."
+  ],
+  "metrics_refreshed_on": "2026-11-20",
+  "selection_preserved_from_commit": "96560d452f29e2ae0e005cce4eabdd1135389787",
+  "retained_selection_review_date": "2026-11-18",
+  "newly_reviewed_repositories": [
+    "simplexai-labs/linger",
+    "google-deepmind/mujoco"
+  ],
+  "review_note": "All 69 existing representative PR selections and their reviewed implementation evidence are preserved from the pinned baseline. The two newly eligible rows add 3 PRs after reviewing all 13 verified Linger merges and the sole verified MuJoCo merge, including production patches and committed regressions. No upstream test suites were run during this profile review.",
+  "new_repository_review": {
+    "checked_date": "2026-11-20",
+    "timezone": "Asia/Shanghai",
+    "status": "complete",
+    "scope": "Only two newly displayed upstream rows: Linger and MuJoCo. Existing 69 representative PR selections are left unchanged by this review.",
+    "policy": "Choose concrete production impact and engineering depth across the complete merged history, not recency or patch size. Do not imply new algorithms or measured performance without evidence.",
+    "linger_full_history_review": {
+      "merged_inventory_count": 13,
+      "reviewed_pr_count": 13,
+      "inventory_source": "closed-search.json",
+      "metadata_receipts": "new-engineering-prs.json",
+      "diff_receipts": "new-engineering-diffs.json",
+      "comparisons": [
+        {
+          "number": 253,
+          "url": "https://github.com/simplexai-labs/linger/pull/253",
+          "title": "fix(local-installation): stop rename retries after cancellation",
+          "merge_commit_sha": "a2ac68a658499e09334ec270bb945273334fb454",
+          "selected": false,
+          "production_change": "Reject canceled file renames before another retry.",
+          "test_evidence": "Two cases cover an already-aborted call and cancellation during a Windows retry wait.",
+          "comparison": "Narrow retry-boundary correction.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/253/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 272,
+          "url": "https://github.com/simplexai-labs/linger/pull/272",
+          "title": "fix(local-installation): cancel blocked download bodies immediately",
+          "merge_commit_sha": "3fe700d4cdd54f854ff7b06180e01d21b3121a53",
+          "selected": false,
+          "production_change": "Interrupt a blocked response body on caller cancellation as well as a stall.",
+          "test_evidence": "Parameterized resumable/nonresumable cases preserve cancellation reason and partial-file policy.",
+          "comparison": "Strong download-lifecycle fix; the selected pair covers broader job lifetime and shared-operation ownership.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/272/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 276,
+          "url": "https://github.com/simplexai-labs/linger/pull/276",
+          "title": "fix(local-installation): remove temporary files after private write failures",
+          "merge_commit_sha": "ad63af00f7b0c52ab6c8e5477b4458a144371a21",
+          "selected": false,
+          "production_change": "Remove a temporary private file after write or sync failure.",
+          "test_evidence": "Two cases preserve prior contents, leave no temporary file and allow retry.",
+          "comparison": "Narrow atomic-write cleanup boundary.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/276/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 279,
+          "url": "https://github.com/simplexai-labs/linger/pull/279",
+          "title": "fix(local-installation): preserve split UTF-8 process output",
+          "merge_commit_sha": "481ca4c5c1ec14752c489baec9d99e73461b7d9c",
+          "selected": false,
+          "production_change": "Decode split UTF-8 stdout/stderr with stream state.",
+          "test_evidence": "Two real-child-process cases split a multibyte character across chunks.",
+          "comparison": "Useful stream correctness; less lifecycle scope than the selected pair.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/279/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 281,
+          "url": "https://github.com/simplexai-labs/linger/pull/281",
+          "title": "fix(local-installation): preserve quoted paths in native environment files",
+          "merge_commit_sha": "df64c74b1167a0521e7dcdb5cd64094a91b2706c",
+          "selected": false,
+          "production_change": "Choose round-trippable environment delimiters and validate the full serialized environment.",
+          "test_evidence": "Covers quoted homes, Windows backslashes, leading quotes, cross-entry absorption and multiline rejection.",
+          "comparison": "Substantial parser/serialization correctness, but confined to environment-file publication.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/281/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 282,
+          "url": "https://github.com/simplexai-labs/linger/pull/282",
+          "title": "fix(local-installation): isolate cancellation of shared region probes",
+          "merge_commit_sha": "dd475a0acf0ddfb8e4d1d7146d65ac790945b7a6",
+          "selected": true,
+          "production_change": "Give a shared region probe its own controller and isolate every waiter's cancellation.",
+          "test_evidence": "Four expanded cases cover either caller canceling, cached abort and all-waiter cleanup/retry.",
+          "comparison": "Selected: explicit ownership for a shared concurrent operation.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/282/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 283,
+          "url": "https://github.com/simplexai-labs/linger/pull/283",
+          "title": "fix(local-installation): repair damaged bundled TeamHub binaries",
+          "merge_commit_sha": "d130cca184b84b8ca0e69dc6c226b90e6fa91986",
+          "selected": false,
+          "production_change": "Verify current-manifest binaries before accepting them and reinstall damaged copies.",
+          "test_evidence": "Missing, truncated and same-size corruption cases verify repair and later current status.",
+          "comparison": "Important recovery check; narrower integrity-to-install decision.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/283/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 286,
+          "url": "https://github.com/simplexai-labs/linger/pull/286",
+          "title": "fix(local-installation): drain verification workers before cleanup",
+          "merge_commit_sha": "8615270fa3554d787900eba9b1fab9b147e6a7bf",
+          "selected": false,
+          "production_change": "Drain verification workers before removing or quarantining files.",
+          "test_evidence": "Two gated real-stream scenarios cover Native runtime and freshly downloaded localmodels-kit cleanup.",
+          "comparison": "Strong alternative; selected #291 has broader job state/durability/shutdown interactions, while #282 adds independent shared-operation design.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/286/files?per_page=100&page=1",
+          "changed_files": 4
+        },
+        {
+          "number": 289,
+          "url": "https://github.com/simplexai-labs/linger/pull/289",
+          "title": "fix(download): cancel hashing of resumable partials",
+          "merge_commit_sha": "13cb493d94588151844125a5b2a376f27a21ded9",
+          "selected": false,
+          "production_change": "Abort hashing of a resumable partial without losing resumable bytes.",
+          "test_evidence": "A real-stream regression asserts only the first chunk is read, no fetch occurs, bytes survive and retry succeeds.",
+          "comparison": "Focused cancellation propagation through an existing download phase.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/289/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 291,
+          "url": "https://github.com/simplexai-labs/linger/pull/291",
+          "title": "fix(installer): cancel jobs during initial persistence",
+          "merge_commit_sha": "2ef4c75afd5ac9a755602fa6542f23a91358f317",
+          "selected": true,
+          "production_change": "Integrate initial persistence with cancellation, execution, wait and shutdown.",
+          "test_evidence": "Seven real-storage regression/control cases cover races and failure propagation.",
+          "comparison": "Selected: broadest coherent persisted task-lifecycle change among this history.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/291/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 292,
+          "url": "https://github.com/simplexai-labs/linger/pull/292",
+          "title": "fix(installer): bind native sign-in sessions to their runtime",
+          "merge_commit_sha": "63c4b5556fc9ee69dee51229a1e7bdea95e5e2e0",
+          "selected": false,
+          "production_change": "Bind native sign-in state and pasted codes to their runtime; stop the prior runtime on switch.",
+          "test_evidence": "Four real-child-process tests cover isolation, deduplication, code routing and prior-PID exit.",
+          "comparison": "Strong alternative addressing runtime/session ownership, but a narrower sign-in state space than #291; #282 complements with shared-operation lifetimes.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/292/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 294,
+          "url": "https://github.com/simplexai-labs/linger/pull/294",
+          "title": "fix(installer): cancel pending native sign-in starts",
+          "merge_commit_sha": "c6679e0c84e69f9fd2f2136842ee49c60e5c9ae3",
+          "selected": false,
+          "production_change": "Invalidate and abort pending sign-in inspections before a session exists.",
+          "test_evidence": "Five controlled-inspection/actual-process cases cover cancel/retry, close, stale result, errors and abort propagation.",
+          "comparison": "Strong alternative; overlaps selected #291's pending-start cancellation theme.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/294/files?per_page=100&page=1",
+          "changed_files": 3
+        },
+        {
+          "number": 297,
+          "url": "https://github.com/simplexai-labs/linger/pull/297",
+          "title": "fix(local-installation): reserve saved LiveKit ports during initialization",
+          "merge_commit_sha": "f37fdbdbc111b65cb30184b51d30faa2d32d500f",
+          "selected": false,
+          "production_change": "Reserve persisted LiveKit HTTP/RTC ports of other instances.",
+          "test_evidence": "Two parameterized cases reject conflicting new instances and preserve prior settings.",
+          "comparison": "Narrow resource-reservation omission.",
+          "files_source_url": "https://api.github.com/repos/simplexai-labs/linger/pulls/297/files?per_page=100&page=1",
+          "changed_files": 3
+        }
+      ]
+    },
+    "validation": {
+      "all_selected_authored_by": "Afloat16",
+      "all_selected_merged": true,
+      "all_merge_shas_match_merged_inventory": true,
+      "no_upstream_tests_run_during_review": true,
+      "complete_production_and_regression_patch_review": true,
+      "existing_selection_count_to_preserve": 69,
+      "new_selected_pr_count": 3
+    }
+  }
+}
