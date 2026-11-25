@@ -1,6 +1,6 @@
 # Project inventory
 
-Updated **2026-11-25**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. 15 software heads exactly match their previously verified histories. The 1 changed software head was independently verified: Research to Fix (95 reachable commits). Display dates show the day only. [Current evidence](profile-refresh-2026-11-25-r3.json).
+Updated **2026-11-25**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-25-r4.json).
 
 The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published release versions were rechecked in this refresh on **2026-11-25**; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
 
@@ -25,9 +25,9 @@ The existing three-column project-card layout, descriptions and card order are p
 | [TF Route Audit](https://github.com/Afloat16/tf-route-audit) | [1](https://github.com/Afloat16/tf-route-audit/stargazers) | [5](https://github.com/Afloat16/tf-route-audit/commits/main/) | Python |
 | [Tooltrace Audit](https://github.com/Afloat16/tooltrace-audit) | [1](https://github.com/Afloat16/tooltrace-audit/stargazers) | [5](https://github.com/Afloat16/tooltrace-audit/commits/main/) | Python |
 
-Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. 15 software heads exactly match their previously verified histories. The 1 changed software head was independently verified: Research to Fix (95 reachable commits).
+Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All 16 software heads exactly match their previously verified histories.
 
-The software projects total **39 stars, 1 fork and 1,280 reachable default-branch commits**. The profile repository had **69 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-25-r3.json).
+The software projects total **39 stars, 1 fork and 1,280 reachable default-branch commits**. The profile repository had **70 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-25-r4.json).
 
 ## What the projects do
 
