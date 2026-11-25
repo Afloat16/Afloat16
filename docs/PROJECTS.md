@@ -1,6 +1,6 @@
 # Project inventory
 
-Updated **2026-11-25**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-25.json).
+Updated **2026-11-25**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-25-r2.json).
 
 The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published release versions were rechecked in this refresh on **2026-11-25**; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
 
@@ -27,7 +27,7 @@ The existing three-column project-card layout, descriptions and card order are p
 
 Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All 16 software heads exactly match their previously verified histories.
 
-The software projects total **39 stars, 1 fork and 1,279 reachable default-branch commits**. The profile repository had **67 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-25.json).
+The software projects total **39 stars, 1 fork and 1,279 reachable default-branch commits**. The profile repository had **68 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-25-r2.json).
 
 ## What the projects do
 
