@@ -1,8 +1,8 @@
 # Project inventory
 
-Updated **2026-11-27**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-27-r3.json).
+Updated **2026-11-27**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-27-r4.json).
 
-The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published release versions were checked in the preceding verification on **2026-11-27**; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
+The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. The five already-labelled published release versions (Anti-REA Forge, AI-Memory-Book, ModelDock, Jev MCP and Agent Action Notifier) were freshly checked on **2026-11-27** and are unchanged; all pinned README heads are also unchanged. Other project descriptions retain their earlier evidence.
 
 ## Project metrics
 
@@ -27,7 +27,7 @@ The existing three-column project-card layout, descriptions and card order are p
 
 Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All 16 software heads exactly match their previously verified histories.
 
-The software projects total **42 stars, 1 fork and 1,280 reachable default-branch commits**. The profile repository had **75 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-27-r3.json) · [preceding complete evidence](profile-refresh-2026-11-27-r2.json).
+The software projects total **42 stars, 1 fork and 1,280 reachable default-branch commits**. The separate profile repository is excluded from these software totals. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-27-r4.json) · [preceding complete evidence](profile-refresh-2026-11-27-r2.json).
 
 ## What the projects do
 
