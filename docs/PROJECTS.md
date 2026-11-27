@@ -1,14 +1,14 @@
 # Project inventory
 
-Updated **2026-11-26**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-26-r3.json).
+Updated **2026-11-27**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-27.json).
 
-The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published release versions were rechecked in this refresh on **2026-11-26**; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
+The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. Both published release versions were rechecked in this refresh on **2026-11-27**; the pinned README heads are unchanged from the previous verification. Other project descriptions retain their earlier evidence.
 
 ## Project metrics
 
 | Project | ★ | Default-branch commits | Main language |
 |---|---:|---:|---|
-| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [11](https://github.com/Afloat16/anti-rea-forge/stargazers) | [40](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
+| [Anti-REA Forge](https://github.com/Afloat16/anti-rea-forge) | [12](https://github.com/Afloat16/anti-rea-forge/stargazers) | [40](https://github.com/Afloat16/anti-rea-forge/commits/main/) | Python |
 | [AI-Memory-Book](https://github.com/Afloat16/AI-Memory-Book) | [5](https://github.com/Afloat16/AI-Memory-Book/stargazers) | [1,025](https://github.com/Afloat16/AI-Memory-Book/commits/main/) | Python |
 | [Research to Fix](https://github.com/Afloat16/research-to-fix) | [3](https://github.com/Afloat16/research-to-fix/stargazers) | [95](https://github.com/Afloat16/research-to-fix/commits/main/) | Python |
 | [COLMAP Model Audit](https://github.com/Afloat16/colmap-model-audit) | [3](https://github.com/Afloat16/colmap-model-audit/stargazers) | [4](https://github.com/Afloat16/colmap-model-audit/commits/main/) | Python |
@@ -27,7 +27,7 @@ The existing three-column project-card layout, descriptions and card order are p
 
 Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All 16 software heads exactly match their previously verified histories.
 
-The software projects total **39 stars, 1 fork and 1,280 reachable default-branch commits**. The profile repository had **73 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-26-r3.json).
+The software projects total **40 stars, 1 fork and 1,280 reachable default-branch commits**. The profile repository had **74 commits at the pinned verification head** and is excluded. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-27.json).
 
 ## What the projects do
 
@@ -143,7 +143,7 @@ SQLite outbox · Email + desktop channels.
 
 ## Retained validation context
 
-The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review, which checked AI-Memory-Book’s README, package metadata and v0.10.0 release. This **2026-11-26** refresh rechecks all 16 software heads and stars, plus the v0.13.0 and v1.4.0 releases identified above. Other retained implementation and validation evidence keeps its original dates. Tests were not rerun.
+The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review, which checked AI-Memory-Book’s README, package metadata and v0.10.0 release. This **2026-11-27** refresh rechecks all 16 software heads and stars, plus the v0.13.0 and v1.4.0 releases identified above. Other retained implementation and validation evidence keeps its original dates. Tests were not rerun.
 
 ModelDock's 5+ GiB capability is bounded sampling of binary PLY/STL, not full large-file rendering or arbitrary CAD conversion. Its original code and samples use MIT; CAD dependencies retain their own LGPL licensing. The profile does not label all projects with one common license.
 
