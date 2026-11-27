@@ -1,6 +1,6 @@
 # Project inventory
 
-Updated **2026-11-27**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-27-r4.json).
+Updated **2026-11-27**. Account: [Afloat16](https://github.com/Afloat16). The same **16 selected public, non-fork software projects** are retained; the separate profile repository is excluded from software totals. Stars and pinned default-branch heads were freshly checked for all 16 in this refresh. The current evidence identifies its pinned preceding baseline commit. All 16 software heads exactly match their previously verified histories. Display dates show the day only. [Current evidence](profile-refresh-2026-11-27-r5.json).
 
 The existing three-column project-card layout, descriptions and card order are preserved. Research to Fix remains immediately after AI-Memory-Book. AI-Memory-Book remains **v0.13.0** and Anti-REA Forge remains **v1.4.0**. The five already-labelled published release versions (Anti-REA Forge, AI-Memory-Book, ModelDock, Jev MCP and Agent Action Notifier) were freshly checked on **2026-11-27** and are unchanged; all pinned README heads are also unchanged. Other project descriptions retain their earlier evidence.
 
@@ -27,7 +27,7 @@ The existing three-column project-card layout, descriptions and card order are p
 
 Sorted by stars, then reachable default-branch commits, then name. These are repository history counts, including merge commits, rather than personal authored-commit counts. All 16 software heads exactly match their previously verified histories.
 
-The software projects total **42 stars, 1 fork and 1,280 reachable default-branch commits**. The separate profile repository is excluded from these software totals. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-27-r4.json) · [preceding complete evidence](profile-refresh-2026-11-27-r2.json).
+The software projects total **42 stars, 1 fork and 1,280 reachable default-branch commits**. The separate profile repository is excluded from these software totals. Exact heads, comparisons and version sources are in the [current refresh](profile-refresh-2026-11-27-r5.json) · [preceding complete evidence](profile-refresh-2026-11-27-r2.json).
 
 ## What the projects do
 
@@ -146,6 +146,7 @@ SQLite outbox · Email + desktop channels.
 The existing six-domain-tool claim—**67 local tests and 36 OS/Python CI combinations**—is retained as a recorded-release result from [DEMAND_REVIEW.md](https://github.com/Afloat16/research-to-fix/blob/main/docs/DEMAND_REVIEW.md#validation-for-this-release). This recorded-release claim is retained from the earlier review, which checked AI-Memory-Book’s README, package metadata and v0.10.0 release. This **2026-11-27** refresh rechecks all 16 software heads and stars, while retaining the previously verified v0.13.0 and v1.4.0 releases identified above. Other retained implementation and validation evidence keeps its original dates. Tests were not rerun.
 
 ModelDock's 5+ GiB capability is bounded sampling of binary PLY/STL, not full large-file rendering or arbitrary CAD conversion. Its original code and samples use MIT; CAD dependencies retain their own LGPL licensing. The profile does not label all projects with one common license.
+
 
 
 
